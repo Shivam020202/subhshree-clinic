@@ -4278,12 +4278,15 @@ a.text-theme:hover,
   }
 }
 /*------------------- 4.3. Footer  -------------------*/
+
 .widget-area {
   padding-top: 80px;
   padding-bottom: 20px;
 }
 
 .footer-logo {
+  max-width: 100px;
+  margin: 0 auto 0 auto;
   margin-bottom: 28px;
 }
 

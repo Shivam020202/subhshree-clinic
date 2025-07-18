@@ -24,7 +24,7 @@
 
 .footer-btns {
   vertical-align: middle;
-  
+
   a {
     --icon-size: 55px;
     --icon-font-size: 20px;
@@ -63,7 +63,6 @@
   }
 }
 
-
 .footer-layout1,
 .footer-layout4 {
   background-color: #232b31;
@@ -84,7 +83,7 @@
       --bs-gutter-x: 0;
     }
 
-    [class*=col-] {
+    [class*="col-"] {
       padding: 40px 0 40px 0;
       display: flex;
       flex-direction: column;
@@ -174,7 +173,7 @@
   }
 
   .copyright-wrap {
-    background-color:#1d2429;
+    background-color: #1d2429;
     padding: 20px 0;
   }
 }
@@ -189,7 +188,7 @@
   .sidebar-gallery.column-4 {
     max-width: 100%;
   }
-  
+
   .copyright-text {
     font-size: 16px;
     color: $white-color;
@@ -215,7 +214,7 @@
 
   .copyright-text {
     color: $white-color;
-    
+
     a {
       color: $white-color;
 
@@ -249,10 +248,10 @@
     border: none;
     text-transform: capitalize;
     margin-top: -0.1em;
-    
+
     &:after,
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       width: 50px;
       height: 3px;
@@ -300,7 +299,7 @@
   padding-top: 1px;
   margin-top: 140px;
   background-color: $title-color;
-  
+
   .footer-top {
     background-color: $theme-color;
     text-align: center;
@@ -310,7 +309,7 @@
   }
 
   .form-style3 {
-    margin: 0 auto;  
+    margin: 0 auto;
 
     .vs-btn {
       background-color: $title-color;
@@ -332,7 +331,7 @@
   }
 
   .widget_categories,
-  .widget_nav_menu  {
+  .widget_nav_menu {
     a {
       color: $body-color;
 
@@ -346,7 +345,6 @@
     border-top: 1px solid rgba(#fff, 0.3);
   }
 }
-
 
 @include md {
   .footer-layout2 {
@@ -371,14 +369,12 @@
       margin: 0 20px;
     }
   }
-
 }
-
 
 @include sm {
   .footer-layout1 {
     .footer-top {
-      [class*=col-] {
+      [class*="col-"] {
         &:not(:last-child) {
           border-width: 0 0 1px 0;
         }
