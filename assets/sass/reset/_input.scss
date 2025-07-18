@@ -12,7 +12,7 @@ input {
   border-radius: 0;
   font-size: 16px;
   width: 100%;
-  
+
   &:focus {
     outline: 0;
     color: $body-color;
@@ -42,7 +42,6 @@ select {
   cursor: pointer;
 }
 
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -50,7 +49,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -62,7 +61,6 @@ textarea {
   border-radius: 0;
 }
 
-
 input[type="checkbox"] {
   visibility: hidden;
   opacity: 0;
@@ -73,8 +71,7 @@ input[type="checkbox"] {
   display: none;
 
   &:checked {
-    ~label {
-
+    ~ label {
       &:before {
         content: "\f00c";
         color: $white-color;
@@ -84,14 +81,14 @@ input[type="checkbox"] {
     }
   }
 
-  ~label {
+  ~ label {
     position: relative;
     padding-left: 30px;
     cursor: pointer;
     display: block;
 
     &:before {
-      content: '';
+      content: "";
       font-family: $icon-font;
       font-weight: 700;
       position: absolute;
@@ -108,7 +105,6 @@ input[type="checkbox"] {
   }
 }
 
-
 input[type="radio"] {
   visibility: hidden;
   opacity: 0;
@@ -118,8 +114,7 @@ input[type="radio"] {
   height: 0;
   display: none;
 
-
-  ~label {
+  ~ label {
     position: relative;
     padding-left: 30px;
     cursor: pointer;
@@ -128,9 +123,8 @@ input[type="radio"] {
     font-weight: 600;
     margin-bottom: 0;
 
-
     &::before {
-      content: '\f111';
+      content: "\f111";
       position: absolute;
       font-family: $icon-font;
       left: 0;
@@ -151,7 +145,7 @@ input[type="radio"] {
   }
 
   &:checked {
-    ~label {
+    ~ label {
       &::before {
         border-color: $theme-color;
         background-color: $theme-color;
@@ -159,7 +153,6 @@ input[type="radio"] {
       }
     }
   }
-
 }
 
 label {
@@ -175,28 +168,27 @@ label {
   margin-bottom: var(--bs-gutter-x);
   position: relative;
 
-  >i {
+  > i {
     position: absolute;
     right: calc((var(--bs-gutter-x) / 2) + 30px);
     top: 21px;
     font-size: 16px;
-    color: #A0ABB4;
+    color: #a0abb4;
   }
 
   &.has-label {
-    >i {
+    > i {
       top: 50px;
     }
   }
 }
-
 
 textarea.is-invalid,
 select.is-invalid,
 input.is-invalid,
 .was-validated input:invalid {
   border: 1px solid $error-color !important;
-  background-position: right calc(.375em + 0.8875rem) center;
+  background-position: right calc(0.375em + 0.8875rem) center;
   // background-image: none;
 
   &:focus {
@@ -206,10 +198,11 @@ input.is-invalid,
 }
 
 textarea.is-invalid {
-  background-position: top calc(.375em + 0.5875rem) right calc(.375em + .8875rem);
+  background-position: top calc(0.375em + 0.5875rem) right
+    calc(0.375em + 0.8875rem);
 }
 
-.row.no-gutters>.form-group {
+.row.no-gutters > .form-group {
   margin-bottom: 0;
 }
 
@@ -220,7 +213,7 @@ textarea.is-invalid {
   margin-top: 15px;
   border-radius: 4px;
 
-  >pre {
+  > pre {
     &:last-child {
       margin-bottom: 0;
     }
