@@ -6527,6 +6527,7 @@ blockquote.vs-quote cite:before {
 }
 .img-box3 .img-1 {
   overflow: hidden;
+  max-width: 540px;
   border-radius: 9999px;
 }
 .img-box3 .img-2 {
@@ -6806,7 +6807,14 @@ blockquote.vs-quote cite:before {
   transition: all ease 0.4s;
   --border-size: 1px;
   --border-gap: 14px;
-  --shape-path: polygon(50% 0, 100% var(--extra-gap), 100% calc(100% - var(--extra-gap)), 50% 100%, 0 calc(100% - var(--extra-gap)), 0 var(--extra-gap));
+  --shape-path: polygon(
+    50% 0,
+    100% var(--extra-gap),
+    100% calc(100% - var(--extra-gap)),
+    50% 100%,
+    0 calc(100% - var(--extra-gap)),
+    0 var(--extra-gap)
+  );
   --shape-bg: transparent;
   z-index: -1;
 }
@@ -6992,7 +7000,7 @@ blockquote.vs-quote cite:before {
 
 .media-slider .slick-current .media-shape {
   --shape-bg: #84452a;
-  --border-color: rgba(253, 250, 249, 0.30);
+  --border-color: rgba(253, 250, 249, 0.3);
   transition-delay: 0.2s;
 }
 .media-slider .slick-current .media-shape:before, .media-slider .slick-current .media-shape:after {
@@ -7334,6 +7342,7 @@ blockquote.vs-quote cite:before {
     max-width: 180px;
   }
   .img-box3 .img-1 img {
+    max-width: 540px;
     width: 100%;
   }
   .img-box3 .img-2 {
@@ -7418,7 +7427,7 @@ blockquote.vs-quote cite:before {
   }
   .media-style2 .media-shape {
     --shape-bg: #84452a;
-    --border-color: rgba(253, 250, 249, 0.30);
+    --border-color: rgba(253, 250, 249, 0.3);
   }
   .media-style2 .media-title,
   .media-style2 .media-label {
