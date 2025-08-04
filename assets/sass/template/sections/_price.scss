@@ -6,7 +6,7 @@
 
   &:after,
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -19,14 +19,14 @@
     visibility: hidden;
     transform: translate(0, 0);
   }
-  
+
   &:after {
     top: auto;
     bottom: 0;
     right: 0;
     left: auto;
   }
-  
+
   &:hover {
     &:after,
     &:before {
@@ -34,7 +34,7 @@
       visibility: visible;
       transform: translate(-5px, -5px);
     }
-    
+
     &:after {
       transform: translate(5px, 5px);
     }
@@ -42,7 +42,7 @@
 
   .package-top {
     display: flex;
-    align-items: center;
+    // align-items: center;
   }
 
   .package-left {
@@ -94,7 +94,7 @@
       color: #6f6c6c;
 
       &:before {
-        content: '\f00c';
+        content: "\f00c";
         position: absolute;
         right: 0;
         top: 50%;
@@ -123,9 +123,9 @@
     height: 100%;
     border-radius: inherit;
     animation-duration: 40s;
-    
+
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 50%;
@@ -232,7 +232,7 @@
 }
 
 .price-inner2 {
-  max-width: 800px;
+  // max-width: 800px;
 }
 
 .price-inner1 {
@@ -253,7 +253,7 @@
 .package-style2 {
   display: flex;
   margin-bottom: 20px;
-  
+
   .package-title {
     font-size: 24px;
     margin: -0.2em 0 15px 0;
@@ -264,7 +264,7 @@
   .package-text {
     margin: 0;
   }
-  
+
   .package-label {
     font-size: 14px;
     padding: 0px 5px;
@@ -289,7 +289,7 @@
 
   .package-body {
     align-self: center;
-  }  
+  }
 
   &:hover {
     .package-img {
@@ -299,7 +299,6 @@
     }
   }
 }
-
 
 .package-style3 {
   display: flex;
@@ -332,10 +331,9 @@
     }
   }
 
-
   .package-top {
     display: flex;
-    align-items: center;
+    // align-items: center;
   }
 
   .package-name {
@@ -349,7 +347,7 @@
     color: $title-color;
     transition: all ease 0.4s;
   }
-  
+
   .amount {
     font-size: 24px;
     color: $theme-color;
@@ -364,7 +362,7 @@
 
   &:hover {
     background-color: $theme-color;
-    
+
     .package-line {
       border-top-color: $white-color;
     }
@@ -373,7 +371,6 @@
       border-color: transparent;
     }
 
-    
     .package-name a,
     .amount,
     .package-price,
@@ -381,7 +378,6 @@
       color: $white-color;
     }
   }
-
 }
 
 @include ml {
@@ -417,9 +413,7 @@
       }
     }
   }
-
 }
-
 
 @include lg {
   .price-inner1 {
@@ -429,7 +423,6 @@
 
   .package-style3 {
     padding: 15px 20px 20px 20px;
-
   }
 }
 
@@ -465,7 +458,6 @@
   }
 }
 
-
 @include sm {
   .package-style1 {
     .package-name {
@@ -489,7 +481,7 @@
       ul {
         margin: 0 0 38px 0;
       }
-      
+
       li {
         font-size: 14px;
       }
@@ -504,7 +496,6 @@
     padding: 40px 15px 5px 15px;
   }
 }
-
 
 @include xs {
   .package-style2 {
@@ -530,6 +521,5 @@
       padding: 2px 2px 2px 2px;
       margin: 0 2px;
     }
-
   }
 }

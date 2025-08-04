@@ -8182,7 +8182,7 @@ blockquote.vs-quote cite:before {
 }
 .package-style1 .package-top {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .package-style1 .package-left {
   flex: 1;
@@ -8335,7 +8335,7 @@ blockquote.vs-quote cite:before {
 }
 
 .price-inner2 {
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .price-inner1 {
@@ -8423,7 +8423,7 @@ blockquote.vs-quote cite:before {
 }
 .package-style3 .package-top {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .package-style3 .package-name {
   margin: 0;
@@ -12459,3 +12459,12 @@ blockquote.vs-quote cite:before {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.package-name {
+  font-size: 24px;
+  font-weight: 400;
+}
+.package-top {
+  display: flex;
+  flex-direction: column;
+}
