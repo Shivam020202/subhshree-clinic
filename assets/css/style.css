@@ -12468,3 +12468,316 @@ blockquote.vs-quote cite:before {
   display: flex;
   flex-direction: column;
 }
+
+/* Services Mega Menu CSS with Unique Classnames - Fixed Hover */
+.smt-services-mega-wrapper {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.smt-services-mega-dropdown {
+  position: absolute !important;
+  top: 100% !important;
+  left: -200% !important;
+  width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  background: linear-gradient(135deg, #fdf7f0 0%, #f8f1e4 100%) !important;
+  border-top: 3px solid #d4a574 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transform: translateY(-10px) !important;
+  transition: all 0.3s ease !important;
+  z-index: 9999 !important;
+  pointer-events: none !important;
+  margin-top: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.smt-services-mega-wrapper:hover .smt-services-mega-dropdown {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  pointer-events: all !important;
+}
+
+.smt-services-mega-content {
+  padding: 30px 0 !important;
+  margin: 0 !important;
+}
+
+.smt-service-category-block {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+.smt-service-category-title {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #2c3e50 !important;
+  margin: 0 0 15px 0 !important;
+  padding: 0 0 8px 0 !important;
+  border-bottom: 2px solid #d4a574 !important;
+  position: relative !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  line-height: 1.2 !important;
+  display: block !important;
+}
+
+.smt-service-category-title::after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  width: 30px !important;
+  height: 2px !important;
+  background: #c19653 !important;
+}
+
+.smt-service-links-list {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+.smt-service-links-list li {
+  margin: 0 0 6px 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  float: none !important;
+  width: auto !important;
+}
+
+.smt-service-links-list li a {
+  color: #5a6c7d !important;
+  text-decoration: none !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  transition: all 0.3s ease !important;
+  display: block !important;
+  padding: 4px 12px !important;
+  border-radius: 4px !important;
+  position: relative !important;
+  line-height: 1.4 !important;
+  border: none !important;
+  background: none !important;
+  margin: 0 !important;
+  width: auto !important;
+  text-align: left !important;
+}
+
+.smt-service-links-list li a:hover {
+  color: #d4a574 !important;
+  background: rgba(212, 165, 116, 0.1) !important;
+  transform: translateX(3px) !important;
+  text-decoration: none !important;
+}
+
+.smt-service-links-list li a::before {
+  content: "→" !important;
+  position: absolute !important;
+  left: -15px !important;
+  opacity: 0 !important;
+  transition: all 0.3s ease !important;
+  color: #d4a574 !important;
+  font-size: 12px !important;
+}
+
+.smt-service-links-list li a:hover::before {
+  opacity: 1 !important;
+  left: -12px !important;
+}
+
+/* Mobile Mega Menu - Compact and No Conflicts */
+.smt-mobile-services-menu {
+  display: none !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100vh !important;
+  background: linear-gradient(135deg, #fdf7f0 0%, #f8f1e4 100%) !important;
+  z-index: 99999 !important;
+  overflow-y: auto !important;
+  transform: translateX(100%) !important;
+  transition: transform 0.4s ease !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.smt-mobile-services-menu.smt-mobile-menu-active {
+  transform: translateX(0) !important;
+}
+
+.smt-mobile-services-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 15px 20px !important;
+  border-bottom: 2px solid #d4a574 !important;
+  background: white !important;
+  margin: 0 !important;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.smt-mobile-services-title {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #2c3e50 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+
+.smt-mobile-services-close {
+  background: none !important;
+  border: none !important;
+  font-size: 22px !important;
+  color: #2c3e50 !important;
+  cursor: pointer !important;
+  padding: 5px !important;
+  margin: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.smt-mobile-category-wrapper {
+  border-bottom: 1px solid rgba(212, 165, 116, 0.3) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.smt-mobile-category-button {
+  width: 100% !important;
+  background: none !important;
+  border: none !important;
+  padding: 15px 20px !important;
+  text-align: left !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #2c3e50 !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  cursor: pointer !important;
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
+
+.smt-mobile-category-button i {
+  transition: transform 0.3s ease !important;
+  font-size: 14px !important;
+}
+
+.smt-mobile-category-button.smt-mobile-category-active i {
+  transform: rotate(180deg) !important;
+}
+
+.smt-mobile-category-services {
+  max-height: 0 !important;
+  overflow: hidden !important;
+  transition: max-height 0.4s ease !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.smt-mobile-category-services.smt-mobile-services-expanded {
+  max-height: 400px !important;
+}
+
+.smt-mobile-category-services a {
+  display: block !important;
+  padding: 8px 30px !important;
+  color: #5a6c7d !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(212, 165, 116, 0.1) !important;
+  transition: all 0.3s ease !important;
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+  margin: 0 !important;
+  width: auto !important;
+  background: none !important;
+}
+
+.smt-mobile-category-services a:hover {
+  background: rgba(212, 165, 116, 0.2) !important;
+  color: #d4a574 !important;
+  padding-left: 35px !important;
+  text-decoration: none !important;
+}
+
+/* Hide desktop mega menu on mobile and responsive fixes */
+@media (max-width: 991px) {
+  .smt-services-mega-dropdown {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+/* Responsive adjustments with no conflicts */
+@media (max-width: 768px) {
+  .smt-mobile-services-header {
+    padding: 12px 15px !important;
+  }
+
+  .smt-mobile-services-title {
+    font-size: 16px !important;
+  }
+
+  .smt-mobile-category-button {
+    padding: 12px 15px !important;
+    font-size: 15px !important;
+  }
+
+  .smt-mobile-category-services a {
+    padding: 6px 25px !important;
+    font-size: 12px !important;
+  }
+
+  .smt-mobile-category-services a:hover {
+    padding-left: 30px !important;
+  }
+}
+
+/* Additional reset for mega menu to avoid any conflicts */
+.smt-services-mega-dropdown * {
+  box-sizing: border-box !important;
+}
+
+.smt-services-mega-dropdown .container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 15px !important;
+}
+
+.smt-services-mega-dropdown .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: 0 -15px !important;
+}
+
+.smt-services-mega-dropdown .col-lg-3 {
+  flex: 0 0 25% !important;
+  max-width: 25% !important;
+  padding: 0 15px !important;
+}
+
+@media (max-width: 991px) {
+  .smt-services-mega-dropdown .col-lg-3 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .smt-services-mega-dropdown .col-lg-3 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
