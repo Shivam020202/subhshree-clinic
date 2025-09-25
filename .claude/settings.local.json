@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start \"\" \"A:\\Freelance\\subhshree-html\\index.html\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
