@@ -35,4 +35,31 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Custom Styles for Disabled Menu Links -->
+    <style>
+        /* Desktop menu disabled links */
+        .smt-service-links-list .disabled-link,
+        .sub-menu .disabled-link {
+            color: #c0c0c0 !important;
+            cursor: not-allowed;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        /* Mobile menu disabled links */
+        .vs-mobile-menu .disabled-link,
+        .smt-mobile-category-services .disabled-link {
+            color: #c0c0c0 !important;
+            cursor: not-allowed;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        /* Hover state for disabled links (no effect) */
+        .disabled-link:hover {
+            color: #c0c0c0 !important;
+            text-decoration: none;
+        }
+    </style>
+
 </head>

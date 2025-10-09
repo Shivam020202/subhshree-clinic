@@ -1,5 +1,5 @@
 <?php
-$page_title = "Wellnez - Spa Beauty & Wellness Salon HTML5 Template - Service Details";
+$page_title = "Forma Skin Tightening";
 $page_description = "SMT Clinic - Your Health, Our Priority";
 $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, doctor, hospital, healthcare";
 ?>
@@ -10,6 +10,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 <body>
 
 <?php include 'header.php'; ?>
+
 <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
@@ -25,21 +26,21 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <i class="fas fa-chevron-down"></i>
             </button>
             <div class="smt-mobile-category-services">
-                <a href="chemical-peels.php">Chemical Peel</a>
+                <a href="#">Chemical Peel</a>
                 <span class="disabled-link">Collagen Stimulators</span>
-                <a href="cosmelan-peel.php">Cosmelan Peel</a>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <a href="dermaplanning.php">Dermaplaning</a>
-                <a href="hand-rejuvenation.php">Hand Rejuvenation</a>
-                <a href="led-light-therapy.php">LED Light Therapy</a>
-                <a href="microneedling.php">Microneedling</a>
-                <a href="morpheus8.php">Morpheus8</a>
-                <a href="skin-tightening.php">Skin Tightening</a>
+                <a href="#">Cosmelan Peel</a>
+                <a href="#">Dermal Fillers</a>
+                <a href="#">Dermaplaning</a>
+                <a href="#">Hand Rejuvenation</a>
+                <a href="#">LED Light Therapy</a>
+                <a href="#">Microneedling</a>
+                <a href="#">Morpheus8</a>
+                <a href="#">Skin Tightening</a>
                 <a href="forma.php">Forma</a>
                 <a href="skinpen.php">Skinpen</a>
                 <a href="rosacea-treatment.php">Rosacea Treatment</a>
                 <span class="disabled-link">GLO2FACIAL</span>
-                <a href="hydrafacial.php">Hydrafacial Syndeo</a>
+                <a href="#">Hydrafacial Syndeo</a>
                 <span class="disabled-link">Microchannel Infusion Therapy</span>
                 <span class="disabled-link">Melasma</span>
             </div>
@@ -51,15 +52,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <i class="fas fa-chevron-down"></i>
             </button>
             <div class="smt-mobile-category-services">
-                <a href="acne-scar.php">Acne Scar Treatment</a>
-                <a href="aging-skin.php">Aging Skin</a>
-                <a href="hyperpigmentation.php">Hyperpigmentation</a>
-                <a href="laser-hair-reduction.php">Laser Hair Reduction</a>
-                <a href="moles-removal.php">Mole Removal</a>
-                <a href="pores.php">Pores</a>
-                <a href="stretch-marks.php">Stretch Marks</a>
+                <a href="#">Acne Scar Treatment</a>
+                <a href="#">Aging Skin</a>
+                <a href="#">Hyperpigmentation</a>
+                <a href="#">Laser Hair Reduction</a>
+                <a href="#">Mole Removal</a>
+                <a href="#">Pores</a>
+                <a href="#">Stretch Marks</a>
                 <span class="disabled-link">Laser & Radio-frequency Resurfacing</span>
-                <a href="tattoo-removal.php">Tattoo Removal</a>
+                <a href="#">Tattoo Removal</a>
                 <span class="disabled-link">ADVATX</span>
             </div>
         </div>
@@ -70,10 +71,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <i class="fas fa-chevron-down"></i>
             </button>
             <div class="smt-mobile-category-services">
-                <a href="aging-skin.php">Aging Skin</a>
+                <a href="#">Aging Skin</a>
                 <span class="disabled-link">Cheek Augmentation</span>
                 <span class="disabled-link">Facial Sculpting</span>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
+                <a href="#">Dermal Fillers</a>
                 <span class="disabled-link">Lip Augmentation</span>
                 <span class="disabled-link">Juvederm</span>
                 <span class="disabled-link">Ultherapy</span>
@@ -91,7 +92,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </button>
             <div class="smt-mobile-category-services">
                 <span class="disabled-link">Cellulite Reduction</span>
-                <a href="morpheus8.php">Morpheus8 Body</a>
+                <a href="#">Morpheus8 Body</a>
                 <span class="disabled-link">Forma Plus</span>
                 <span class="disabled-link">Breast Augmentation</span>
                 <span class="disabled-link">Hip Augmentation</span>
@@ -103,132 +104,116 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
-    Breadcumb
-============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&h=600&fit=crop">
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Service <span class="inner-text">Details</span></h1>
+                <!-- Updated breadcrumb title for Forma service -->
+                <h1 class="breadcumb-title">Forma Skin <span class="inner-text">Tightening</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
                         <li><a href="index-3.html">Home</a></li>
-                        <li>Service <span class="inner-text">Details</span></li>
+                        <li><a href="#">Services</a></li>
+                        <li>Forma Skin <span class="inner-text">Tightening</span></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div><!--==============================
-    Service Details
-    ==============================-->
+    </div>
+
     <section class=" space-top space-extra-bottom">
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg" alt="thumbnail"></div>
+                        <div class="mega-hover"><img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&h=600&fit=crop"
+                                alt="Forma Skin Tightening Treatment">
+                        </div>
                     </div>
-                    <h2 class="text-uppercase">Laser Hair Reduction</h2>
-                    <p>Laser Hair Reduction is a long-term solution that targets hair follicles with concentrated light
-                        energy, helping reduce hair growth over time. It’s precise, fast, and suitable for larger body
-                        areas, with minimal downtime.</p>
-                    <h3 class="h5 mt-4 mb-2">Benefits</h3>
-                    <ul class="list-unstyled ms-3">
-                        <li>• Long-term reduction in hair growth</li>
-                        <li>• Precise treatment with minimal skin impact</li>
-                        <li>• Quick sessions for larger areas</li>
-                        <li>• Less ingrown hairs compared to shaving/waxing</li>
-                    </ul>
-                    <h3 class="h5 mt-4 mb-2">Ideal For</h3>
-                    <p>People seeking smoother skin and reduced hair growth on areas like face, underarms, legs, chest,
-                        and back. Multiple sessions are typically required for optimal results.</p>
-                    <h3 class="h5 mt-4 mb-2">Pre & Post Care</h3>
-                    <p>Avoid sun exposure and waxing before sessions. After treatment, use SPF, avoid hot showers for 24
-                        hours, and follow clinician guidance for the best outcome.</p>
+                    <!-- Updated content for Forma service -->
+                    <h2 class="text-uppercase">Forma Skin Tightening Treatment</h2>
+                    <p>Experience the revolutionary non-invasive radiofrequency technology that lifts, tightens, and rejuvenates your skin without surgery or downtime. Forma utilizes advanced bipolar radiofrequency energy to deeply heat the dermal tissue, stimulating collagen remodeling and improving skin elasticity. This cutting-edge treatment is ideal for addressing skin laxity on the face, neck, and body, delivering natural-looking results that progressively improve over time.</p>
+                    <p>Unlike traditional surgical procedures, Forma provides a comfortable, relaxing experience often described as a warm stone massage. The treatment works at the cellular level to <strong>rebuild collagen fibers and restore skin's natural firmness</strong>, making it an excellent choice for those seeking visible tightening and contouring without needles, incisions, or recovery time.</p>
+                    <div class="list-style2">
+                        <ul class="list-unstyled">
+                            <li>Non-invasive radiofrequency technology with no downtime</li>
+                            <li>Stimulates natural collagen production and remodeling</li>
+                            <li>Tightens and lifts facial contours and jawline</li>
+                            <li>Improves skin texture and reduces fine lines</li>
+                            <li>Safe for all skin types with immediate visible improvements</li>
+                        </ul>
+                    </div>
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="shape" class="w-100">
+                            <div class="mega-hover"><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=900&h=600&fit=crop" alt="Before Forma Treatment"
+                                    class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="shape" class="w-100">
+                            <div class="mega-hover"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900&h=600&fit=crop" alt="After Forma Treatment"
+                                    class="w-100">
                             </div>
                         </div>
                     </div>
 
-                    <!-- Added "What is Laser Hair Reduction" section -->
+                    <!-- Added "What is Forma" section -->
                     <div class="mb-50">
-                        <h3 class="h4 mb-25">What is Laser Hair Reduction?</h3>
-                        <p>Laser hair reduction is an advanced medical procedure that uses concentrated light energy to target
-                            and disable hair follicles, significantly reducing unwanted hair growth over time. The laser emits a
-                            specific wavelength of light that is absorbed by melanin in the hair follicle, generating heat that
-                            damages the follicle's ability to produce new hair without harming surrounding skin tissue.</p>
-                        <p>Our state-of-the-art laser systems offer precision targeting for all skin types and hair colors,
-                            delivering safe, effective, and long-lasting results. Treatment sessions are quick, relatively
-                            comfortable, and require minimal downtime. Multiple sessions are required to target hair in different
-                            growth phases, resulting in progressive reduction and finer, lighter regrowth. Most patients achieve
-                            80-95% permanent hair reduction after completing their treatment series.</p>
+                        <h3 class="h4 mb-25">What is Forma Skin Tightening?</h3>
+                        <p>Forma is an advanced aesthetic treatment that uses bipolar radiofrequency (RF) technology to deliver controlled thermal energy deep into the skin's dermal layers. This precisely calibrated heating process triggers the body's natural healing response, stimulating fibroblasts to produce new collagen and elastin fibers. The treatment features real-time temperature monitoring to ensure optimal thermal levels are maintained throughout the session, maximizing safety and effectiveness.</p>
+                        <p>The radiofrequency energy penetrates beyond the skin's surface to reach the deeper structural layers where aging occurs. As the tissue is gently heated to therapeutic temperatures, existing collagen fibers contract immediately, providing an instant tightening effect. Over the following weeks and months, new collagen continues to form, creating progressive improvements in skin firmness, texture, and overall appearance.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
-                                    <h5>Precision Targeting</h5>
-                                    <p class="small">Selective follicle damage without skin harm</p>
+                                    <h5>Face & Neck</h5>
+                                    <p class="small">Lift sagging skin and redefine contours</p>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
-                                    <h5>Long-Term Results</h5>
-                                    <p class="small">Permanent reduction after full series</p>
+                                    <h5>Body Contouring</h5>
+                                    <p class="small">Tighten loose skin on arms, abdomen, thighs</p>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
-                                    <h5>All Skin Types</h5>
-                                    <p class="small">Safe for diverse skin tones</p>
+                                    <h5>Hands & Décolleté</h5>
+                                    <p class="small">Rejuvenate delicate skin areas</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Added "What Causes Unwanted Hair" section -->
+                    <!-- Added "What causes skin laxity" section -->
                     <div class="mb-50">
-                        <h3 class="h4 mb-25">What Causes Unwanted Hair Growth?</h3>
-                        <p>Excessive or unwanted hair growth can result from various physiological factors. Understanding the
-                            underlying causes helps determine the most effective treatment approach and set realistic expectations:</p>
+                        <h3 class="h4 mb-25">What Causes Skin Laxity and Sagging?</h3>
+                        <p>Understanding the factors behind skin laxity helps us target the problem effectively with Forma's collagen-stimulating technology. Multiple interconnected factors contribute to the loss of skin firmness and elasticity that develops over time:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
-                                <h5><i class="fas fa-dna text-theme me-2"></i>Genetic & Ethnic Factors</h5>
-                                <p>Genetics play a primary role in hair growth patterns, density, and distribution. Certain
-                                    ethnic backgrounds naturally have more active hair follicles and denser body hair, which is
-                                    completely normal but may be cosmetically unwanted.</p>
+                                <h5><i class="fas fa-calendar-alt text-theme me-2"></i>Natural Aging Process</h5>
+                                <p>As we age, our body's production of collagen and elastin proteins naturally declines by approximately 1% per year after age 30. This progressive loss of structural support causes skin to become thinner, less resilient, and prone to sagging.</p>
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5><i class="fas fa-venus-mars text-theme me-2"></i>Hormonal Imbalances</h5>
-                                <p>Conditions like polycystic ovary syndrome (PCOS), thyroid disorders, or elevated androgen
-                                    levels can cause hirsutism—excessive hair growth in areas typically associated with male
-                                    patterns, such as the face, chest, and back in women.</p>
+                                <h5><i class="fas fa-weight text-theme me-2"></i>Gravity and Facial Movement</h5>
+                                <p>Constant gravitational pull combined with repetitive facial expressions gradually stretches the skin and underlying tissues, leading to jowls, nasolabial folds, and loss of definition along the jawline.</p>
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5><i class="fas fa-pills text-theme me-2"></i>Medications & Treatments</h5>
-                                <p>Certain medications including steroids, hormonal treatments, immunosuppressants, and some
-                                    biologics can stimulate increased hair growth as a side effect.</p>
+                                <h5><i class="fas fa-dna text-theme me-2"></i>Collagen Depletion</h5>
+                                <p>Environmental stressors, UV exposure, and free radical damage accelerate the breakdown of existing collagen fibers faster than the body can replace them, resulting in weakened skin structure.</p>
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5><i class="fas fa-calendar-alt text-theme me-2"></i>Life Stage Changes</h5>
-                                <p>Puberty, pregnancy, and menopause bring hormonal fluctuations that can alter hair growth
-                                    patterns, increasing density or changing distribution of body and facial hair.</p>
+                                <h5><i class="fas fa-heartbeat text-theme me-2"></i>Lifestyle Factors</h5>
+                                <p>Smoking, poor nutrition, inadequate hydration, and lack of sleep all compromise skin health and accelerate the aging process, reducing skin's ability to maintain firmness and elasticity.</p>
                             </div>
                         </div>
 
                         <div class="list-style2 mt-20">
                             <h6>Additional Contributing Factors:</h6>
                             <ul class="list-unstyled">
-                                <li>Normal physiological variation in hair density</li>
-                                <li>Age-related hormonal changes</li>
-                                <li>Temporary methods (shaving, waxing) causing irritation</li>
-                                <li>Adrenal gland disorders affecting hormone production</li>
-                                <li>Stress-induced hormonal fluctuations</li>
+                                <li>Significant weight fluctuations stretching the skin</li>
+                                <li>Hormonal changes, especially during menopause</li>
+                                <li>Chronic sun exposure damaging collagen and elastin</li>
+                                <li>Genetic predisposition to early skin aging</li>
+                                <li>Loss of facial fat volume reducing structural support</li>
                             </ul>
                         </div>
                     </div>
@@ -253,14 +238,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "Years of painful waxing and constant shaving were exhausting. The laser hair
-                                            reduction treatment at SMT Skin Clinic has been life-changing. After six sessions,
-                                            I have 90% less hair growth on my legs and underarms. The sessions were quick and
-                                            comfortable, and the results are exactly what I hoped for. Best investment in myself!"
+                                            "I was skeptical about non-surgical treatments, but Forma has truly amazed me. After just three sessions, my jawline looks so much more defined and my neck skin is noticeably tighter. The treatment was completely painless and felt like a relaxing facial massage. I can already see the lifting effect!"
                                         </p>
                                         <div class="testimonial-author">
-                                            <div class="author-name">Ritu Sharma</div>
-                                            <div class="author-details">Age 27, Marketing Manager, Lucknow</div>
+                                            <div class="author-name">Anjali Verma</div>
+                                            <div class="author-details">Age 42, Lucknow, Business Owner</div>
                                         </div>
                                     </div>
 
@@ -273,14 +255,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "As someone with PCOS, facial hair growth was causing me significant distress. The
-                                            laser treatments at SMT Skin Clinic have dramatically reduced the hair on my face.
-                                            The team was understanding and professional, and the advanced technology worked
-                                            perfectly for my skin type. I finally feel confident going makeup-free!"
+                                            "The best part about Forma is that there's absolutely no downtime. I scheduled my sessions during my lunch break and went straight back to work. Over the past two months, my skin has become firmer, and people keep asking if I've lost weight because my face looks more sculpted. Highly recommend!"
                                         </p>
                                         <div class="testimonial-author">
-                                            <div class="author-name">Shreya Mishra</div>
-                                            <div class="author-details">Age 31, Teacher, Kanpur</div>
+                                            <div class="author-name">Vikram Singh</div>
+                                            <div class="author-details">Age 38, Kanpur, Architect</div>
                                         </div>
                                     </div>
 
@@ -293,14 +272,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I was skeptical about laser hair reduction, but the results speak for themselves.
-                                            The back and chest treatments have eliminated the need for monthly waxing sessions.
-                                            The procedure was much more comfortable than I expected, and the permanent reduction
-                                            has saved me time and money. Highly recommend SMT Skin Clinic!"
+                                            "After my weight loss journey, I had loose skin around my abdomen and arms that really bothered me. Forma has tightened those areas beautifully without any surgery. The results keep improving month by month. The team at SMT Skin Clinic made the entire experience comfortable and professional."
                                         </p>
                                         <div class="testimonial-author">
-                                            <div class="author-name">Aditya Verma</div>
-                                            <div class="author-details">Age 35, Fitness Trainer, Allahabad</div>
+                                            <div class="author-name">Kavita Mehrotra</div>
+                                            <div class="author-details">Age 35, Varanasi, Teacher</div>
                                         </div>
                                     </div>
                                 </div>
@@ -372,42 +348,28 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our laser hair reduction treatment begins with a thorough consultation to assess your hair type,
-                        skin tone, and treatment goals. The area is prepared and the laser parameters are customized for optimal safety
-                        and efficacy. Most sessions last 15-45 minutes depending on the treatment area. Post-treatment care includes
-                        avoiding sun exposure, using SPF 50+, and following specific skincare protocols. Sessions are spaced 4-8 weeks
-                        apart to target hair in different growth cycles. Most patients require 6-8 sessions for optimal results, with
-                        minimal maintenance needed thereafter.</p>
+                    <p class="pb-1">A typical Forma treatment session lasts 30-45 minutes and requires no preparation or downtime. During the procedure, a handpiece is gently moved across the treatment area while delivering controlled radiofrequency energy. You'll feel a warm, soothing sensation as the temperature gradually increases. Most patients find the experience relaxing and comfortable. For optimal results, we recommend a series of 6-8 treatments scheduled weekly, followed by maintenance sessions every 3-4 months. You can resume all normal activities immediately after treatment, and many patients notice visible tightening within days, with continued improvement over 3-6 months as new collagen develops.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
                         <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
-                                <li><a href="service-details.html">Health & Vitality</a></li>
-                                <li><a href="service-details.html">Custom Makup Max</a></li>
-                                <li><a href="service-details.html">Aenean et aliquet risus.</a></li>
-                                <li><a href="service-details.html">Pellentesque efficitur orci</a></li>
-                                <li><a href="service-details-laser-hair-reduction.html">Laser Hair Reduction</a></li>
+
+                                <li><a href="service-details.html">Chemical Peels</a></li>
+                                <li><a href="service-details.html">Laser Hair Removal</a></li>
+                                <li><a href="service-details.html">Acne Treatment</a></li>
+                                <li><a href="service-details.html">Anti-Aging Treatments</a></li>
+                                <li><a href="service-details.html">Skin Rejuvenation</a></li>
+                                <li><a href="service-details.html">Pigmentation Treatment</a></li>
                             </ul>
                         </div>
-                        <span class="sec-subtitle4">Try some</span>
-                        <div class="img-box3 style3">
-                            <div class="img-2 jump-img"><img src="assets/img/shape/leaf-1-7.png" alt="about"></div>
-                            <div class="img-product">
-                                <a href="shop-details.html"><img src="assets/img/about/price-2-1-1.png" alt="about"></a>
-                                <p class="product-title"><a href="shop-details.html" class="text-inherit">face
-                                        vitamin</a></p>
-                                <p class="product-price">$12.00</p>
-                            </div>
-                        </div>
+
                     </aside>
                 </div>
             </div>
         </div>
-    </section><!--==============================
-			Footer Area
-	==============================-->
+    </section>
 
 <?php include 'footer.php'; ?>
 

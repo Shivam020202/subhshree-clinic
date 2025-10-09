@@ -34,7 +34,7 @@
                             <a href="#">SKIN</a>
                             <ul class="sub-menu">
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
-                                <li><a href="#">Collagen Stimulators</a></li>
+                                <li><span class="disabled-link">Collagen Stimulators</span></li>
                                 <li><a href="cosmelan-peel.php">Cosmelan Peel</a></li>
                                 <li><a href="dermal-fillers.php">Dermal Fillers</a></li>
                                 <li><a href="dermaplanning.php">Dermaplaning</a></li>
@@ -43,13 +43,13 @@
                                 <li><a href="microneedling.php">Microneedling</a></li>
                                 <li><a href="morpheus8.php">Morpheus8</a></li>
                                 <li><a href="skin-tightening.php">Skin Tightening</a></li>
-                                <li><a href="#">Forma</a></li>
-                                <li><a href="#">Skinpen</a></li>
-                                <li><a href="#">Rosacea Treatment</a></li>
-                                <li><a href="#">GLO2FACIAL</a></li>
+                                <li><a href="forma.php">Forma</a></li>
+                                <li><a href="skinpen.php">Skinpen</a></li>
+                                <li><a href="rosacea-treatment.php">Rosacea Treatment</a></li>
+                                <li><span class="disabled-link">GLO2FACIAL</span></li>
                                 <li><a href="hydrafacial.php">Hydrafacial Syndeo</a></li>
-                                <li><a href="#">Microchannel Infusion Therapy</a></li>
-                                <li><a href="#">Melasma</a></li>
+                                <li><span class="disabled-link">Microchannel Infusion Therapy</span></li>
+                                <li><span class="disabled-link">Melasma</span></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
@@ -62,39 +62,39 @@
                                 <li><a href="moles-removal.php">Mole Removal</a></li>
                                 <li><a href="pores.php">Pores</a></li>
                                 <li><a href="stretch-marks.php">Stretch Marks</a></li>
-                                <li><a href="#">Laser & Radio-frequency Resurfacing</a></li>
+                                <li><span class="disabled-link">Laser & Radio-frequency Resurfacing</span></li>
                                 <li><a href="tattoo-removal.php">Tattoo Removal</a></li>
-                                <li><a href="#">ADVATX</a></li>
+
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="#">FACE</a>
                             <ul class="sub-menu">
                                 <li><a href="aging-skin.php">Aging Skin</a></li>
-                                <li><a href="#">Cheek Augmentation</a></li>
-                                <li><a href="#">Facial Sculpting</a></li>
+                                <li><span class="disabled-link">Cheek Augmentation</span></li>
+                                <li><span class="disabled-link">Facial Sculpting</span></li>
                                 <li><a href="dermal-fillers.php">Dermal Fillers</a></li>
-                                <li><a href="#">Lip Augmentation</a></li>
-                                <li><a href="#">Juvederm</a></li>
-                                <li><a href="#">Ultherapy</a></li>
-                                <li><a href="#">Threads</a></li>
-                                <li><a href="#">Lumecca</a></li>
-                                <li><a href="#">Zo Professional Treatment</a></li>
-                                <li><a href="#">Fire & Ice Facial Treatment</a></li>
+                                <li><span class="disabled-link">Lip Augmentation</span></li>
+                                <li><span class="disabled-link">Juvederm</span></li>
+                                <li><span class="disabled-link">Ultherapy</span></li>
+                                <li><span class="disabled-link">Threads</span></li>
+                                <li><span class="disabled-link">Lumecca</span></li>
+                                <li><span class="disabled-link">Zo Professional Treatment</span></li>
+                                <li><span class="disabled-link">Fire & Ice Facial Treatment</span></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="#">BODY</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Cellulite Reduction</a></li>
+                                <li><span class="disabled-link">Cellulite Reduction</span></li>
                                 <li><a href="morpheus8.php">Morpheus8 Body</a></li>
-                                <li><a href="#">Forma Plus</a></li>
-                                <li><a href="#">Breast Augmentation</a></li>
-                                <li><a href="#">Hip Augmentation</a></li>
-                                <li><a href="#">Non-Surgical Butt Lift</a></li>
-                                <li><a href="#">Ballancer Pro</a></li>
-                                <li><a href="#">Emerald Laser</a></li>
-                                <li><a href="#">Emsculpt Neo</a></li>
+                                <li><span class="disabled-link">Forma Plus</span></li>
+                                <li><span class="disabled-link">Breast Augmentation</span></li>
+                                <li><span class="disabled-link">Hip Augmentation</span></li>
+                                <li><span class="disabled-link">Non-Surgical Butt Lift</span></li>
+                                <li><span class="disabled-link">Ballancer Pro</span></li>
+                                <li><span class="disabled-link">Emerald Laser</span></li>
+                                <li><span class="disabled-link">Emsculpt Neo</span></li>
                             </ul>
                         </li>
                     </ul>
@@ -262,7 +262,8 @@
                                                             <ul class="smt-service-links-list">
                                                                 <li><a href="chemical-peels.php">Chemical Peel</a>
                                                                 </li>
-                                                                <li><a href="#">Collagen Stimulators</a></li>
+                                                                <li><span class="disabled-link">Collagen
+                                                                        Stimulators</span></li>
                                                                 <li><a href="cosmelan-peel.php">Cosmelan Peel</a>
                                                                 </li>
                                                                 <li><a href="dermal-fillers.php">Dermal Fillers</a>
@@ -278,15 +279,17 @@
                                                                 <li><a href="morpheus8.php">Morpheus8</a></li>
                                                                 <li><a href="skin-tightening.php">Skin
                                                                         Tightening</a></li>
-                                                                <li><a href="#">Forma</a></li>
-                                                                <li><a href="#">Skinpen</a></li>
-                                                                <li><a href="#">Rosacea Treatment</a></li>
-                                                                <li><a href="#">GLO2FACIAL</a></li>
+                                                                <li><a href="forma.php">Forma</a></li>
+                                                                <li><a href="skinpen.php">Skinpen</a></li>
+                                                                <li><a href="rosacea-treatment.php">Rosacea
+                                                                        Treatment</a></li>
+                                                                <li><span class="disabled-link">GLO2FACIAL</span></li>
                                                                 <li><a href="hydrafacial.php">Hydrafacial
                                                                         Syndeo</a></li>
-                                                                <li><a href="#">Microchannel Infusion Therapy</a>
+                                                                <li><span class="disabled-link">Microchannel Infusion
+                                                                        Therapy</span>
                                                                 </li>
-                                                                <li><a href="#">Melasma</a></li>
+                                                                <li><span class="disabled-link">Melasma</span></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -296,16 +299,19 @@
                                                             <ul class="smt-service-links-list">
                                                                 <li><a href="acne-scar.php">Acne Scar Treatment</a></li>
                                                                 <li><a href="aging-skin.php">Aging Skin</a></li>
-                                                                <li><a href="hyperpigmentation.php">Hyperpigmentation</a></li>
-                                                                <li><a href="laser-hair-reduction.php">Laser Hair Reduction</a></li>
+                                                                <li><a
+                                                                        href="hyperpigmentation.php">Hyperpigmentation</a>
+                                                                </li>
+                                                                <li><a href="laser-hair-reduction.php">Laser Hair
+                                                                        Reduction</a></li>
                                                                 <li><a href="moles-removal.php">Mole Removal</a></li>
                                                                 <li><a href="pores.php">Pores</a></li>
                                                                 <li><a href="stretch-marks.php">Stretch Marks</a></li>
-                                                                <li><a href="#">Laser & Radio-frequency
-                                                                        Resurfacing</a>
+                                                                <li><span class="disabled-link">Laser & Radio-frequency
+                                                                        Resurfacing</span>
                                                                 </li>
                                                                 <li><a href="tattoo-removal.php">Tattoo Removal</a></li>
-                                                                <li><a href="#">ADVATX</a></li>
+
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -314,16 +320,21 @@
                                                             <h4 class="smt-service-category-title">FACE</h4>
                                                             <ul class="smt-service-links-list">
                                                                 <li><a href="aging-skin.php">Aging Skin</a></li>
-                                                                <li><a href="#">Cheek Augmentation</a></li>
-                                                                <li><a href="#">Facial Sculpting</a></li>
+                                                                <li><span class="disabled-link">Cheek
+                                                                        Augmentation</span></li>
+                                                                <li><span class="disabled-link">Facial Sculpting</span>
+                                                                </li>
                                                                 <li><a href="dermal-fillers.php">Dermal Fillers</a></li>
-                                                                <li><a href="#">Lip Augmentation</a></li>
-                                                                <li><a href="#">Juvederm</a></li>
-                                                                <li><a href="#">Ultherapy</a></li>
-                                                                <li><a href="#">Threads</a></li>
-                                                                <li><a href="#">Lumecca</a></li>
-                                                                <li><a href="#">Zo Professional Treatment</a></li>
-                                                                <li><a href="#">Fire & Ice Facial Treatment</a></li>
+                                                                <li><span class="disabled-link">Lip Augmentation</span>
+                                                                </li>
+                                                                <li><span class="disabled-link">Juvederm</span></li>
+                                                                <li><span class="disabled-link">Ultherapy</span></li>
+                                                                <li><span class="disabled-link">Threads</span></li>
+                                                                <li><span class="disabled-link">Lumecca</span></li>
+                                                                <li><span class="disabled-link">Zo Professional
+                                                                        Treatment</span></li>
+                                                                <li><span class="disabled-link">Fire & Ice Facial
+                                                                        Treatment</span></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -331,15 +342,21 @@
                                                         <div class="smt-service-category-block">
                                                             <h4 class="smt-service-category-title">BODY</h4>
                                                             <ul class="smt-service-links-list">
-                                                                <li><a href="#">Cellulite Reduction</a></li>
+                                                                <li><span class="disabled-link">Cellulite
+                                                                        Reduction</span></li>
                                                                 <li><a href="morpheus8.php">Morpheus8 Body</a></li>
-                                                                <li><a href="#">Forma Plus</a></li>
-                                                                <li><a href="#">Breast Augmentation</a></li>
-                                                                <li><a href="#">Hip Augmentation</a></li>
-                                                                <li><a href="#">Non-Surgical Butt Lift</a></li>
-                                                                <li><a href="#">Ballancer Pro</a></li>
-                                                                <li><a href="#">Emerald Laser</a></li>
-                                                                <li><a href="#">Emsculpt Neo</a></li>
+                                                                <li><span class="disabled-link">Forma Plus</span></li>
+                                                                <li><span class="disabled-link">Breast
+                                                                        Augmentation</span></li>
+                                                                <li><span class="disabled-link">Hip Augmentation</span>
+                                                                </li>
+                                                                <li><span class="disabled-link">Non-Surgical Butt
+                                                                        Lift</span></li>
+                                                                <li><span class="disabled-link">Ballancer Pro</span>
+                                                                </li>
+                                                                <li><span class="disabled-link">Emerald Laser</span>
+                                                                </li>
+                                                                <li><span class="disabled-link">Emsculpt Neo</span></li>
                                                             </ul>
                                                         </div>
                                                     </div>

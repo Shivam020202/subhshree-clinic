@@ -26,7 +26,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </button>
             <div class="smt-mobile-category-services">
                 <a href="chemical-peels.php">Chemical Peel</a>
-                <a href="#">Collagen Stimulators</a>
+                <span class="disabled-link">Collagen Stimulators</span>
                 <a href="cosmelan-peel.php">Cosmelan Peel</a>
                 <a href="dermal-fillers.php">Dermal Fillers</a>
                 <a href="dermaplanning.php">Dermaplaning</a>
@@ -35,13 +35,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <a href="microneedling.php">Microneedling</a>
                 <a href="morpheus8.php">Morpheus8</a>
                 <a href="skin-tightening.php">Skin Tightening</a>
-                <a href="#">Forma</a>
-                <a href="#">Skinpen</a>
-                <a href="#">Rosacea Treatment</a>
-                <a href="#">GLO2FACIAL</a>
+                <a href="forma.php">Forma</a>
+                <a href="skinpen.php">Skinpen</a>
+                <a href="rosacea-treatment.php">Rosacea Treatment</a>
+                <span class="disabled-link">GLO2FACIAL</span>
                 <a href="hydrafacial.php">Hydrafacial Syndeo</a>
-                <a href="#">Microchannel Infusion Therapy</a>
-                <a href="#">Melasma</a>
+                <span class="disabled-link">Microchannel Infusion Therapy</span>
+                <span class="disabled-link">Melasma</span>
             </div>
         </div>
 
@@ -58,9 +58,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <a href="moles-removal.php">Mole Removal</a>
                 <a href="pores.php">Pores</a>
                 <a href="stretch-marks.php">Stretch Marks</a>
-                <a href="#">Laser & Radio-frequency Resurfacing</a>
+                <span class="disabled-link">Laser & Radio-frequency Resurfacing</span>
                 <a href="tattoo-removal.php">Tattoo Removal</a>
-                <a href="#">ADVATX</a>
+                <span class="disabled-link">ADVATX</span>
             </div>
         </div>
 
@@ -71,16 +71,16 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </button>
             <div class="smt-mobile-category-services">
                 <a href="aging-skin.php">Aging Skin</a>
-                <a href="#">Cheek Augmentation</a>
-                <a href="#">Facial Sculpting</a>
+                <span class="disabled-link">Cheek Augmentation</span>
+                <span class="disabled-link">Facial Sculpting</span>
                 <a href="dermal-fillers.php">Dermal Fillers</a>
-                <a href="#">Lip Augmentation</a>
-                <a href="#">Juvederm</a>
-                <a href="#">Ultherapy</a>
-                <a href="#">Threads</a>
-                <a href="#">Lumecca</a>
-                <a href="#">Zo Professional Treatment</a>
-                <a href="#">Fire & Ice Facial Treatment</a>
+                <span class="disabled-link">Lip Augmentation</span>
+                <span class="disabled-link">Juvederm</span>
+                <span class="disabled-link">Ultherapy</span>
+                <span class="disabled-link">Threads</span>
+                <span class="disabled-link">Lumecca</span>
+                <span class="disabled-link">Zo Professional Treatment</span>
+                <span class="disabled-link">Fire & Ice Facial Treatment</span>
             </div>
         </div>
 
@@ -90,15 +90,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <i class="fas fa-chevron-down"></i>
             </button>
             <div class="smt-mobile-category-services">
-                <a href="#">Cellulite Reduction</a>
+                <span class="disabled-link">Cellulite Reduction</span>
                 <a href="morpheus8.php">Morpheus8 Body</a>
-                <a href="#">Forma Plus</a>
-                <a href="#">Breast Augmentation</a>
-                <a href="#">Hip Augmentation</a>
-                <a href="#">Non-Surgical Butt Lift</a>
-                <a href="#">Ballancer Pro</a>
-                <a href="#">Emerald Laser</a>
-                <a href="#">Emsculpt Neo</a>
+                <span class="disabled-link">Forma Plus</span>
+                <span class="disabled-link">Breast Augmentation</span>
+                <span class="disabled-link">Hip Augmentation</span>
+                <span class="disabled-link">Non-Surgical Butt Lift</span>
+                <span class="disabled-link">Ballancer Pro</span>
+                <span class="disabled-link">Emerald Laser</span>
+                <span class="disabled-link">Emsculpt Neo</span>
             </div>
         </div>
     </div>
