@@ -23,7 +23,8 @@ if (!isset($base_path)) {
     <div class="vs-menu-area text-center">
         <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="<?php echo $base_path; ?>index.php"><img src="<?php echo $base_path; ?>assets/img/logo-subhshree.png" alt="SMT Skin Clinic"></a>
+            <a href="<?php echo $base_path; ?>index.php"><img
+                    src="<?php echo $base_path; ?>assets/img/logo-subhshree.png" alt="SMT Skin Clinic"></a>
         </div>
         <div class="vs-mobile-menu">
             <ul>
@@ -64,7 +65,8 @@ if (!isset($base_path)) {
                                 <li><a href="<?php echo $base_path; ?>acne-scar.php">Acne Scar Treatment</a></li>
                                 <li><a href="<?php echo $base_path; ?>aging-skin.php">Aging Skin</a></li>
                                 <li><a href="<?php echo $base_path; ?>hyperpigmentation.php">Hyperpigmentation</a></li>
-                                <li><a href="<?php echo $base_path; ?>laser-hair-reduction.php">Laser Hair Reduction</a></li>
+                                <li><a href="<?php echo $base_path; ?>laser-hair-reduction.php">Laser Hair Reduction</a>
+                                </li>
                                 <li><a href="<?php echo $base_path; ?>moles-removal.php">Mole Removal</a></li>
                                 <li><a href="<?php echo $base_path; ?>pores.php">Pores</a></li>
                                 <li><a href="<?php echo $base_path; ?>stretch-marks.php">Stretch Marks</a></li>
@@ -208,8 +210,9 @@ if (!isset($base_path)) {
                             <li class="d-none d-xxl-inline-block"><i class="far fa-map-marker-alt"></i>SMT Skin
                                 Clinic, Windsor Place, 17/2, behind Yojna Bhawan, The Mall
                                 Avenue, Lucknow, Uttar Pradesh 226001</li>
-                            <li><i class="far fa-phone-alt"></i><a href="tel:+919876543210">+91 98765 43210</a></li>
-                            <li><i class="far fa-envelope"></i><a href="mailto:example@smt.com">example@smt.com</a>
+                            <li><i class="far fa-phone-alt"></i><a href="tel:8864877133">+91 88648 77133</a></li>
+                            <li><i class="far fa-envelope"></i><a
+                                    href="mailto:smtskinclinic@gmail.com">smtskinclinic@gmail.com</a>
                             </li>
                         </ul>
                     </div>
@@ -235,7 +238,8 @@ if (!isset($base_path)) {
                 <div class="row justify-content-between align-items-center gx-60">
                     <div class="col">
                         <div class="nav-logo d-flex align-items-center">
-                            <a href="<?php echo $base_path; ?>index.php"><img src="<?php echo $base_path; ?>assets/img/logo-subhshree.png" alt="logo"></a>
+                            <a href="<?php echo $base_path; ?>index.php"><img
+                                    src="<?php echo $base_path; ?>assets/img/logo-subhshree.png" alt="logo"></a>
                             <div class="d-flex flex-column ms-2 mt-4">
                                 <p class="h4 mb-0">SMT Skin Clinic</p>
                                 <p class="italic small">The aesthectic excellence</p>
@@ -252,7 +256,8 @@ if (!isset($base_path)) {
                                     <a href="<?php echo $base_path; ?>about.php">About Us</a>
                                 </li>
                                 <li class="menu-item-has-children smt-services-mega-wrapper">
-                                    <a href="<?php echo $base_path; ?>service.php" style="position: relative; z-index: 10000;">Service</a>
+                                    <a href="<?php echo $base_path; ?>service.php"
+                                        style="position: relative; z-index: 10000;">Service</a>
                                     <div class="smt-services-mega-dropdown">
                                         <div class="container">
                                             <div class="smt-services-mega-content">
@@ -261,28 +266,47 @@ if (!isset($base_path)) {
                                                         <div class="smt-service-category-block">
                                                             <h4 class="smt-service-category-title">SKIN</h4>
                                                             <ul class="smt-service-links-list">
-                                                                <li><a href="<?php echo $base_path; ?>chemical-peels.php">Chemical Peel</a>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>chemical-peels.php">Chemical
+                                                                        Peel</a>
                                                                 </li>
                                                                 <li><span class="disabled-link">Collagen
                                                                         Stimulators</span></li>
-                                                                <li><a href="<?php echo $base_path; ?>cosmelan-peel.php">Cosmelan Peel</a>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>cosmelan-peel.php">Cosmelan
+                                                                        Peel</a>
                                                                 </li>
-                                                                <li><a href="<?php echo $base_path; ?>dermal-fillers.php">Dermal Fillers</a>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>dermal-fillers.php">Dermal
+                                                                        Fillers</a>
                                                                 </li>
-                                                                <li><a href="<?php echo $base_path; ?>dermaplanning.php">Dermaplaning</a>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>dermaplanning.php">Dermaplaning</a>
                                                                 </li>
-                                                                <li><a href="<?php echo $base_path; ?>hand-rejuvenation.php">Hand
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>hand-rejuvenation.php">Hand
                                                                         Rejuvenation</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>led-light-therapy.php">LED Light
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>led-light-therapy.php">LED
+                                                                        Light
                                                                         Therapy</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>microneedling.php">Microneedling</a>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>microneedling.php">Microneedling</a>
                                                                 </li>
-                                                                <li><a href="<?php echo $base_path; ?>morpheus8.php">Morpheus8</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>skin-tightening.php">Skin
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>morpheus8.php">Morpheus8</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>skin-tightening.php">Skin
                                                                         Tightening</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>forma.php">Forma</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>skinpen.php">Skinpen</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>rosacea-treatment.php">Rosacea
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>forma.php">Forma</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>skinpen.php">Skinpen</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>rosacea-treatment.php">Rosacea
                                                                         Treatment</a></li>
                                                                 <li><span class="disabled-link">GLO2FACIAL</span></li>
                                                                 <li><a href="<?php echo $base_path; ?>hydrafacial.php">Hydrafacial
@@ -298,20 +322,32 @@ if (!isset($base_path)) {
                                                         <div class="smt-service-category-block">
                                                             <h4 class="smt-service-category-title">LASER</h4>
                                                             <ul class="smt-service-links-list">
-                                                                <li><a href="<?php echo $base_path; ?>acne-scar.php">Acne Scar Treatment</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>aging-skin.php">Aging Skin</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>acne-scar.php">Acne
+                                                                        Scar Treatment</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>aging-skin.php">Aging
+                                                                        Skin</a></li>
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>hyperpigmentation.php">Hyperpigmentation</a>
                                                                 </li>
-                                                                <li><a href="<?php echo $base_path; ?>laser-hair-reduction.php">Laser Hair
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>laser-hair-reduction.php">Laser
+                                                                        Hair
                                                                         Reduction</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>moles-removal.php">Mole Removal</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>pores.php">Pores</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>stretch-marks.php">Stretch Marks</a></li>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>moles-removal.php">Mole
+                                                                        Removal</a></li>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>pores.php">Pores</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>stretch-marks.php">Stretch
+                                                                        Marks</a></li>
                                                                 <li><span class="disabled-link">Laser & Radio-frequency
                                                                         Resurfacing</span>
                                                                 </li>
-                                                                <li><a href="<?php echo $base_path; ?>tattoo-removal.php">Tattoo Removal</a></li>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>tattoo-removal.php">Tattoo
+                                                                        Removal</a></li>
 
                                                             </ul>
                                                         </div>
@@ -320,12 +356,15 @@ if (!isset($base_path)) {
                                                         <div class="smt-service-category-block">
                                                             <h4 class="smt-service-category-title">FACE</h4>
                                                             <ul class="smt-service-links-list">
-                                                                <li><a href="<?php echo $base_path; ?>aging-skin.php">Aging Skin</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>aging-skin.php">Aging
+                                                                        Skin</a></li>
                                                                 <li><span class="disabled-link">Cheek
                                                                         Augmentation</span></li>
                                                                 <li><span class="disabled-link">Facial Sculpting</span>
                                                                 </li>
-                                                                <li><a href="<?php echo $base_path; ?>dermal-fillers.php">Dermal Fillers</a></li>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>dermal-fillers.php">Dermal
+                                                                        Fillers</a></li>
                                                                 <li><span class="disabled-link">Lip Augmentation</span>
                                                                 </li>
                                                                 <li><span class="disabled-link">Juvederm</span></li>
@@ -345,7 +384,8 @@ if (!isset($base_path)) {
                                                             <ul class="smt-service-links-list">
                                                                 <li><span class="disabled-link">Cellulite
                                                                         Reduction</span></li>
-                                                                <li><a href="<?php echo $base_path; ?>morpheus8.php">Morpheus8 Body</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>morpheus8.php">Morpheus8
+                                                                        Body</a></li>
                                                                 <li><span class="disabled-link">Forma Plus</span></li>
                                                                 <li><span class="disabled-link">Breast
                                                                         Augmentation</span></li>
