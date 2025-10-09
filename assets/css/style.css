@@ -4286,7 +4286,7 @@ a.text-theme:hover,
 
 .footer-logo {
   max-width: 100px;
-  margin: 0 auto 0 auto;
+  /* margin: 0 auto 0 auto; */
   margin-bottom: 28px;
 }
 

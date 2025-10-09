@@ -1,0 +1,372 @@
+<?php
+$page_title = "Stretch Marks Treatment | SMT Skin Clinic";
+$page_description = "SMT Clinic - Your Health, Our Priority";
+$page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, doctor, hospital, healthcare";
+?>
+<!doctype html>
+<html class="no-js" lang="zxx">
+<?php include 'header-links.php'; ?>
+
+<body>
+
+<?php include 'header.php'; ?>
+
+<!-- Mobile Services Mega Menu -->
+    <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
+        <div class="smt-mobile-services-header">
+            <h3 class="smt-mobile-services-title">Our Services</h3>
+            <button class="smt-mobile-services-close" onclick="smtCloseMobileServices()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="smt-mobile-category-wrapper">
+            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
+                SKIN
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="smt-mobile-category-services">
+                <a href="chemical-peels.php">Chemical Peel</a>
+                <a href="#">Collagen Stimulators</a>
+                <a href="cosmelan-peel.php">Cosmelan Peel</a>
+                <a href="dermal-fillers.php">Dermal Fillers</a>
+                <a href="dermaplanning.php">Dermaplaning</a>
+                <a href="hand-rejuvenation.php">Hand Rejuvenation</a>
+                <a href="led-light-therapy.php">LED Light Therapy</a>
+                <a href="microneedling.php">Microneedling</a>
+                <a href="morpheus8.php">Morpheus8</a>
+                <a href="skin-tightening.php">Skin Tightening</a>
+                <a href="#">Forma</a>
+                <a href="#">Skinpen</a>
+                <a href="#">Rosacea Treatment</a>
+                <a href="#">GLO2FACIAL</a>
+                <a href="hydrafacial.php">Hydrafacial Syndeo</a>
+                <a href="#">Microchannel Infusion Therapy</a>
+                <a href="#">Melasma</a>
+            </div>
+        </div>
+
+        <div class="smt-mobile-category-wrapper">
+            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
+                LASER
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="smt-mobile-category-services">
+                <a href="acne-scar.php">Acne Scar Treatment</a>
+                <a href="aging-skin.php">Aging Skin</a>
+                <a href="hyperpigmentation.php">Hyperpigmentation</a>
+                <a href="laser-hair-reduction.php">Laser Hair Reduction</a>
+                <a href="moles-removal.php">Mole Removal</a>
+                <a href="pores.php">Pores</a>
+                <a href="stretch-marks.php">Stretch Marks</a>
+                <a href="#">Laser & Radio-frequency Resurfacing</a>
+                <a href="tattoo-removal.php">Tattoo Removal</a>
+                <a href="#">ADVATX</a>
+            </div>
+        </div>
+
+        <div class="smt-mobile-category-wrapper">
+            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
+                FACE
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="smt-mobile-category-services">
+                <a href="aging-skin.php">Aging Skin</a>
+                <a href="#">Cheek Augmentation</a>
+                <a href="#">Facial Sculpting</a>
+                <a href="dermal-fillers.php">Dermal Fillers</a>
+                <a href="#">Lip Augmentation</a>
+                <a href="#">Juvederm</a>
+                <a href="#">Ultherapy</a>
+                <a href="#">Threads</a>
+                <a href="#">Lumecca</a>
+                <a href="#">Zo Professional Treatment</a>
+                <a href="#">Fire & Ice Facial Treatment</a>
+            </div>
+        </div>
+
+        <div class="smt-mobile-category-wrapper">
+            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
+                BODY
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="smt-mobile-category-services">
+                <a href="#">Cellulite Reduction</a>
+                <a href="morpheus8.php">Morpheus8 Body</a>
+                <a href="#">Forma Plus</a>
+                <a href="#">Breast Augmentation</a>
+                <a href="#">Hip Augmentation</a>
+                <a href="#">Non-Surgical Butt Lift</a>
+                <a href="#">Ballancer Pro</a>
+                <a href="#">Emerald Laser</a>
+                <a href="#">Emsculpt Neo</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+        <div class="container z-index-common">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title">Stretch <span class="inner-text">Marks</span></h1>
+                <div class="breadcumb-menu-wrap">
+                    <ul class="breadcumb-menu">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="service.php">Services</a></li>
+                        <li>Stretch Marks Treatment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class=" space-top space-extra-bottom">
+        <div class="container">
+            <div class="row flex-row-reverse gx-50">
+                <div class="col-lg-8 col-xl mb-30 mb-lg-0">
+                    <div class="mb-30">
+                        <div class="mega-hover"><img src="assets/img/new/service-main.jpg"
+                                alt="Stretch Marks Treatment Treatment">
+                        </div>
+                    </div>
+                    <h2 class="text-uppercase">Advanced Stretch Marks Reduction</h2>
+                    <p>Transform the appearance of stretch marks with our advanced laser and RF treatments at SMT Skin Clinic. Our medical-grade technologies stimulate collagen production and promote skin regeneration to significantly reduce the visibility of stretch marks on various body areas.</p>
+                    <p>Whether caused by pregnancy, weight changes, or growth spurts, our comprehensive approach combines multiple treatment modalities to address stretch marks effectively. Our experienced dermatologists create personalized treatment plans that deliver visible improvements in skin texture and tone. <strong>Achieve smoother, more even-toned skin with our proven treatments.</strong></p>
+                    <div class="list-style2">
+                        <ul class="list-unstyled">
+                            <li>Advanced treatment technology</li>
+                            <li>Experienced medical professionals</li>
+                            <li>Personalized treatment plans</li>
+                            <li>Minimal downtime and discomfort</li>
+                            <li>Long-lasting, natural-looking results</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mb-30">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Treatment"
+                                    class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-6 mb-30">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="After Treatment"
+                                    class="w-100">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-50">
+                        <h3 class="h4 mb-25">What is Stretch Marks Treatment?</h3>
+                        <p>Stretch Marks Treatment treatment at SMT Skin Clinic utilizes advanced medical technology to address
+                            your specific skin concerns. Our experienced dermatologists create personalized treatment
+                            plans tailored to your unique needs and skin type.</p>
+                        <p>The treatment process is carefully monitored to ensure optimal results with minimal
+                            discomfort. We use only FDA-approved methods and state-of-the-art equipment to deliver
+                            safe, effective treatments that meet the highest medical standards.</p>
+                    </div>
+
+                    <!-- Added "What Causes Stretch Marks" section -->
+                    <div class="mb-50">
+                        <h3 class="h4 mb-25">What Causes Stretch Marks?</h3>
+                        <p>Stretch marks (striae) form when the skin is stretched rapidly beyond its elastic capacity,
+                            causing tears in the dermal layer. Understanding the underlying causes helps us develop the
+                            most effective treatment strategy for your specific stretch marks:</p>
+
+                        <div class="row mt-30">
+                            <div class="col-md-6 mb-30">
+                                <h5><i class="fas fa-baby text-theme me-2"></i>Pregnancy & Rapid Growth</h5>
+                                <p>Pregnancy is the most common cause of stretch marks, as the abdomen, breasts, and hips
+                                    expand rapidly. Adolescent growth spurts can also cause stretch marks on the thighs,
+                                    buttocks, and back as the body grows quickly during puberty.</p>
+                            </div>
+                            <div class="col-md-6 mb-30">
+                                <h5><i class="fas fa-weight text-theme me-2"></i>Weight Fluctuations</h5>
+                                <p>Rapid weight gain or loss stretches the skin beyond its natural elasticity. The sudden
+                                    change in body volume causes the dermis to tear, resulting in stretch marks on areas
+                                    where fat is stored, including abdomen, thighs, and arms.</p>
+                            </div>
+                            <div class="col-md-6 mb-30">
+                                <h5><i class="fas fa-dumbbell text-theme me-2"></i>Muscle Building & Bodybuilding</h5>
+                                <p>Rapid muscle growth from intense training or steroid use can cause stretch marks on
+                                    shoulders, arms, and chest. The quick increase in muscle mass stretches the skin faster
+                                    than it can adapt, causing dermal tears.</p>
+                            </div>
+                            <div class="col-md-6 mb-30">
+                                <h5><i class="fas fa-dna text-theme me-2"></i>Genetic & Hormonal Factors</h5>
+                                <p>Genetics determine skin elasticity and collagen quality. Some individuals are more prone
+                                    to developing stretch marks. Hormonal changes during puberty, pregnancy, or corticosteroid
+                                    use can also affect skin structure and increase susceptibility.</p>
+                            </div>
+                        </div>
+
+                        <div class="list-style2 mt-20">
+                            <h6>Additional Contributing Factors:</h6>
+                            <ul class="list-unstyled">
+                                <li>Corticosteroid medications reducing skin elasticity</li>
+                                <li>Cushing's syndrome causing hormonal imbalances</li>
+                                <li>Marfan syndrome affecting connective tissue</li>
+                                <li>Dehydration reducing skin suppleness</li>
+                                <li>Poor nutrition affecting collagen production</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <section class="testimonial-section">
+                        <div class="container ">
+                            <h2 class="section-title ">What Our Patients Say</h2>
+
+                            <div class="testimonial-slider" style="overflow: hidden;">
+                                <button class="slider-nav prev" onclick="prevSlide()">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+
+                                <div class="testimonial-track" id="testimonialTrack">
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "The treatment at SMT Skin Clinic exceeded my expectations. The results are
+                                            amazing and the staff was professional and caring throughout the entire process."
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Priya Sharma</div>
+                                            <div class="author-details">Age 32, Lucknow</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "I'm so happy with my results! The treatment was comfortable and the
+                                            team made me feel at ease. Highly recommend SMT Skin Clinic."
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Rajesh Kumar</div>
+                                            <div class="author-details">Age 35, Kanpur</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "Professional service and outstanding results. The improvement in my skin
+                                            has boosted my confidence significantly. Thank you SMT Skin Clinic!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Meera Gupta</div>
+                                            <div class="author-details">Age 28, Allahabad</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="slider-nav next" onclick="nextSlide()">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+
+                            <div class="slider-indicators">
+                                <button class="indicator active" onclick="goToSlide(0)"></button>
+                                <button class="indicator" onclick="goToSlide(1)"></button>
+                                <button class="indicator" onclick="goToSlide(2)"></button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                    <script>
+                        let currentSlide = 0;
+                        const totalSlides = 3;
+                        let autoSlideInterval;
+
+                        function updateSlider() {
+                            const track = document.getElementById('testimonialTrack');
+                            const indicators = document.querySelectorAll('.indicator');
+
+                            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+                            indicators.forEach((indicator, index) => {
+                                indicator.classList.toggle('active', index === currentSlide);
+                            });
+                        }
+
+                        function nextSlide() {
+                            currentSlide = (currentSlide + 1) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function prevSlide() {
+                            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function goToSlide(index) {
+                            currentSlide = index;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function startAutoSlide() {
+                            autoSlideInterval = setInterval(nextSlide, 5000);
+                        }
+
+                        function resetAutoSlide() {
+                            clearInterval(autoSlideInterval);
+                            startAutoSlide();
+                        }
+
+                        startAutoSlide();
+
+                        const slider = document.querySelector('.testimonial-slider');
+                        slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+                        slider.addEventListener('mouseleave', startAutoSlide);
+                    </script>
+
+                    <h3 class="h4">Treatment Process & Aftercare</h3>
+                    <p class="pb-1">Our treatment begins with a comprehensive consultation and skin analysis.
+                        We provide detailed aftercare instructions and regular follow-up appointments to ensure
+                        optimal results and your complete satisfaction with the treatment outcomes.</p>
+                </div>
+                <div class="col-lg-4 col-xl-auto">
+                    <aside>
+                        <div class="service-box">
+                            <h3 class="box-title">All Services</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="chemical-peels.php">Chemical Peels</a></li>
+                                <li><a href="laser-hair-reduction.php">Laser Hair Removal</a></li>
+                                <li><a href="acne-scar.php">Acne Treatment</a></li>
+                                <li><a href="aging-skin.php">Anti-Aging Treatments</a></li>
+                                <li><a href="skin-tightening.php">Skin Rejuvenation</a></li>
+                                <li><a href="hyperpigmentation.php">Pigmentation Treatment</a></li>
+                            </ul>
+                        </div>
+
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php include 'footer.php'; ?>
+
+<?php include 'footer-scripts.php'; ?>
+
+</body>
+
+</html>
