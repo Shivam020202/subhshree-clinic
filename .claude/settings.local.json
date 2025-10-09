@@ -3,7 +3,8 @@
     "allow": [
       "Bash(start \"\" \"A:\\Freelance\\subhshree-html\\index.html\")",
       "Bash(python:*)",
-      "Bash(del add_mobile_menu.py convert_remaining.py)"
+      "Bash(del add_mobile_menu.py convert_remaining.py)",
+      "Bash(mkdir:*)"
     ],
     "deny": [],
     "ask": []

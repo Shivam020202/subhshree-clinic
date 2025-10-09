@@ -1,12 +1,18 @@
 <!-- Footer Area -->
-<footer class="footer-wrapper footer-layout3" data-bg-src="assets/img/bg/footer-bg-3-1.jpg">
+<?php
+// Set base path if not already set
+if (!isset($base_path)) {
+    $base_path = '';
+}
+?>
+<footer class="footer-wrapper footer-layout3" data-bg-src="<?php echo $base_path; ?>assets/img/bg/footer-bg-3-1.jpg">
     <div class="widget-area">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-6 col-xxl-auto">
                     <div class="widget footer-widget">
                         <div class="footer-logo mb-4">
-                            <img src="assets/img/logo-subhshree.png" alt="SMT Skin Clinic Logo">
+                            <img src="<?php echo $base_path; ?>assets/img/logo-subhshree.png" alt="SMT Skin Clinic Logo">
                             <!-- SMT Skin Clinic -->
                             <!-- <span class="footer-logo-text">SMT Skin Clinic</span> -->
                         </div>
@@ -53,28 +59,28 @@
                         <h4 class="widget_title">Our Moments</h4>
                         <div class="sidebar-gallery column-4">
                             <div class="gallery-thumb">
-                                <img src="assets/img/widget/gal-1-1.jpg" alt="Clinic Interior" class="w-100">
+                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-1.jpg" alt="Clinic Interior" class="w-100">
                             </div>
                             <div class="gallery-thumb">
-                                <img src="assets/img/widget/gal-1-2.jpg" alt="Treatment Session" class="w-100">
+                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-2.jpg" alt="Treatment Session" class="w-100">
                             </div>
                             <div class="gallery-thumb">
-                                <img src="assets/img/widget/gal-1-3.jpg" alt="Doctor Consultation" class="w-100">
+                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-3.jpg" alt="Doctor Consultation" class="w-100">
                             </div>
                             <div class="gallery-thumb">
-                                <img src="assets/img/widget/gal-1-4.jpg" alt="Patient Care" class="w-100">
+                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-4.jpg" alt="Patient Care" class="w-100">
                             </div>
                             <div class="gallery-thumb">
-                                <img src="assets/img/widget/gal-1-5.jpg" alt="Advanced Equipment" class="w-100">
+                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-5.jpg" alt="Advanced Equipment" class="w-100">
                             </div>
                             <div class="gallery-thumb">
-                                <img src="assets/img/widget/gal-1-6.jpg" alt="Happy Patient" class="w-100">
+                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-6.jpg" alt="Happy Patient" class="w-100">
                             </div>
                             <div class="gallery-thumb">
-                                <img src="assets/img/widget/gal-1-7.jpg" alt="Skincare Products" class="w-100">
+                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-7.jpg" alt="Skincare Products" class="w-100">
                             </div>
                             <div class="gallery-thumb">
-                                <img src="assets/img/widget/gal-1-8.jpg" alt="Clinic Entrance" class="w-100">
+                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-8.jpg" alt="Clinic Entrance" class="w-100">
                             </div>
                         </div>
                     </div>
