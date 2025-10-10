@@ -106,7 +106,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical peel banner.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=1920&h=500&fit=crop">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Aging Skin</h1>
@@ -127,7 +127,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
                         <div class="mega-hover"><img
-                                src="https://images.unsplash.com/photo-1601034913831-c7b9230e4b54?q=80&w=1600&auto=format&fit=crop"
+                                src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="thumbnail"></div>
                     </div>
                     <h2>Aging Skin Treatments</h2>
@@ -154,12 +154,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <div class="row">
                         <div class="col-6 mb-30">
                             <div class="mega-hover"><img
-                                    src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1600&auto=format&fit=crop"
+                                    src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="shape" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="shape" class="w-100">
+                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop" alt="shape" class="w-100">
                             </div>
                         </div>
                     </div>

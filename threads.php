@@ -106,7 +106,7 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical peel banner.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=1920&h=500&fit=crop">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Thread <span class="inner-text">Lift</span></h1>
@@ -129,7 +129,7 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="assets/img/service/threads-main.jpg"
+                        <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Thread Lift Treatment"></div>
                     </div>
 
@@ -194,11 +194,11 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/threads-before.jpg"
+                            <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/threads-after.jpg"
+                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
