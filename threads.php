@@ -106,7 +106,7 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical peel banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Thread <span class="inner-text">Lift</span></h1>
