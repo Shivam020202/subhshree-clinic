@@ -94,15 +94,15 @@ if (!isset($base_path)) {
                         <li class="menu-item-has-children">
                             <a href="#">BODY</a>
                             <ul class="sub-menu">
-                                <li><span class="disabled-link">Cellulite Reduction</span></li>
+                                <li><a href="<?php echo $base_path; ?>cellulite-reduction.php">Cellulite Reduction</a></li>
                                 <li><a href="<?php echo $base_path; ?>morpheus8.php">Morpheus8 Body</a></li>
-                                <li><span class="disabled-link">Forma Plus</span></li>
-                                <li><span class="disabled-link">Breast Augmentation</span></li>
-                                <li><span class="disabled-link">Hip Augmentation</span></li>
-                                <li><span class="disabled-link">Non-Surgical Butt Lift</span></li>
-                                <li><span class="disabled-link">Ballancer Pro</span></li>
-                                <li><span class="disabled-link">Emerald Laser</span></li>
-                                <li><span class="disabled-link">Emsculpt Neo</span></li>
+                                <li><a href="<?php echo $base_path; ?>forma-plus.php">Forma Plus</a></li>
+                                <li><a href="<?php echo $base_path; ?>breast-augmentation.php">Breast Augmentation</a></li>
+                                <li><a href="<?php echo $base_path; ?>hip-augmentation.php">Hip Augmentation</a></li>
+                                <li><a href="<?php echo $base_path; ?>non-surgical-butt-lift.php">Non-Surgical Butt Lift</a></li>
+                                <li><a href="<?php echo $base_path; ?>ballancer-pro.php">Ballancer Pro</a></li>
+                                <li><a href="<?php echo $base_path; ?>emerald-laser.php">Emerald Laser</a></li>
+                                <li><a href="<?php echo $base_path; ?>emsculpt-neo.php">Emsculpt Neo</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -382,22 +382,22 @@ if (!isset($base_path)) {
                                                         <div class="smt-service-category-block">
                                                             <h4 class="smt-service-category-title">BODY</h4>
                                                             <ul class="smt-service-links-list">
-                                                                <li><span class="disabled-link">Cellulite
-                                                                        Reduction</span></li>
+                                                                <li><a href="<?php echo $base_path; ?>cellulite-reduction.php">Cellulite
+                                                                        Reduction</a></li>
                                                                 <li><a href="<?php echo $base_path; ?>morpheus8.php">Morpheus8
                                                                         Body</a></li>
-                                                                <li><span class="disabled-link">Forma Plus</span></li>
-                                                                <li><span class="disabled-link">Breast
-                                                                        Augmentation</span></li>
-                                                                <li><span class="disabled-link">Hip Augmentation</span>
+                                                                <li><a href="<?php echo $base_path; ?>forma-plus.php">Forma Plus</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>breast-augmentation.php">Breast
+                                                                        Augmentation</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>hip-augmentation.php">Hip Augmentation</a>
                                                                 </li>
-                                                                <li><span class="disabled-link">Non-Surgical Butt
-                                                                        Lift</span></li>
-                                                                <li><span class="disabled-link">Ballancer Pro</span>
+                                                                <li><a href="<?php echo $base_path; ?>non-surgical-butt-lift.php">Non-Surgical Butt
+                                                                        Lift</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>ballancer-pro.php">Ballancer Pro</a>
                                                                 </li>
-                                                                <li><span class="disabled-link">Emerald Laser</span>
+                                                                <li><a href="<?php echo $base_path; ?>emerald-laser.php">Emerald Laser</a>
                                                                 </li>
-                                                                <li><span class="disabled-link">Emsculpt Neo</span></li>
+                                                                <li><a href="<?php echo $base_path; ?>emsculpt-neo.php">Emsculpt Neo</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
