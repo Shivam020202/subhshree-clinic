@@ -79,16 +79,16 @@ if (!isset($base_path)) {
                             <a href="#">FACE</a>
                             <ul class="sub-menu">
                                 <li><a href="<?php echo $base_path; ?>aging-skin.php">Aging Skin</a></li>
-                                <li><span class="disabled-link">Cheek Augmentation</span></li>
-                                <li><span class="disabled-link">Facial Sculpting</span></li>
+                                <li><a href="<?php echo $base_path; ?>cheek-augmentation.php">Cheek Augmentation</a></li>
+                                <li><a href="<?php echo $base_path; ?>facial-sculpting.php">Facial Sculpting</a></li>
                                 <li><a href="<?php echo $base_path; ?>dermal-fillers.php">Dermal Fillers</a></li>
-                                <li><span class="disabled-link">Lip Augmentation</span></li>
-                                <li><span class="disabled-link">Juvederm</span></li>
-                                <li><span class="disabled-link">Ultherapy</span></li>
-                                <li><span class="disabled-link">Threads</span></li>
-                                <li><span class="disabled-link">Lumecca</span></li>
-                                <li><span class="disabled-link">Zo Professional Treatment</span></li>
-                                <li><span class="disabled-link">Fire & Ice Facial Treatment</span></li>
+                                <li><a href="<?php echo $base_path; ?>lip-augmentation.php">Lip Augmentation</a></li>
+                                <li><a href="<?php echo $base_path; ?>juvederm.php">Juvederm</a></li>
+                                <li><a href="<?php echo $base_path; ?>ultherapy.php">Ultherapy</a></li>
+                                <li><a href="<?php echo $base_path; ?>threads.php">Threads</a></li>
+                                <li><a href="<?php echo $base_path; ?>lumecca.php">Lumecca</a></li>
+                                <li><a href="<?php echo $base_path; ?>zo-professional-treatment.php">Zo Professional Treatment</a></li>
+                                <li><a href="<?php echo $base_path; ?>fire-ice-facial.php">Fire & Ice Facial Treatment</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
@@ -358,23 +358,23 @@ if (!isset($base_path)) {
                                                             <ul class="smt-service-links-list">
                                                                 <li><a href="<?php echo $base_path; ?>aging-skin.php">Aging
                                                                         Skin</a></li>
-                                                                <li><span class="disabled-link">Cheek
-                                                                        Augmentation</span></li>
-                                                                <li><span class="disabled-link">Facial Sculpting</span>
+                                                                <li><a href="<?php echo $base_path; ?>cheek-augmentation.php">Cheek
+                                                                        Augmentation</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>facial-sculpting.php">Facial Sculpting</a>
                                                                 </li>
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>dermal-fillers.php">Dermal
                                                                         Fillers</a></li>
-                                                                <li><span class="disabled-link">Lip Augmentation</span>
+                                                                <li><a href="<?php echo $base_path; ?>lip-augmentation.php">Lip Augmentation</a>
                                                                 </li>
-                                                                <li><span class="disabled-link">Juvederm</span></li>
-                                                                <li><span class="disabled-link">Ultherapy</span></li>
-                                                                <li><span class="disabled-link">Threads</span></li>
-                                                                <li><span class="disabled-link">Lumecca</span></li>
-                                                                <li><span class="disabled-link">Zo Professional
-                                                                        Treatment</span></li>
-                                                                <li><span class="disabled-link">Fire & Ice Facial
-                                                                        Treatment</span></li>
+                                                                <li><a href="<?php echo $base_path; ?>juvederm.php">Juvederm</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>ultherapy.php">Ultherapy</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>threads.php">Threads</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>lumecca.php">Lumecca</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>zo-professional-treatment.php">Zo Professional
+                                                                        Treatment</a></li>
+                                                                <li><a href="<?php echo $base_path; ?>fire-ice-facial.php">Fire & Ice Facial
+                                                                        Treatment</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
