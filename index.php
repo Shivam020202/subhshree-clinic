@@ -547,16 +547,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blog-details.html"><img src="assets/img/home/blog1.jpg" alt="Blog Thumbnail"
+                            <a href="blogs/chemical-peels-dark-spots.php"><img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=500&fit=crop" alt="Chemical Peels for Dark Spots"
                                     class="w-100"></a>
                         </div>
                         <div class="blog-content">
-                            <h3 class="blog-title h5"><a href="blog-details.html">Understanding Acne: Causes,
-                                    Treatments,
-                                    and Prevention Tips</a></h3>
+                            <h3 class="blog-title h5"><a href="blogs/chemical-peels-dark-spots.php">5 Advantages of Using Chemical Peels for Dark Spots</a></h3>
                             <div class="blog-meta">
-                                <a href="blog.html">By Dr. Shubhshree</a>
-                                <a href="blog.html">15 July, 2025</a>
+                                <a href="blogs/chemical-peels-dark-spots.php">By Dr. Shubhshree</a>
+                                <a href="blogs/chemical-peels-dark-spots.php">January 15, 2025</a>
                             </div>
                         </div>
                     </div>
@@ -565,16 +563,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blog-details.html"><img src="assets/img/home/blog2.jpg" alt="Blog Thumbnail"
+                            <a href="blogs/remove-dark-circles.php"><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&h=500&fit=crop" alt="Remove Dark Circles Under Eyes"
                                     class="w-100"></a>
                         </div>
                         <div class="blog-content">
-                            <h3 class="blog-title h5"><a href="blog-details.html">The Benefits of Chemical Peels for
-                                    Radiant
-                                    Skin</a></h3>
+                            <h3 class="blog-title h5"><a href="blogs/remove-dark-circles.php">How to Remove Dark Circles Under Eyes</a></h3>
                             <div class="blog-meta">
-                                <a href="blog.html">By SMT Clinic Team</a>
-                                <a href="blog.html">01 July, 2025</a>
+                                <a href="blogs/remove-dark-circles.php">By Dr. Shubhshree</a>
+                                <a href="blogs/remove-dark-circles.php">January 12, 2025</a>
                             </div>
                         </div>
                     </div>
@@ -583,34 +579,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blog-details.html"><img src="assets/img/home/blog3.jpg" alt="Blog Thumbnail"
+                            <a href="blogs/remove-acne-scars-naturally.php"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=500&fit=crop" alt="Remove Acne Scars Naturally"
                                     class="w-100"></a>
                         </div>
                         <div class="blog-content">
-                            <h3 class="blog-title h5"><a href="blog-details.html">Protecting Your Skin from Sun Damage:
-                                    A
-                                    Summer Guide</a></h3>
+                            <h3 class="blog-title h5"><a href="blogs/remove-acne-scars-naturally.php">How to Remove Acne Scars Naturally</a></h3>
                             <div class="blog-meta">
-                                <a href="blog.html">By Dr. Shubhshree</a>
-                                <a href="blog.html">20 June, 2025</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4">
-                    <div class="vs-blog blog-style1">
-                        <div class="blog-img">
-                            <a href="blog-details.html"><img src="assets/img/home/blog4.jpg" alt="Blog Thumbnail"
-                                    class="w-100"></a>
-                        </div>
-                        <div class="blog-content">
-                            <h3 class="blog-title h5"><a href="blog-details.html">Achieve Glass Skin: Advanced
-                                    Treatments at
-                                    SMT Clinic</a></h3>
-                            <div class="blog-meta">
-                                <a href="blog.html">By SMT Clinic Team</a>
-                                <a href="blog.html">05 June, 2025</a>
+                                <a href="blogs/remove-acne-scars-naturally.php">By Dr. Shubhshree</a>
+                                <a href="blogs/remove-acne-scars-naturally.php">January 10, 2025</a>
                             </div>
                         </div>
                     </div>

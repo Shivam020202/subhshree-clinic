@@ -41,7 +41,7 @@ if (!isset($base_path)) {
                             <a href="#">SKIN</a>
                             <ul class="sub-menu">
                                 <li><a href="<?php echo $base_path; ?>chemical-peels.php">Chemical Peel</a></li>
-                                <li><span class="disabled-link">Collagen Stimulators</span></li>
+                                <li><a href="<?php echo $base_path; ?>collagen-stimulators.php">Collagen Stimulators</a></li>
                                 <li><a href="<?php echo $base_path; ?>cosmelan-peel.php">Cosmelan Peel</a></li>
                                 <li><a href="<?php echo $base_path; ?>dermal-fillers.php">Dermal Fillers</a></li>
                                 <li><a href="<?php echo $base_path; ?>dermaplanning.php">Dermaplaning</a></li>
@@ -53,10 +53,10 @@ if (!isset($base_path)) {
                                 <li><a href="<?php echo $base_path; ?>forma.php">Forma</a></li>
                                 <li><a href="<?php echo $base_path; ?>skinpen.php">Skinpen</a></li>
                                 <li><a href="<?php echo $base_path; ?>rosacea-treatment.php">Rosacea Treatment</a></li>
-                                <li><span class="disabled-link">GLO2FACIAL</span></li>
+                                <li><a href="<?php echo $base_path; ?>glo2facial.php">GLO2FACIAL</a></li>
                                 <li><a href="<?php echo $base_path; ?>hydrafacial.php">Hydrafacial Syndeo</a></li>
-                                <li><span class="disabled-link">Microchannel Infusion Therapy</span></li>
-                                <li><span class="disabled-link">Melasma</span></li>
+                                <li><a href="<?php echo $base_path; ?>microchannel-infusion-therapy.php">Microchannel Infusion Therapy</a></li>
+                                <li><a href="<?php echo $base_path; ?>melasma.php">Melasma</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
@@ -70,7 +70,7 @@ if (!isset($base_path)) {
                                 <li><a href="<?php echo $base_path; ?>moles-removal.php">Mole Removal</a></li>
                                 <li><a href="<?php echo $base_path; ?>pores.php">Pores</a></li>
                                 <li><a href="<?php echo $base_path; ?>stretch-marks.php">Stretch Marks</a></li>
-                                <li><span class="disabled-link">Laser & Radio-frequency Resurfacing</span></li>
+                                <li><a href="<?php echo $base_path; ?>laser-radio-frequency.php">Laser & Radio-frequency</a></li>
                                 <li><a href="<?php echo $base_path; ?>tattoo-removal.php">Tattoo Removal</a></li>
 
                             </ul>
@@ -270,8 +270,8 @@ if (!isset($base_path)) {
                                                                         href="<?php echo $base_path; ?>chemical-peels.php">Chemical
                                                                         Peel</a>
                                                                 </li>
-                                                                <li><span class="disabled-link">Collagen
-                                                                        Stimulators</span></li>
+                                                                <li><a href="<?php echo $base_path; ?>collagen-stimulators.php">Collagen
+                                                                        Stimulators</a></li>
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>cosmelan-peel.php">Cosmelan
                                                                         Peel</a>
@@ -308,13 +308,13 @@ if (!isset($base_path)) {
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>rosacea-treatment.php">Rosacea
                                                                         Treatment</a></li>
-                                                                <li><span class="disabled-link">GLO2FACIAL</span></li>
+                                                                <li><a href="<?php echo $base_path; ?>glo2facial.php">GLO2FACIAL</a></li>
                                                                 <li><a href="<?php echo $base_path; ?>hydrafacial.php">Hydrafacial
                                                                         Syndeo</a></li>
-                                                                <li><span class="disabled-link">Microchannel Infusion
-                                                                        Therapy</span>
+                                                                <li><a href="<?php echo $base_path; ?>microchannel-infusion-therapy.php">Microchannel Infusion
+                                                                        Therapy</a>
                                                                 </li>
-                                                                <li><span class="disabled-link">Melasma</span></li>
+                                                                <li><a href="<?php echo $base_path; ?>melasma.php">Melasma</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -342,8 +342,9 @@ if (!isset($base_path)) {
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>stretch-marks.php">Stretch
                                                                         Marks</a></li>
-                                                                <li><span class="disabled-link">Laser & Radio-frequency
-                                                                        Resurfacing</span>
+                                                                <li><a href="<?php echo $base_path; ?>laser-radio-frequency.php">Laser & Radio-frequency</a>
+                                                                </li>
+                                                                <li><a href="<?php echo $base_path; ?>resurfacing.php">Resurfacing</a>
                                                                 </li>
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>tattoo-removal.php">Tattoo
