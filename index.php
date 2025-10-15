@@ -583,7 +583,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                     class="w-100"></a>
                         </div>
                         <div class="blog-content">
-                            <h3 class="blog-title h5"><a href="blogs/remove-acne-scars-naturally.php">How to Remove Acne Scars Naturally</a></h3>
+                            <h3 class="blog-title h5"><a href="blogs/remove-acne-scars-naturally.php">How to Remove Acne Scars Naturally ?</a></h3>
                             <div class="blog-meta">
                                 <a href="blogs/remove-acne-scars-naturally.php">By Dr. Shubhshree</a>
                                 <a href="blogs/remove-acne-scars-naturally.php">January 10, 2025</a>
