@@ -7,6 +7,58 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 <html class="no-js" lang="zxx">
 <?php include 'header-links.php'; ?>
 
+<style>
+    /* Enhanced Form Styling */
+    .form-style4 select.form-control {
+        width: 100%;
+        padding: 15px 45px 15px 15px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #333;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 15px center;
+    }
+
+    .form-style4 select.form-control:focus {
+        outline: none;
+        border-color: #c9ab81;
+    }
+
+    .form-style4 select.form-control option {
+        color: #333;
+        background: #fff;
+        padding: 10px;
+    }
+
+    .form-style4 input[type="number"] {
+        -moz-appearance: textfield;
+    }
+
+    .form-style4 input[type="number"]::-webkit-inner-spin-button,
+    .form-style4 input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        .form-style4 .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .form-style4 .row>div {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+</style>
+
 <body>
 
     <?php include 'header.php'; ?>
@@ -623,24 +675,192 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                     </div>
                 </div>
                 <div class="col wow fadeInUp" data-wow-delay="0.3s">
-                    <form action="#" class="form-style4">
-                        <span class="sec-subtitle2">any Query</span>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="form-style4" id="contactForm">
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="8896dde3-76b7-4bc0-8a62-68a07cb4a523">
+
+                        <!-- Optional: Subject -->
+                        <input type="hidden" name="subject" value="New Consultation Request - SMT Skin Clinic">
+
+                        <!-- Optional: From Name -->
+                        <input type="hidden" name="from_name" value="SMT Skin Clinic Website">
+
+                        <!-- Honeypot Spam Protection (must be a text input, not checkbox) -->
+                        <input type="text" name="botcheck" class="hidden" style="display: none;">
+
+                        <span class="sec-subtitle2">Book Your Consultation</span>
                         <h2 class="sec-title text-uppercase">get in <span class="text-theme">touch</span></h2>
+
+                        <!-- Section 1: About You -->
                         <div class="form-group">
-                            <input type="text" placeholder="YOUR NAME*">
+                            <input type="text" name="name" id="full_name" placeholder="FULL NAME*" required
+                                minlength="3">
                             <i class="far fa-user-circle"></i>
                         </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="number" name="age" id="age" placeholder="AGE*" required min="16"
+                                        max="80">
+                                    <i class="far fa-calendar"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select name="gender" id="gender" class="form-control">
+                                        <option value="">Gender (Optional)</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Prefer not to say">Prefer not to say</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <i class="far fa-venus-mars"></i>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="form-group">
-                            <input type="email" placeholder="YOUR E-MAIL*">
+                            <input type="text" name="city_locality" id="city_locality"
+                                placeholder="CITY & LOCALITY* (e.g., Lucknow - Gomti Nagar)" required>
+                            <i class="far fa-map-marker-alt"></i>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" name="mobile" id="mobile" placeholder="MOBILE NUMBER* (10 digits)"
+                                required pattern="[6-9]\d{9}" title="Enter a valid 10-digit Indian mobile number">
+                            <i class="far fa-phone"></i>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="EMAIL (Optional)">
                             <i class="fal fa-envelope"></i>
                         </div>
+
+                        <!-- Section 2: Your Skin/Hair Concern -->
                         <div class="form-group">
-                            <textarea placeholder="YOUR MESSAGE"></textarea>
+                            <select name="primary_concern" id="primary_concern" class="form-control" required>
+                                <option value="">What brings you to SMT Skin Clinic?*</option>
+                                <option value="Acne or acne scars">Acne or acne scars</option>
+                                <option value="Anti-aging / fine lines & wrinkles">Anti-aging / fine lines & wrinkles
+                                </option>
+                                <option value="Pigmentation / uneven skin tone">Pigmentation / uneven skin tone</option>
+                                <option value="Hair fall or hair thinning">Hair fall or hair thinning</option>
+                                <option value="Laser hair removal">Laser hair removal</option>
+                                <option value="Body contouring / weight loss">Body contouring / weight loss</option>
+                                <option value="Skin glow / maintenance">Skin glow / maintenance</option>
+                                <option value="Other">Other (Please specify below)</option>
+                            </select>
+                            <i class="far fa-heart-pulse"></i>
                         </div>
-                        <div class="form-group">
-                            <button class="vs-btn" type="submit">Send Message</button>
+
+                        <div class="form-group" id="otherConcernGroup" style="display: none;">
+                            <input type="text" name="concern_other_text" id="concernOtherText"
+                                placeholder="PLEASE SPECIFY YOUR CONCERN*">
+                            <i class="far fa-comment-dots"></i>
                         </div>
+
+                        <div class="form-group mt-4">
+                            <button class="vs-btn" type="submit" id="submitBtn">Book Consultation</button>
+                        </div>
+
+                        <div id="formMessage"
+                            style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none;"></div>
                     </form>
+
+                    <script>
+                        // Show/hide "Other" text field based on dropdown selection
+                        document.getElementById('primary_concern').addEventListener('change', function () {
+                            const otherGroup = document.getElementById('otherConcernGroup');
+                            const otherText = document.getElementById('concernOtherText');
+
+                            if (this.value === 'Other') {
+                                otherGroup.style.display = 'block';
+                                otherText.required = true;
+                            } else {
+                                otherGroup.style.display = 'none';
+                                otherText.required = false;
+                                otherText.value = '';
+                            }
+                        });
+
+                        // Form validation and submission
+                        document.getElementById('contactForm').addEventListener('submit', async function (e) {
+                            e.preventDefault();
+
+                            // Validate concern is selected
+                            const concern = document.getElementById('primary_concern').value;
+                            if (!concern) {
+                                alert('Please select what brings you to SMT Skin Clinic.');
+                                document.getElementById('primary_concern').focus();
+                                return false;
+                            }
+
+                            // If "Other" is selected, validate text field
+                            const otherText = document.getElementById('concernOtherText');
+                            if (concern === 'Other' && !otherText.value.trim()) {
+                                alert('Please specify your concern in the text field.');
+                                otherText.focus();
+                                return false;
+                            }
+
+                            const submitBtn = document.getElementById('submitBtn');
+                            const formMessage = document.getElementById('formMessage');
+                            const form = this;
+
+                            // Disable submit button and show loading
+                            submitBtn.disabled = true;
+                            submitBtn.textContent = 'Sending...';
+
+                            const formData = new FormData(form);
+
+                            try {
+                                const response = await fetch('https://api.web3forms.com/submit', {
+                                    method: 'POST',
+                                    body: formData
+                                });
+
+                                const data = await response.json();
+
+                                if (data.success) {
+                                    // Show success message
+                                    formMessage.style.display = 'block';
+                                    formMessage.style.backgroundColor = '#d4edda';
+                                    formMessage.style.color = '#155724';
+                                    formMessage.style.border = '1px solid #c3e6cb';
+                                    formMessage.style.padding = '15px';
+                                    formMessage.style.borderRadius = '5px';
+                                    formMessage.textContent = '✓ Thank you! Your consultation request has been received. We will contact you shortly.';
+
+                                    // Reset form
+                                    form.reset();
+
+                                    // Hide other concern field
+                                    document.getElementById('otherConcernGroup').style.display = 'none';
+
+                                    // Auto-hide success message after 10 seconds
+                                    setTimeout(() => {
+                                        formMessage.style.display = 'none';
+                                    }, 10000);
+                                } else {
+                                    // Show error from API
+                                    throw new Error(data.message || 'Form submission failed');
+                                }
+                            } catch (error) {
+                                // Show error message
+                                formMessage.style.display = 'block';
+                                formMessage.style.backgroundColor = '#f8d7da';
+                                formMessage.style.color = '#721c24';
+                                formMessage.style.border = '1px solid #f5c6cb';
+                                formMessage.style.padding = '15px';
+                                formMessage.style.borderRadius = '5px';
+                                formMessage.textContent = '✕ Oops! Something went wrong. Please try again or call us at +91-8864877133';
+                            } finally {
+                                // Re-enable submit button
+                                submitBtn.disabled = false;
+                                submitBtn.textContent = 'Book Consultation';
+                            }
+                        });
+                    </script>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ $page_keywords = "contact dermatologist lucknow, book appointment skin clinic lu
 
     <?php include 'header.php'; ?>
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Contact <span class="inner-text">Us</span></h1>
@@ -39,29 +39,110 @@ $page_keywords = "contact dermatologist lucknow, book appointment skin clinic lu
                                 inner beauty with our essential</p>
                         </div>
                     </div>
-                    <form action="mail.php" method="POST" class="ajax-contact form-style6">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="form-style6" id="contactForm">
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="8896dde3-76b7-4bc0-8a62-68a07cb4a523">
+
+                        <!-- Optional: Subject -->
+                        <input type="hidden" name="subject" value="New Contact Message - SMT Skin Clinic">
+
+                        <!-- Optional: From Name -->
+                        <input type="hidden" name="from_name" value="SMT Skin Clinic Website">
+
+                        <!-- Honeypot Spam Protection -->
+                        <input type="text" name="botcheck" class="hidden" style="display: none;">
+
                         <div class="form-group">
-                            <input type="text" name="name" id="name" placeholder="Your Name*">
+                            <input type="text" name="name" id="name" placeholder="Your Name*" required minlength="3">
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" id="email" placeholder="Your Email*">
+                            <input type="email" name="email" id="email" placeholder="Your Email*" required>
                         </div>
                         <div class="form-group">
-                            <select name="subject" id="subject">
-                                <option value="" selected disabled hidden>Subject*</option>
+                            <input type="tel" name="phone" id="phone" placeholder="Your Phone Number"
+                                pattern="[6-9]\d{9}" title="Enter a valid 10-digit Indian mobile number">
+                        </div>
+                        <div class="form-group">
+                            <select name="inquiry_type" id="inquiry_type" required>
+                                <option value="" selected disabled hidden>What brings you to SMT?</option>
                                 <option value="Skin Care">Skin Care</option>
-                                <option value="Beauty Makeup">Beauty Makeup</option>
-                                <option value="Body Massage">Body Massage</option>
-                                <option value="Skin Checkup">Skin Checkup</option>
+                                <option value="Anti-Aging Treatment">Anti-Aging Treatment</option>
+                                <option value="Laser Treatment">Laser Treatment</option>
+                                <option value="Hair Treatment">Hair Treatment</option>
+                                <option value="Body Contouring">Body Contouring</option>
+                                <option value="General Inquiry">General Inquiry</option>
                                 <option value="Others">Others</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <textarea name="message" id="message" placeholder="Message*"></textarea>
+                            <textarea name="message" id="message" placeholder="Message*" required
+                                minlength="10"></textarea>
                         </div>
-                        <button class="vs-btn" type="submit">Send Message</button>
-                        <p class="form-messages"></p>
+                        <button class="vs-btn" type="submit" id="submitBtn">Send Message</button>
+                        <div id="formMessage"
+                            style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none;"></div>
                     </form>
+
+                    <script>
+                        // Form validation and submission
+                        document.getElementById('contactForm').addEventListener('submit', async function (e) {
+                            e.preventDefault();
+
+                            const submitBtn = document.getElementById('submitBtn');
+                            const formMessage = document.getElementById('formMessage');
+                            const form = this;
+
+                            // Disable submit button and show loading
+                            submitBtn.disabled = true;
+                            submitBtn.textContent = 'Sending...';
+
+                            const formData = new FormData(form);
+
+                            try {
+                                const response = await fetch('https://api.web3forms.com/submit', {
+                                    method: 'POST',
+                                    body: formData
+                                });
+
+                                const data = await response.json();
+
+                                if (data.success) {
+                                    // Show success message
+                                    formMessage.style.display = 'block';
+                                    formMessage.style.backgroundColor = '#d4edda';
+                                    formMessage.style.color = '#155724';
+                                    formMessage.style.border = '1px solid #c3e6cb';
+                                    formMessage.style.padding = '15px';
+                                    formMessage.style.borderRadius = '5px';
+                                    formMessage.textContent = '✓ Thank you! Your message has been sent successfully. We will get back to you soon.';
+
+                                    // Reset form
+                                    form.reset();
+
+                                    // Auto-hide success message after 10 seconds
+                                    setTimeout(() => {
+                                        formMessage.style.display = 'none';
+                                    }, 10000);
+                                } else {
+                                    // Show error from API
+                                    throw new Error(data.message || 'Form submission failed');
+                                }
+                            } catch (error) {
+                                // Show error message
+                                formMessage.style.display = 'block';
+                                formMessage.style.backgroundColor = '#f8d7da';
+                                formMessage.style.color = '#721c24';
+                                formMessage.style.border = '1px solid #f5c6cb';
+                                formMessage.style.padding = '15px';
+                                formMessage.style.borderRadius = '5px';
+                                formMessage.textContent = '✕ Oops! Something went wrong. Please try again or call us at +91-8864877133';
+                            } finally {
+                                // Re-enable submit button
+                                submitBtn.disabled = false;
+                                submitBtn.textContent = 'Send Message';
+                            }
+                        });
+                    </script>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="contact-map"><iframe
