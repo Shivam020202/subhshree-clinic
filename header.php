@@ -476,11 +476,11 @@ if (!isset($base_path)) {
                         <div class="header-icons">
                             <a href="<?php echo $base_path; ?>contact.php"
                                 class="vs-btn style2 d-none d-xl-inline-block">Book</a>
-                            <button class="bar-btn sideMenuToggler d-none d-xl-inline-block">
+                            <!-- <button class="bar-btn sideMenuToggler d-none d-xl-inline-block">
                                 <span class="bar"></span>
                                 <span class="bar"></span>
                                 <span class="bar"></span>
-                            </button>
+                            </button> -->
                             <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i
                                     class="fal fa-bars"></i></button>
                         </div>
