@@ -9,9 +9,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
 
-<!-- Mobile Services Mega Menu -->
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -104,7 +104,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Tattoo <span class="inner-text">Removal</span></h1>
@@ -129,8 +129,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
                     <h2 class="text-uppercase">Safe & Effective Laser Tattoo Removal</h2>
-                    <p>Remove unwanted tattoos safely and effectively with our advanced Q-switched laser technology at SMT Skin Clinic. Our state-of-the-art laser systems target tattoo ink particles while preserving surrounding skin tissue, ensuring optimal results with minimal side effects.</p>
-                    <p>Our tattoo removal process is customized based on tattoo size, color, age, and skin type. Multiple sessions are typically required for complete removal, with visible fading appearing after each treatment. The procedure is performed by certified laser specialists who prioritize your safety and comfort. <strong>Experience professional tattoo removal with proven results.</strong></p>
+                    <p>Remove unwanted tattoos safely and effectively with our advanced Q-switched laser technology at
+                        SMT Skin Clinic. Our state-of-the-art laser systems target tattoo ink particles while preserving
+                        surrounding skin tissue, ensuring optimal results with minimal side effects.</p>
+                    <p>Our tattoo removal process is customized based on tattoo size, color, age, and skin type.
+                        Multiple sessions are typically required for complete removal, with visible fading appearing
+                        after each treatment. The procedure is performed by certified laser specialists who prioritize
+                        your safety and comfort. <strong>Experience professional tattoo removal with proven
+                            results.</strong></p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Advanced treatment technology</li>
@@ -166,33 +172,44 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What to Consider Before Removal" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What to Consider Before Tattoo Removal?</h3>
-                        <p>Laser tattoo removal is a sophisticated process that requires careful consideration and realistic
-                            expectations. Understanding key factors before beginning treatment helps ensure optimal results
+                        <p>Laser tattoo removal is a sophisticated process that requires careful consideration and
+                            realistic
+                            expectations. Understanding key factors before beginning treatment helps ensure optimal
+                            results
                             and satisfaction with your removal journey:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-palette text-theme me-2"></i>Tattoo Ink Colors & Composition</h5>
-                                <p>Black and dark blue inks respond best to laser treatment, while lighter colors (yellow,
-                                    green, white) are more challenging to remove. Professional tattoos generally require more
-                                    sessions than amateur tattoos due to deeper ink penetration and higher pigment density.</p>
+                                <p>Black and dark blue inks respond best to laser treatment, while lighter colors
+                                    (yellow,
+                                    green, white) are more challenging to remove. Professional tattoos generally require
+                                    more
+                                    sessions than amateur tattoos due to deeper ink penetration and higher pigment
+                                    density.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-clock text-theme me-2"></i>Number of Sessions Required</h5>
-                                <p>Complete removal typically requires 6-12 sessions spaced 6-8 weeks apart. Factors affecting
-                                    session count include tattoo age, size, ink depth, colors used, and your skin's response to
+                                <p>Complete removal typically requires 6-12 sessions spaced 6-8 weeks apart. Factors
+                                    affecting
+                                    session count include tattoo age, size, ink depth, colors used, and your skin's
+                                    response to
                                     treatment. Older tattoos often respond better than fresh ones.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-user-md text-theme me-2"></i>Skin Type & Location</h5>
-                                <p>Fitzpatrick skin types I-III typically achieve better results with lower risk of pigmentation
-                                    changes. Tattoos on areas with good circulation (chest, arms) clear faster than those on
+                                <p>Fitzpatrick skin types I-III typically achieve better results with lower risk of
+                                    pigmentation
+                                    changes. Tattoos on areas with good circulation (chest, arms) clear faster than
+                                    those on
                                     extremities (hands, feet, ankles) due to enhanced lymphatic clearance.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-band-aid text-theme me-2"></i>Healing & Aftercare Commitment</h5>
-                                <p>Proper aftercare is crucial for optimal results and preventing complications. This includes
-                                    keeping the area clean, avoiding sun exposure, applying prescribed ointments, and following
+                                <p>Proper aftercare is crucial for optimal results and preventing complications. This
+                                    includes
+                                    keeping the area clean, avoiding sun exposure, applying prescribed ointments, and
+                                    following
                                     activity restrictions between sessions to ensure proper healing.</p>
                             </div>
                         </div>
@@ -230,7 +247,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                         </div>
                                         <p class="testimonial-text">
                                             "The treatment at SMT Skin Clinic exceeded my expectations. The results are
-                                            amazing and the staff was professional and caring throughout the entire process."
+                                            amazing and the staff was professional and caring throughout the entire
+                                            process."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Priya Sharma</div>
@@ -364,9 +382,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </section>
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

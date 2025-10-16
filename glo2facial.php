@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">GLO2FACIAL</h1>
@@ -131,8 +131,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 alt="thumbnail"></div>
                     </div>
                     <h2 class="text-uppercase">GLO2FACIAL</h2>
-                    <p>Our GLO2FACIAL treatment combines the power of oxygen infusion with gentle exfoliation and nourishing serums to deliver instant radiance and long-term skin health. This innovative 4-in-1 super facial uses patented technology to exfoliate, infuse, oxygenate, and nourish your skin simultaneously, resulting in an immediate glow and improved skin texture.</p>
-                    <p>The treatment is completely painless and suitable for all skin types, making it perfect for special events or regular maintenance. The unique oxygenation process naturally increases blood circulation and promotes cellular regeneration, while customized serums address your specific skin concerns for optimal results.</p>
+                    <p>Our GLO2FACIAL treatment combines the power of oxygen infusion with gentle exfoliation and
+                        nourishing serums to deliver instant radiance and long-term skin health. This innovative 4-in-1
+                        super facial uses patented technology to exfoliate, infuse, oxygenate, and nourish your skin
+                        simultaneously, resulting in an immediate glow and improved skin texture.</p>
+                    <p>The treatment is completely painless and suitable for all skin types, making it perfect for
+                        special events or regular maintenance. The unique oxygenation process naturally increases blood
+                        circulation and promotes cellular regeneration, while customized serums address your specific
+                        skin concerns for optimal results.</p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Instant radiance and healthy glow with no downtime</li>
@@ -159,8 +165,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is GLO2FACIAL" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is GLO2FACIAL?</h3>
-                        <p>GLO2FACIAL is a revolutionary facial treatment that harnesses the natural power of oxygen to rejuvenate and revitalize your skin. This advanced 4-in-1 technology combines exfoliation, infusion, oxygenation, and nourishment in a single, comfortable treatment session that delivers immediate and visible results.</p>
-                        <p>The treatment uses patented Bohr Effect technology to naturally trigger oxygenation from within your skin cells, while simultaneously delivering targeted serums deep into the skin layers. This unique approach ensures optimal ingredient absorption and cellular renewal without any discomfort or downtime.</p>
+                        <p>GLO2FACIAL is a revolutionary facial treatment that harnesses the natural power of oxygen to
+                            rejuvenate and revitalize your skin. This advanced 4-in-1 technology combines exfoliation,
+                            infusion, oxygenation, and nourishment in a single, comfortable treatment session that
+                            delivers immediate and visible results.</p>
+                        <p>The treatment uses patented Bohr Effect technology to naturally trigger oxygenation from
+                            within your skin cells, while simultaneously delivering targeted serums deep into the skin
+                            layers. This unique approach ensures optimal ingredient absorption and cellular renewal
+                            without any discomfort or downtime.</p>
                         <div class="row mt-30">
                             <div class="col-md-3 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -192,24 +204,31 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "Benefits of GLO2FACIAL" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">Benefits of GLO2FACIAL Treatment</h3>
-                        <p>GLO2FACIAL offers comprehensive skin rejuvenation with multiple benefits that address various skin concerns. This treatment is suitable for all skin types and provides both immediate and cumulative results:</p>
+                        <p>GLO2FACIAL offers comprehensive skin rejuvenation with multiple benefits that address various
+                            skin concerns. This treatment is suitable for all skin types and provides both immediate and
+                            cumulative results:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-sun text-theme me-2"></i>Instant Radiance</h5>
-                                <p>Experience an immediate healthy glow and improved skin luminosity that lasts for days after treatment, perfect for special events or whenever you need to look your best.</p>
+                                <p>Experience an immediate healthy glow and improved skin luminosity that lasts for days
+                                    after treatment, perfect for special events or whenever you need to look your best.
+                                </p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-tint text-theme me-2"></i>Deep Hydration</h5>
-                                <p>The oxygenation process enhances your skin's natural moisture retention while infused serums provide long-lasting hydration for plump, supple skin.</p>
+                                <p>The oxygenation process enhances your skin's natural moisture retention while infused
+                                    serums provide long-lasting hydration for plump, supple skin.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-leaf text-theme me-2"></i>Gentle Exfoliation</h5>
-                                <p>Remove dead skin cells and unclog pores without irritation, revealing smoother, more refined skin texture with improved clarity and brightness.</p>
+                                <p>Remove dead skin cells and unclog pores without irritation, revealing smoother, more
+                                    refined skin texture with improved clarity and brightness.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-heart text-theme me-2"></i>Improved Circulation</h5>
-                                <p>Enhanced blood flow and oxygenation promote cellular regeneration, supporting your skin's natural healing and renewal processes for healthier-looking skin.</p>
+                                <p>Enhanced blood flow and oxygenation promote cellular regeneration, supporting your
+                                    skin's natural healing and renewal processes for healthier-looking skin.</p>
                             </div>
                         </div>
 
@@ -245,7 +264,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "GLO2FACIAL has become my go-to treatment before any important event. The instant glow is incredible, and my skin looks so much brighter and healthier. The treatment is so relaxing and comfortable - I actually look forward to my monthly sessions at SMT Skin Clinic!"
+                                            "GLO2FACIAL has become my go-to treatment before any important event. The
+                                            instant glow is incredible, and my skin looks so much brighter and
+                                            healthier. The treatment is so relaxing and comfortable - I actually look
+                                            forward to my monthly sessions at SMT Skin Clinic!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Kavya Mishra</div>
@@ -262,7 +284,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "As someone with sensitive skin, I was amazed that GLO2FACIAL caused no irritation at all. The oxygen infusion feels so refreshing, and the customized serums have really helped with my dryness and dullness. My skin texture has improved significantly over the past few months."
+                                            "As someone with sensitive skin, I was amazed that GLO2FACIAL caused no
+                                            irritation at all. The oxygen infusion feels so refreshing, and the
+                                            customized serums have really helped with my dryness and dullness. My skin
+                                            texture has improved significantly over the past few months."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Amit Gupta</div>
@@ -279,7 +304,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I love how GLO2FACIAL gives me immediate results without any downtime. My skin feels deeply hydrated and looks radiant for weeks after each session. The team at SMT Skin Clinic customizes the serums perfectly for my combination skin. Highly recommend this treatment!"
+                                            "I love how GLO2FACIAL gives me immediate results without any downtime. My
+                                            skin feels deeply hydrated and looks radiant for weeks after each session.
+                                            The team at SMT Skin Clinic customizes the serums perfectly for my
+                                            combination skin. Highly recommend this treatment!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Priya Srivastava</div>
@@ -355,7 +383,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our GLO2FACIAL treatment begins with a skin assessment to select the most appropriate serums for your specific needs. The 45-60 minute treatment involves four gentle steps performed simultaneously for maximum comfort and effectiveness. There is no downtime required, and you can immediately return to your daily activities with glowing, rejuvenated skin. For optimal results, we recommend monthly treatments as part of your regular skincare maintenance routine.</p>
+                    <p class="pb-1">Our GLO2FACIAL treatment begins with a skin assessment to select the most
+                        appropriate serums for your specific needs. The 45-60 minute treatment involves four gentle
+                        steps performed simultaneously for maximum comfort and effectiveness. There is no downtime
+                        required, and you can immediately return to your daily activities with glowing, rejuvenated
+                        skin. For optimal results, we recommend monthly treatments as part of your regular skincare
+                        maintenance routine.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -383,12 +416,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

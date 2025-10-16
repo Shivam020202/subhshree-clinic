@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Service <span class="inner-text">Details</span></h1>
@@ -159,14 +159,21 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Mole Removal" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Mole Removal?</h3>
-                        <p>Mole removal is a safe, precise dermatological procedure performed to eliminate benign or suspicious
-                            moles for cosmetic or medical reasons. The procedure involves carefully excising or destroying the
-                            mole tissue using various techniques depending on the mole's size, depth, type, and location, while
+                        <p>Mole removal is a safe, precise dermatological procedure performed to eliminate benign or
+                            suspicious
+                            moles for cosmetic or medical reasons. The procedure involves carefully excising or
+                            destroying the
+                            mole tissue using various techniques depending on the mole's size, depth, type, and
+                            location, while
                             minimizing scarring and ensuring complete removal.</p>
-                        <p>Our experienced dermatologists perform thorough examinations to determine the most appropriate removal
-                            method—surgical excision with sutures, shave removal, or laser ablation. Each technique is selected
-                            based on clinical assessment, cosmetic concerns, and whether pathological examination is required.
-                            The procedure is typically quick, performed under local anesthesia, and recovery is straightforward
+                        <p>Our experienced dermatologists perform thorough examinations to determine the most
+                            appropriate removal
+                            method—surgical excision with sutures, shave removal, or laser ablation. Each technique is
+                            selected
+                            based on clinical assessment, cosmetic concerns, and whether pathological examination is
+                            required.
+                            The procedure is typically quick, performed under local anesthesia, and recovery is
+                            straightforward
                             with proper wound care and sun protection.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
@@ -193,33 +200,44 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "When to Remove Moles" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">When to Remove Moles?</h3>
-                        <p>While most moles are harmless, certain situations warrant mole removal for medical or cosmetic reasons.
-                            Understanding when removal is recommended helps ensure early detection of potential skin concerns and
+                        <p>While most moles are harmless, certain situations warrant mole removal for medical or
+                            cosmetic reasons.
+                            Understanding when removal is recommended helps ensure early detection of potential skin
+                            concerns and
                             addresses aesthetic preferences safely:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
-                                <h5><i class="fas fa-exclamation-triangle text-theme me-2"></i>Suspicious Changes (ABCDE Rule)</h5>
-                                <p>Moles showing Asymmetry, irregular Borders, Color variation, Diameter over 6mm, or Evolving
-                                    characteristics require immediate evaluation. These changes may indicate melanoma or other
+                                <h5><i class="fas fa-exclamation-triangle text-theme me-2"></i>Suspicious Changes (ABCDE
+                                    Rule)</h5>
+                                <p>Moles showing Asymmetry, irregular Borders, Color variation, Diameter over 6mm, or
+                                    Evolving
+                                    characteristics require immediate evaluation. These changes may indicate melanoma or
+                                    other
                                     skin cancers and should be biopsied and removed promptly.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-user text-theme me-2"></i>Cosmetic Concerns</h5>
-                                <p>Prominent facial moles, moles in visible locations, or moles affecting self-confidence can be
-                                    safely removed for cosmetic reasons. Modern techniques minimize scarring and deliver excellent
+                                <p>Prominent facial moles, moles in visible locations, or moles affecting
+                                    self-confidence can be
+                                    safely removed for cosmetic reasons. Modern techniques minimize scarring and deliver
+                                    excellent
                                     aesthetic outcomes.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-tshirt text-theme me-2"></i>Irritation & Friction</h5>
-                                <p>Moles in areas subject to constant friction from clothing, jewelry, or shaving can become
-                                    irritated, inflamed, or repeatedly injured. Removal eliminates discomfort and prevents
+                                <p>Moles in areas subject to constant friction from clothing, jewelry, or shaving can
+                                    become
+                                    irritated, inflamed, or repeatedly injured. Removal eliminates discomfort and
+                                    prevents
                                     chronic irritation.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-stethoscope text-theme me-2"></i>Medical Recommendation</h5>
-                                <p>Dermatologists may recommend prophylactic removal of atypical moles, moles with irregular
-                                    features, or those in patients with high melanoma risk factors or family history of skin cancer.</p>
+                                <p>Dermatologists may recommend prophylactic removal of atypical moles, moles with
+                                    irregular
+                                    features, or those in patients with high melanoma risk factors or family history of
+                                    skin cancer.</p>
                             </div>
                         </div>
 
@@ -255,9 +273,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I had a large facial mole that always made me self-conscious. Dr. Sharma removed it
-                                            with such precision—the scar is barely visible and healed beautifully. The procedure
-                                            was quick, painless, and the results exceeded my expectations. I finally feel confident
+                                            "I had a large facial mole that always made me self-conscious. Dr. Sharma
+                                            removed it
+                                            with such precision—the scar is barely visible and healed beautifully. The
+                                            procedure
+                                            was quick, painless, and the results exceeded my expectations. I finally
+                                            feel confident
                                             in my appearance. Thank you, SMT Skin Clinic!"
                                         </p>
                                         <div class="testimonial-author">
@@ -275,9 +296,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "A mole on my neck was constantly getting irritated by my collar and necklaces. The
-                                            removal at SMT Skin Clinic was seamless—the team was professional, the procedure was
-                                            comfortable, and healing was fast. No more irritation, and the cosmetic result is
+                                            "A mole on my neck was constantly getting irritated by my collar and
+                                            necklaces. The
+                                            removal at SMT Skin Clinic was seamless—the team was professional, the
+                                            procedure was
+                                            comfortable, and healing was fast. No more irritation, and the cosmetic
+                                            result is
                                             excellent. Highly recommend their mole removal services!"
                                         </p>
                                         <div class="testimonial-author">
@@ -295,9 +319,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "When my dermatologist noticed changes in one of my moles, I was understandably worried.
-                                            The team at SMT Skin Clinic handled everything professionally—from biopsy to complete
-                                            removal. The pathology came back clear, and the scar healed wonderfully. Their expertise
+                                            "When my dermatologist noticed changes in one of my moles, I was
+                                            understandably worried.
+                                            The team at SMT Skin Clinic handled everything professionally—from biopsy to
+                                            complete
+                                            removal. The pathology came back clear, and the scar healed wonderfully.
+                                            Their expertise
                                             and care gave me complete peace of mind!"
                                         </p>
                                         <div class="testimonial-author">
@@ -374,11 +401,16 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our mole removal process begins with a thorough clinical examination to assess the mole's
-                        characteristics and determine the most appropriate removal technique. The procedure is performed under local
-                        anesthesia with meticulous attention to cosmetic outcomes. Post-procedure care includes keeping the area clean,
-                        applying prescribed ointments, protecting from sun exposure, and avoiding activities that may stress the wound.
-                        Most patients heal completely within 2-4 weeks with minimal to no visible scarring when aftercare instructions
+                    <p class="pb-1">Our mole removal process begins with a thorough clinical examination to assess the
+                        mole's
+                        characteristics and determine the most appropriate removal technique. The procedure is performed
+                        under local
+                        anesthesia with meticulous attention to cosmetic outcomes. Post-procedure care includes keeping
+                        the area clean,
+                        applying prescribed ointments, protecting from sun exposure, and avoiding activities that may
+                        stress the wound.
+                        Most patients heal completely within 2-4 weeks with minimal to no visible scarring when
+                        aftercare instructions
                         are followed diligently.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
@@ -442,12 +474,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

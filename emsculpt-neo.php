@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -102,10 +102,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Emsculpt <span class="inner-text">Neo</span></h1>
@@ -131,13 +131,24 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
                     <h2 class="text-uppercase">Emsculpt Neo - Revolutionary Body Sculpting Technology</h2>
-                    <p>Transform your body with Emsculpt Neo at SMT Skin Clinic, the world's first and only technology that simultaneously eliminates fat and builds muscle through the power of high-intensity focused electromagnetic (HIFEM) energy and radiofrequency. This groundbreaking treatment delivers the equivalent of 20,000 muscle contractions in a single 30-minute session while reducing fat by up to 30%.</p>
-                    <p>Emsculpt Neo combines two revolutionary technologies in one treatment: HIFEM+ energy for muscle building and radiofrequency for fat reduction. This synergistic approach provides comprehensive body sculpting results that enhance muscle definition while reducing unwanted fat deposits. <strong>Achieve your dream physique with this FDA-approved, clinically proven body contouring breakthrough.</strong></p>
+                    <p>Transform your body with Emsculpt Neo at SMT Skin Clinic, the world's first and only technology
+                        that simultaneously eliminates fat and builds muscle through the power of high-intensity focused
+                        electromagnetic (HIFEM) energy and radiofrequency. This groundbreaking treatment delivers the
+                        equivalent of 20,000 muscle contractions in a single 30-minute session while reducing fat by up
+                        to 30%.</p>
+                    <p>Emsculpt Neo combines two revolutionary technologies in one treatment: HIFEM+ energy for muscle
+                        building and radiofrequency for fat reduction. This synergistic approach provides comprehensive
+                        body sculpting results that enhance muscle definition while reducing unwanted fat deposits.
+                        <strong>Achieve your dream physique with this FDA-approved, clinically proven body contouring
+                            breakthrough.</strong></p>
 
                     <!-- What is Emsculpt Neo Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">What is Emsculpt Neo?</h3>
-                        <p>Emsculpt Neo is the latest advancement in body contouring technology, combining high-intensity focused electromagnetic (HIFEM+) energy with radiofrequency to simultaneously build muscle and reduce fat. This revolutionary device is the first FDA-approved treatment to provide both muscle building and fat reduction in a single session.</p>
+                        <p>Emsculpt Neo is the latest advancement in body contouring technology, combining
+                            high-intensity focused electromagnetic (HIFEM+) energy with radiofrequency to simultaneously
+                            build muscle and reduce fat. This revolutionary device is the first FDA-approved treatment
+                            to provide both muscle building and fat reduction in a single session.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
                                 <li>Dual-energy technology combining HIFEM+ and radiofrequency</li>
@@ -153,28 +164,36 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- How Emsculpt Neo Works Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">How Does Emsculpt Neo Work?</h3>
-                        <p>Emsculpt Neo utilizes the synergistic effects of two proven technologies to deliver comprehensive body sculpting results that surpass what's achievable through exercise alone.</p>
+                        <p>Emsculpt Neo utilizes the synergistic effects of two proven technologies to deliver
+                            comprehensive body sculpting results that surpass what's achievable through exercise alone.
+                        </p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>HIFEM+ Technology:</strong> Creates supramaximal muscle contractions impossible to achieve voluntarily</li>
-                                <li><strong>Radiofrequency Heating:</strong> Raises muscle temperature to enhance muscle building effects</li>
-                                <li><strong>Fat Apoptosis:</strong> RF energy triggers fat cell death through thermal damage</li>
-                                <li><strong>Muscle Remodeling:</strong> Intense contractions force deep muscle adaptation and growth</li>
-                                <li><strong>Metabolic Boost:</strong> Increased muscle mass elevates basal metabolic rate</li>
-                                <li><strong>Body Contouring:</strong> Combined effects create dramatic improvements in body shape</li>
+                                <li><strong>HIFEM+ Technology:</strong> Creates supramaximal muscle contractions
+                                    impossible to achieve voluntarily</li>
+                                <li><strong>Radiofrequency Heating:</strong> Raises muscle temperature to enhance muscle
+                                    building effects</li>
+                                <li><strong>Fat Apoptosis:</strong> RF energy triggers fat cell death through thermal
+                                    damage</li>
+                                <li><strong>Muscle Remodeling:</strong> Intense contractions force deep muscle
+                                    adaptation and growth</li>
+                                <li><strong>Metabolic Boost:</strong> Increased muscle mass elevates basal metabolic
+                                    rate</li>
+                                <li><strong>Body Contouring:</strong> Combined effects create dramatic improvements in
+                                    body shape</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Emsculpt Neo Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg"
+                                    alt="Before Emsculpt Neo Treatment" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="After Emsculpt Neo Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg"
+                                    alt="After Emsculpt Neo Treatment" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -182,7 +201,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Treatment Areas and Results Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Treatment Areas and Clinical Results</h3>
-                        <p>Emsculpt Neo effectively targets multiple body areas to provide comprehensive sculpting results with clinically proven outcomes that enhance both muscle definition and body contours.</p>
+                        <p>Emsculpt Neo effectively targets multiple body areas to provide comprehensive sculpting
+                            results with clinically proven outcomes that enhance both muscle definition and body
+                            contours.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
                                 <li><strong>Abdomen:</strong> Builds six-pack definition while reducing belly fat</li>
@@ -190,7 +211,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 <li><strong>Arms:</strong> Defines biceps and triceps while reducing arm fat</li>
                                 <li><strong>Thighs:</strong> Strengthens quadriceps and hamstrings for toned legs</li>
                                 <li><strong>Calves:</strong> Enhances muscle definition and strength</li>
-                                <li><strong>Full Body Programs:</strong> Comprehensive sculpting for overall transformation</li>
+                                <li><strong>Full Body Programs:</strong> Comprehensive sculpting for overall
+                                    transformation</li>
                             </ul>
                         </div>
                     </div>
@@ -201,7 +223,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="testimonial-slider">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"Emsculpt Neo has completely transformed my body! After 4 sessions, I have visible abs for the first time in my life. The muscle definition is incredible and I lost fat I couldn't get rid of with diet and exercise. This technology is absolutely amazing!"</p>
+                                    <p>"Emsculpt Neo has completely transformed my body! After 4 sessions, I have
+                                        visible abs for the first time in my life. The muscle definition is incredible
+                                        and I lost fat I couldn't get rid of with diet and exercise. This technology is
+                                        absolutely amazing!"</p>
                                     <div class="testimonial-author">
                                         <h5>Rohit Sharma</h5>
                                         <span>Age 34, Lucknow</span>
@@ -210,7 +235,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"I was skeptical about non-surgical body sculpting, but Emsculpt Neo proved me completely wrong. My buttocks are lifted and sculpted, and my core strength has improved dramatically. It's like getting a year's worth of gym results in just a few sessions!"</p>
+                                    <p>"I was skeptical about non-surgical body sculpting, but Emsculpt Neo proved me
+                                        completely wrong. My buttocks are lifted and sculpted, and my core strength has
+                                        improved dramatically. It's like getting a year's worth of gym results in just a
+                                        few sessions!"</p>
                                     <div class="testimonial-author">
                                         <h5>Sneha Gupta</h5>
                                         <span>Age 31, Kanpur</span>
@@ -219,7 +247,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"The results from Emsculpt Neo exceeded all my expectations. My arms are more defined, my abdomen is tighter, and my overall body confidence has skyrocketed. The team at SMT made the experience comfortable and professional. Highly recommend!"</p>
+                                    <p>"The results from Emsculpt Neo exceeded all my expectations. My arms are more
+                                        defined, my abdomen is tighter, and my overall body confidence has skyrocketed.
+                                        The team at SMT made the experience comfortable and professional. Highly
+                                        recommend!"</p>
                                     <div class="testimonial-author">
                                         <h5>Kavita Agarwal</h5>
                                         <span>Age 38, Allahabad</span>
@@ -230,7 +261,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
                     <h3 class="h4">Revolutionary Results Beyond Exercise</h3>
-                    <p class="pb-1">Emsculpt Neo delivers results that surpass what's achievable through traditional exercise and diet alone. Clinical studies demonstrate an average of 30% fat reduction and 25% muscle volume increase, with some patients seeing even more dramatic improvements. The treatment provides the equivalent of 20,000 muscle contractions per session, creating supramaximal muscle building that's impossible to achieve voluntarily. Results continue to improve for 2-4 weeks after the final treatment, providing long-lasting body sculpting effects that enhance both appearance and functional strength.</p>
+                    <p class="pb-1">Emsculpt Neo delivers results that surpass what's achievable through traditional
+                        exercise and diet alone. Clinical studies demonstrate an average of 30% fat reduction and 25%
+                        muscle volume increase, with some patients seeing even more dramatic improvements. The treatment
+                        provides the equivalent of 20,000 muscle contractions per session, creating supramaximal muscle
+                        building that's impossible to achieve voluntarily. Results continue to improve for 2-4 weeks
+                        after the final treatment, providing long-lasting body sculpting effects that enhance both
+                        appearance and functional strength.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -266,12 +303,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

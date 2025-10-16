@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -102,10 +102,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Emerald <span class="inner-text">Laser</span></h1>
@@ -131,13 +131,24 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
                     <h2 class="text-uppercase">Emerald Laser - Revolutionary Low-Level Laser Fat Reduction</h2>
-                    <p>Experience the breakthrough in non-invasive fat reduction with Emerald Laser at SMT Skin Clinic. This revolutionary low-level laser technology is the first and only FDA-cleared laser system proven to reduce fat without surgery, injections, or downtime. The innovative approach targets stubborn fat deposits while preserving surrounding tissues for safe, effective body contouring.</p>
-                    <p>Emerald Laser utilizes 10 independent 532nm green lasers to create microscopic pores in fat cells, allowing stored triglycerides to escape naturally through the body's lymphatic system. This process, called photobiomodulation, provides measurable fat reduction without damage to skin, muscle, or other tissues. <strong>Achieve proven fat reduction results with the world's most advanced low-level laser technology.</strong></p>
+                    <p>Experience the breakthrough in non-invasive fat reduction with Emerald Laser at SMT Skin Clinic.
+                        This revolutionary low-level laser technology is the first and only FDA-cleared laser system
+                        proven to reduce fat without surgery, injections, or downtime. The innovative approach targets
+                        stubborn fat deposits while preserving surrounding tissues for safe, effective body contouring.
+                    </p>
+                    <p>Emerald Laser utilizes 10 independent 532nm green lasers to create microscopic pores in fat
+                        cells, allowing stored triglycerides to escape naturally through the body's lymphatic system.
+                        This process, called photobiomodulation, provides measurable fat reduction without damage to
+                        skin, muscle, or other tissues. <strong>Achieve proven fat reduction results with the world's
+                            most advanced low-level laser technology.</strong></p>
 
                     <!-- What is Emerald Laser Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">What is Emerald Laser?</h3>
-                        <p>Emerald Laser is a revolutionary low-level laser therapy (LLLT) device that utilizes 10 independent 532nm green laser diodes to target and reduce fat cells through photobiomodulation. This FDA-cleared technology provides the first non-invasive laser treatment proven to reduce circumference measurements.</p>
+                        <p>Emerald Laser is a revolutionary low-level laser therapy (LLLT) device that utilizes 10
+                            independent 532nm green laser diodes to target and reduce fat cells through
+                            photobiomodulation. This FDA-cleared technology provides the first non-invasive laser
+                            treatment proven to reduce circumference measurements.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
                                 <li>10 independent 532nm green laser diodes for optimal coverage</li>
@@ -153,28 +164,34 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- How Emerald Laser Works Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">How Does Emerald Laser Work?</h3>
-                        <p>Emerald Laser works through photobiomodulation, a process where low-level laser energy stimulates cellular activity in fat cells, creating temporary pores that allow stored fat to be released naturally from the body.</p>
+                        <p>Emerald Laser works through photobiomodulation, a process where low-level laser energy
+                            stimulates cellular activity in fat cells, creating temporary pores that allow stored fat to
+                            be released naturally from the body.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Photobiomodulation:</strong> Laser energy stimulates mitochondrial activity in fat cells</li>
+                                <li><strong>Photobiomodulation:</strong> Laser energy stimulates mitochondrial activity
+                                    in fat cells</li>
                                 <li><strong>Pore Creation:</strong> Temporary micropores form in fat cell membranes</li>
-                                <li><strong>Fat Release:</strong> Stored triglycerides escape through the micropores</li>
-                                <li><strong>Natural Elimination:</strong> Body's lymphatic system processes and eliminates released fat</li>
+                                <li><strong>Fat Release:</strong> Stored triglycerides escape through the micropores
+                                </li>
+                                <li><strong>Natural Elimination:</strong> Body's lymphatic system processes and
+                                    eliminates released fat</li>
                                 <li><strong>Cell Preservation:</strong> Fat cells remain intact but smaller in size</li>
-                                <li><strong>Tissue Safety:</strong> No damage to surrounding skin, muscle, or organs</li>
+                                <li><strong>Tissue Safety:</strong> No damage to surrounding skin, muscle, or organs
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Emerald Laser Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg"
+                                    alt="Before Emerald Laser Treatment" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="After Emerald Laser Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg"
+                                    alt="After Emerald Laser Treatment" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -182,15 +199,23 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Treatment Areas and Benefits Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Treatment Areas and Clinical Benefits</h3>
-                        <p>Emerald Laser effectively targets stubborn fat deposits in various body areas while providing numerous advantages over traditional fat reduction methods, making it ideal for comprehensive body contouring goals.</p>
+                        <p>Emerald Laser effectively targets stubborn fat deposits in various body areas while providing
+                            numerous advantages over traditional fat reduction methods, making it ideal for
+                            comprehensive body contouring goals.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Waist and Abdomen:</strong> Reduces circumference and improves contour definition</li>
-                                <li><strong>Hips and Thighs:</strong> Targets stubborn fat deposits resistant to diet and exercise</li>
-                                <li><strong>Arms and Back:</strong> Addresses problem areas for comprehensive body sculpting</li>
-                                <li><strong>Multiple Areas:</strong> Can treat several areas simultaneously for efficiency</li>
-                                <li><strong>Safe for All Skin Types:</strong> No risk of pigmentation changes or skin damage</li>
-                                <li><strong>Comfortable Treatment:</strong> Relaxing experience with no pain or discomfort</li>
+                                <li><strong>Waist and Abdomen:</strong> Reduces circumference and improves contour
+                                    definition</li>
+                                <li><strong>Hips and Thighs:</strong> Targets stubborn fat deposits resistant to diet
+                                    and exercise</li>
+                                <li><strong>Arms and Back:</strong> Addresses problem areas for comprehensive body
+                                    sculpting</li>
+                                <li><strong>Multiple Areas:</strong> Can treat several areas simultaneously for
+                                    efficiency</li>
+                                <li><strong>Safe for All Skin Types:</strong> No risk of pigmentation changes or skin
+                                    damage</li>
+                                <li><strong>Comfortable Treatment:</strong> Relaxing experience with no pain or
+                                    discomfort</li>
                             </ul>
                         </div>
                     </div>
@@ -201,7 +226,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="testimonial-slider">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"Emerald Laser has been incredible for my stubborn belly fat! After 6 sessions, I lost 3 inches from my waist. The treatment is so relaxing - like a warm spa experience. No pain, no downtime, and real results. I couldn't be happier!"</p>
+                                    <p>"Emerald Laser has been incredible for my stubborn belly fat! After 6 sessions, I
+                                        lost 3 inches from my waist. The treatment is so relaxing - like a warm spa
+                                        experience. No pain, no downtime, and real results. I couldn't be happier!"</p>
                                     <div class="testimonial-author">
                                         <h5>Anjali Sharma</h5>
                                         <span>Age 36, Lucknow</span>
@@ -210,7 +237,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"I was skeptical about non-invasive fat reduction, but Emerald Laser proved me wrong. My measurements decreased consistently throughout the treatment series. It's amazing technology and the team at SMT made the experience wonderful!"</p>
+                                    <p>"I was skeptical about non-invasive fat reduction, but Emerald Laser proved me
+                                        wrong. My measurements decreased consistently throughout the treatment series.
+                                        It's amazing technology and the team at SMT made the experience wonderful!"</p>
                                     <div class="testimonial-author">
                                         <h5>Priyanka Gupta</h5>
                                         <span>Age 42, Kanpur</span>
@@ -219,7 +248,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"After trying everything for my problem areas, Emerald Laser finally gave me the results I wanted. The fat reduction is real and measurable. Best part - no surgery, no recovery time, and I continued my normal routine throughout treatment!"</p>
+                                    <p>"After trying everything for my problem areas, Emerald Laser finally gave me the
+                                        results I wanted. The fat reduction is real and measurable. Best part - no
+                                        surgery, no recovery time, and I continued my normal routine throughout
+                                        treatment!"</p>
                                     <div class="testimonial-author">
                                         <h5>Ritu Agarwal</h5>
                                         <span>Age 34, Allahabad</span>
@@ -230,7 +262,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
                     <h3 class="h4">Proven and Measurable Results</h3>
-                    <p class="pb-1">Emerald Laser provides clinically proven, measurable fat reduction results backed by extensive research and FDA clearance. Patients typically see circumference reduction of 2-4 inches across treated areas over a series of treatments. The revolutionary technology offers the convenience of no downtime with the effectiveness of proven fat reduction, making it an ideal solution for those seeking safe, comfortable, and effective body contouring without surgical intervention.</p>
+                    <p class="pb-1">Emerald Laser provides clinically proven, measurable fat reduction results backed by
+                        extensive research and FDA clearance. Patients typically see circumference reduction of 2-4
+                        inches across treated areas over a series of treatments. The revolutionary technology offers the
+                        convenience of no downtime with the effectiveness of proven fat reduction, making it an ideal
+                        solution for those seeking safe, comfortable, and effective body contouring without surgical
+                        intervention.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -266,12 +303,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

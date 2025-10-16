@@ -9,9 +9,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
 
-<!-- Mobile Services Mega Menu -->
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -104,7 +104,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-    <div class="breadcumb-wrapper " data-bg-src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&h=600&fit=crop">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <!-- Updated breadcrumb title for Forma service -->
@@ -125,14 +125,24 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&h=600&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&h=600&fit=crop"
                                 alt="Forma Skin Tightening Treatment">
                         </div>
                     </div>
                     <!-- Updated content for Forma service -->
                     <h2 class="text-uppercase">Forma Skin Tightening Treatment</h2>
-                    <p>Experience the revolutionary non-invasive radiofrequency technology that lifts, tightens, and rejuvenates your skin without surgery or downtime. Forma utilizes advanced bipolar radiofrequency energy to deeply heat the dermal tissue, stimulating collagen remodeling and improving skin elasticity. This cutting-edge treatment is ideal for addressing skin laxity on the face, neck, and body, delivering natural-looking results that progressively improve over time.</p>
-                    <p>Unlike traditional surgical procedures, Forma provides a comfortable, relaxing experience often described as a warm stone massage. The treatment works at the cellular level to <strong>rebuild collagen fibers and restore skin's natural firmness</strong>, making it an excellent choice for those seeking visible tightening and contouring without needles, incisions, or recovery time.</p>
+                    <p>Experience the revolutionary non-invasive radiofrequency technology that lifts, tightens, and
+                        rejuvenates your skin without surgery or downtime. Forma utilizes advanced bipolar
+                        radiofrequency energy to deeply heat the dermal tissue, stimulating collagen remodeling and
+                        improving skin elasticity. This cutting-edge treatment is ideal for addressing skin laxity on
+                        the face, neck, and body, delivering natural-looking results that progressively improve over
+                        time.</p>
+                    <p>Unlike traditional surgical procedures, Forma provides a comfortable, relaxing experience often
+                        described as a warm stone massage. The treatment works at the cellular level to <strong>rebuild
+                            collagen fibers and restore skin's natural firmness</strong>, making it an excellent choice
+                        for those seeking visible tightening and contouring without needles, incisions, or recovery
+                        time.</p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Non-invasive radiofrequency technology with no downtime</li>
@@ -144,13 +154,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=900&h=600&fit=crop" alt="Before Forma Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img
+                                    src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=900&h=600&fit=crop"
+                                    alt="Before Forma Treatment" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900&h=600&fit=crop" alt="After Forma Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img
+                                    src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900&h=600&fit=crop"
+                                    alt="After Forma Treatment" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -158,8 +170,17 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Forma" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Forma Skin Tightening?</h3>
-                        <p>Forma is an advanced aesthetic treatment that uses bipolar radiofrequency (RF) technology to deliver controlled thermal energy deep into the skin's dermal layers. This precisely calibrated heating process triggers the body's natural healing response, stimulating fibroblasts to produce new collagen and elastin fibers. The treatment features real-time temperature monitoring to ensure optimal thermal levels are maintained throughout the session, maximizing safety and effectiveness.</p>
-                        <p>The radiofrequency energy penetrates beyond the skin's surface to reach the deeper structural layers where aging occurs. As the tissue is gently heated to therapeutic temperatures, existing collagen fibers contract immediately, providing an instant tightening effect. Over the following weeks and months, new collagen continues to form, creating progressive improvements in skin firmness, texture, and overall appearance.</p>
+                        <p>Forma is an advanced aesthetic treatment that uses bipolar radiofrequency (RF) technology to
+                            deliver controlled thermal energy deep into the skin's dermal layers. This precisely
+                            calibrated heating process triggers the body's natural healing response, stimulating
+                            fibroblasts to produce new collagen and elastin fibers. The treatment features real-time
+                            temperature monitoring to ensure optimal thermal levels are maintained throughout the
+                            session, maximizing safety and effectiveness.</p>
+                        <p>The radiofrequency energy penetrates beyond the skin's surface to reach the deeper structural
+                            layers where aging occurs. As the tissue is gently heated to therapeutic temperatures,
+                            existing collagen fibers contract immediately, providing an instant tightening effect. Over
+                            the following weeks and months, new collagen continues to form, creating progressive
+                            improvements in skin firmness, texture, and overall appearance.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -185,24 +206,34 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What causes skin laxity" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What Causes Skin Laxity and Sagging?</h3>
-                        <p>Understanding the factors behind skin laxity helps us target the problem effectively with Forma's collagen-stimulating technology. Multiple interconnected factors contribute to the loss of skin firmness and elasticity that develops over time:</p>
+                        <p>Understanding the factors behind skin laxity helps us target the problem effectively with
+                            Forma's collagen-stimulating technology. Multiple interconnected factors contribute to the
+                            loss of skin firmness and elasticity that develops over time:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-calendar-alt text-theme me-2"></i>Natural Aging Process</h5>
-                                <p>As we age, our body's production of collagen and elastin proteins naturally declines by approximately 1% per year after age 30. This progressive loss of structural support causes skin to become thinner, less resilient, and prone to sagging.</p>
+                                <p>As we age, our body's production of collagen and elastin proteins naturally declines
+                                    by approximately 1% per year after age 30. This progressive loss of structural
+                                    support causes skin to become thinner, less resilient, and prone to sagging.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-weight text-theme me-2"></i>Gravity and Facial Movement</h5>
-                                <p>Constant gravitational pull combined with repetitive facial expressions gradually stretches the skin and underlying tissues, leading to jowls, nasolabial folds, and loss of definition along the jawline.</p>
+                                <p>Constant gravitational pull combined with repetitive facial expressions gradually
+                                    stretches the skin and underlying tissues, leading to jowls, nasolabial folds, and
+                                    loss of definition along the jawline.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-dna text-theme me-2"></i>Collagen Depletion</h5>
-                                <p>Environmental stressors, UV exposure, and free radical damage accelerate the breakdown of existing collagen fibers faster than the body can replace them, resulting in weakened skin structure.</p>
+                                <p>Environmental stressors, UV exposure, and free radical damage accelerate the
+                                    breakdown of existing collagen fibers faster than the body can replace them,
+                                    resulting in weakened skin structure.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-heartbeat text-theme me-2"></i>Lifestyle Factors</h5>
-                                <p>Smoking, poor nutrition, inadequate hydration, and lack of sleep all compromise skin health and accelerate the aging process, reducing skin's ability to maintain firmness and elasticity.</p>
+                                <p>Smoking, poor nutrition, inadequate hydration, and lack of sleep all compromise skin
+                                    health and accelerate the aging process, reducing skin's ability to maintain
+                                    firmness and elasticity.</p>
                             </div>
                         </div>
 
@@ -238,7 +269,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I was skeptical about non-surgical treatments, but Forma has truly amazed me. After just three sessions, my jawline looks so much more defined and my neck skin is noticeably tighter. The treatment was completely painless and felt like a relaxing facial massage. I can already see the lifting effect!"
+                                            "I was skeptical about non-surgical treatments, but Forma has truly amazed
+                                            me. After just three sessions, my jawline looks so much more defined and my
+                                            neck skin is noticeably tighter. The treatment was completely painless and
+                                            felt like a relaxing facial massage. I can already see the lifting effect!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Anjali Verma</div>
@@ -255,7 +289,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The best part about Forma is that there's absolutely no downtime. I scheduled my sessions during my lunch break and went straight back to work. Over the past two months, my skin has become firmer, and people keep asking if I've lost weight because my face looks more sculpted. Highly recommend!"
+                                            "The best part about Forma is that there's absolutely no downtime. I
+                                            scheduled my sessions during my lunch break and went straight back to work.
+                                            Over the past two months, my skin has become firmer, and people keep asking
+                                            if I've lost weight because my face looks more sculpted. Highly recommend!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Vikram Singh</div>
@@ -272,7 +309,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "After my weight loss journey, I had loose skin around my abdomen and arms that really bothered me. Forma has tightened those areas beautifully without any surgery. The results keep improving month by month. The team at SMT Skin Clinic made the entire experience comfortable and professional."
+                                            "After my weight loss journey, I had loose skin around my abdomen and arms
+                                            that really bothered me. Forma has tightened those areas beautifully without
+                                            any surgery. The results keep improving month by month. The team at SMT Skin
+                                            Clinic made the entire experience comfortable and professional."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Kavita Mehrotra</div>
@@ -348,7 +388,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">A typical Forma treatment session lasts 30-45 minutes and requires no preparation or downtime. During the procedure, a handpiece is gently moved across the treatment area while delivering controlled radiofrequency energy. You'll feel a warm, soothing sensation as the temperature gradually increases. Most patients find the experience relaxing and comfortable. For optimal results, we recommend a series of 6-8 treatments scheduled weekly, followed by maintenance sessions every 3-4 months. You can resume all normal activities immediately after treatment, and many patients notice visible tightening within days, with continued improvement over 3-6 months as new collagen develops.</p>
+                    <p class="pb-1">A typical Forma treatment session lasts 30-45 minutes and requires no preparation or
+                        downtime. During the procedure, a handpiece is gently moved across the treatment area while
+                        delivering controlled radiofrequency energy. You'll feel a warm, soothing sensation as the
+                        temperature gradually increases. Most patients find the experience relaxing and comfortable. For
+                        optimal results, we recommend a series of 6-8 treatments scheduled weekly, followed by
+                        maintenance sessions every 3-4 months. You can resume all normal activities immediately after
+                        treatment, and many patients notice visible tightening within days, with continued improvement
+                        over 3-6 months as new collagen develops.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -371,9 +418,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </section>
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Service <span class="inner-text">Details</span></h1>
@@ -159,14 +159,22 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Laser Hair Reduction" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Laser Hair Reduction?</h3>
-                        <p>Laser hair reduction is an advanced medical procedure that uses concentrated light energy to target
-                            and disable hair follicles, significantly reducing unwanted hair growth over time. The laser emits a
-                            specific wavelength of light that is absorbed by melanin in the hair follicle, generating heat that
-                            damages the follicle's ability to produce new hair without harming surrounding skin tissue.</p>
-                        <p>Our state-of-the-art laser systems offer precision targeting for all skin types and hair colors,
-                            delivering safe, effective, and long-lasting results. Treatment sessions are quick, relatively
-                            comfortable, and require minimal downtime. Multiple sessions are required to target hair in different
-                            growth phases, resulting in progressive reduction and finer, lighter regrowth. Most patients achieve
+                        <p>Laser hair reduction is an advanced medical procedure that uses concentrated light energy to
+                            target
+                            and disable hair follicles, significantly reducing unwanted hair growth over time. The laser
+                            emits a
+                            specific wavelength of light that is absorbed by melanin in the hair follicle, generating
+                            heat that
+                            damages the follicle's ability to produce new hair without harming surrounding skin tissue.
+                        </p>
+                        <p>Our state-of-the-art laser systems offer precision targeting for all skin types and hair
+                            colors,
+                            delivering safe, effective, and long-lasting results. Treatment sessions are quick,
+                            relatively
+                            comfortable, and require minimal downtime. Multiple sessions are required to target hair in
+                            different
+                            growth phases, resulting in progressive reduction and finer, lighter regrowth. Most patients
+                            achieve
                             80-95% permanent hair reduction after completing their treatment series.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
@@ -193,30 +201,38 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What Causes Unwanted Hair" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What Causes Unwanted Hair Growth?</h3>
-                        <p>Excessive or unwanted hair growth can result from various physiological factors. Understanding the
-                            underlying causes helps determine the most effective treatment approach and set realistic expectations:</p>
+                        <p>Excessive or unwanted hair growth can result from various physiological factors.
+                            Understanding the
+                            underlying causes helps determine the most effective treatment approach and set realistic
+                            expectations:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-dna text-theme me-2"></i>Genetic & Ethnic Factors</h5>
-                                <p>Genetics play a primary role in hair growth patterns, density, and distribution. Certain
-                                    ethnic backgrounds naturally have more active hair follicles and denser body hair, which is
+                                <p>Genetics play a primary role in hair growth patterns, density, and distribution.
+                                    Certain
+                                    ethnic backgrounds naturally have more active hair follicles and denser body hair,
+                                    which is
                                     completely normal but may be cosmetically unwanted.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-venus-mars text-theme me-2"></i>Hormonal Imbalances</h5>
-                                <p>Conditions like polycystic ovary syndrome (PCOS), thyroid disorders, or elevated androgen
-                                    levels can cause hirsutism—excessive hair growth in areas typically associated with male
+                                <p>Conditions like polycystic ovary syndrome (PCOS), thyroid disorders, or elevated
+                                    androgen
+                                    levels can cause hirsutism—excessive hair growth in areas typically associated with
+                                    male
                                     patterns, such as the face, chest, and back in women.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-pills text-theme me-2"></i>Medications & Treatments</h5>
-                                <p>Certain medications including steroids, hormonal treatments, immunosuppressants, and some
+                                <p>Certain medications including steroids, hormonal treatments, immunosuppressants, and
+                                    some
                                     biologics can stimulate increased hair growth as a side effect.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-calendar-alt text-theme me-2"></i>Life Stage Changes</h5>
-                                <p>Puberty, pregnancy, and menopause bring hormonal fluctuations that can alter hair growth
+                                <p>Puberty, pregnancy, and menopause bring hormonal fluctuations that can alter hair
+                                    growth
                                     patterns, increasing density or changing distribution of body and facial hair.</p>
                             </div>
                         </div>
@@ -253,10 +269,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "Years of painful waxing and constant shaving were exhausting. The laser hair
-                                            reduction treatment at SMT Skin Clinic has been life-changing. After six sessions,
-                                            I have 90% less hair growth on my legs and underarms. The sessions were quick and
-                                            comfortable, and the results are exactly what I hoped for. Best investment in myself!"
+                                            "Years of painful waxing and constant shaving were exhausting. The laser
+                                            hair
+                                            reduction treatment at SMT Skin Clinic has been life-changing. After six
+                                            sessions,
+                                            I have 90% less hair growth on my legs and underarms. The sessions were
+                                            quick and
+                                            comfortable, and the results are exactly what I hoped for. Best investment
+                                            in myself!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Ritu Sharma</div>
@@ -273,9 +293,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "As someone with PCOS, facial hair growth was causing me significant distress. The
-                                            laser treatments at SMT Skin Clinic have dramatically reduced the hair on my face.
-                                            The team was understanding and professional, and the advanced technology worked
+                                            "As someone with PCOS, facial hair growth was causing me significant
+                                            distress. The
+                                            laser treatments at SMT Skin Clinic have dramatically reduced the hair on my
+                                            face.
+                                            The team was understanding and professional, and the advanced technology
+                                            worked
                                             perfectly for my skin type. I finally feel confident going makeup-free!"
                                         </p>
                                         <div class="testimonial-author">
@@ -293,9 +316,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I was skeptical about laser hair reduction, but the results speak for themselves.
-                                            The back and chest treatments have eliminated the need for monthly waxing sessions.
-                                            The procedure was much more comfortable than I expected, and the permanent reduction
+                                            "I was skeptical about laser hair reduction, but the results speak for
+                                            themselves.
+                                            The back and chest treatments have eliminated the need for monthly waxing
+                                            sessions.
+                                            The procedure was much more comfortable than I expected, and the permanent
+                                            reduction
                                             has saved me time and money. Highly recommend SMT Skin Clinic!"
                                         </p>
                                         <div class="testimonial-author">
@@ -372,11 +398,16 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our laser hair reduction treatment begins with a thorough consultation to assess your hair type,
-                        skin tone, and treatment goals. The area is prepared and the laser parameters are customized for optimal safety
-                        and efficacy. Most sessions last 15-45 minutes depending on the treatment area. Post-treatment care includes
-                        avoiding sun exposure, using SPF 50+, and following specific skincare protocols. Sessions are spaced 4-8 weeks
-                        apart to target hair in different growth cycles. Most patients require 6-8 sessions for optimal results, with
+                    <p class="pb-1">Our laser hair reduction treatment begins with a thorough consultation to assess
+                        your hair type,
+                        skin tone, and treatment goals. The area is prepared and the laser parameters are customized for
+                        optimal safety
+                        and efficacy. Most sessions last 15-45 minutes depending on the treatment area. Post-treatment
+                        care includes
+                        avoiding sun exposure, using SPF 50+, and following specific skincare protocols. Sessions are
+                        spaced 4-8 weeks
+                        apart to target hair in different growth cycles. Most patients require 6-8 sessions for optimal
+                        results, with
                         minimal maintenance needed thereafter.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
@@ -406,12 +437,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

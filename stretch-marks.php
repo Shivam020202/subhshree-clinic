@@ -9,9 +9,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
 
-<!-- Mobile Services Mega Menu -->
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -104,7 +104,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Stretch <span class="inner-text">Marks</span></h1>
@@ -129,8 +129,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
                     <h2 class="text-uppercase">Advanced Stretch Marks Reduction</h2>
-                    <p>Transform the appearance of stretch marks with our advanced laser and RF treatments at SMT Skin Clinic. Our medical-grade technologies stimulate collagen production and promote skin regeneration to significantly reduce the visibility of stretch marks on various body areas.</p>
-                    <p>Whether caused by pregnancy, weight changes, or growth spurts, our comprehensive approach combines multiple treatment modalities to address stretch marks effectively. Our experienced dermatologists create personalized treatment plans that deliver visible improvements in skin texture and tone. <strong>Achieve smoother, more even-toned skin with our proven treatments.</strong></p>
+                    <p>Transform the appearance of stretch marks with our advanced laser and RF treatments at SMT Skin
+                        Clinic. Our medical-grade technologies stimulate collagen production and promote skin
+                        regeneration to significantly reduce the visibility of stretch marks on various body areas.</p>
+                    <p>Whether caused by pregnancy, weight changes, or growth spurts, our comprehensive approach
+                        combines multiple treatment modalities to address stretch marks effectively. Our experienced
+                        dermatologists create personalized treatment plans that deliver visible improvements in skin
+                        texture and tone. <strong>Achieve smoother, more even-toned skin with our proven
+                            treatments.</strong></p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Advanced treatment technology</li>
@@ -155,7 +161,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Stretch Marks Treatment?</h3>
-                        <p>Stretch Marks Treatment treatment at SMT Skin Clinic utilizes advanced medical technology to address
+                        <p>Stretch Marks Treatment treatment at SMT Skin Clinic utilizes advanced medical technology to
+                            address
                             your specific skin concerns. Our experienced dermatologists create personalized treatment
                             plans tailored to your unique needs and skin type.</p>
                         <p>The treatment process is carefully monitored to ensure optimal results with minimal
@@ -173,26 +180,31 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-baby text-theme me-2"></i>Pregnancy & Rapid Growth</h5>
-                                <p>Pregnancy is the most common cause of stretch marks, as the abdomen, breasts, and hips
+                                <p>Pregnancy is the most common cause of stretch marks, as the abdomen, breasts, and
+                                    hips
                                     expand rapidly. Adolescent growth spurts can also cause stretch marks on the thighs,
                                     buttocks, and back as the body grows quickly during puberty.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-weight text-theme me-2"></i>Weight Fluctuations</h5>
-                                <p>Rapid weight gain or loss stretches the skin beyond its natural elasticity. The sudden
+                                <p>Rapid weight gain or loss stretches the skin beyond its natural elasticity. The
+                                    sudden
                                     change in body volume causes the dermis to tear, resulting in stretch marks on areas
                                     where fat is stored, including abdomen, thighs, and arms.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-dumbbell text-theme me-2"></i>Muscle Building & Bodybuilding</h5>
                                 <p>Rapid muscle growth from intense training or steroid use can cause stretch marks on
-                                    shoulders, arms, and chest. The quick increase in muscle mass stretches the skin faster
+                                    shoulders, arms, and chest. The quick increase in muscle mass stretches the skin
+                                    faster
                                     than it can adapt, causing dermal tears.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-dna text-theme me-2"></i>Genetic & Hormonal Factors</h5>
-                                <p>Genetics determine skin elasticity and collagen quality. Some individuals are more prone
-                                    to developing stretch marks. Hormonal changes during puberty, pregnancy, or corticosteroid
+                                <p>Genetics determine skin elasticity and collagen quality. Some individuals are more
+                                    prone
+                                    to developing stretch marks. Hormonal changes during puberty, pregnancy, or
+                                    corticosteroid
                                     use can also affect skin structure and increase susceptibility.</p>
                             </div>
                         </div>
@@ -229,7 +241,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                         </div>
                                         <p class="testimonial-text">
                                             "The treatment at SMT Skin Clinic exceeded my expectations. The results are
-                                            amazing and the staff was professional and caring throughout the entire process."
+                                            amazing and the staff was professional and caring throughout the entire
+                                            process."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Priya Sharma</div>
@@ -363,9 +376,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </section>
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

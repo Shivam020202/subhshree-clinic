@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Melasma Treatment</h1>
@@ -131,8 +131,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 alt="thumbnail"></div>
                     </div>
                     <h2 class="text-uppercase">Melasma Treatment</h2>
-                    <p>Our comprehensive Melasma Treatment program addresses this challenging pigmentation condition through a multi-modal approach combining advanced laser technology, specialized chemical peels, targeted topical treatments, and lifestyle modifications. We understand that melasma requires patience and expertise, which is why we create personalized treatment plans that gradually lighten hyperpigmentation while preventing future recurrence.</p>
-                    <p>Melasma, often called the "mask of pregnancy," typically appears as brown or grey patches on the face, particularly on the cheeks, forehead, nose, and upper lip. Our evidence-based treatments work to break down excess melanin deposits while protecting and strengthening your skin barrier for long-lasting results.</p>
+                    <p>Our comprehensive Melasma Treatment program addresses this challenging pigmentation condition
+                        through a multi-modal approach combining advanced laser technology, specialized chemical peels,
+                        targeted topical treatments, and lifestyle modifications. We understand that melasma requires
+                        patience and expertise, which is why we create personalized treatment plans that gradually
+                        lighten hyperpigmentation while preventing future recurrence.</p>
+                    <p>Melasma, often called the "mask of pregnancy," typically appears as brown or grey patches on the
+                        face, particularly on the cheeks, forehead, nose, and upper lip. Our evidence-based treatments
+                        work to break down excess melanin deposits while protecting and strengthening your skin barrier
+                        for long-lasting results.</p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Gradual lightening of stubborn melasma patches</li>
@@ -159,8 +166,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Melasma" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Melasma?</h3>
-                        <p>Melasma is a common skin condition characterized by brown or grey patches that appear on the face, typically in a symmetrical pattern. This chronic pigmentation disorder affects millions of people worldwide, with 90% of cases occurring in women, particularly during pregnancy or while taking hormonal contraceptives.</p>
-                        <p>The condition results from overproduction of melanin by melanocytes in response to hormonal fluctuations, sun exposure, and genetic predisposition. Melasma patches most commonly appear on areas of the face that receive the most sun exposure, creating distinctive patterns that can significantly impact self-confidence and quality of life.</p>
+                        <p>Melasma is a common skin condition characterized by brown or grey patches that appear on the
+                            face, typically in a symmetrical pattern. This chronic pigmentation disorder affects
+                            millions of people worldwide, with 90% of cases occurring in women, particularly during
+                            pregnancy or while taking hormonal contraceptives.</p>
+                        <p>The condition results from overproduction of melanin by melanocytes in response to hormonal
+                            fluctuations, sun exposure, and genetic predisposition. Melasma patches most commonly appear
+                            on areas of the face that receive the most sun exposure, creating distinctive patterns that
+                            can significantly impact self-confidence and quality of life.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -186,24 +199,33 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "Causes and Risk Factors" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">Causes and Risk Factors of Melasma</h3>
-                        <p>Understanding the underlying causes of melasma is crucial for effective treatment and prevention. Multiple factors contribute to the development and persistence of this condition:</p>
+                        <p>Understanding the underlying causes of melasma is crucial for effective treatment and
+                            prevention. Multiple factors contribute to the development and persistence of this
+                            condition:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-venus text-theme me-2"></i>Hormonal Changes</h5>
-                                <p>Pregnancy, oral contraceptives, and hormone replacement therapy can trigger melasma by stimulating melanocyte activity. This explains why melasma is often called "chloasma" or the "mask of pregnancy."</p>
+                                <p>Pregnancy, oral contraceptives, and hormone replacement therapy can trigger melasma
+                                    by stimulating melanocyte activity. This explains why melasma is often called
+                                    "chloasma" or the "mask of pregnancy."</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-sun text-theme me-2"></i>UV Radiation</h5>
-                                <p>Sun exposure is the primary trigger and exacerbating factor for melasma. UVA and UVB rays stimulate melanin production, causing existing patches to darken and new ones to form.</p>
+                                <p>Sun exposure is the primary trigger and exacerbating factor for melasma. UVA and UVB
+                                    rays stimulate melanin production, causing existing patches to darken and new ones
+                                    to form.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-dna text-theme me-2"></i>Genetic Predisposition</h5>
-                                <p>Family history significantly increases melasma risk. Genetic factors influence skin sensitivity to hormonal changes and UV exposure, making some individuals more susceptible.</p>
+                                <p>Family history significantly increases melasma risk. Genetic factors influence skin
+                                    sensitivity to hormonal changes and UV exposure, making some individuals more
+                                    susceptible.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-palette text-theme me-2"></i>Skin Type</h5>
-                                <p>Individuals with medium to dark skin tones (Fitzpatrick skin types III-V) are at higher risk due to greater melanocyte activity and melanin production capacity.</p>
+                                <p>Individuals with medium to dark skin tones (Fitzpatrick skin types III-V) are at
+                                    higher risk due to greater melanocyte activity and melanin production capacity.</p>
                             </div>
                         </div>
 
@@ -239,7 +261,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I struggled with melasma for years after my pregnancy. The dark patches on my cheeks made me so self-conscious. Dr. Sharma's comprehensive treatment plan with laser therapy and specialized peels has gradually lightened my melasma significantly. I finally feel confident going out without makeup!"
+                                            "I struggled with melasma for years after my pregnancy. The dark patches on
+                                            my cheeks made me so self-conscious. Dr. Sharma's comprehensive treatment
+                                            plan with laser therapy and specialized peels has gradually lightened my
+                                            melasma significantly. I finally feel confident going out without makeup!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Shruti Agarwal</div>
@@ -256,7 +281,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The melasma treatment at SMT Skin Clinic has been life-changing. The combination approach really works - my forehead and upper lip patches have faded dramatically. The team educated me about prevention, and I haven't had any new patches appear. Excellent care and results!"
+                                            "The melasma treatment at SMT Skin Clinic has been life-changing. The
+                                            combination approach really works - my forehead and upper lip patches have
+                                            faded dramatically. The team educated me about prevention, and I haven't had
+                                            any new patches appear. Excellent care and results!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Deepak Chandra</div>
@@ -273,7 +301,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "After trying numerous treatments elsewhere, I found hope at SMT Skin Clinic. The personalized approach to my stubborn melasma, including both in-clinic treatments and home care, has given me the best results I've ever seen. Patient, professional, and truly effective!"
+                                            "After trying numerous treatments elsewhere, I found hope at SMT Skin
+                                            Clinic. The personalized approach to my stubborn melasma, including both
+                                            in-clinic treatments and home care, has given me the best results I've ever
+                                            seen. Patient, professional, and truly effective!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Manjari Tiwari</div>
@@ -349,7 +380,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our melasma treatment begins with comprehensive skin analysis using specialized imaging to assess the depth and extent of pigmentation. Treatment typically involves a combination of professional procedures (laser therapy, chemical peels) and medical-grade topical treatments (hydroquinone, tretinoin, kojic acid). Strict sun protection is essential throughout treatment and beyond. Most patients see gradual improvement over 3-6 months, with maintenance treatments needed to prevent recurrence. We provide detailed aftercare instructions and ongoing support to ensure long-term success.</p>
+                    <p class="pb-1">Our melasma treatment begins with comprehensive skin analysis using specialized
+                        imaging to assess the depth and extent of pigmentation. Treatment typically involves a
+                        combination of professional procedures (laser therapy, chemical peels) and medical-grade topical
+                        treatments (hydroquinone, tretinoin, kojic acid). Strict sun protection is essential throughout
+                        treatment and beyond. Most patients see gradual improvement over 3-6 months, with maintenance
+                        treatments needed to prevent recurrence. We provide detailed aftercare instructions and ongoing
+                        support to ensure long-term success.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -377,12 +414,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

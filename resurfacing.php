@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -104,10 +104,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Resurfacing Treatment</h1>
@@ -132,8 +132,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 alt="thumbnail"></div>
                     </div>
                     <h2 class="text-uppercase">Resurfacing Treatment</h2>
-                    <p>Our advanced Resurfacing treatments utilize state-of-the-art laser and chemical technologies to remove damaged skin layers and reveal fresh, healthy skin underneath. This comprehensive approach addresses wrinkles, acne scars, sun damage, age spots, and uneven skin texture through controlled removal of the epidermis and upper dermis, promoting rapid cellular regeneration and collagen remodeling.</p>
-                    <p>Whether using fractional laser resurfacing, CO2 laser, chemical peels, or combination approaches, our resurfacing treatments are customized to your specific skin concerns and tolerance level. The result is dramatically improved skin quality, texture, and appearance with long-lasting anti-aging benefits.</p>
+                    <p>Our advanced Resurfacing treatments utilize state-of-the-art laser and chemical technologies to
+                        remove damaged skin layers and reveal fresh, healthy skin underneath. This comprehensive
+                        approach addresses wrinkles, acne scars, sun damage, age spots, and uneven skin texture through
+                        controlled removal of the epidermis and upper dermis, promoting rapid cellular regeneration and
+                        collagen remodeling.</p>
+                    <p>Whether using fractional laser resurfacing, CO2 laser, chemical peels, or combination approaches,
+                        our resurfacing treatments are customized to your specific skin concerns and tolerance level.
+                        The result is dramatically improved skin quality, texture, and appearance with long-lasting
+                        anti-aging benefits.</p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Dramatic improvement in skin texture and tone</li>
@@ -160,8 +167,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Resurfacing Treatment" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Resurfacing Treatment?</h3>
-                        <p>Resurfacing treatment is a transformative dermatological procedure designed to remove damaged skin layers and stimulate the formation of new, healthy skin cells. This process addresses multiple aging and damage-related skin concerns by promoting controlled wound healing and collagen regeneration for dramatic skin improvement.</p>
-                        <p>Modern resurfacing techniques use precise energy delivery systems including fractional lasers, ablative CO2 lasers, and advanced chemical peeling agents to create controlled injury patterns that trigger optimal healing responses while minimizing recovery time and complications.</p>
+                        <p>Resurfacing treatment is a transformative dermatological procedure designed to remove damaged
+                            skin layers and stimulate the formation of new, healthy skin cells. This process addresses
+                            multiple aging and damage-related skin concerns by promoting controlled wound healing and
+                            collagen regeneration for dramatic skin improvement.</p>
+                        <p>Modern resurfacing techniques use precise energy delivery systems including fractional
+                            lasers, ablative CO2 lasers, and advanced chemical peeling agents to create controlled
+                            injury patterns that trigger optimal healing responses while minimizing recovery time and
+                            complications.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -187,24 +200,34 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "How Does Resurfacing Work" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">How Does Resurfacing Treatment Work?</h3>
-                        <p>Resurfacing treatments work through a sophisticated process of controlled tissue removal and regeneration that stimulates your skin's natural healing capabilities for remarkable rejuvenation:</p>
+                        <p>Resurfacing treatments work through a sophisticated process of controlled tissue removal and
+                            regeneration that stimulates your skin's natural healing capabilities for remarkable
+                            rejuvenation:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-layer-group text-theme me-2"></i>Controlled Tissue Removal</h5>
-                                <p>Precise energy or chemical application removes damaged epidermis and upper dermis layers, eliminating surface imperfections, wrinkles, and pigmentation while creating an optimal environment for healing.</p>
+                                <p>Precise energy or chemical application removes damaged epidermis and upper dermis
+                                    layers, eliminating surface imperfections, wrinkles, and pigmentation while creating
+                                    an optimal environment for healing.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-heartbeat text-theme me-2"></i>Healing Response Activation</h5>
-                                <p>The controlled injury triggers your body's natural wound healing cascade, activating growth factors, inflammatory mediators, and cellular repair mechanisms for comprehensive skin renewal.</p>
+                                <p>The controlled injury triggers your body's natural wound healing cascade, activating
+                                    growth factors, inflammatory mediators, and cellular repair mechanisms for
+                                    comprehensive skin renewal.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-chart-line text-theme me-2"></i>Collagen Remodeling</h5>
-                                <p>Heat and injury signals stimulate fibroblasts to produce new collagen, elastin, and glycosaminoglycans, rebuilding the skin's structural foundation for improved firmness and elasticity.</p>
+                                <p>Heat and injury signals stimulate fibroblasts to produce new collagen, elastin, and
+                                    glycosaminoglycans, rebuilding the skin's structural foundation for improved
+                                    firmness and elasticity.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-sparkles text-theme me-2"></i>Skin Renewal</h5>
-                                <p>New epithelial tissue forms with improved architecture, cellular organization, and pigment distribution, resulting in smoother texture, more even tone, and reduced signs of aging.</p>
+                                <p>New epithelial tissue forms with improved architecture, cellular organization, and
+                                    pigment distribution, resulting in smoother texture, more even tone, and reduced
+                                    signs of aging.</p>
                             </div>
                         </div>
 
@@ -241,7 +264,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The resurfacing treatment completely transformed my skin. Years of sun damage and acne scars are now barely visible. Yes, there was downtime, but the dramatic results were absolutely worth it. My skin looks 10 years younger! Dr. Sharma's expertise made all the difference."
+                                            "The resurfacing treatment completely transformed my skin. Years of sun
+                                            damage and acne scars are now barely visible. Yes, there was downtime, but
+                                            the dramatic results were absolutely worth it. My skin looks 10 years
+                                            younger! Dr. Sharma's expertise made all the difference."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Sanjay Kumar</div>
@@ -258,7 +284,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "After struggling with deep acne scars for decades, the fractional resurfacing treatment has given me the confidence I never thought I'd have. The improvement in my skin texture is remarkable. The team at SMT Skin Clinic provided excellent care throughout the healing process."
+                                            "After struggling with deep acne scars for decades, the fractional
+                                            resurfacing treatment has given me the confidence I never thought I'd have.
+                                            The improvement in my skin texture is remarkable. The team at SMT Skin
+                                            Clinic provided excellent care throughout the healing process."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Geeta Mishra</div>
@@ -275,7 +304,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The CO2 resurfacing treatment exceeded my expectations. My wrinkles have significantly diminished, and my skin tone is so much more even. The healing process was well-managed with detailed aftercare instructions. I'm thrilled with my rejuvenated appearance!"
+                                            "The CO2 resurfacing treatment exceeded my expectations. My wrinkles have
+                                            significantly diminished, and my skin tone is so much more even. The healing
+                                            process was well-managed with detailed aftercare instructions. I'm thrilled
+                                            with my rejuvenated appearance!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Rashmi Sinha</div>
@@ -351,7 +383,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our resurfacing treatment begins with comprehensive pre-treatment preparation including skin conditioning and detailed consultation to select the optimal resurfacing modality and intensity. The procedure is performed under appropriate anesthesia for patient comfort. Post-treatment care is crucial and includes specialized wound care, antimicrobial protection, and careful sun avoidance. Healing typically takes 1-3 weeks depending on treatment depth, with initial results visible immediately and continued improvement for 3-6 months as collagen remodeling completes. Most patients achieve dramatic results with a single treatment, though some may benefit from a series.</p>
+                    <p class="pb-1">Our resurfacing treatment begins with comprehensive pre-treatment preparation
+                        including skin conditioning and detailed consultation to select the optimal resurfacing modality
+                        and intensity. The procedure is performed under appropriate anesthesia for patient comfort.
+                        Post-treatment care is crucial and includes specialized wound care, antimicrobial protection,
+                        and careful sun avoidance. Healing typically takes 1-3 weeks depending on treatment depth, with
+                        initial results visible immediately and continued improvement for 3-6 months as collagen
+                        remodeling completes. Most patients achieve dramatic results with a single treatment, though
+                        some may benefit from a series.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -379,12 +418,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

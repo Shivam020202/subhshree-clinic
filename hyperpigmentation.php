@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Hyperpigmentation</h1>
@@ -161,14 +161,20 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Hyperpigmentation Treatment" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Hyperpigmentation Treatment?</h3>
-                        <p>Hyperpigmentation treatment is a specialized approach to reduce and eliminate dark spots, uneven
-                            skin tone, and patches of excess melanin production. These treatments work by inhibiting melanin
+                        <p>Hyperpigmentation treatment is a specialized approach to reduce and eliminate dark spots,
+                            uneven
+                            skin tone, and patches of excess melanin production. These treatments work by inhibiting
+                            melanin
                             synthesis, promoting cellular turnover, and gradually lightening hyperpigmented areas while
                             protecting the skin barrier to prevent rebound pigmentation.</p>
-                        <p>Our evidence-based protocols combine multiple modalities including pigment-safe chemical peels,
-                            targeted laser therapy, medical-grade brightening agents (tranexamic acid, kojic acid, vitamin C),
-                            and barrier-supportive treatments. Each plan is precisely customized for your specific pigmentation
-                            type, Fitzpatrick skin type, and underlying triggers to achieve gradual, sustainable, and even-toned results.</p>
+                        <p>Our evidence-based protocols combine multiple modalities including pigment-safe chemical
+                            peels,
+                            targeted laser therapy, medical-grade brightening agents (tranexamic acid, kojic acid,
+                            vitamin C),
+                            and barrier-supportive treatments. Each plan is precisely customized for your specific
+                            pigmentation
+                            type, Fitzpatrick skin type, and underlying triggers to achieve gradual, sustainable, and
+                            even-toned results.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -194,33 +200,43 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What Causes Hyperpigmentation" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What Causes Hyperpigmentation?</h3>
-                        <p>Hyperpigmentation occurs when melanocytes produce excess melanin in response to various triggers.
-                            Understanding the underlying causes is essential for developing an effective, targeted treatment
+                        <p>Hyperpigmentation occurs when melanocytes produce excess melanin in response to various
+                            triggers.
+                            Understanding the underlying causes is essential for developing an effective, targeted
+                            treatment
                             strategy that prevents recurrence:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-sun text-theme me-2"></i>UV Radiation & Sun Exposure</h5>
-                                <p>Chronic sun exposure is the primary trigger for hyperpigmentation. UV radiation stimulates
-                                    melanocytes to produce excess melanin as a protective response, leading to sunspots, age
+                                <p>Chronic sun exposure is the primary trigger for hyperpigmentation. UV radiation
+                                    stimulates
+                                    melanocytes to produce excess melanin as a protective response, leading to sunspots,
+                                    age
                                     spots, and worsening of existing pigmentation including melasma.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-fire text-theme me-2"></i>Post-Inflammatory Response</h5>
-                                <p>Skin inflammation from acne, injuries, eczema, or other conditions triggers melanocyte
-                                    activation, resulting in post-inflammatory hyperpigmentation (PIH) that appears as dark
+                                <p>Skin inflammation from acne, injuries, eczema, or other conditions triggers
+                                    melanocyte
+                                    activation, resulting in post-inflammatory hyperpigmentation (PIH) that appears as
+                                    dark
                                     spots after the inflammation subsides.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-venus text-theme me-2"></i>Hormonal Fluctuations</h5>
-                                <p>Hormonal changes during pregnancy, oral contraceptive use, or hormonal therapies can trigger
-                                    melasma—a condition characterized by symmetrical brown patches, typically on the face,
+                                <p>Hormonal changes during pregnancy, oral contraceptive use, or hormonal therapies can
+                                    trigger
+                                    melasma—a condition characterized by symmetrical brown patches, typically on the
+                                    face,
                                     that's challenging to treat and prone to recurrence.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-dna text-theme me-2"></i>Genetic & Ethnic Predisposition</h5>
-                                <p>Individuals with higher Fitzpatrick skin types (III-VI) have more active melanocytes and
-                                    are genetically predisposed to developing hyperpigmentation more easily and severely than
+                                <p>Individuals with higher Fitzpatrick skin types (III-VI) have more active melanocytes
+                                    and
+                                    are genetically predisposed to developing hyperpigmentation more easily and severely
+                                    than
                                     lighter skin types.</p>
                             </div>
                         </div>
@@ -257,10 +273,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "Years of stubborn melasma on my cheeks and forehead had me trying everything with
-                                            no success. The customized treatment plan at SMT Skin Clinic, combining gentle peels
-                                            with tranexamic acid and strict sun protection, has finally given me the even skin
-                                            tone I'd given up hoping for. Dr. Sharma's expertise in treating pigmentation is
+                                            "Years of stubborn melasma on my cheeks and forehead had me trying
+                                            everything with
+                                            no success. The customized treatment plan at SMT Skin Clinic, combining
+                                            gentle peels
+                                            with tranexamic acid and strict sun protection, has finally given me the
+                                            even skin
+                                            tone I'd given up hoping for. Dr. Sharma's expertise in treating
+                                            pigmentation is
                                             exceptional!"
                                         </p>
                                         <div class="testimonial-author">
@@ -278,9 +298,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The dark spots from years of acne made me extremely self-conscious. The targeted
-                                            pigmentation treatment at SMT Skin Clinic has transformed my skin completely. The
-                                            spots have faded significantly, and my complexion is brighter and more even than
+                                            "The dark spots from years of acne made me extremely self-conscious. The
+                                            targeted
+                                            pigmentation treatment at SMT Skin Clinic has transformed my skin
+                                            completely. The
+                                            spots have faded significantly, and my complexion is brighter and more even
+                                            than
                                             ever. The results are lasting and natural-looking. Highly recommended!"
                                         </p>
                                         <div class="testimonial-author">
@@ -298,9 +321,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "My pregnancy-induced hyperpigmentation persisted for over two years. The gentle yet
-                                            effective approach at SMT Skin Clinic focused on barrier health while gradually
-                                            lightening the pigmentation. I'm amazed by the improvement—my skin is clearer and
+                                            "My pregnancy-induced hyperpigmentation persisted for over two years. The
+                                            gentle yet
+                                            effective approach at SMT Skin Clinic focused on barrier health while
+                                            gradually
+                                            lightening the pigmentation. I'm amazed by the improvement—my skin is
+                                            clearer and
                                             more radiant. The team's knowledge and care made all the difference!"
                                         </p>
                                         <div class="testimonial-author">
@@ -377,11 +403,16 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our hyperpigmentation treatment begins with a thorough assessment to identify your specific
-                        pigmentation type, triggers, and skin sensitivity. We employ a gradual, barrier-supportive approach to safely
-                        lighten pigmentation while preventing rebound darkening. Strict sun protection with SPF 50+ is mandatory, along
-                        with medical-grade brightening agents and gentle exfoliation protocols. Consistency and patience are key—most
-                        patients see visible improvement within 8-12 weeks, with continued enhancement over several months. Long-term
+                    <p class="pb-1">Our hyperpigmentation treatment begins with a thorough assessment to identify your
+                        specific
+                        pigmentation type, triggers, and skin sensitivity. We employ a gradual, barrier-supportive
+                        approach to safely
+                        lighten pigmentation while preventing rebound darkening. Strict sun protection with SPF 50+ is
+                        mandatory, along
+                        with medical-grade brightening agents and gentle exfoliation protocols. Consistency and patience
+                        are key—most
+                        patients see visible improvement within 8-12 weeks, with continued enhancement over several
+                        months. Long-term
                         maintenance ensures lasting, even-toned results.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
@@ -410,12 +441,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

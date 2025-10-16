@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Microchannel Infusion Therapy</h1>
@@ -131,8 +131,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 alt="thumbnail"></div>
                     </div>
                     <h2 class="text-uppercase">Microchannel Infusion Therapy</h2>
-                    <p>Our Microchannel Infusion Therapy uses advanced micro-channeling technology to create thousands of microscopic channels in the skin, dramatically enhancing the absorption and effectiveness of customized serums and growth factors. This minimally invasive treatment stimulates natural healing processes while delivering potent active ingredients deep into the dermal layers for optimal skin rejuvenation.</p>
-                    <p>The treatment combines the benefits of controlled micro-injury with targeted serum infusion, resulting in improved skin texture, reduced fine lines, enhanced hydration, and a more youthful appearance. With minimal downtime and progressive results, this therapy is ideal for addressing various skin concerns including aging, acne scars, and overall skin quality improvement.</p>
+                    <p>Our Microchannel Infusion Therapy uses advanced micro-channeling technology to create thousands
+                        of microscopic channels in the skin, dramatically enhancing the absorption and effectiveness of
+                        customized serums and growth factors. This minimally invasive treatment stimulates natural
+                        healing processes while delivering potent active ingredients deep into the dermal layers for
+                        optimal skin rejuvenation.</p>
+                    <p>The treatment combines the benefits of controlled micro-injury with targeted serum infusion,
+                        resulting in improved skin texture, reduced fine lines, enhanced hydration, and a more youthful
+                        appearance. With minimal downtime and progressive results, this therapy is ideal for addressing
+                        various skin concerns including aging, acne scars, and overall skin quality improvement.</p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Enhanced absorption of active ingredients and growth factors</li>
@@ -159,8 +166,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Microchannel Infusion Therapy" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Microchannel Infusion Therapy?</h3>
-                        <p>Microchannel Infusion Therapy is an advanced skin rejuvenation treatment that combines precision micro-channeling with targeted serum delivery. Using a specialized device, thousands of microscopic channels are created in the skin at precise depths, triggering the body's natural healing response while creating pathways for enhanced product absorption.</p>
-                        <p>This innovative approach maximizes the effectiveness of therapeutic serums, growth factors, and peptides by delivering them directly to the dermal layers where they can be most beneficial. The treatment is customizable based on individual skin needs and concerns, making it suitable for all skin types and ages.</p>
+                        <p>Microchannel Infusion Therapy is an advanced skin rejuvenation treatment that combines
+                            precision micro-channeling with targeted serum delivery. Using a specialized device,
+                            thousands of microscopic channels are created in the skin at precise depths, triggering the
+                            body's natural healing response while creating pathways for enhanced product absorption.</p>
+                        <p>This innovative approach maximizes the effectiveness of therapeutic serums, growth factors,
+                            and peptides by delivering them directly to the dermal layers where they can be most
+                            beneficial. The treatment is customizable based on individual skin needs and concerns,
+                            making it suitable for all skin types and ages.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -186,24 +199,34 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "How Does Microchannel Infusion Therapy Work" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">How Does Microchannel Infusion Therapy Work?</h3>
-                        <p>Microchannel Infusion Therapy works through a multi-step process that enhances your skin's natural regenerative capabilities while maximizing the benefits of therapeutic ingredients:</p>
+                        <p>Microchannel Infusion Therapy works through a multi-step process that enhances your skin's
+                            natural regenerative capabilities while maximizing the benefits of therapeutic ingredients:
+                        </p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-crosshairs text-theme me-2"></i>Precise Micro-Channeling</h5>
-                                <p>A specialized device creates thousands of microscopic channels at controlled depths, typically 0.25-2.5mm, creating pathways for enhanced product penetration while triggering natural healing responses.</p>
+                                <p>A specialized device creates thousands of microscopic channels at controlled depths,
+                                    typically 0.25-2.5mm, creating pathways for enhanced product penetration while
+                                    triggering natural healing responses.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-tint text-theme me-2"></i>Targeted Serum Application</h5>
-                                <p>Customized serums containing growth factors, peptides, hyaluronic acid, and other active ingredients are applied and infused into the micro-channels for maximum absorption and effectiveness.</p>
+                                <p>Customized serums containing growth factors, peptides, hyaluronic acid, and other
+                                    active ingredients are applied and infused into the micro-channels for maximum
+                                    absorption and effectiveness.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-heartbeat text-theme me-2"></i>Cellular Activation</h5>
-                                <p>The controlled micro-injury stimulates fibroblasts to produce new collagen and elastin while promoting cellular turnover and tissue regeneration for improved skin quality.</p>
+                                <p>The controlled micro-injury stimulates fibroblasts to produce new collagen and
+                                    elastin while promoting cellular turnover and tissue regeneration for improved skin
+                                    quality.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-chart-area text-theme me-2"></i>Progressive Improvement</h5>
-                                <p>Over the following weeks and months, continued collagen production and enhanced skin function result in improved texture, reduced fine lines, and overall skin rejuvenation.</p>
+                                <p>Over the following weeks and months, continued collagen production and enhanced skin
+                                    function result in improved texture, reduced fine lines, and overall skin
+                                    rejuvenation.</p>
                             </div>
                         </div>
 
@@ -240,7 +263,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The Microchannel Infusion Therapy has transformed my skin completely. My acne scars have faded significantly, and my skin texture is smoother than it's been in years. The treatment was comfortable, and the results have exceeded my expectations. Dr. Sharma and her team are truly amazing!"
+                                            "The Microchannel Infusion Therapy has transformed my skin completely. My
+                                            acne scars have faded significantly, and my skin texture is smoother than
+                                            it's been in years. The treatment was comfortable, and the results have
+                                            exceeded my expectations. Dr. Sharma and her team are truly amazing!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Neha Rastogi</div>
@@ -257,7 +283,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I was struggling with large pores and dull skin. After a series of Microchannel Infusion treatments, my pores are visibly smaller and my skin has a healthy glow. The customized serums really made a difference. The minimal downtime was perfect for my busy schedule."
+                                            "I was struggling with large pores and dull skin. After a series of
+                                            Microchannel Infusion treatments, my pores are visibly smaller and my skin
+                                            has a healthy glow. The customized serums really made a difference. The
+                                            minimal downtime was perfect for my busy schedule."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Vikram Singh</div>
@@ -274,7 +303,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The fine lines around my eyes and mouth have improved dramatically with this treatment. I love how the therapy enhances the absorption of the growth factors - you can really feel and see the difference. SMT Skin Clinic provides excellent care and amazing results!"
+                                            "The fine lines around my eyes and mouth have improved dramatically with
+                                            this treatment. I love how the therapy enhances the absorption of the growth
+                                            factors - you can really feel and see the difference. SMT Skin Clinic
+                                            provides excellent care and amazing results!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Rekha Tripathi</div>
@@ -350,7 +382,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our Microchannel Infusion Therapy begins with a thorough skin assessment to customize the treatment depth and serum selection based on your specific concerns and skin type. The 60-90 minute treatment includes skin preparation, micro-channeling, serum infusion, and post-treatment care. Minor redness may occur for 24-48 hours, and we provide detailed aftercare instructions including sun protection and gentle skincare. Most patients require 3-6 treatments spaced 4-6 weeks apart for optimal results, with maintenance treatments recommended every 6-12 months.</p>
+                    <p class="pb-1">Our Microchannel Infusion Therapy begins with a thorough skin assessment to
+                        customize the treatment depth and serum selection based on your specific concerns and skin type.
+                        The 60-90 minute treatment includes skin preparation, micro-channeling, serum infusion, and
+                        post-treatment care. Minor redness may occur for 24-48 hours, and we provide detailed aftercare
+                        instructions including sun protection and gentle skincare. Most patients require 3-6 treatments
+                        spaced 4-6 weeks apart for optimal results, with maintenance treatments recommended every 6-12
+                        months.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -378,12 +416,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

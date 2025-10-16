@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -102,10 +102,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Ballancer <span class="inner-text">Pro</span></h1>
@@ -131,13 +131,24 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
                     <h2 class="text-uppercase">Ballancer Pro - Advanced Pneumatic Compression Therapy</h2>
-                    <p>Experience the therapeutic benefits of Ballancer Pro at SMT Skin Clinic, the most advanced pneumatic compression therapy system designed to enhance lymphatic drainage, reduce swelling, improve circulation, and promote overall wellness. This innovative treatment combines medical-grade technology with therapeutic expertise to deliver comprehensive health and aesthetic benefits.</p>
-                    <p>Ballancer Pro utilizes sequential pneumatic compression to stimulate the body's natural lymphatic system, promoting detoxification, reducing fluid retention, and improving tissue health. The treatment is highly effective for post-surgical recovery, lymphedema management, and overall body wellness enhancement. <strong>Rejuvenate your body's natural healing processes with this FDA-cleared therapeutic technology.</strong></p>
+                    <p>Experience the therapeutic benefits of Ballancer Pro at SMT Skin Clinic, the most advanced
+                        pneumatic compression therapy system designed to enhance lymphatic drainage, reduce swelling,
+                        improve circulation, and promote overall wellness. This innovative treatment combines
+                        medical-grade technology with therapeutic expertise to deliver comprehensive health and
+                        aesthetic benefits.</p>
+                    <p>Ballancer Pro utilizes sequential pneumatic compression to stimulate the body's natural lymphatic
+                        system, promoting detoxification, reducing fluid retention, and improving tissue health. The
+                        treatment is highly effective for post-surgical recovery, lymphedema management, and overall
+                        body wellness enhancement. <strong>Rejuvenate your body's natural healing processes with this
+                            FDA-cleared therapeutic technology.</strong></p>
 
                     <!-- What is Ballancer Pro Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">What is Ballancer Pro?</h3>
-                        <p>Ballancer Pro is a state-of-the-art pneumatic compression therapy device that mimics the body's natural lymphatic massage through sequential inflation and deflation of specialized garments. This advanced system promotes lymphatic drainage, improves circulation, and supports the body's natural detoxification processes.</p>
+                        <p>Ballancer Pro is a state-of-the-art pneumatic compression therapy device that mimics the
+                            body's natural lymphatic massage through sequential inflation and deflation of specialized
+                            garments. This advanced system promotes lymphatic drainage, improves circulation, and
+                            supports the body's natural detoxification processes.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
                                 <li>Medical-grade pneumatic compression technology</li>
@@ -153,13 +164,19 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- How Ballancer Pro Works Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">How Does Ballancer Pro Work?</h3>
-                        <p>Ballancer Pro delivers controlled pneumatic compression through specialized garments that apply gentle, sequential pressure waves to stimulate lymphatic flow and improve circulation throughout the body.</p>
+                        <p>Ballancer Pro delivers controlled pneumatic compression through specialized garments that
+                            apply gentle, sequential pressure waves to stimulate lymphatic flow and improve circulation
+                            throughout the body.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Sequential Compression:</strong> Graduated pressure waves move lymph fluid toward drainage points</li>
-                                <li><strong>Lymphatic Stimulation:</strong> Mimics natural lymphatic massage to enhance drainage</li>
-                                <li><strong>Circulation Enhancement:</strong> Improves blood flow and oxygen delivery to tissues</li>
-                                <li><strong>Fluid Mobilization:</strong> Reduces swelling and fluid retention effectively</li>
+                                <li><strong>Sequential Compression:</strong> Graduated pressure waves move lymph fluid
+                                    toward drainage points</li>
+                                <li><strong>Lymphatic Stimulation:</strong> Mimics natural lymphatic massage to enhance
+                                    drainage</li>
+                                <li><strong>Circulation Enhancement:</strong> Improves blood flow and oxygen delivery to
+                                    tissues</li>
+                                <li><strong>Fluid Mobilization:</strong> Reduces swelling and fluid retention
+                                    effectively</li>
                                 <li><strong>Toxin Elimination:</strong> Supports natural detoxification processes</li>
                                 <li><strong>Tissue Oxygenation:</strong> Enhances cellular metabolism and healing</li>
                             </ul>
@@ -168,13 +185,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Ballancer Pro Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg"
+                                    alt="Before Ballancer Pro Treatment" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="After Ballancer Pro Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg"
+                                    alt="After Ballancer Pro Treatment" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -182,15 +199,21 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Treatment Benefits Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Therapeutic Benefits and Applications</h3>
-                        <p>Ballancer Pro offers comprehensive therapeutic benefits for various health and wellness concerns, making it valuable for both medical recovery and aesthetic enhancement purposes.</p>
+                        <p>Ballancer Pro offers comprehensive therapeutic benefits for various health and wellness
+                            concerns, making it valuable for both medical recovery and aesthetic enhancement purposes.
+                        </p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Lymphedema Management:</strong> Effective treatment for primary and secondary lymphedema</li>
-                                <li><strong>Post-Surgical Recovery:</strong> Reduces swelling and accelerates healing after procedures</li>
+                                <li><strong>Lymphedema Management:</strong> Effective treatment for primary and
+                                    secondary lymphedema</li>
+                                <li><strong>Post-Surgical Recovery:</strong> Reduces swelling and accelerates healing
+                                    after procedures</li>
                                 <li><strong>Chronic Swelling:</strong> Manages fluid retention from various causes</li>
                                 <li><strong>Sports Recovery:</strong> Enhances athletic recovery and performance</li>
-                                <li><strong>Cellulite Improvement:</strong> Supports other treatments for better skin texture</li>
-                                <li><strong>General Wellness:</strong> Promotes overall health through improved circulation</li>
+                                <li><strong>Cellulite Improvement:</strong> Supports other treatments for better skin
+                                    texture</li>
+                                <li><strong>General Wellness:</strong> Promotes overall health through improved
+                                    circulation</li>
                             </ul>
                         </div>
                     </div>
@@ -201,7 +224,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="testimonial-slider">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"Ballancer Pro has been a game-changer for my lymphedema management. The treatments are so relaxing and effective - my swelling has reduced significantly and I feel so much better overall. The team at SMT is incredibly knowledgeable and caring."</p>
+                                    <p>"Ballancer Pro has been a game-changer for my lymphedema management. The
+                                        treatments are so relaxing and effective - my swelling has reduced significantly
+                                        and I feel so much better overall. The team at SMT is incredibly knowledgeable
+                                        and caring."</p>
                                     <div class="testimonial-author">
                                         <h5>Sunita Sharma</h5>
                                         <span>Age 52, Lucknow</span>
@@ -210,7 +236,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"After my surgery, I was dealing with significant swelling. The Ballancer Pro treatments helped me recover so much faster than expected. It's like a therapeutic massage that actually works - highly recommend for anyone dealing with post-surgical swelling!"</p>
+                                    <p>"After my surgery, I was dealing with significant swelling. The Ballancer Pro
+                                        treatments helped me recover so much faster than expected. It's like a
+                                        therapeutic massage that actually works - highly recommend for anyone dealing
+                                        with post-surgical swelling!"</p>
                                     <div class="testimonial-author">
                                         <h5>Rashmi Gupta</h5>
                                         <span>Age 44, Kanpur</span>
@@ -219,7 +248,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"I use Ballancer Pro for general wellness and the benefits are amazing. Better circulation, reduced leg heaviness, and an overall feeling of lightness. It's become an essential part of my health routine. Professional service and incredible technology!"</p>
+                                    <p>"I use Ballancer Pro for general wellness and the benefits are amazing. Better
+                                        circulation, reduced leg heaviness, and an overall feeling of lightness. It's
+                                        become an essential part of my health routine. Professional service and
+                                        incredible technology!"</p>
                                     <div class="testimonial-author">
                                         <h5>Meera Agarwal</h5>
                                         <span>Age 39, Allahabad</span>
@@ -230,7 +262,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
                     <h3 class="h4">Comprehensive Wellness and Recovery</h3>
-                    <p class="pb-1">Ballancer Pro provides comprehensive therapeutic benefits that support both medical recovery and general wellness goals. The treatment enhances the body's natural lymphatic function, promoting faster healing, reduced swelling, and improved overall health. Regular treatments can significantly improve quality of life for those with lymphatic conditions while providing valuable wellness benefits for healthy individuals seeking to optimize their body's natural detoxification and circulation processes.</p>
+                    <p class="pb-1">Ballancer Pro provides comprehensive therapeutic benefits that support both medical
+                        recovery and general wellness goals. The treatment enhances the body's natural lymphatic
+                        function, promoting faster healing, reduced swelling, and improved overall health. Regular
+                        treatments can significantly improve quality of life for those with lymphatic conditions while
+                        providing valuable wellness benefits for healthy individuals seeking to optimize their body's
+                        natural detoxification and circulation processes.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -266,12 +303,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

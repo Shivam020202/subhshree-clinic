@@ -1,7 +1,7 @@
 <?php
-$page_title = "SMT Clinic - Home";
-$page_description = "SMT Clinic - Your Health, Our Priority. Expert Dermatology & Aesthetic Services in Lucknow";
-$page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, doctor, hospital, healthcare, dermatology, skin clinic lucknow";
+$page_title = "SMT Skin Clinic Lucknow | Best Dermatologist & Laser Treatment Center";
+$page_description = "Leading dermatology & aesthetic clinic in Lucknow by Dr. Shubhshree Misra (MD, 12+ yrs exp) at SMT Skin Clinic. Expert laser treatments, dermal fillers, chemical peels, anti-aging & skin rejuvenation. Windsor Place, The Mall Avenue. Book: +91-8864877133";
+$page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lucknow, dermal fillers lucknow, chemical peel lucknow, best skin doctor lucknow, cosmetic dermatology lucknow, aesthetic clinic lucknow, anti-aging treatment lucknow, acne treatment lucknow, skin specialist near me, Dr Shubhshree Misra, dermatologist mall avenue lucknow, microneedling lucknow, botox lucknow, skin rejuvenation lucknow, pigmentation treatment lucknow, laser hair removal lucknow, morpheus8 lucknow, SMT Skin Clinic";
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -547,11 +547,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blogs/chemical-peels-dark-spots.php"><img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=500&fit=crop" alt="Chemical Peels for Dark Spots"
-                                    class="w-100"></a>
+                            <a href="blogs/chemical-peels-dark-spots.php"><img
+                                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=500&fit=crop"
+                                    alt="Chemical Peels for Dark Spots" class="w-100"></a>
                         </div>
                         <div class="blog-content">
-                            <h3 class="blog-title h5"><a href="blogs/chemical-peels-dark-spots.php">5 Advantages of Using Chemical Peels for Dark Spots</a></h3>
+                            <h3 class="blog-title h5"><a href="blogs/chemical-peels-dark-spots.php">5 Advantages of
+                                    Using Chemical Peels for Dark Spots</a></h3>
                             <div class="blog-meta">
                                 <a href="blogs/chemical-peels-dark-spots.php">By Dr. Shubhshree</a>
                                 <a href="blogs/chemical-peels-dark-spots.php">January 15, 2025</a>
@@ -563,11 +565,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blogs/remove-dark-circles.php"><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&h=500&fit=crop" alt="Remove Dark Circles Under Eyes"
-                                    class="w-100"></a>
+                            <a href="blogs/remove-dark-circles.php"><img
+                                    src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&h=500&fit=crop"
+                                    alt="Remove Dark Circles Under Eyes" class="w-100"></a>
                         </div>
                         <div class="blog-content">
-                            <h3 class="blog-title h5"><a href="blogs/remove-dark-circles.php">How to Remove Dark Circles Under Eyes</a></h3>
+                            <h3 class="blog-title h5"><a href="blogs/remove-dark-circles.php">How to Remove Dark Circles
+                                    Under Eyes</a></h3>
                             <div class="blog-meta">
                                 <a href="blogs/remove-dark-circles.php">By Dr. Shubhshree</a>
                                 <a href="blogs/remove-dark-circles.php">January 12, 2025</a>
@@ -579,11 +583,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blogs/remove-acne-scars-naturally.php"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=500&fit=crop" alt="Remove Acne Scars Naturally"
-                                    class="w-100"></a>
+                            <a href="blogs/remove-acne-scars-naturally.php"><img
+                                    src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=500&fit=crop"
+                                    alt="Remove Acne Scars Naturally" class="w-100"></a>
                         </div>
                         <div class="blog-content">
-                            <h3 class="blog-title h5"><a href="blogs/remove-acne-scars-naturally.php">Naturally Acne Scar Removal for Radiant Skin</a></h3>
+                            <h3 class="blog-title h5"><a href="blogs/remove-acne-scars-naturally.php">Naturally Acne
+                                    Scar Removal for Radiant Skin</a></h3>
                             <div class="blog-meta">
                                 <a href="blogs/remove-acne-scars-naturally.php">By Dr. Shubhshree</a>
                                 <a href="blogs/remove-acne-scars-naturally.php">January 10, 2025</a>

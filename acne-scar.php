@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Acne Scar Treatment</h1>
@@ -164,14 +164,19 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Acne Scar Treatment" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Acne Scar Treatment?</h3>
-                        <p>Acne scar treatment is a specialized dermatological procedure designed to reduce the appearance
-                            of scars left behind by acne breakouts. These treatments work by stimulating collagen production,
+                        <p>Acne scar treatment is a specialized dermatological procedure designed to reduce the
+                            appearance
+                            of scars left behind by acne breakouts. These treatments work by stimulating collagen
+                            production,
                             resurfacing damaged skin layers, and promoting cellular regeneration to smooth out textural
                             irregularities and restore an even skin surface.</p>
                         <p>Our comprehensive approach combines multiple advanced modalities including fractional laser
-                            resurfacing, microneedling with radiofrequency, TCA CROSS for deep ice pick scars, and targeted
-                            chemical peels. Each treatment is precisely customized based on your scar type, depth, and skin
-                            characteristics to deliver optimal collagen remodeling and visible improvement over a series of sessions.</p>
+                            resurfacing, microneedling with radiofrequency, TCA CROSS for deep ice pick scars, and
+                            targeted
+                            chemical peels. Each treatment is precisely customized based on your scar type, depth, and
+                            skin
+                            characteristics to deliver optimal collagen remodeling and visible improvement over a series
+                            of sessions.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -198,13 +203,16 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What Causes Acne Scars?</h3>
                         <p>Acne scars form when inflammatory acne lesions damage the skin's deeper layers. Understanding
-                            the root causes helps us develop the most effective treatment strategy for your specific scarring pattern:</p>
+                            the root causes helps us develop the most effective treatment strategy for your specific
+                            scarring pattern:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
-                                <h5><i class="fas fa-exclamation-circle text-theme me-2"></i>Inflammatory Acne Damage</h5>
+                                <h5><i class="fas fa-exclamation-circle text-theme me-2"></i>Inflammatory Acne Damage
+                                </h5>
                                 <p>Severe inflammatory acne, including cystic and nodular acne, damages collagen fibers
-                                    in the dermis. As the skin attempts to repair itself, it may produce too little or too
+                                    in the dermis. As the skin attempts to repair itself, it may produce too little or
+                                    too
                                     much collagen, resulting in atrophic or hypertrophic scars.</p>
                             </div>
                             <div class="col-md-6 mb-30">
@@ -256,10 +264,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "After struggling with acne scars for years, I finally found hope at SMT Skin
+                                            "After struggling with acne scars for years, I finally found hope at SMT
+                                            Skin
                                             Clinic. The combination of fractional laser and microneedling treatments has
-                                            dramatically improved my skin texture. My ice pick scars are barely visible now,
-                                            and I feel so much more confident. Dr. Sharma's expertise made all the difference!"
+                                            dramatically improved my skin texture. My ice pick scars are barely visible
+                                            now,
+                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            difference!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Ananya Verma</div>
@@ -276,9 +287,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I had severe boxcar scarring from teenage acne that affected my self-esteem for
-                                            over a decade. The personalized treatment plan at SMT Skin Clinic, including TCA
-                                            CROSS and laser resurfacing, has transformed my skin. The results exceeded my
+                                            "I had severe boxcar scarring from teenage acne that affected my self-esteem
+                                            for
+                                            over a decade. The personalized treatment plan at SMT Skin Clinic, including
+                                            TCA
+                                            CROSS and laser resurfacing, has transformed my skin. The results exceeded
+                                            my
                                             expectations. Highly recommend their acne scar treatments!"
                                         </p>
                                         <div class="testimonial-author">
@@ -297,8 +311,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                         </div>
                                         <p class="testimonial-text">
                                             "The rolling scars on my cheeks made me avoid cameras and social gatherings.
-                                            After completing my treatment series at SMT Skin Clinic, my skin is smoother than
-                                            it's been in years. The team was professional, the treatments were comfortable,
+                                            After completing my treatment series at SMT Skin Clinic, my skin is smoother
+                                            than
+                                            it's been in years. The team was professional, the treatments were
+                                            comfortable,
                                             and the progressive improvements kept me motivated. Thank you!"
                                         </p>
                                         <div class="testimonial-author">
@@ -375,10 +391,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our acne scar treatment begins with a detailed skin analysis to identify your specific scar
-                        types and determine the most effective combination therapy. The treatment process is carefully monitored,
-                        and we provide comprehensive aftercare instructions including proper wound care, sun protection, and
-                        skincare recommendations. Most patients see progressive improvement over 6-12 weeks as collagen remodeling
+                    <p class="pb-1">Our acne scar treatment begins with a detailed skin analysis to identify your
+                        specific scar
+                        types and determine the most effective combination therapy. The treatment process is carefully
+                        monitored,
+                        and we provide comprehensive aftercare instructions including proper wound care, sun protection,
+                        and
+                        skincare recommendations. Most patients see progressive improvement over 6-12 weeks as collagen
+                        remodeling
                         continues, with optimal results achieved after completing the full treatment series.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
@@ -407,12 +427,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

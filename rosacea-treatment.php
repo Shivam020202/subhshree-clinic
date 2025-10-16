@@ -9,9 +9,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
 
-<!-- Mobile Services Mega Menu -->
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -104,7 +104,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-    <div class="breadcumb-wrapper " data-bg-src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&h=600&fit=crop">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <!-- Updated breadcrumb title for Rosacea service -->
@@ -125,14 +125,24 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=900&h=600&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=900&h=600&fit=crop"
                                 alt="Rosacea Treatment">
                         </div>
                     </div>
                     <!-- Updated content for Rosacea service -->
                     <h2 class="text-uppercase">Rosacea Treatment</h2>
-                    <p>Take control of persistent facial redness, flushing, and visible blood vessels with our comprehensive medical rosacea treatment programs. Rosacea is a chronic inflammatory skin condition that affects millions of people, causing not only physical symptoms but also significant emotional distress. Our multi-modal approach combines advanced IPL (Intense Pulsed Light) therapy, laser treatments, and medical-grade topical therapies to effectively manage symptoms, reduce flare-ups, and restore an even, calm complexion.</p>
-                    <p>Unlike temporary cosmetic solutions, our rosacea treatments address the underlying vascular dysfunction and inflammation that drive this condition. We develop <strong>personalized treatment protocols based on your specific rosacea subtype</strong>, triggers, and severity. Our goal is not just to improve your appearance, but to provide long-term symptom control and prevent disease progression, helping you regain confidence and comfort in your skin.</p>
+                    <p>Take control of persistent facial redness, flushing, and visible blood vessels with our
+                        comprehensive medical rosacea treatment programs. Rosacea is a chronic inflammatory skin
+                        condition that affects millions of people, causing not only physical symptoms but also
+                        significant emotional distress. Our multi-modal approach combines advanced IPL (Intense Pulsed
+                        Light) therapy, laser treatments, and medical-grade topical therapies to effectively manage
+                        symptoms, reduce flare-ups, and restore an even, calm complexion.</p>
+                    <p>Unlike temporary cosmetic solutions, our rosacea treatments address the underlying vascular
+                        dysfunction and inflammation that drive this condition. We develop <strong>personalized
+                            treatment protocols based on your specific rosacea subtype</strong>, triggers, and severity.
+                        Our goal is not just to improve your appearance, but to provide long-term symptom control and
+                        prevent disease progression, helping you regain confidence and comfort in your skin.</p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Significantly reduces persistent facial redness and flushing</li>
@@ -144,13 +154,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=900&h=600&fit=crop" alt="Before Rosacea Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img
+                                    src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=900&h=600&fit=crop"
+                                    alt="Before Rosacea Treatment" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=900&h=600&fit=crop" alt="After Rosacea Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img
+                                    src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=900&h=600&fit=crop"
+                                    alt="After Rosacea Treatment" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -158,8 +170,18 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Rosacea" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Rosacea?</h3>
-                        <p>Rosacea is a chronic inflammatory skin disorder that primarily affects the central face, characterized by persistent redness, visible blood vessels (telangiectasia), inflammatory bumps, and episodes of intense flushing. This condition typically appears in adults over 30 and tends to be more common in individuals with fair skin, though it can affect all skin types. Rosacea is not simply "sensitive skin" or adult acne - it is a medical condition requiring professional diagnosis and treatment.</p>
-                        <p>The condition manifests in different subtypes: erythematotelangiectatic (persistent redness and visible blood vessels), papulopustular (inflammatory bumps resembling acne), phymatous (skin thickening, especially on the nose), and ocular (affecting the eyes). Many patients experience multiple subtypes simultaneously. Without proper treatment, rosacea typically worsens over time, with increasing redness, more visible blood vessels, and potential permanent skin changes.</p>
+                        <p>Rosacea is a chronic inflammatory skin disorder that primarily affects the central face,
+                            characterized by persistent redness, visible blood vessels (telangiectasia), inflammatory
+                            bumps, and episodes of intense flushing. This condition typically appears in adults over 30
+                            and tends to be more common in individuals with fair skin, though it can affect all skin
+                            types. Rosacea is not simply "sensitive skin" or adult acne - it is a medical condition
+                            requiring professional diagnosis and treatment.</p>
+                        <p>The condition manifests in different subtypes: erythematotelangiectatic (persistent redness
+                            and visible blood vessels), papulopustular (inflammatory bumps resembling acne), phymatous
+                            (skin thickening, especially on the nose), and ocular (affecting the eyes). Many patients
+                            experience multiple subtypes simultaneously. Without proper treatment, rosacea typically
+                            worsens over time, with increasing redness, more visible blood vessels, and potential
+                            permanent skin changes.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -185,24 +207,35 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What causes rosacea" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What Causes Rosacea?</h3>
-                        <p>While the exact cause of rosacea remains not fully understood, research has identified multiple contributing factors that lead to the characteristic symptoms. Understanding these triggers and underlying mechanisms is essential for effective long-term management:</p>
+                        <p>While the exact cause of rosacea remains not fully understood, research has identified
+                            multiple contributing factors that lead to the characteristic symptoms. Understanding these
+                            triggers and underlying mechanisms is essential for effective long-term management:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-dna text-theme me-2"></i>Genetic Predisposition</h5>
-                                <p>Rosacea has a strong hereditary component, with nearly 40% of patients having a family history of the condition. Certain genetic variations affect blood vessel regulation, immune responses, and inflammatory pathways, making some individuals more susceptible.</p>
+                                <p>Rosacea has a strong hereditary component, with nearly 40% of patients having a
+                                    family history of the condition. Certain genetic variations affect blood vessel
+                                    regulation, immune responses, and inflammatory pathways, making some individuals
+                                    more susceptible.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-fire text-theme me-2"></i>Environmental Triggers</h5>
-                                <p>Common triggers include sun exposure, extreme temperatures, hot beverages, spicy foods, alcohol, and stress. These factors cause blood vessels to dilate excessively, leading to the characteristic flushing and persistent redness of rosacea.</p>
+                                <p>Common triggers include sun exposure, extreme temperatures, hot beverages, spicy
+                                    foods, alcohol, and stress. These factors cause blood vessels to dilate excessively,
+                                    leading to the characteristic flushing and persistent redness of rosacea.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-bacterium text-theme me-2"></i>Vascular Dysfunction</h5>
-                                <p>Abnormalities in facial blood vessels cause them to dilate too easily and remain enlarged. Over time, these chronically dilated vessels become visible through the skin as persistent redness and spider veins that don't resolve on their own.</p>
+                                <p>Abnormalities in facial blood vessels cause them to dilate too easily and remain
+                                    enlarged. Over time, these chronically dilated vessels become visible through the
+                                    skin as persistent redness and spider veins that don't resolve on their own.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-heartbeat text-theme me-2"></i>Immune System Response</h5>
-                                <p>An overactive immune response and chronic low-grade inflammation contribute to the papules, pustules, and tissue changes seen in rosacea. The skin's natural antimicrobial peptides may also be dysregulated in rosacea patients.</p>
+                                <p>An overactive immune response and chronic low-grade inflammation contribute to the
+                                    papules, pustules, and tissue changes seen in rosacea. The skin's natural
+                                    antimicrobial peptides may also be dysregulated in rosacea patients.</p>
                             </div>
                         </div>
 
@@ -238,7 +271,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I lived with constant facial redness and burning for years, trying countless creams with no improvement. The IPL treatments at SMT Skin Clinic have been life-changing. After just three sessions, my redness has reduced by at least 60%, and I rarely experience those embarrassing flushing episodes anymore. I feel like myself again!"
+                                            "I lived with constant facial redness and burning for years, trying
+                                            countless creams with no improvement. The IPL treatments at SMT Skin Clinic
+                                            have been life-changing. After just three sessions, my redness has reduced
+                                            by at least 60%, and I rarely experience those embarrassing flushing
+                                            episodes anymore. I feel like myself again!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Shalini Mishra</div>
@@ -255,7 +292,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The combination of laser treatment and the customized skincare routine has given me results I never thought possible. My visible blood vessels have disappeared, and my skin tone is so much more even. The team took time to identify my specific triggers and created a comprehensive management plan that actually works."
+                                            "The combination of laser treatment and the customized skincare routine has
+                                            given me results I never thought possible. My visible blood vessels have
+                                            disappeared, and my skin tone is so much more even. The team took time to
+                                            identify my specific triggers and created a comprehensive management plan
+                                            that actually works."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Deepak Yadav</div>
@@ -272,7 +313,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "Rosacea made me so self-conscious that I avoided social situations. The treatment program here has not only cleared my skin dramatically but also taught me how to manage my condition long-term. My flare-ups are rare now, and when they do occur, they're much milder. I'm so grateful for the professional care and support."
+                                            "Rosacea made me so self-conscious that I avoided social situations. The
+                                            treatment program here has not only cleared my skin dramatically but also
+                                            taught me how to manage my condition long-term. My flare-ups are rare now,
+                                            and when they do occur, they're much milder. I'm so grateful for the
+                                            professional care and support."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Nidhi Agarwal</div>
@@ -348,7 +393,16 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Your rosacea treatment begins with a comprehensive skin analysis to determine your specific subtype, severity, and trigger factors. For IPL and laser treatments, we typically recommend a series of 3-5 sessions spaced 4-6 weeks apart. Each treatment session takes 20-30 minutes and targets the dilated blood vessels with precise light energy. You may experience mild warmth during treatment and temporary darkening of treated vessels before they fade away. Post-treatment redness usually subsides within a few hours. We'll also provide medical-grade skincare products formulated for rosacea-prone skin and guidance on avoiding triggers. Maintenance treatments every 6-12 months help sustain results. Combined with proper skincare and trigger management, most patients achieve 60-80% improvement in redness and visible blood vessels, with significant reduction in flare-up frequency and severity.</p>
+                    <p class="pb-1">Your rosacea treatment begins with a comprehensive skin analysis to determine your
+                        specific subtype, severity, and trigger factors. For IPL and laser treatments, we typically
+                        recommend a series of 3-5 sessions spaced 4-6 weeks apart. Each treatment session takes 20-30
+                        minutes and targets the dilated blood vessels with precise light energy. You may experience mild
+                        warmth during treatment and temporary darkening of treated vessels before they fade away.
+                        Post-treatment redness usually subsides within a few hours. We'll also provide medical-grade
+                        skincare products formulated for rosacea-prone skin and guidance on avoiding triggers.
+                        Maintenance treatments every 6-12 months help sustain results. Combined with proper skincare and
+                        trigger management, most patients achieve 60-80% improvement in redness and visible blood
+                        vessels, with significant reduction in flare-up frequency and severity.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -371,9 +425,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </section>
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Service <span class="inner-text">Details</span></h1>
@@ -159,33 +159,43 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What Causes Large Pores" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What Causes Large Pores?</h3>
-                        <p>Enlarged pores result from a combination of genetic factors, excessive sebum production, aging, and
-                            environmental damage. Understanding the underlying causes helps us develop targeted treatment strategies
+                        <p>Enlarged pores result from a combination of genetic factors, excessive sebum production,
+                            aging, and
+                            environmental damage. Understanding the underlying causes helps us develop targeted
+                            treatment strategies
                             to refine skin texture and minimize pore appearance effectively:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-oil-can text-theme me-2"></i>Excess Sebum Production</h5>
-                                <p>Overactive sebaceous glands produce excess oil that accumulates in pores, causing them to
-                                    stretch and appear larger. This is particularly common in oily and combination skin types,
+                                <p>Overactive sebaceous glands produce excess oil that accumulates in pores, causing
+                                    them to
+                                    stretch and appear larger. This is particularly common in oily and combination skin
+                                    types,
                                     especially in the T-zone area.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-dna text-theme me-2"></i>Genetic Predisposition</h5>
-                                <p>Pore size is largely determined by genetics. Some individuals naturally have larger pores
-                                    due to inherited skin characteristics, including thicker skin with more active oil glands
+                                <p>Pore size is largely determined by genetics. Some individuals naturally have larger
+                                    pores
+                                    due to inherited skin characteristics, including thicker skin with more active oil
+                                    glands
                                     and denser hair follicles.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-calendar-alt text-theme me-2"></i>Aging & Collagen Loss</h5>
-                                <p>As we age, skin loses collagen and elasticity, causing the supportive tissue around pores
-                                    to weaken. This structural loss makes pores appear larger and more noticeable, particularly
+                                <p>As we age, skin loses collagen and elasticity, causing the supportive tissue around
+                                    pores
+                                    to weaken. This structural loss makes pores appear larger and more noticeable,
+                                    particularly
                                     in areas of sun damage.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-sun text-theme me-2"></i>Sun Damage & Photoaging</h5>
-                                <p>Chronic UV exposure breaks down collagen and elastin fibers, thickening the epidermis and
-                                    causing pore edges to dilate. Sun-damaged skin shows more pronounced pore visibility and
+                                <p>Chronic UV exposure breaks down collagen and elastin fibers, thickening the epidermis
+                                    and
+                                    causing pore edges to dilate. Sun-damaged skin shows more pronounced pore visibility
+                                    and
                                     irregular texture.</p>
                             </div>
                         </div>
@@ -205,8 +215,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "How to Minimize Pores" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">How to Minimize Pores?</h3>
-                        <p>While pore size cannot be permanently changed, their appearance can be significantly reduced through
-                            targeted treatments that control oil production, stimulate collagen, and refine skin texture:</p>
+                        <p>While pore size cannot be permanently changed, their appearance can be significantly reduced
+                            through
+                            targeted treatments that control oil production, stimulate collagen, and refine skin
+                            texture:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
@@ -261,9 +273,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "My enlarged pores on my nose and cheeks always made my makeup look uneven. The
-                                            combination of chemical peels and microneedling at SMT Skin Clinic has dramatically
-                                            refined my skin texture. My pores are noticeably smaller, and my skin looks smoother
+                                            "My enlarged pores on my nose and cheeks always made my makeup look uneven.
+                                            The
+                                            combination of chemical peels and microneedling at SMT Skin Clinic has
+                                            dramatically
+                                            refined my skin texture. My pores are noticeably smaller, and my skin looks
+                                            smoother
                                             and more refined. The results are incredible!"
                                         </p>
                                         <div class="testimonial-author">
@@ -281,9 +296,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "Years of oily skin left me with visible, stretched pores that I thought were permanent.
-                                            Dr. Sharma's treatment plan combining laser therapy and medical skincare has transformed
-                                            my skin. The pores have tightened significantly, and my skin texture is smoother than
+                                            "Years of oily skin left me with visible, stretched pores that I thought
+                                            were permanent.
+                                            Dr. Sharma's treatment plan combining laser therapy and medical skincare has
+                                            transformed
+                                            my skin. The pores have tightened significantly, and my skin texture is
+                                            smoother than
                                             it's been in years. Absolutely worth it!"
                                         </p>
                                         <div class="testimonial-author">
@@ -301,9 +319,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The enlarged pores on my T-zone made me so self-conscious about my appearance. After
-                                            completing my pore refinement treatment series at SMT Skin Clinic, my skin looks
-                                            completely different—tighter, smoother, and more youthful. The personalized approach
+                                            "The enlarged pores on my T-zone made me so self-conscious about my
+                                            appearance. After
+                                            completing my pore refinement treatment series at SMT Skin Clinic, my skin
+                                            looks
+                                            completely different—tighter, smoother, and more youthful. The personalized
+                                            approach
                                             and professional care exceeded my expectations!"
                                         </p>
                                         <div class="testimonial-author">
@@ -380,10 +401,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our pore refinement treatment begins with a comprehensive skin analysis to identify contributing
-                        factors and customize your treatment protocol. We combine professional treatments with medical-grade homecare
-                        products for optimal results. Consistent SPF 50+ protection is essential, along with oil-control cleansing and
-                        non-comedogenic skincare. Most patients see progressive improvement over 2-3 months with continued refinement
+                    <p class="pb-1">Our pore refinement treatment begins with a comprehensive skin analysis to identify
+                        contributing
+                        factors and customize your treatment protocol. We combine professional treatments with
+                        medical-grade homecare
+                        products for optimal results. Consistent SPF 50+ protection is essential, along with oil-control
+                        cleansing and
+                        non-comedogenic skincare. Most patients see progressive improvement over 2-3 months with
+                        continued refinement
                         through regular maintenance treatments and proper daily skincare regimen.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
@@ -448,12 +473,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

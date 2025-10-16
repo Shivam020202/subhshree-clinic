@@ -12,7 +12,8 @@ if (!isset($base_path)) {
                 <div class="col-md-6 col-xxl-auto">
                     <div class="widget footer-widget">
                         <div class="footer-logo mb-4">
-                            <img src="<?php echo $base_path; ?>assets/img/logo-subhshree.png" alt="SMT Skin Clinic Logo">
+                            <img src="<?php echo $base_path; ?>assets/img/logo-subhshree.png"
+                                alt="SMT Skin Clinic Logo">
                             <!-- SMT Skin Clinic -->
                             <!-- <span class="footer-logo-text">SMT Skin Clinic</span> -->
                         </div>
@@ -34,11 +35,11 @@ if (!isset($base_path)) {
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container footer-menu">
                             <ul class="menu">
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Price List</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Our Blog</a></li>
+                                <li><a href="/service.php">Services</a></li>
+                                <li><a href="/about.php">About Us</a></li>
+                                <!-- <li><a href="/">Price List</a></li> -->
+                                <li><a href="/contact.php">Contact Us</a></li>
+                                <li><a href="/blog.php">Our Blog</a></li>
                             </ul>
                         </div>
                     </div>

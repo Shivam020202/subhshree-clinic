@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Collagen Stimulators</h1>
@@ -131,8 +131,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 alt="thumbnail"></div>
                     </div>
                     <h2 class="text-uppercase">Collagen Stimulators</h2>
-                    <p>Our Collagen Stimulator treatments harness your body's natural ability to produce collagen through advanced injectable bio-stimulators like Sculptra and Radiesse. These treatments work gradually to restore facial volume, smooth wrinkles, and improve skin quality by triggering your own collagen production, delivering natural-looking results that can last up to two years.</p>
-                    <p>Unlike traditional dermal fillers that provide immediate volume, collagen stimulators work over time to rebuild your skin's structural foundation. This process creates a more natural rejuvenation that improves with time, making it an ideal choice for those seeking subtle, long-lasting anti-aging results.</p>
+                    <p>Our Collagen Stimulator treatments harness your body's natural ability to produce collagen
+                        through advanced injectable bio-stimulators like Sculptra and Radiesse. These treatments work
+                        gradually to restore facial volume, smooth wrinkles, and improve skin quality by triggering your
+                        own collagen production, delivering natural-looking results that can last up to two years.</p>
+                    <p>Unlike traditional dermal fillers that provide immediate volume, collagen stimulators work over
+                        time to rebuild your skin's structural foundation. This process creates a more natural
+                        rejuvenation that improves with time, making it an ideal choice for those seeking subtle,
+                        long-lasting anti-aging results.</p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Stimulates natural collagen production for lasting results</li>
@@ -159,8 +165,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What are Collagen Stimulators" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What are Collagen Stimulators?</h3>
-                        <p>Collagen stimulators are advanced injectable treatments that work by triggering your body's natural collagen production process. Unlike traditional fillers that provide immediate volume through hyaluronic acid, these bio-stimulatory injectables contain particles that gradually stimulate fibroblasts to produce new collagen over several months.</p>
-                        <p>The most commonly used collagen stimulators include Sculptra (poly-L-lactic acid) and Radiesse (calcium hydroxylapatite). These treatments are FDA-approved and have been safely used for facial rejuvenation for over a decade, offering a unique approach to anti-aging that works with your body's natural processes.</p>
+                        <p>Collagen stimulators are advanced injectable treatments that work by triggering your body's
+                            natural collagen production process. Unlike traditional fillers that provide immediate
+                            volume through hyaluronic acid, these bio-stimulatory injectables contain particles that
+                            gradually stimulate fibroblasts to produce new collagen over several months.</p>
+                        <p>The most commonly used collagen stimulators include Sculptra (poly-L-lactic acid) and
+                            Radiesse (calcium hydroxylapatite). These treatments are FDA-approved and have been safely
+                            used for facial rejuvenation for over a decade, offering a unique approach to anti-aging
+                            that works with your body's natural processes.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -171,13 +183,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
                                     <h5>Radiesse</h5>
-                                    <p class="small">Calcium-based microspheres that provide immediate and long-term results</p>
+                                    <p class="small">Calcium-based microspheres that provide immediate and long-term
+                                        results</p>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
                                     <h5>Ellanse</h5>
-                                    <p class="small">Polycaprolactone that offers predictable, long-lasting collagen stimulation</p>
+                                    <p class="small">Polycaprolactone that offers predictable, long-lasting collagen
+                                        stimulation</p>
                                 </div>
                             </div>
                         </div>
@@ -186,24 +200,34 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "How Do Collagen Stimulators Work" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">How Do Collagen Stimulators Work?</h3>
-                        <p>Collagen stimulators work through a unique mechanism that rebuilds your skin's foundation from within. Understanding this process helps explain why these treatments provide such natural, long-lasting results:</p>
+                        <p>Collagen stimulators work through a unique mechanism that rebuilds your skin's foundation
+                            from within. Understanding this process helps explain why these treatments provide such
+                            natural, long-lasting results:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-syringe text-theme me-2"></i>Initial Injection</h5>
-                                <p>The bio-stimulator particles are injected into the deep dermis and subcutaneous tissue, where they create a scaffold that immediately provides subtle volume while beginning the collagen stimulation process.</p>
+                                <p>The bio-stimulator particles are injected into the deep dermis and subcutaneous
+                                    tissue, where they create a scaffold that immediately provides subtle volume while
+                                    beginning the collagen stimulation process.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-cogs text-theme me-2"></i>Cellular Activation</h5>
-                                <p>The particles trigger a controlled inflammatory response that activates fibroblasts, the cells responsible for producing collagen, elastin, and other structural proteins in your skin.</p>
+                                <p>The particles trigger a controlled inflammatory response that activates fibroblasts,
+                                    the cells responsible for producing collagen, elastin, and other structural proteins
+                                    in your skin.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-chart-line text-theme me-2"></i>Gradual Production</h5>
-                                <p>Over 3-6 months, new collagen fibers form around the particles, gradually increasing skin thickness, elasticity, and overall quality while providing natural-looking volume restoration.</p>
+                                <p>Over 3-6 months, new collagen fibers form around the particles, gradually increasing
+                                    skin thickness, elasticity, and overall quality while providing natural-looking
+                                    volume restoration.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-recycle text-theme me-2"></i>Natural Metabolism</h5>
-                                <p>The bio-stimulator particles are gradually broken down and safely metabolized by your body, leaving behind your own newly formed collagen matrix that continues to provide structural support.</p>
+                                <p>The bio-stimulator particles are gradually broken down and safely metabolized by your
+                                    body, leaving behind your own newly formed collagen matrix that continues to provide
+                                    structural support.</p>
                             </div>
                         </div>
 
@@ -239,7 +263,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I was hesitant about injectable treatments, but Dr. Sharma explained how Sculptra works with my body's natural processes. The gradual improvement over 6 months was amazing - my face looks more youthful and refreshed without looking 'done'. The results have lasted over a year and still look fantastic!"
+                                            "I was hesitant about injectable treatments, but Dr. Sharma explained how
+                                            Sculptra works with my body's natural processes. The gradual improvement
+                                            over 6 months was amazing - my face looks more youthful and refreshed
+                                            without looking 'done'. The results have lasted over a year and still look
+                                            fantastic!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Meera Agarwal</div>
@@ -256,7 +284,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "After losing facial volume with age, I tried Radiesse at SMT Skin Clinic. The natural-looking results were exactly what I wanted - no one can tell I've had anything done, but everyone says I look more rested and younger. The best part is how long-lasting the results are!"
+                                            "After losing facial volume with age, I tried Radiesse at SMT Skin Clinic.
+                                            The natural-looking results were exactly what I wanted - no one can tell
+                                            I've had anything done, but everyone says I look more rested and younger.
+                                            The best part is how long-lasting the results are!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Rajesh Kumar</div>
@@ -273,7 +304,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The collagen stimulator treatment has been life-changing. My skin quality has improved dramatically - it's thicker, more elastic, and has a natural glow. The team at SMT Skin Clinic was professional throughout the process, and the gradual improvement felt very natural."
+                                            "The collagen stimulator treatment has been life-changing. My skin quality
+                                            has improved dramatically - it's thicker, more elastic, and has a natural
+                                            glow. The team at SMT Skin Clinic was professional throughout the process,
+                                            and the gradual improvement felt very natural."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Sunita Sharma</div>
@@ -349,7 +383,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our collagen stimulator treatment begins with a comprehensive consultation to determine the best bio-stimulator for your specific needs and aesthetic goals. The injection process is performed using advanced techniques to ensure comfort and optimal distribution. Post-treatment care includes gentle massage and proper skincare to optimize results. Most patients require 2-3 sessions spaced 4-6 weeks apart for optimal collagen stimulation, with results becoming apparent over 3-6 months and lasting 18-24 months.</p>
+                    <p class="pb-1">Our collagen stimulator treatment begins with a comprehensive consultation to
+                        determine the best bio-stimulator for your specific needs and aesthetic goals. The injection
+                        process is performed using advanced techniques to ensure comfort and optimal distribution.
+                        Post-treatment care includes gentle massage and proper skincare to optimize results. Most
+                        patients require 2-3 sessions spaced 4-6 weeks apart for optimal collagen stimulation, with
+                        results becoming apparent over 3-6 months and lasting 18-24 months.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -377,12 +416,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

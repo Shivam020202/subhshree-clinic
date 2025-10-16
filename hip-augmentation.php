@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -102,10 +102,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Hip <span class="inner-text">Augmentation</span></h1>
@@ -127,17 +127,26 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             <div class="row gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg" alt="Hip Augmentation Treatment">
+                        <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg"
+                                alt="Hip Augmentation Treatment">
                         </div>
                     </div>
                     <h2 class="text-uppercase">Hip Augmentation - Non-Surgical Curve Enhancement</h2>
-                    <p>Transform your silhouette with our advanced non-surgical hip augmentation treatments at SMT Skin Clinic. Our innovative approach combines cutting-edge technology with medical expertise to enhance hip curves, create balanced proportions, and boost your confidence without the risks and downtime associated with surgical procedures.</p>
-                    <p>Our comprehensive hip enhancement program utilizes advanced injection techniques, body contouring technologies, and specialized treatments to create natural-looking curves that complement your body's proportions. <strong>Achieve your desired hip shape with safe, effective, and minimally invasive treatments.</strong></p>
+                    <p>Transform your silhouette with our advanced non-surgical hip augmentation treatments at SMT Skin
+                        Clinic. Our innovative approach combines cutting-edge technology with medical expertise to
+                        enhance hip curves, create balanced proportions, and boost your confidence without the risks and
+                        downtime associated with surgical procedures.</p>
+                    <p>Our comprehensive hip enhancement program utilizes advanced injection techniques, body contouring
+                        technologies, and specialized treatments to create natural-looking curves that complement your
+                        body's proportions. <strong>Achieve your desired hip shape with safe, effective, and minimally
+                            invasive treatments.</strong></p>
 
                     <!-- What is Hip Augmentation Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Understanding Non-Surgical Hip Augmentation</h3>
-                        <p>Non-surgical hip augmentation encompasses advanced aesthetic techniques designed to enhance hip curves and create more balanced body proportions without invasive surgery. These treatments offer customizable results with minimal downtime and reduced risks.</p>
+                        <p>Non-surgical hip augmentation encompasses advanced aesthetic techniques designed to enhance
+                            hip curves and create more balanced body proportions without invasive surgery. These
+                            treatments offer customizable results with minimal downtime and reduced risks.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
                                 <li>Advanced dermal filler techniques for volume enhancement</li>
@@ -153,14 +162,21 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Treatment Approach Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Advanced Enhancement Techniques</h3>
-                        <p>Our comprehensive approach to hip augmentation utilizes multiple proven modalities to address various aesthetic concerns and achieve personalized results that enhance your natural curves.</p>
+                        <p>Our comprehensive approach to hip augmentation utilizes multiple proven modalities to address
+                            various aesthetic concerns and achieve personalized results that enhance your natural
+                            curves.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Injectable Enhancement:</strong> FDA-approved hyaluronic acid fillers for immediate volume addition</li>
-                                <li><strong>Fat Grafting:</strong> Natural fat transfer for long-lasting, authentic-feeling results</li>
-                                <li><strong>Sculptra Treatments:</strong> Collagen-stimulating injections for gradual, natural enhancement</li>
-                                <li><strong>Body Contouring:</strong> Advanced technologies to sculpt and define hip curves</li>
-                                <li><strong>Combination Therapy:</strong> Multi-modal approach for optimal enhancement results</li>
+                                <li><strong>Injectable Enhancement:</strong> FDA-approved hyaluronic acid fillers for
+                                    immediate volume addition</li>
+                                <li><strong>Fat Grafting:</strong> Natural fat transfer for long-lasting,
+                                    authentic-feeling results</li>
+                                <li><strong>Sculptra Treatments:</strong> Collagen-stimulating injections for gradual,
+                                    natural enhancement</li>
+                                <li><strong>Body Contouring:</strong> Advanced technologies to sculpt and define hip
+                                    curves</li>
+                                <li><strong>Combination Therapy:</strong> Multi-modal approach for optimal enhancement
+                                    results</li>
                                 <li><strong>Maintenance Programs:</strong> Long-term care plans to preserve results</li>
                             </ul>
                         </div>
@@ -168,13 +184,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Hip Enhancement"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg"
+                                    alt="Before Hip Enhancement" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="After Hip Enhancement"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg"
+                                    alt="After Hip Enhancement" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -182,15 +198,22 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Benefits Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Benefits of Non-Surgical Hip Enhancement</h3>
-                        <p>Our non-surgical hip augmentation treatments provide numerous advantages over traditional surgical procedures while delivering effective, natural-looking results that enhance your body's natural proportions.</p>
+                        <p>Our non-surgical hip augmentation treatments provide numerous advantages over traditional
+                            surgical procedures while delivering effective, natural-looking results that enhance your
+                            body's natural proportions.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>No Surgery Required:</strong> Avoid surgical risks, scarring, and extended recovery</li>
-                                <li><strong>Immediate Results:</strong> See enhancement effects immediately after treatment</li>
+                                <li><strong>No Surgery Required:</strong> Avoid surgical risks, scarring, and extended
+                                    recovery</li>
+                                <li><strong>Immediate Results:</strong> See enhancement effects immediately after
+                                    treatment</li>
                                 <li><strong>Minimal Downtime:</strong> Return to normal activities within hours</li>
-                                <li><strong>Natural Feel:</strong> Results that look and feel authentic to your body</li>
-                                <li><strong>Customizable Enhancement:</strong> Precise control over volume and shape</li>
-                                <li><strong>Reversible Options:</strong> Some treatments can be adjusted or reversed if desired</li>
+                                <li><strong>Natural Feel:</strong> Results that look and feel authentic to your body
+                                </li>
+                                <li><strong>Customizable Enhancement:</strong> Precise control over volume and shape
+                                </li>
+                                <li><strong>Reversible Options:</strong> Some treatments can be adjusted or reversed if
+                                    desired</li>
                             </ul>
                         </div>
                     </div>
@@ -201,7 +224,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="testimonial-slider">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"I always wanted more defined hip curves but was afraid of surgery. The non-surgical hip augmentation at SMT was perfect - immediate results, no downtime, and the curves look completely natural. I finally have the silhouette I always wanted!"</p>
+                                    <p>"I always wanted more defined hip curves but was afraid of surgery. The
+                                        non-surgical hip augmentation at SMT was perfect - immediate results, no
+                                        downtime, and the curves look completely natural. I finally have the silhouette
+                                        I always wanted!"</p>
                                     <div class="testimonial-author">
                                         <h5>Divya Sharma</h5>
                                         <span>Age 28, Lucknow</span>
@@ -210,7 +236,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"The hip enhancement treatment exceeded my expectations. Dr. Shubhshree understood exactly what I wanted and created beautiful, balanced curves. The results are so natural that no one can tell I had anything done!"</p>
+                                    <p>"The hip enhancement treatment exceeded my expectations. Dr. Shubhshree
+                                        understood exactly what I wanted and created beautiful, balanced curves. The
+                                        results are so natural that no one can tell I had anything done!"</p>
                                     <div class="testimonial-author">
                                         <h5>Kritika Gupta</h5>
                                         <span>Age 32, Kanpur</span>
@@ -219,7 +247,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"Professional, caring, and incredibly skilled - the team at SMT made my hip augmentation experience wonderful. I love my new curves and the confidence boost they've given me. Highly recommend their services!"</p>
+                                    <p>"Professional, caring, and incredibly skilled - the team at SMT made my hip
+                                        augmentation experience wonderful. I love my new curves and the confidence boost
+                                        they've given me. Highly recommend their services!"</p>
                                     <div class="testimonial-author">
                                         <h5>Sonal Agarwal</h5>
                                         <span>Age 26, Allahabad</span>
@@ -230,7 +260,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
                     <h3 class="h4">Natural and Long-Lasting Enhancement</h3>
-                    <p class="pb-1">Our hip augmentation treatments provide natural-looking enhancement that complements your body's proportions and enhances your natural curves. Results vary based on the technique used, with some providing immediate effects and others developing gradually over several months. Our experienced team ensures optimal placement and proportion to create beautiful, balanced curves that enhance your confidence and complement your overall silhouette.</p>
+                    <p class="pb-1">Our hip augmentation treatments provide natural-looking enhancement that complements
+                        your body's proportions and enhances your natural curves. Results vary based on the technique
+                        used, with some providing immediate effects and others developing gradually over several months.
+                        Our experienced team ensures optimal placement and proportion to create beautiful, balanced
+                        curves that enhance your confidence and complement your overall silhouette.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -266,12 +300,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

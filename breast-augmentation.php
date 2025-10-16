@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -102,10 +102,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Breast <span class="inner-text">Augmentation</span></h1>
@@ -127,17 +127,28 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             <div class="row gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg" alt="Breast Augmentation Treatment">
+                        <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg"
+                                alt="Breast Augmentation Treatment">
                         </div>
                     </div>
                     <h2 class="text-uppercase">Non-Surgical Breast Enhancement - Advanced Aesthetic Solutions</h2>
-                    <p>Discover the revolutionary non-surgical breast enhancement options at SMT Skin Clinic, offering safe and effective alternatives to traditional surgical procedures. Our advanced techniques combine cutting-edge technology with medical expertise to provide natural-looking breast enhancement, lifting, and contouring results without the risks and downtime associated with surgery.</p>
-                    <p>Our comprehensive breast enhancement program utilizes multiple modalities including radiofrequency treatments, specialized injectable techniques, and advanced lifting technologies to improve breast shape, firmness, and overall appearance. <strong>Achieve your desired breast enhancement goals with minimal risk, no scarring, and natural-looking results.</strong></p>
+                    <p>Discover the revolutionary non-surgical breast enhancement options at SMT Skin Clinic, offering
+                        safe and effective alternatives to traditional surgical procedures. Our advanced techniques
+                        combine cutting-edge technology with medical expertise to provide natural-looking breast
+                        enhancement, lifting, and contouring results without the risks and downtime associated with
+                        surgery.</p>
+                    <p>Our comprehensive breast enhancement program utilizes multiple modalities including
+                        radiofrequency treatments, specialized injectable techniques, and advanced lifting technologies
+                        to improve breast shape, firmness, and overall appearance. <strong>Achieve your desired breast
+                            enhancement goals with minimal risk, no scarring, and natural-looking results.</strong></p>
 
                     <!-- What is Non-Surgical Breast Enhancement Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Understanding Non-Surgical Breast Enhancement</h3>
-                        <p>Non-surgical breast enhancement encompasses various advanced techniques designed to improve breast appearance, firmness, and contour without invasive surgery. These treatments offer natural-looking results with minimal downtime and reduced risks compared to traditional surgical procedures.</p>
+                        <p>Non-surgical breast enhancement encompasses various advanced techniques designed to improve
+                            breast appearance, firmness, and contour without invasive surgery. These treatments offer
+                            natural-looking results with minimal downtime and reduced risks compared to traditional
+                            surgical procedures.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
                                 <li>Advanced radiofrequency treatments for skin tightening and lifting</li>
@@ -153,28 +164,36 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Treatment Modalities Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Advanced Treatment Options</h3>
-                        <p>Our comprehensive approach to non-surgical breast enhancement utilizes multiple proven technologies and techniques to address various aesthetic concerns and achieve personalized results for each patient.</p>
+                        <p>Our comprehensive approach to non-surgical breast enhancement utilizes multiple proven
+                            technologies and techniques to address various aesthetic concerns and achieve personalized
+                            results for each patient.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Radiofrequency Lifting:</strong> Advanced RF technology to tighten and lift breast tissue naturally</li>
-                                <li><strong>Ultrasound Therapy:</strong> Deep penetrating energy to stimulate collagen and improve firmness</li>
-                                <li><strong>Injectable Enhancements:</strong> FDA-approved fillers for volume restoration and contouring</li>
-                                <li><strong>Vacuum Therapy:</strong> Specialized lifting techniques to improve breast projection</li>
-                                <li><strong>Lymphatic Drainage:</strong> Professional massage to improve circulation and tissue health</li>
-                                <li><strong>Collagen Stimulation:</strong> Treatments to promote natural tissue regeneration and firmness</li>
+                                <li><strong>Radiofrequency Lifting:</strong> Advanced RF technology to tighten and lift
+                                    breast tissue naturally</li>
+                                <li><strong>Ultrasound Therapy:</strong> Deep penetrating energy to stimulate collagen
+                                    and improve firmness</li>
+                                <li><strong>Injectable Enhancements:</strong> FDA-approved fillers for volume
+                                    restoration and contouring</li>
+                                <li><strong>Vacuum Therapy:</strong> Specialized lifting techniques to improve breast
+                                    projection</li>
+                                <li><strong>Lymphatic Drainage:</strong> Professional massage to improve circulation and
+                                    tissue health</li>
+                                <li><strong>Collagen Stimulation:</strong> Treatments to promote natural tissue
+                                    regeneration and firmness</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Breast Enhancement"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg"
+                                    alt="Before Breast Enhancement" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="After Breast Enhancement"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg"
+                                    alt="After Breast Enhancement" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -182,15 +201,23 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Benefits and Results Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Benefits of Non-Surgical Enhancement</h3>
-                        <p>Non-surgical breast enhancement offers numerous advantages over traditional surgical procedures, providing effective results with greater safety, convenience, and natural outcomes.</p>
+                        <p>Non-surgical breast enhancement offers numerous advantages over traditional surgical
+                            procedures, providing effective results with greater safety, convenience, and natural
+                            outcomes.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>No Surgery Required:</strong> Avoid surgical risks, scarring, and lengthy recovery periods</li>
-                                <li><strong>Minimal Downtime:</strong> Return to normal activities immediately after treatment</li>
-                                <li><strong>Natural Results:</strong> Gradual improvements that look and feel natural</li>
-                                <li><strong>Customizable Approach:</strong> Tailored treatments based on individual anatomy and goals</li>
-                                <li><strong>Progressive Enhancement:</strong> Results improve over time with collagen stimulation</li>
-                                <li><strong>Cost-Effective:</strong> More affordable than surgical alternatives with comparable results</li>
+                                <li><strong>No Surgery Required:</strong> Avoid surgical risks, scarring, and lengthy
+                                    recovery periods</li>
+                                <li><strong>Minimal Downtime:</strong> Return to normal activities immediately after
+                                    treatment</li>
+                                <li><strong>Natural Results:</strong> Gradual improvements that look and feel natural
+                                </li>
+                                <li><strong>Customizable Approach:</strong> Tailored treatments based on individual
+                                    anatomy and goals</li>
+                                <li><strong>Progressive Enhancement:</strong> Results improve over time with collagen
+                                    stimulation</li>
+                                <li><strong>Cost-Effective:</strong> More affordable than surgical alternatives with
+                                    comparable results</li>
                             </ul>
                         </div>
                     </div>
@@ -201,7 +228,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="testimonial-slider">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"I was nervous about breast enhancement, but the non-surgical approach at SMT was perfect for me. The results are natural and beautiful, and I love that there was no surgery involved. My confidence has increased tremendously!"</p>
+                                    <p>"I was nervous about breast enhancement, but the non-surgical approach at SMT was
+                                        perfect for me. The results are natural and beautiful, and I love that there was
+                                        no surgery involved. My confidence has increased tremendously!"</p>
                                     <div class="testimonial-author">
                                         <h5>Shruti Sharma</h5>
                                         <span>Age 29, Lucknow</span>
@@ -210,7 +239,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"After pregnancy and breastfeeding, I wanted to restore my breast shape without surgery. The non-surgical enhancement treatments exceeded my expectations. The lifting and firmness improvements are remarkable!"</p>
+                                    <p>"After pregnancy and breastfeeding, I wanted to restore my breast shape without
+                                        surgery. The non-surgical enhancement treatments exceeded my expectations. The
+                                        lifting and firmness improvements are remarkable!"</p>
                                     <div class="testimonial-author">
                                         <h5>Neha Gupta</h5>
                                         <span>Age 35, Kanpur</span>
@@ -219,7 +250,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"The team at SMT Skin Clinic made me feel comfortable throughout the entire process. The non-surgical approach was exactly what I was looking for - effective results without the risks of surgery. Highly recommend!"</p>
+                                    <p>"The team at SMT Skin Clinic made me feel comfortable throughout the entire
+                                        process. The non-surgical approach was exactly what I was looking for -
+                                        effective results without the risks of surgery. Highly recommend!"</p>
                                     <div class="testimonial-author">
                                         <h5>Pooja Agarwal</h5>
                                         <span>Age 31, Allahabad</span>
@@ -230,7 +263,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
                     <h3 class="h4">Safe and Effective Results</h3>
-                    <p class="pb-1">Our non-surgical breast enhancement treatments provide a safe, effective alternative to traditional surgery with natural-looking results. The combination of advanced technologies and personalized treatment plans ensures optimal outcomes tailored to each patient's unique anatomy and aesthetic goals. Results develop gradually over 3-6 months, providing natural enhancement that looks and feels authentic while maintaining the safety and convenience of non-invasive procedures.</p>
+                    <p class="pb-1">Our non-surgical breast enhancement treatments provide a safe, effective alternative
+                        to traditional surgery with natural-looking results. The combination of advanced technologies
+                        and personalized treatment plans ensures optimal outcomes tailored to each patient's unique
+                        anatomy and aesthetic goals. Results develop gradually over 3-6 months, providing natural
+                        enhancement that looks and feels authentic while maintaining the safety and convenience of
+                        non-invasive procedures.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -266,12 +304,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

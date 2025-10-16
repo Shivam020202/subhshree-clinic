@@ -1,7 +1,7 @@
 <?php
-$page_title = "SMT Clinic";
-$page_description = "SMT Clinic - Your Health, Our Priority";
-$page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, doctor, hospital, healthcare";
+$page_title = "Contact SMT Skin Clinic Lucknow | Book Appointment +91-8864877133";
+$page_description = "Visit SMT Skin Clinic at Windsor Place, The Mall Avenue, Lucknow. Book consultation with Dr. Shubhshree Misra for laser treatments, dermal fillers & skin care. Timings: 11AM-2PM, 2:30PM-8PM. Call: +91-8864877133 | Email: smtskinclinic@gmail.com";
+$page_keywords = "contact dermatologist lucknow, book appointment skin clinic lucknow, dr shubhshree contact number, skin clinic mall avenue lucknow, skin clinic near me lucknow, aesthetic clinic contact lucknow, SMT skin clinic address, skin specialist appointment lucknow, SMT Skin Clinic";
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -9,9 +9,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
 
-<div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Contact <span class="inner-text">Us</span></h1>
@@ -98,9 +98,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </section>
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

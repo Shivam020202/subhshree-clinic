@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -102,10 +102,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Forma <span class="inner-text">Plus</span></h1>
@@ -131,13 +131,23 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
                     <h2 class="text-uppercase">Forma Plus - Advanced Radiofrequency Body Contouring</h2>
-                    <p>Experience the revolutionary Forma Plus treatment at SMT Skin Clinic, an advanced radiofrequency technology designed specifically for large body areas. This innovative platform delivers controlled thermal energy to tighten skin, reduce circumference, and improve overall body contours with exceptional comfort and zero downtime.</p>
-                    <p>Forma Plus represents the latest evolution in radiofrequency technology, featuring larger treatment heads and advanced temperature monitoring for efficient, safe, and effective body contouring. The treatment stimulates collagen and elastin production while promoting lymphatic drainage for comprehensive body sculpting results. <strong>Transform your body contours with this FDA-approved, comfortable, and highly effective treatment.</strong></p>
+                    <p>Experience the revolutionary Forma Plus treatment at SMT Skin Clinic, an advanced radiofrequency
+                        technology designed specifically for large body areas. This innovative platform delivers
+                        controlled thermal energy to tighten skin, reduce circumference, and improve overall body
+                        contours with exceptional comfort and zero downtime.</p>
+                    <p>Forma Plus represents the latest evolution in radiofrequency technology, featuring larger
+                        treatment heads and advanced temperature monitoring for efficient, safe, and effective body
+                        contouring. The treatment stimulates collagen and elastin production while promoting lymphatic
+                        drainage for comprehensive body sculpting results. <strong>Transform your body contours with
+                            this FDA-approved, comfortable, and highly effective treatment.</strong></p>
 
                     <!-- What is Forma Plus Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">What is Forma Plus?</h3>
-                        <p>Forma Plus is an advanced radiofrequency body contouring device that utilizes controlled thermal energy to reshape and tighten larger body areas. This innovative technology features specialized large treatment heads designed for efficient coverage of areas like the abdomen, thighs, arms, and back, delivering uniform heating and optimal results.</p>
+                        <p>Forma Plus is an advanced radiofrequency body contouring device that utilizes controlled
+                            thermal energy to reshape and tighten larger body areas. This innovative technology features
+                            specialized large treatment heads designed for efficient coverage of areas like the abdomen,
+                            thighs, arms, and back, delivering uniform heating and optimal results.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
                                 <li>Advanced radiofrequency technology with real-time temperature monitoring</li>
@@ -153,28 +163,36 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- How Forma Plus Works Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">How Does Forma Plus Work?</h3>
-                        <p>Forma Plus delivers controlled radiofrequency energy deep into the skin layers, creating optimal thermal zones that stimulate natural healing processes and collagen remodeling for comprehensive body contouring results.</p>
+                        <p>Forma Plus delivers controlled radiofrequency energy deep into the skin layers, creating
+                            optimal thermal zones that stimulate natural healing processes and collagen remodeling for
+                            comprehensive body contouring results.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Thermal Stimulation:</strong> RF energy heats deeper skin layers to 40-45°C for optimal collagen stimulation</li>
-                                <li><strong>Collagen Remodeling:</strong> Heat triggers immediate collagen contraction and long-term new collagen production</li>
-                                <li><strong>Lymphatic Drainage:</strong> Thermal effects improve circulation and reduce fluid retention</li>
-                                <li><strong>Fat Cell Metabolism:</strong> Heating enhances fat cell metabolism and breakdown</li>
-                                <li><strong>Skin Tightening:</strong> Immediate and progressive tightening effects for improved body contours</li>
-                                <li><strong>Tissue Remodeling:</strong> Ongoing improvements continue for 3-6 months post-treatment</li>
+                                <li><strong>Thermal Stimulation:</strong> RF energy heats deeper skin layers to 40-45°C
+                                    for optimal collagen stimulation</li>
+                                <li><strong>Collagen Remodeling:</strong> Heat triggers immediate collagen contraction
+                                    and long-term new collagen production</li>
+                                <li><strong>Lymphatic Drainage:</strong> Thermal effects improve circulation and reduce
+                                    fluid retention</li>
+                                <li><strong>Fat Cell Metabolism:</strong> Heating enhances fat cell metabolism and
+                                    breakdown</li>
+                                <li><strong>Skin Tightening:</strong> Immediate and progressive tightening effects for
+                                    improved body contours</li>
+                                <li><strong>Tissue Remodeling:</strong> Ongoing improvements continue for 3-6 months
+                                    post-treatment</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Forma Plus Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg"
+                                    alt="Before Forma Plus Treatment" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="After Forma Plus Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg"
+                                    alt="After Forma Plus Treatment" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -182,15 +200,20 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Treatment Areas Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Treatment Areas and Benefits</h3>
-                        <p>Forma Plus is versatile and effective for treating various body areas where skin laxity, circumference reduction, and contouring improvements are desired. The large treatment heads make it ideal for extensive areas.</p>
+                        <p>Forma Plus is versatile and effective for treating various body areas where skin laxity,
+                            circumference reduction, and contouring improvements are desired. The large treatment heads
+                            make it ideal for extensive areas.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Abdomen:</strong> Tighten post-pregnancy skin and reduce waist circumference</li>
-                                <li><strong>Thighs:</strong> Address inner and outer thigh laxity and cellulite appearance</li>
+                                <li><strong>Abdomen:</strong> Tighten post-pregnancy skin and reduce waist circumference
+                                </li>
+                                <li><strong>Thighs:</strong> Address inner and outer thigh laxity and cellulite
+                                    appearance</li>
                                 <li><strong>Arms:</strong> Improve upper arm skin tightness and reduce "bat wings"</li>
                                 <li><strong>Back and Flanks:</strong> Smooth love handles and improve back contours</li>
                                 <li><strong>Buttocks:</strong> Lift and tighten for improved shape and firmness</li>
-                                <li><strong>Full Body Contouring:</strong> Comprehensive treatment plans for overall improvement</li>
+                                <li><strong>Full Body Contouring:</strong> Comprehensive treatment plans for overall
+                                    improvement</li>
                             </ul>
                         </div>
                     </div>
@@ -201,7 +224,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="testimonial-slider">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"Forma Plus has been amazing for my post-baby body! The treatment was so comfortable and relaxing. After 6 sessions, my abdomen is significantly tighter and I've lost inches from my waist. No downtime was a huge plus for me as a busy mom."</p>
+                                    <p>"Forma Plus has been amazing for my post-baby body! The treatment was so
+                                        comfortable and relaxing. After 6 sessions, my abdomen is significantly tighter
+                                        and I've lost inches from my waist. No downtime was a huge plus for me as a busy
+                                        mom."</p>
                                     <div class="testimonial-author">
                                         <h5>Deepika Sharma</h5>
                                         <span>Age 32, Lucknow</span>
@@ -210,7 +236,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"I was skeptical about non-surgical body contouring, but Forma Plus exceeded my expectations. My arms and thighs are visibly tighter and more toned. The treatment felt like a warm massage - so relaxing!"</p>
+                                    <p>"I was skeptical about non-surgical body contouring, but Forma Plus exceeded my
+                                        expectations. My arms and thighs are visibly tighter and more toned. The
+                                        treatment felt like a warm massage - so relaxing!"</p>
                                     <div class="testimonial-author">
                                         <h5>Meera Gupta</h5>
                                         <span>Age 45, Kanpur</span>
@@ -219,7 +247,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"The team at SMT Skin Clinic created a perfect treatment plan for my needs. Forma Plus helped me achieve the body confidence I was looking for. Professional service and incredible results without any surgery!"</p>
+                                    <p>"The team at SMT Skin Clinic created a perfect treatment plan for my needs. Forma
+                                        Plus helped me achieve the body confidence I was looking for. Professional
+                                        service and incredible results without any surgery!"</p>
                                     <div class="testimonial-author">
                                         <h5>Sunita Agarwal</h5>
                                         <span>Age 38, Allahabad</span>
@@ -230,7 +260,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
                     <h3 class="h4">Progressive and Long-Lasting Results</h3>
-                    <p class="pb-1">Forma Plus delivers both immediate and progressive results. While some tightening effects are noticeable immediately after treatment, optimal results develop over 3-4 months as new collagen forms and existing collagen continues to remodel. The treatment stimulates natural processes that continue working long after your session ends, providing long-lasting improvements in skin tightness, body contours, and overall appearance.</p>
+                    <p class="pb-1">Forma Plus delivers both immediate and progressive results. While some tightening
+                        effects are noticeable immediately after treatment, optimal results develop over 3-4 months as
+                        new collagen forms and existing collagen continues to remodel. The treatment stimulates natural
+                        processes that continue working long after your session ends, providing long-lasting
+                        improvements in skin tightness, body contours, and overall appearance.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -266,12 +300,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

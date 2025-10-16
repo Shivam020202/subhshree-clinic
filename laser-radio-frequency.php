@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Laser & Radio-frequency</h1>
@@ -131,8 +131,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 alt="thumbnail"></div>
                     </div>
                     <h2 class="text-uppercase">Laser & Radio-frequency</h2>
-                    <p>Our advanced Laser & Radio-frequency treatments combine the precision of laser technology with the deep heating capabilities of radiofrequency energy to address multiple skin concerns simultaneously. This innovative dual-energy approach delivers superior results for skin tightening, wrinkle reduction, texture improvement, and overall facial rejuvenation with minimal downtime.</p>
-                    <p>By combining these complementary technologies, we can target different layers of the skin simultaneously - laser energy addresses surface concerns like pigmentation and fine texture issues, while radiofrequency penetrates deeper to stimulate collagen production and tighten underlying structures for comprehensive skin renewal.</p>
+                    <p>Our advanced Laser & Radio-frequency treatments combine the precision of laser technology with
+                        the deep heating capabilities of radiofrequency energy to address multiple skin concerns
+                        simultaneously. This innovative dual-energy approach delivers superior results for skin
+                        tightening, wrinkle reduction, texture improvement, and overall facial rejuvenation with minimal
+                        downtime.</p>
+                    <p>By combining these complementary technologies, we can target different layers of the skin
+                        simultaneously - laser energy addresses surface concerns like pigmentation and fine texture
+                        issues, while radiofrequency penetrates deeper to stimulate collagen production and tighten
+                        underlying structures for comprehensive skin renewal.</p>
                     <div class="list-style2">
                         <ul class="list-unstyled">
                             <li>Dual-energy approach for comprehensive skin rejuvenation</li>
@@ -159,13 +166,20 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What is Laser & Radio-frequency Treatment" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Laser & Radio-frequency Treatment?</h3>
-                        <p>Laser & Radio-frequency treatment is a cutting-edge aesthetic procedure that harnesses two powerful energy sources to achieve comprehensive skin rejuvenation. This advanced technology combines focused laser light with radiofrequency energy to address both superficial and deep skin concerns in a single treatment session.</p>
-                        <p>The synergistic effect of these technologies allows for precise treatment customization based on individual skin needs. Laser energy targets surface imperfections, pigmentation, and fine texture issues, while radiofrequency energy penetrates deeper to heat dermal tissues, stimulating collagen production and tightening skin from within.</p>
+                        <p>Laser & Radio-frequency treatment is a cutting-edge aesthetic procedure that harnesses two
+                            powerful energy sources to achieve comprehensive skin rejuvenation. This advanced technology
+                            combines focused laser light with radiofrequency energy to address both superficial and deep
+                            skin concerns in a single treatment session.</p>
+                        <p>The synergistic effect of these technologies allows for precise treatment customization based
+                            on individual skin needs. Laser energy targets surface imperfections, pigmentation, and fine
+                            texture issues, while radiofrequency energy penetrates deeper to heat dermal tissues,
+                            stimulating collagen production and tightening skin from within.</p>
                         <div class="row mt-30">
                             <div class="col-md-6 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
                                     <h5>Laser Technology</h5>
-                                    <p class="small">Precise light energy for surface refinement and pigmentation control</p>
+                                    <p class="small">Precise light energy for surface refinement and pigmentation
+                                        control</p>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-20">
@@ -180,24 +194,33 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "How Does the Treatment Work" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">How Does Laser & Radio-frequency Treatment Work?</h3>
-                        <p>This innovative dual-energy treatment works through a sophisticated mechanism that addresses multiple layers of skin concerns simultaneously for optimal aesthetic results:</p>
+                        <p>This innovative dual-energy treatment works through a sophisticated mechanism that addresses
+                            multiple layers of skin concerns simultaneously for optimal aesthetic results:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-lightbulb text-theme me-2"></i>Laser Energy Action</h5>
-                                <p>Focused laser light creates controlled micro-injuries in the epidermis and upper dermis, stimulating cellular renewal while targeting pigmentation, fine lines, and surface irregularities with precision.</p>
+                                <p>Focused laser light creates controlled micro-injuries in the epidermis and upper
+                                    dermis, stimulating cellular renewal while targeting pigmentation, fine lines, and
+                                    surface irregularities with precision.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-fire text-theme me-2"></i>Radiofrequency Heating</h5>
-                                <p>RF energy penetrates deeper into dermal and subdermal layers, generating controlled heat that immediately tightens existing collagen fibers while triggering new collagen and elastin production.</p>
+                                <p>RF energy penetrates deeper into dermal and subdermal layers, generating controlled
+                                    heat that immediately tightens existing collagen fibers while triggering new
+                                    collagen and elastin production.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-sync text-theme me-2"></i>Synergistic Effect</h5>
-                                <p>The combination enhances treatment efficacy - laser prepares the tissue and improves RF energy penetration, while RF amplifies the overall rejuvenation response for superior results.</p>
+                                <p>The combination enhances treatment efficacy - laser prepares the tissue and improves
+                                    RF energy penetration, while RF amplifies the overall rejuvenation response for
+                                    superior results.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-leaf text-theme me-2"></i>Natural Healing</h5>
-                                <p>The controlled tissue response activates natural healing cascades, promoting cellular regeneration, improved blood circulation, and enhanced skin function over the following weeks and months.</p>
+                                <p>The controlled tissue response activates natural healing cascades, promoting cellular
+                                    regeneration, improved blood circulation, and enhanced skin function over the
+                                    following weeks and months.</p>
                             </div>
                         </div>
 
@@ -234,7 +257,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The combination laser and radiofrequency treatment has given me incredible results! My skin is tighter, smoother, and has a beautiful glow. The dual-energy approach addressed all my concerns - fine lines, pores, and skin laxity - in just a few sessions. Amazing technology at SMT Skin Clinic!"
+                                            "The combination laser and radiofrequency treatment has given me incredible
+                                            results! My skin is tighter, smoother, and has a beautiful glow. The
+                                            dual-energy approach addressed all my concerns - fine lines, pores, and skin
+                                            laxity - in just a few sessions. Amazing technology at SMT Skin Clinic!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Ritu Sharma</div>
@@ -251,7 +277,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I was amazed by how much this treatment improved my skin texture and firmness. The combination approach worked so much better than individual treatments I'd tried before. The downtime was minimal, and the progressive improvement over months has been fantastic. Highly recommend!"
+                                            "I was amazed by how much this treatment improved my skin texture and
+                                            firmness. The combination approach worked so much better than individual
+                                            treatments I'd tried before. The downtime was minimal, and the progressive
+                                            improvement over months has been fantastic. Highly recommend!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Abhishek Jain</div>
@@ -268,7 +297,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The laser and RF treatment has rejuvenated my entire face. My skin looks years younger - tighter, brighter, and with reduced pores and fine lines. Dr. Sharma's expertise with this advanced technology is evident in the natural, beautiful results. I couldn't be happier!"
+                                            "The laser and RF treatment has rejuvenated my entire face. My skin looks
+                                            years younger - tighter, brighter, and with reduced pores and fine lines.
+                                            Dr. Sharma's expertise with this advanced technology is evident in the
+                                            natural, beautiful results. I couldn't be happier!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Pooja Gupta</div>
@@ -344,7 +376,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our Laser & Radio-frequency treatment begins with comprehensive skin assessment and customized parameter selection based on your specific concerns and skin type. The 45-75 minute procedure combines sequential and simultaneous energy delivery for optimal results. Post-treatment care includes gentle skincare, sun protection, and hydration support. Mild redness and warmth may occur for 24-48 hours. Most patients see immediate tightening with progressive improvement over 3-6 months as new collagen forms. Typically 3-5 sessions spaced 4-6 weeks apart provide optimal rejuvenation results.</p>
+                    <p class="pb-1">Our Laser & Radio-frequency treatment begins with comprehensive skin assessment and
+                        customized parameter selection based on your specific concerns and skin type. The 45-75 minute
+                        procedure combines sequential and simultaneous energy delivery for optimal results.
+                        Post-treatment care includes gentle skincare, sun protection, and hydration support. Mild
+                        redness and warmth may occur for 24-48 hours. Most patients see immediate tightening with
+                        progressive improvement over 3-6 months as new collagen forms. Typically 3-5 sessions spaced 4-6
+                        weeks apart provide optimal rejuvenation results.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -372,12 +410,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

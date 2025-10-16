@@ -9,8 +9,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -102,10 +102,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Cellulite <span class="inner-text">Reduction</span></h1>
@@ -127,17 +127,28 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             <div class="row gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg" alt="Cellulite Reduction Treatment">
+                        <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg"
+                                alt="Cellulite Reduction Treatment">
                         </div>
                     </div>
                     <h2 class="text-uppercase">Cellulite Reduction - Advanced Body Contouring</h2>
-                    <p>Transform your skin's texture and achieve smoother, firmer skin with our advanced cellulite reduction treatments at SMT Skin Clinic. Using cutting-edge technology and proven techniques, we target the underlying causes of cellulite to deliver visible, long-lasting results that boost your confidence and enhance your natural beauty.</p>
-                    <p>Our comprehensive cellulite reduction approach combines multiple modalities including radiofrequency, acoustic wave therapy, and advanced massage techniques to break down fat deposits, stimulate collagen production, and improve lymphatic drainage. <strong>Experience dramatic improvements in skin texture and firmness with our personalized treatment plans.</strong></p>
+                    <p>Transform your skin's texture and achieve smoother, firmer skin with our advanced cellulite
+                        reduction treatments at SMT Skin Clinic. Using cutting-edge technology and proven techniques, we
+                        target the underlying causes of cellulite to deliver visible, long-lasting results that boost
+                        your confidence and enhance your natural beauty.</p>
+                    <p>Our comprehensive cellulite reduction approach combines multiple modalities including
+                        radiofrequency, acoustic wave therapy, and advanced massage techniques to break down fat
+                        deposits, stimulate collagen production, and improve lymphatic drainage. <strong>Experience
+                            dramatic improvements in skin texture and firmness with our personalized treatment
+                            plans.</strong></p>
 
                     <!-- What is Cellulite Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Understanding Cellulite</h3>
-                        <p>Cellulite is a common cosmetic concern affecting up to 90% of women, characterized by the dimpled, "orange peel" appearance of skin, primarily on the thighs, buttocks, and abdomen. This occurs when fat deposits push through the connective tissue beneath the skin, creating an uneven surface texture.</p>
+                        <p>Cellulite is a common cosmetic concern affecting up to 90% of women, characterized by the
+                            dimpled, "orange peel" appearance of skin, primarily on the thighs, buttocks, and abdomen.
+                            This occurs when fat deposits push through the connective tissue beneath the skin, creating
+                            an uneven surface texture.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
                                 <li>Affects women more than men due to different fat distribution patterns</li>
@@ -152,28 +163,36 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- What Causes Cellulite Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">What Causes Cellulite Formation?</h3>
-                        <p>Understanding the multifaceted causes of cellulite helps us develop targeted treatment strategies for optimal results. Various factors contribute to cellulite development and severity.</p>
+                        <p>Understanding the multifaceted causes of cellulite helps us develop targeted treatment
+                            strategies for optimal results. Various factors contribute to cellulite development and
+                            severity.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Hormonal Factors:</strong> Estrogen, insulin, and thyroid hormones influence fat storage and connective tissue</li>
-                                <li><strong>Genetics:</strong> Family history determines predisposition to cellulite development</li>
-                                <li><strong>Age-Related Changes:</strong> Decreased collagen production and skin elasticity over time</li>
-                                <li><strong>Lifestyle Factors:</strong> Sedentary lifestyle, poor diet, and dehydration contribute to formation</li>
-                                <li><strong>Poor Circulation:</strong> Reduced blood flow affects tissue health and toxin removal</li>
-                                <li><strong>Connective Tissue Structure:</strong> Weak or damaged septae allow fat to protrude through</li>
+                                <li><strong>Hormonal Factors:</strong> Estrogen, insulin, and thyroid hormones influence
+                                    fat storage and connective tissue</li>
+                                <li><strong>Genetics:</strong> Family history determines predisposition to cellulite
+                                    development</li>
+                                <li><strong>Age-Related Changes:</strong> Decreased collagen production and skin
+                                    elasticity over time</li>
+                                <li><strong>Lifestyle Factors:</strong> Sedentary lifestyle, poor diet, and dehydration
+                                    contribute to formation</li>
+                                <li><strong>Poor Circulation:</strong> Reduced blood flow affects tissue health and
+                                    toxin removal</li>
+                                <li><strong>Connective Tissue Structure:</strong> Weak or damaged septae allow fat to
+                                    protrude through</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Cellulite Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg"
+                                    alt="Before Cellulite Treatment" class="w-100">
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg" alt="After Cellulite Treatment"
-                                    class="w-100">
+                            <div class="mega-hover"><img src="assets/img/service/s-d-1-3.jpg"
+                                    alt="After Cellulite Treatment" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -181,14 +200,21 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Treatment Options Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Advanced Treatment Modalities</h3>
-                        <p>Our cellulite reduction program utilizes state-of-the-art technologies and proven techniques to address all aspects of cellulite formation, providing comprehensive results that improve both appearance and skin health.</p>
+                        <p>Our cellulite reduction program utilizes state-of-the-art technologies and proven techniques
+                            to address all aspects of cellulite formation, providing comprehensive results that improve
+                            both appearance and skin health.</p>
                         <div class="list-style2">
                             <ul class="list-unstyled">
-                                <li><strong>Radiofrequency Therapy:</strong> Heats deep tissue to stimulate collagen and tighten skin</li>
-                                <li><strong>Acoustic Wave Therapy:</strong> Breaks down fibrous bands and improves circulation</li>
-                                <li><strong>Vacuum Massage:</strong> Enhances lymphatic drainage and tissue manipulation</li>
-                                <li><strong>Cryolipolysis:</strong> Targeted fat reduction to minimize bulging areas</li>
-                                <li><strong>Injectable Treatments:</strong> Collagenase injections to break down fibrous septae</li>
+                                <li><strong>Radiofrequency Therapy:</strong> Heats deep tissue to stimulate collagen and
+                                    tighten skin</li>
+                                <li><strong>Acoustic Wave Therapy:</strong> Breaks down fibrous bands and improves
+                                    circulation</li>
+                                <li><strong>Vacuum Massage:</strong> Enhances lymphatic drainage and tissue manipulation
+                                </li>
+                                <li><strong>Cryolipolysis:</strong> Targeted fat reduction to minimize bulging areas
+                                </li>
+                                <li><strong>Injectable Treatments:</strong> Collagenase injections to break down fibrous
+                                    septae</li>
                                 <li><strong>Topical Therapies:</strong> Medical-grade creams to support skin health</li>
                             </ul>
                         </div>
@@ -200,7 +226,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="testimonial-slider">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"I've struggled with cellulite for years and tried everything. The cellulite reduction treatment at SMT Skin Clinic has been life-changing! My thighs are so much smoother and I finally feel confident wearing shorts again."</p>
+                                    <p>"I've struggled with cellulite for years and tried everything. The cellulite
+                                        reduction treatment at SMT Skin Clinic has been life-changing! My thighs are so
+                                        much smoother and I finally feel confident wearing shorts again."</p>
                                     <div class="testimonial-author">
                                         <h5>Priya Verma</h5>
                                         <span>Age 34, Lucknow</span>
@@ -209,7 +237,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"The team at SMT provided a comprehensive approach to my cellulite concerns. After completing my treatment series, the improvement in my skin texture is remarkable. Professional, effective, and worth every penny!"</p>
+                                    <p>"The team at SMT provided a comprehensive approach to my cellulite concerns.
+                                        After completing my treatment series, the improvement in my skin texture is
+                                        remarkable. Professional, effective, and worth every penny!"</p>
                                     <div class="testimonial-author">
                                         <h5>Anjali Singh</h5>
                                         <span>Age 41, Kanpur</span>
@@ -218,7 +248,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>"I was skeptical about cellulite treatments, but Dr. Shubhshree's approach was scientific and thorough. The results exceeded my expectations - my skin is firmer and the dimpling has significantly reduced."</p>
+                                    <p>"I was skeptical about cellulite treatments, but Dr. Shubhshree's approach was
+                                        scientific and thorough. The results exceeded my expectations - my skin is
+                                        firmer and the dimpling has significantly reduced."</p>
                                     <div class="testimonial-author">
                                         <h5>Ritu Agarwal</h5>
                                         <span>Age 38, Allahabad</span>
@@ -229,7 +261,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
                     <h3 class="h4">Comprehensive Results</h3>
-                    <p class="pb-1">Our cellulite reduction treatments offer both immediate and progressive improvements. While some smoothing effects are visible after the first session, optimal results develop over 3-6 months as collagen remodeling occurs. The combination of technologies ensures comprehensive addressing of all cellulite factors for long-lasting, natural-looking improvements in skin texture and firmness.</p>
+                    <p class="pb-1">Our cellulite reduction treatments offer both immediate and progressive
+                        improvements. While some smoothing effects are visible after the first session, optimal results
+                        develop over 3-6 months as collagen remodeling occurs. The combination of technologies ensures
+                        comprehensive addressing of all cellulite factors for long-lasting, natural-looking improvements
+                        in skin texture and firmness.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -265,12 +301,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 
