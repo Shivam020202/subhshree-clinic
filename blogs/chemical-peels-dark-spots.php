@@ -12,8 +12,10 @@ $base_path = "../";
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title><?php echo isset($page_title) ? $page_title : 'SMT Clinic'; ?></title>
     <meta name="author" content="Vecuro">
-    <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'SMT Clinic - Your Health, Our Priority'; ?>">
-    <meta name="keywords" content="<?php echo isset($page_keywords) ? $page_keywords : 'clinic, health, wellness, medical, treatment, care, therapy, doctor, hospital, healthcare'; ?>">
+    <meta name="description"
+        content="<?php echo isset($page_description) ? $page_description : 'SMT Clinic - Your Health, Our Priority'; ?>">
+    <meta name="keywords"
+        content="<?php echo isset($page_keywords) ? $page_keywords : 'clinic, health, wellness, medical, treatment, care, therapy, doctor, hospital, healthcare'; ?>">
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -67,6 +69,10 @@ $base_path = "../";
             color: #c0c0c0 !important;
             text-decoration: none;
         }
+
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
     </style>
 </head>
 
@@ -75,8 +81,13 @@ $base_path = "../";
     <?php include '../header.php'; ?>
 
     <!-- Breadcrumb -->
-    <div class="breadcumb-wrapper" data-bg-src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop" data-old-src="../assets/img/blog/chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper"
+        data-bg-src="https://images.unsplash.com/photo-1599847987657-881f11b92a75?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1035"
+        data-old-src="../assets/img/blog/chemical-peel-banner.jpg">
+        <div class="overlay"></div>
+
         <div class="container z-index-common">
+
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">5 Advantages of Using Chemical Peels for <span class="inner-text">Dark
                         Spots</span></h1>
@@ -98,10 +109,11 @@ $base_path = "../";
                 <div class="col-lg-8">
                     <div class="blog-single">
                         <div class="blog-img mega-hover mb-40">
-                            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&h=600&fit=crop" alt="Chemical Peels for Dark Spots">
+                            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&h=600&fit=crop"
+                                alt="Chemical Peels for Dark Spots">
                         </div>
 
-                        <div class="blog-meta mb-20">
+                        <div class="blog-meta mt-5 mb-20">
                             <a href="#"><i class="fas fa-calendar-alt"></i>January 15, 2025</a>
                             <a href="#"><i class="fas fa-user"></i>Dr. Shubhshree</a>
                             <a href="#"><i class="fas fa-folder"></i>Skin Treatments</a>
@@ -128,10 +140,12 @@ $base_path = "../";
                                 natural healing response, stimulating the production of new, healthy skin cells.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1000&h=600&fit=crop" alt="Chemical Peel Process">
+                                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1000&h=600&fit=crop"
+                                    alt="Chemical Peel Process">
                             </div>
 
-                            <p><strong>How it works:</strong> The acids in chemical peels dissolve the bonds between
+                            <p class="mt-5"><strong>How it works:</strong> The acids in chemical peels dissolve the
+                                bonds between
                                 dead skin cells, allowing them to shed more quickly and efficiently than natural
                                 exfoliation. As these pigmented cells are removed, fresh, evenly-toned skin emerges from
                                 beneath.</p>
@@ -168,10 +182,12 @@ $base_path = "../";
                                 rejuvenation benefits that extend far beyond hyperpigmentation treatment.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop" data-old-src="../assets/img/blog/skin-rejuvenation.jpg" alt="Skin Rejuvenation Results">
+                                <img src="https://images.unsplash.com/photo-1696881762224-4e6b86c39a67?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+                                    data-old-src="../assets/img/blog/skin-rejuvenation.jpg"
+                                    alt="Skin Rejuvenation Results">
                             </div>
 
-                            <p><strong>Additional benefits include:</strong></p>
+                            <p class="mt-5"><strong>Additional benefits include:</strong></p>
 
                             <div class="list-style2 mb-30">
                                 <ul class="list-unstyled">
@@ -222,11 +238,13 @@ $base_path = "../";
                                 deliver long-lasting improvements in dark spots and overall skin quality.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop" data-old-src="../assets/img/blog/before-after-chemical-peel.jpg"
+                                <img src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop"
+                                    data-old-src="../assets/img/blog/before-after-chemical-peel.jpg"
                                     alt="Chemical Peel Before and After">
                             </div>
 
-                            <p>While you may notice immediate brightening after your first treatment, optimal results
+                            <p class="mt-5">While you may notice immediate brightening after your first treatment,
+                                optimal results
                                 typically develop over several weeks as new skin cells regenerate. Most patients achieve
                                 their best results after a series of 3-6 treatments spaced 2-4 weeks apart, depending on
                                 the peel type and skin concern severity.</p>
@@ -265,14 +283,6 @@ $base_path = "../";
                             <p>During your consultation at SMT Skin Clinic, our dermatologists will thoroughly evaluate
                                 your skin, discuss your concerns and goals, and determine whether chemical peels are the
                                 best treatment option for your specific needs.</p>
-
-                            <div class="blog-quote bg-theme text-white mt-40 mb-40">
-                                <p class="mb-0">"Chemical peels have transformed the way we treat hyperpigmentation.
-                                    When performed correctly with the right formulation, they deliver remarkable results
-                                    that simply cannot be achieved with topical products alone. I've seen countless
-                                    patients regain their confidence through this powerful treatment."</p>
-                                <cite>- Dr. Shubhshree, SMT Skin Clinic</cite>
-                            </div>
 
                             <h3 class="h4 mt-40 mb-20">What to Expect During Treatment</h3>
                             <p>Understanding the treatment process can help ease any concerns and ensure you're fully
@@ -338,7 +348,9 @@ $base_path = "../";
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="remove-dark-circles.php"><img
-                                                src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop" data-old-src="../assets/img/blog/dark-circles-thumb.jpg" alt="Dark Circles"></a>
+                                                src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop"
+                                                data-old-src="../assets/img/blog/dark-circles-thumb.jpg"
+                                                alt="Dark Circles"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"
@@ -352,7 +364,9 @@ $base_path = "../";
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="remove-acne-scars-naturally.php"><img
-                                                src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop" data-old-src="../assets/img/blog/acne-scar-thumb.jpg" alt="Acne Scars"></a>
+                                                src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop"
+                                                data-old-src="../assets/img/blog/acne-scar-thumb.jpg"
+                                                alt="Acne Scars"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"

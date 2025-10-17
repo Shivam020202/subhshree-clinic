@@ -53,40 +53,103 @@ $page_keywords = "contact dermatologist lucknow, book appointment skin clinic lu
                         <input type="text" name="botcheck" class="hidden" style="display: none;">
 
                         <div class="form-group">
-                            <input type="text" name="name" id="name" placeholder="Your Name*" required minlength="3">
+                            <input type="text" name="name" id="name" placeholder="FULL NAME*" required minlength="3">
                         </div>
-                        <div class="form-group">
-                            <input type="email" name="email" id="email" placeholder="Your Email*" required>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="number" name="age" id="age" placeholder="AGE*" required min="16"
+                                        max="80">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select name="gender" id="gender" class="form-control">
+                                        <option value="">Gender (Optional)</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Prefer not to say">Prefer not to say</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
+
                         <div class="form-group">
-                            <input type="tel" name="phone" id="phone" placeholder="Your Phone Number"
-                                pattern="[6-9]\d{9}" title="Enter a valid 10-digit Indian mobile number">
+                            <input type="text" name="city_locality" id="city_locality"
+                                placeholder="CITY & LOCALITY* (e.g., Lucknow - Gomti Nagar)" required>
                         </div>
+
                         <div class="form-group">
-                            <select name="inquiry_type" id="inquiry_type" required>
-                                <option value="" selected disabled hidden>What brings you to SMT?</option>
-                                <option value="Skin Care">Skin Care</option>
-                                <option value="Anti-Aging Treatment">Anti-Aging Treatment</option>
-                                <option value="Laser Treatment">Laser Treatment</option>
-                                <option value="Hair Treatment">Hair Treatment</option>
-                                <option value="Body Contouring">Body Contouring</option>
-                                <option value="General Inquiry">General Inquiry</option>
-                                <option value="Others">Others</option>
+                            <input type="tel" name="mobile" id="mobile" placeholder="MOBILE NUMBER* (10 digits)"
+                                required pattern="[6-9]\d{9}" title="Enter a valid 10-digit Indian mobile number">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="EMAIL (Optional)">
+                        </div>
+
+                        <div class="form-group">
+                            <select name="primary_concern" id="primary_concern" class="form-control" required>
+                                <option value="">What brings you to SMT Skin Clinic?*</option>
+                                <option value="Acne or acne scars">Acne or acne scars</option>
+                                <option value="Anti-aging / fine lines & wrinkles">Anti-aging / fine lines & wrinkles
+                                </option>
+                                <option value="Pigmentation / uneven skin tone">Pigmentation / uneven skin tone</option>
+                                <option value="Hair fall or hair thinning">Hair fall or hair thinning</option>
+                                <option value="Laser hair removal">Laser hair removal</option>
+                                <option value="Body contouring / weight loss">Body contouring / weight loss</option>
+                                <option value="Skin glow / maintenance">Skin glow / maintenance</option>
+                                <option value="Other">Other (Please specify below)</option>
                             </select>
                         </div>
-                        <div class="form-group">
-                            <textarea name="message" id="message" placeholder="Message*" required
-                                minlength="10"></textarea>
+
+                        <div class="form-group" id="otherConcernGroup" style="display: none;">
+                            <input type="text" name="concern_other_text" id="concernOtherText"
+                                placeholder="PLEASE SPECIFY YOUR CONCERN*">
                         </div>
+
                         <button class="vs-btn" type="submit" id="submitBtn">Send Message</button>
                         <div id="formMessage"
                             style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none;"></div>
                     </form>
 
                     <script>
+                        // Show/hide "Other" text field based on dropdown selection
+                        document.getElementById('primary_concern').addEventListener('change', function () {
+                            const otherGroup = document.getElementById('otherConcernGroup');
+                            const otherText = document.getElementById('concernOtherText');
+
+                            if (this.value === 'Other') {
+                                otherGroup.style.display = 'block';
+                                otherText.required = true;
+                            } else {
+                                otherGroup.style.display = 'none';
+                                otherText.required = false;
+                                otherText.value = '';
+                            }
+                        });
+
                         // Form validation and submission
                         document.getElementById('contactForm').addEventListener('submit', async function (e) {
                             e.preventDefault();
+
+                            // Validate concern is selected
+                            const concern = document.getElementById('primary_concern').value;
+                            if (!concern) {
+                                alert('Please select what brings you to SMT Skin Clinic.');
+                                document.getElementById('primary_concern').focus();
+                                return false;
+                            }
+
+                            // If "Other" is selected, validate text field
+                            const otherText = document.getElementById('concernOtherText');
+                            if (concern === 'Other' && !otherText.value.trim()) {
+                                alert('Please specify your concern in the text field.');
+                                otherText.focus();
+                                return false;
+                            }
 
                             const submitBtn = document.getElementById('submitBtn');
                             const formMessage = document.getElementById('formMessage');
@@ -118,6 +181,9 @@ $page_keywords = "contact dermatologist lucknow, book appointment skin clinic lu
 
                                     // Reset form
                                     form.reset();
+
+                                    // Hide other concern field
+                                    document.getElementById('otherConcernGroup').style.display = 'none';
 
                                     // Auto-hide success message after 10 seconds
                                     setTimeout(() => {
