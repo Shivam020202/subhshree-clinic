@@ -296,7 +296,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <p class="team-degi">Physician</p>
                     </div>
                 </div>
-                <div class="col-xl-3  ">
+                <!-- <div class="col-xl-3  ">
                     <div class="team-style1">
                         <div class="team-img"><a href="#"><img src="assets/img/about/Anum-Hashmi-Derma-staff.jpeg"
                                     alt="member"></a></div>
@@ -309,7 +309,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <div class="team-img"><a href="#"><img src="assets/img/about/Vishwanath-Tripathi.jpeg"
                                     alt="member"></a></div>
                         <h3 class="team-name h4"><a href="#">Vishwanath Tripathi</a></h3>
-                        <!-- <p class="team-degi">House Keeping </p> -->
+                        <p class="team-degi">House Keeping </p>
                     </div>
                 </div>
                
@@ -326,7 +326,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <div class="team-img"><a href="#"><img src="assets/img/about/Shrikant.jpeg"
                                     alt="member"></a></div>
                         <h3 class="team-name h4"><a href="#">Shrikant</a></h3>
-                        <!-- <p class="team-degi">Spa Specialist</p> -->
+                        <p class="team-degi">Spa Specialist</p>
                     </div>
                 </div>
                 <div class="col-xl-3  ">
@@ -334,9 +334,9 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <div class="team-img"><a href="#"><img src="assets/img/about/Deepmala.jpeg"
                                     alt="member"></a></div>
                         <h3 class="team-name h4"><a href="#">Deepmala</a></h3>
-                        <!-- <p class="team-degi">Massage Expert</p> -->
+                        <p class="team-degi">Massage Expert</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
