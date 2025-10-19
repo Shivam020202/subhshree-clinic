@@ -142,7 +142,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
             <div class="row gx-60">
                 <div class="col-lg-5 mb-40 mb-lg-0">
                     <div class="img-box2">
-                        <div class="img-1"><img src="assets/img/about/dr-shubhshree.avif" alt="Dr. Shubhshree Misra">
+                        <div class="img-1"><img src="assets/img/about/subshree.jpeg" alt="Dr. Shubhshree Misra">
                         </div>
                         <div class="img-shape jump"><img src="assets/img/shape/shape-dotted.png" alt="shape"></div>
                     </div>
@@ -290,10 +290,10 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                 data-md-slide-show="2">
                 <div class="col-xl-3  ">
                     <div class="team-style1">
-                        <div class="team-img"><a href="team-details.html"><img src="assets/img/team/team-1-1.png"
+                        <div class="team-img"><a href="#"><img src="assets/img/about/Anum-Hashmi-Derma-staff.jpeg"
                                     alt="member"></a></div>
-                        <h3 class="team-name h4"><a href="team-details.html">Lenda Murray</a></h3>
-                        <p class="team-degi">Founder & CEO</p>
+                        <h3 class="team-name h4"><a href="#">Anum Hashmi</a></h3>
+                        <p class="team-degi">Derma Staff</p>
                     </div>
                 </div>
                 <div class="col-xl-3  ">
