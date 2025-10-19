@@ -140,7 +140,7 @@ $base_path = "../";
                                     data-old-src="../assets/img/blog/acne-scar-types.jpg" alt="Types of Acne Scars">
                             </div>
 
-                            <p class="mt-3"><strong>Common types of acne scars include:</strong></p>
+                            <p class="mt-3 pt-3"><strong>Common types of acne scars include:</strong></p>
 
                             <div class="list-style2 mb-30">
                                 <ul class="list-unstyled">
@@ -196,7 +196,7 @@ $base_path = "../";
                                     data-old-src="../assets/img/blog/aloe-vera-treatment.jpg" alt="Aloe Vera for Skin">
                             </div>
 
-                            <p class="mt-3"><strong>Benefits:</strong></p>
+                            <p class="mt-3 pt-3"><strong>Benefits:</strong></p>
 
                             <div class="list-style2 mb-30">
                                 <ul class="list-unstyled">
