@@ -384,7 +384,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
     <!-- Price Plan Area -->
     <section class="space-top space-extra-bottom">
-        <div class="parallax" data-parallax-image="assets/img/home/sec5-bg.png"></div>
+        <div class="parallax" data-parallax-image="assets/img/home/sec5-bg.webp"></div>
         <div class="container">
             <div class="row justify-content-center"></div>
             <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12 wow fadeInUp text-center mb-5" data-wow-delay="0.3s">
