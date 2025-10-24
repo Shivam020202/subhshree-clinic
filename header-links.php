@@ -67,6 +67,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Marcellus&display=swap"
         rel="stylesheet">
 
+    <!-- Preload important local font (Font Awesome) to avoid FOIT and improve FCP -->
+    <link rel="preload" href="assets/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
     <!-- Schema.org markup for Google+ -->
     <script type="application/ld+json">
     {
@@ -217,17 +220,36 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
-    <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <!-- Layerslider -->
-    <link rel="stylesheet" href="assets/css/layerslider.min.css">
-    <!-- jQuery DatePicker -->
-    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <!-- Slick Slider -->
-    <link rel="stylesheet" href="assets/css/slick.min.css">
-    <!-- Theme Custom CSS -->
+    <!-- Fontawesome Icon (preload CSS non-blocking) -->
+    <link rel="preload" href="assets/css/fontawesome.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    </noscript>
+    <!-- Layerslider (non-critical for initial LCP) -->
+    <link rel="preload" href="assets/css/layerslider.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/layerslider.min.css">
+    </noscript>
+    <!-- jQuery DatePicker (non-critical) -->
+    <link rel="preload" href="assets/css/jquery.datetimepicker.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
+    </noscript>
+    <!-- Magnific Popup (non-critical) -->
+    <link rel="preload" href="assets/css/magnific-popup.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    </noscript>
+    <!-- Slick Slider (non-critical) -->
+    <link rel="preload" href="assets/css/slick.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/slick.min.css">
+    </noscript>
+    <!-- Theme Custom CSS (kept render-blocking as it contains critical layout styles) -->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Custom Styles for Disabled Menu Links -->
@@ -258,3 +280,30 @@
     </style>
 
 </head>
+
+<!-- Small, safe CSS to reserve aspect ratios and prevent layout shifts for hero and decorative images -->
+<style>
+    /* Reserve space for hero images to avoid CLS while JS initializes carousels */
+    .hero-layout3 .hero-img img {
+        aspect-ratio: 16/9;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Decorative shapes — reserve a reasonable aspect ratio */
+    .img-box3 .img-1 img,
+    .img-box3 .img-2 img {
+        aspect-ratio: 4/3;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Ensure carousel images don't collapse before JS runs */
+    .vs-carousel img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>
