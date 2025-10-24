@@ -71,20 +71,20 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
             data-lg-center-padding="250px" data-md-center-padding="180px" data-sm-center-padding="150px"
             data-xs-center-padding="100px" id="heroimg" data-asnavfor="#herocontent">
             <div>
-                <div class="hero-img"><img src="assets/img/home/Artboard 1-1.jpg" alt="Dermatology Clinic"
+                <div class="hero-img"><img src="assets/img/home/Artboard 1-1.webp" alt="Dermatology Clinic"
                         class="w-100">
                 </div>
             </div>
             <div>
-                <div class="hero-img"><img src="assets/img/banner/2.png" alt="Skin Care Treatments" class="w-100">
+                <div class="hero-img"><img src="assets/img/banner/2.webp" alt="Skin Care Treatments" class="w-100">
                 </div>
             </div>
             <div>
-                <div class="hero-img"><img src="assets/img/banner/3.png" alt="Cosmetic Procedures" class="w-100">
+                <div class="hero-img"><img src="assets/img/banner/3.webp" alt="Cosmetic Procedures" class="w-100">
                 </div>
             </div>
             <div>
-                <div class="hero-img"><img src="assets/img/banner/4.png" alt="Advanced Dermatology" class="w-100">
+                <div class="hero-img"><img src="assets/img/banner/4.webp" alt="Advanced Dermatology" class="w-100">
                 </div>
             </div>
         </div>
@@ -137,51 +137,6 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
             </div>
         </div>
     </div>
-
-    <!-- Product Area -->
-    <!-- <section class=" space-top">
-        <div class="shape-mockup jump-img d-none d-xxl-block" data-top="-1%" data-left="0"><img
-                src="assets/img/bg/banner-sh-1-1.png" alt="shape"></div>
-        <div class="shape-mockup jump-reverse-img d-none d-xxl-block" data-top="-2%" data-right="0"><img
-                src="assets/img/bg/banner-sh-1-2.png" alt="shape"></div>
-        <div class="container">
-            <div class="banner-inner1">
-                <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.2s" data-slide-show="3"
-                    data-md-slide-show="2">
-                    <div class="col-lg-4">
-                        <div class="banner-style1 mega-hover">
-                            <a href="shop-details.html" class="link-overlay"><span class="sr-only">Buy Now</span></a>
-                            <div class="banner-img"><img src="assets/img/banner/ban-1-1.png" alt="banner"></div>
-                            <div class="banner-content">
-                                <h3 class="banner-title">skinpure <span class="text-theme">NEW</span> Beauty</h3>
-                                <span class="banner-price">$18.00<del>$75.00</del></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="banner-style1 layout2 mega-hover">
-                            <a href="shop-details.html" class="link-overlay"><span class="sr-only">Buy Now</span></a>
-                            <div class="banner-img"><img src="assets/img/banner/ban-1-2.png" alt="banner"></div>
-                            <div class="banner-content">
-                                <h3 class="banner-title">Cosmetic <span class="text-theme">NEW</span> Beauty</h3>
-                                <span class="banner-price">$45.00<del>$68.00</del></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="banner-style1 layout3 mega-hover">
-                            <a href="shop-details.html" class="link-overlay"><span class="sr-only">Buy Now</span></a>
-                            <div class="banner-img"><img src="assets/img/banner/ban-1-3.png" alt="banner"></div>
-                            <div class="banner-content">
-                                <h3 class="banner-title">spastone <span class="text-theme">NEW</span> Beauty</h3>
-                                <span class="banner-price">$12.00<del>$12.00</del></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <!-- About Area -->
     <section class=" overflow-hidden space-top space-extra-bottom bg-gradient-2">
@@ -276,7 +231,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 data-ml-center-padding="200px" data-lg-center-padding="150px" data-md-center-padding="80px">
                 <div class="col">
                     <div class="gallery-style2">
-                        <div class="gallery-img"><img src="assets/img/home/ba1.jpg" alt="gallery"></div>
+                        <div class="gallery-img"><img src="assets/img/home/ba1.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
                             <a href="#" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
@@ -291,7 +246,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col">
                     <div class="gallery-style2">
-                        <div class="gallery-img"><img src="assets/img/home/ba2.jpg" alt="gallery"></div>
+                        <div class="gallery-img"><img src="assets/img/home/ba2.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
                             <a href="#" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
@@ -306,7 +261,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col">
                     <div class="gallery-style2">
-                        <div class="gallery-img"><img src="assets/img/home/ba3.jpg" alt="gallery"></div>
+                        <div class="gallery-img"><img src="assets/img/home/ba3.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
                             <a href="#" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
@@ -321,7 +276,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col">
                     <div class="gallery-style2">
-                        <div class="gallery-img"><img src="assets/img/home/ba4.jpg" alt="gallery"></div>
+                        <div class="gallery-img"><img src="assets/img/home/ba4.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
                             <a href="#" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
@@ -389,7 +344,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         </div>
                     </div>
                     <div class="col col-xxl-auto text-center d-none d-lg-block">
-                        <img src="assets/img/home/center-image.png" alt="shape" class="mt-n4">
+                        <img src="assets/img/home/center-image.webp" alt="shape" class="mt-n4">
                     </div>
                     <div class="col-md-6 col-lg-5 col-xxl-auto">
                         <div class="service-style1">
@@ -656,7 +611,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
     <!-- Contact Area -->
     <section class="vs-cart-wrapper  space">
-        <div class="parallax" data-parallax-image="assets/img/home/contact-bg.png"></div>
+        <div class="parallax" data-parallax-image="assets/img/home/contact-bg.webp"></div>
         <div class="container">
             <div class="row gx-0">
                 <div class="col-md-auto wow fadeInUp" data-wow-delay="0.2s">
