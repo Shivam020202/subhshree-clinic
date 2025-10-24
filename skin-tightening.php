@@ -201,6 +201,161 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <!-- Added testimonial slider section -->
                     <div class="mb-40 mt-40">
+<style>
+                        .testimonial-section {
+                            padding: 60px 0;
+                            background: #f8f9fa;
+                            margin: 40px 0;
+                            border-radius: 10px;
+                        }
+
+                        .testimonial-section .section-title {
+                            text-align: center;
+                            font-size: 32px;
+                            font-weight: 700;
+                            margin-bottom: 40px;
+                            color: #333;
+                        }
+
+                        .testimonial-slider {
+                            position: relative;
+                            max-width: 900px;
+                            margin: 0 auto;
+                            padding: 0 60px;
+                        }
+
+                        .testimonial-track {
+                            display: flex;
+                            transition: transform 0.5s ease-in-out;
+                        }
+
+                        .testimonial-slide {
+                            min-width: 100%;
+                            padding: 40px;
+                            background: white;
+                            border-radius: 10px;
+                            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+                            text-align: center;
+                        }
+
+                        .rating {
+                            margin-bottom: 20px;
+                        }
+
+                        .rating i {
+                            color: #ffc107;
+                            font-size: 20px;
+                            margin: 0 2px;
+                        }
+
+                        .testimonial-text {
+                            font-size: 16px;
+                            line-height: 1.8;
+                            color: #555;
+                            margin-bottom: 25px;
+                            font-style: italic;
+                        }
+
+                        .testimonial-author {
+                            margin-top: 20px;
+                        }
+
+                        .author-name {
+                            font-size: 18px;
+                            font-weight: 700;
+                            color: #333;
+                            margin-bottom: 5px;
+                        }
+
+                        .author-details {
+                            font-size: 14px;
+                            color: #777;
+                        }
+
+                        .slider-nav {
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: white;
+                            border: 2px solid #ddd;
+                            width: 45px;
+                            height: 45px;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: all 0.3s ease;
+                            z-index: 10;
+                        }
+
+                        .slider-nav:hover {
+                            background: #007bff;
+                            border-color: #007bff;
+                            color: white;
+                        }
+
+                        .slider-nav.prev {
+                            left: 0;
+                        }
+
+                        .slider-nav.next {
+                            right: 0;
+                        }
+
+                        .slider-nav i {
+                            font-size: 18px;
+                            color: inherit;
+                        }
+
+                        .slider-indicators {
+                            display: flex;
+                            justify-content: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                        }
+
+                        .indicator {
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            background: #ddd;
+                            border: none;
+                            cursor: pointer;
+                            transition: all 0.3s ease;
+                        }
+
+                        .indicator.active {
+                            background: #007bff;
+                            width: 30px;
+                            border-radius: 6px;
+                        }
+
+                        @media (max-width: 768px) {
+                            .testimonial-slider {
+                                padding: 0 50px;
+                            }
+
+                            .testimonial-slide {
+                                padding: 30px 20px;
+                            }
+
+                            .testimonial-section .section-title {
+                                font-size: 24px;
+                            }
+
+                            .slider-nav {
+                                width: 35px;
+                                height: 35px;
+                            }
+
+                            .slider-nav i {
+                                font-size: 14px;
+                            }
+                        }
+                    </style>
+
+                    
                         <h3 class="h4 mb-30">What Our Patients Say</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
