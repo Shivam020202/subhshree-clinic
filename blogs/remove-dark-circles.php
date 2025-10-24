@@ -141,7 +141,7 @@ $base_path = "../";
                                     data-old-src="../assets/img/blog/eye-anatomy.jpg" alt="Eye Area Anatomy">
                             </div>
 
-                            <p><strong>Common causes of dark circles include:</strong></p>
+                            <p class="mt-3 pt-3"><strong>Common causes of dark circles include:</strong></p>
 
                             <div class="list-style2 mb-30">
                                 <ul class="list-unstyled">
@@ -191,7 +191,7 @@ $base_path = "../";
                                     alt="Dermal Filler Treatment">
                             </div>
 
-                            <p>At SMT Skin Clinic, our experienced practitioners use advanced injection techniques to
+                            <p class="mt-3 pt-3">At SMT Skin Clinic, our experienced practitioners use advanced injection techniques to
                                 ensure safe, comfortable, and beautiful results with minimal downtime.</p>
 
                             <h4 class="h5 mt-30 mb-20">2. Chemical Peels for Pigmentation</h4>
@@ -325,8 +325,8 @@ $base_path = "../";
                                     alt="Eye Cream Ingredients">
                             </div>
 
-                            <div class="list-style2 mb-30">
-                                <ul class="list-unstyled">
+                            <div class="list-style2 mb-30 mt-3 pt-3">
+                                <ul class="list-unstyled mt-3 pt-3">
                                     <li><strong>Vitamin K:</strong> Helps reduce blood vessel visibility and bruising
                                     </li>
                                     <li><strong>Caffeine:</strong> Constricts blood vessels and reduces puffiness</li>

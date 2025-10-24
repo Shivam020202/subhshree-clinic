@@ -35,11 +35,11 @@ if (!isset($base_path)) {
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container footer-menu">
                             <ul class="menu">
-                                <li><a href="/service.php">Services</a></li>
-                                <li><a href="/about.php">About Us</a></li>
+                                <li><a href="<?php echo $base_path; ?>service.php">Services</a></li>
+                                <li><a href="<?php echo $base_path; ?>about.php">About Us</a></li>
                                 <!-- <li><a href="/">Price List</a></li> -->
-                                <li><a href="/contact.php">Contact Us</a></li>
-                                <li><a href="/blog.php">Our Blog</a></li>
+                                <li><a href="<?php echo $base_path; ?>contact.php">Contact Us</a></li>
+                                <li><a href="<?php echo $base_path; ?>blogs.php">Our Blog</a></li>
                             </ul>
                         </div>
                     </div>

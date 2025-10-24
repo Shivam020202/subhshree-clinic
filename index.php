@@ -90,7 +90,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         </div>
         <div class="media-slider">
             <div class="circle-btn">
-                <a href="services.html" class="btn-icon"><i class="far fa-arrow-right"></i></a>
+                <a href="service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                 <div class="btn-text">
                     <svg viewBox="0 0 150 150">
                         <text>
