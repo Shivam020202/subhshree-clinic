@@ -113,7 +113,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Face_smt_banners/face-sculpting.png">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Face/face-sculpting.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <!-- Updated breadcrumb title for facial sculpting -->

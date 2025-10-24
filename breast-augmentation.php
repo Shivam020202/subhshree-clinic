@@ -105,7 +105,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Body_smt_banners/breast-augmentation.png">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Body/breast-augmentation.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Breast <span class="inner-text">Augmentation</span></h1>

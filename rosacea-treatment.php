@@ -104,7 +104,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/rosacea.png">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Skin/rosacea.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <!-- Updated breadcrumb title for Rosacea service -->

@@ -106,7 +106,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/led-light-therapy.png">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Skin/led-light-therapy.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">LED Light <span class="inner-text">Therapy</span></h1>

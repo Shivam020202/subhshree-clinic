@@ -106,7 +106,7 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Face_smt_banners/fire-and-ice-facial-treatment.png">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Face/fire-and-ice-facial-treatment.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Fire & Ice <span class="inner-text">Facial</span></h1>

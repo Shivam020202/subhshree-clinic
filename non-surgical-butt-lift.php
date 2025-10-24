@@ -105,7 +105,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Body_smt_banners/non-surgical-butt-lift.png">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Body/non-surgical-butt-lift.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Non-Surgical <span class="inner-text">Butt Lift</span></h1>

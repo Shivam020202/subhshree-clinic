@@ -4,7 +4,12 @@
       "Bash(start \"\" \"A:\\Freelance\\subhshree-html\\index.html\")",
       "Bash(python:*)",
       "Bash(del add_mobile_menu.py convert_remaining.py)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(for file in acne-scar.php aging-skin.php laser-hair-reduction.php stretch-marks.php hyperpigmentation.php moles-removal.php pores.php tattoo-removal.php)",
+      "Bash(do if [ -f \"$file\" ])",
+      "Bash(then echo \"=== $file ===\")",
+      "Bash(fi)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []
