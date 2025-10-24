@@ -106,7 +106,7 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Face_smt_banners/IPL.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Lumecca <span class="inner-text">IPL</span></h1>
