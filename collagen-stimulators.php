@@ -106,7 +106,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/collagen.png">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/smt-left-banners/collagen.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Collagen Stimulators</h1>

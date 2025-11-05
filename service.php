@@ -20,7 +20,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/smt-left-banners/2-services.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Our <span class="inner-text">Services</span></h1>

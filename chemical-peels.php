@@ -104,7 +104,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/smt-left-banners/chemical-peel.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <!-- Updated breadcrumb title for Chemical Peel service -->

@@ -12,7 +12,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
     <?php include 'header.php'; ?>
 
     <!-- Breadcrumb -->
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/banner/smt-left-banners/4-blogs.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Our <span class="inner-text">Blog</span></h1>

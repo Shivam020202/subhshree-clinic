@@ -12,7 +12,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
     <?php include 'header.php'; ?>
 
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/smt-left-banners/1-about-us.png">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>
