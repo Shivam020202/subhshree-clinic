@@ -292,9 +292,16 @@
     }
 
     /* Decorative shapes — reserve a reasonable aspect ratio */
-    .img-box3 .img-1 img,
     .img-box3 .img-2 img {
         aspect-ratio: 4/3;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* img-1 should display at its original (intrinsic) size but remain responsive if container is smaller */
+    .img-box3 .img-1 img {
+        width: auto;
         max-width: 100%;
         height: auto;
         display: block;
