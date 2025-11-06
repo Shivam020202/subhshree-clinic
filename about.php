@@ -288,10 +288,10 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
             </div>
             <div class="row vs-carousel" data-arrows="true" data-slide-show="4" data-lg-slide-show="3"
                 data-md-slide-show="2">
-                 <div class="col-xl-3  ">
+                <div class="col-xl-3  ">
                     <div class="team-style1">
-                        <div class="team-img"><a href="team-details.html"><img src="assets/img/about/Dr-Satyawa- Patel- Physician.jpeg"
-                                    alt="member"></a></div>
+                        <div class="team-img"><a href="team-details.html"><img
+                                    src="assets/img/about/Dr-Satyawa- Patel- Physician.jpeg" alt="member"></a></div>
                         <h3 class="team-name h4"><a href="#"></a>Dr. Satyawan Patel</h3>
                         <p class="team-degi">Physician</p>
                     </div>
@@ -337,6 +337,73 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <p class="team-degi">Massage Expert</p>
                     </div>
                 </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Staff Members Section -->
+    <section class=" space-top space-extra-bottom">
+        <div class="container">
+            <div class="title-area text-center wow fadeInUp" data-wow-delay="0.2s">
+                <span class="sec-subtitle">our Staff</span>
+                <h2 class="sec-title">Meet Our Dedicated Team</h2>
+                <div class="sec-shape"><img src="assets/img/shape/sec-shape-1.png" alt="shape"></div>
+            </div>
+            <div class="row vs-carousel" data-arrows="true" data-slide-show="4" data-lg-slide-show="3"
+                data-md-slide-show="2">
+
+                <div class="col-xl-2 col-md-4 col-6">
+                    <div class="team-style1 text-center">
+                        <div class="team-img"><a href="#"><img src="assets/img/about/anum.png" alt="Anum Hashmi"></a>
+                        </div>
+                        <h3 class="team-name h6"><a href="#">Anum Hashmi</a></h3>
+                        <p class="team-degi">Dermatology Nurse</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-md-4 col-6">
+                    <div class="team-style1 text-center">
+                        <div class="team-img"><a href="#"><img src="assets/img/about/monika.png" alt="Monika"></a></div>
+                        <h3 class="team-name h6"><a href="#">Monika</a></h3>
+                        <p class="team-degi">Housekeeping</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-md-4 col-6">
+                    <div class="team-style1 text-center">
+                        <div class="team-img"><a href="#"><img src="assets/img/about/anuradha.png" alt="Anuradha"></a>
+                        </div>
+                        <h3 class="team-name h6"><a href="#">Anuradha</a></h3>
+                        <p class="team-degi">Support Staff</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-md-4 col-6">
+                    <div class="team-style1 text-center">
+                        <div class="team-img"><a href="#"><img src="assets/img/about/Shrikant.png" alt="Shrikant"></a>
+                        </div>
+                        <h3 class="team-name h6"><a href="#">Shrikant</a></h3>
+                        <p class="team-degi">Spa Specialist</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-md-4 col-6">
+                    <div class="team-style1 text-center">
+                        <div class="team-img"><a href="#"><img src="assets/img/about/Deepmala.png" alt="Deepmala"></a>
+                        </div>
+                        <h3 class="team-name h6"><a href="#">Deepmala</a></h3>
+                        <p class="team-degi">Massage Expert</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-md-4 col-6">
+                    <div class="team-style1 text-center">
+                        <div class="team-img"><a href="#"><img src="assets/img/about/meena 1.png" alt="Meena"></a></div>
+
+                        <h3 class="team-name h6"><a href="#">Meena</a></h3>
+                        <p class="team-degi">Physician</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
