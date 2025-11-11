@@ -96,7 +96,7 @@ if (!isset($base_path)) {
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-auto text-center">
-                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a href="index.php">SMT
+                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a href="/">SMT
                             Skin Clinic</a>. All Rights Reserved 2025</p>
                 </div>
                 <div class="col-auto d-none d-md-block">
