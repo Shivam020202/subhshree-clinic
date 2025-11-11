@@ -40,6 +40,9 @@ if (!isset($base_path)) {
                                 <!-- <li><a href="/">Price List</a></li> -->
                                 <li><a href="<?php echo $base_path; ?>contact.php">Contact Us</a></li>
                                 <li><a href="<?php echo $base_path; ?>blogs.php">Our Blog</a></li>
+                                <li><a href="<?php echo $base_path; ?>privacy-policy.php">Privacy Policy</a></li>
+                                <li><a href="<?php echo $base_path; ?>terms-and-conditions.php">Terms & Conditions</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -93,11 +96,14 @@ if (!isset($base_path)) {
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-auto text-center">
-                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a href="index.html">SMT
+                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a href="index.php">SMT
                             Skin Clinic</a>. All Rights Reserved 2025</p>
                 </div>
                 <div class="col-auto d-none d-md-block">
-                    <a href="#" class="payment-method">Privacy Policy</a>
+                    <a href="<?php echo $base_path; ?>privacy-policy.php" class="payment-method">Privacy Policy</a>
+                    <span class="mx-2">|</span>
+                    <a href="<?php echo $base_path; ?>terms-and-conditions.php" class="payment-method">Terms &
+                        Conditions</a>
                 </div>
             </div>
         </div>
