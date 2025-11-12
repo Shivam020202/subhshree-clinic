@@ -295,7 +295,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <div class="team-img"><a href="#"><img src="assets/img/about/anum.png" alt="Anum Hashmi"></a>
                         </div>
                         <h3 class="team-name h6"><a href="#">Anum Hashmi</a></h3>
-                        <p class="team-degi">Dermatology Nurse</p>
+                        <!-- <p class="team-degi">Dermatology Nurse</p> -->
                     </div>
                 </div>
 
@@ -303,7 +303,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                     <div class="team-style1 text-center">
                         <div class="team-img"><a href="#"><img src="assets/img/about/monika.png" alt="Monika"></a></div>
                         <h3 class="team-name h6"><a href="#">Monika</a></h3>
-                        <p class="team-degi">Housekeeping</p>
+                        <!-- <p class="team-degi">Housekeeping</p> -->
                     </div>
                 </div>
 
@@ -312,7 +312,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <div class="team-img"><a href="#"><img src="assets/img/about/anuradha.png" alt="Anuradha"></a>
                         </div>
                         <h3 class="team-name h6"><a href="#">Anuradha</a></h3>
-                        <p class="team-degi">Support Staff</p>
+                        <!-- <p class="team-degi">Support Staff</p> -->
                     </div>
                 </div>
 
@@ -330,7 +330,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <div class="team-img"><a href="#"><img src="assets/img/about/deepmala.png" alt="Deepmala"></a>
                         </div>
                         <h3 class="team-name h6"><a href="#">Deepmala</a></h3>
-                        <p class="team-degi">Massage Expert</p>
+                        <!-- <p class="team-degi">Massage Expert</p> -->
                     </div>
                 </div>
 
@@ -339,7 +339,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                         <div class="team-img"><a href="#"><img src="assets/img/about/meena 1.png" alt="Meena"></a></div>
 
                         <h3 class="team-name h6"><a href="#">Meena</a></h3>
-                        <p class="team-degi">Physician</p>
+                        <!-- <p class="team-degi">Physician</p> -->
                     </div>
                 </div>
             </div>
