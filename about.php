@@ -12,13 +12,19 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
     .breadcumb-wrapper {
         margin: 0 !important;
         padding: 0 !important;
+        width: 100vw !important;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw !important;
+        margin-right: -50vw !important;
     }
 
     /* Mobile optimization for breadcrumb text */
     @media (max-width: 767px) {
         .breadcumb-wrapper {
             min-height: 250px !important;
-            background-size: cover !important;
+            background-size: 100% auto !important;
         }
 
         .breadcumb-title {
@@ -38,10 +44,17 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
     @media (min-width: 768px) and (max-width: 991px) {
         .breadcumb-wrapper {
             min-height: 300px !important;
+            background-size: 100% auto !important;
         }
 
         .breadcumb-title {
             font-size: 36px !important;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .breadcumb-wrapper {
+            background-size: 100% auto !important;
         }
     }
 </style>
@@ -50,9 +63,8 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
 
     <?php include 'header.php'; ?>
 
-
     <div class="breadcumb-wrapper"
-        style="background-image: url('assets/img/banner/smt-left-banners/1-about-us.png'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 400px; display: flex; align-items: center; margin: 0; padding: 0;">
+        style="background-image: url('assets/img/banner/smt-left-banners/1-about-us.png'); background-size: 100% auto; background-position: center top; background-repeat: no-repeat; min-height: 400px; display: flex; align-items: center; margin: 0; padding: 0;">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>
