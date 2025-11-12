@@ -375,7 +375,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
 
                 <div class="col-xl-2 col-md-4 col-6">
                     <div class="team-style1 text-center">
-                        <div class="team-img"><a href="#"><img src="assets/img/about/Shrikant.png" alt="Shrikant"></a>
+                        <div class="team-img"><a href="#"><img src="assets/img/about/shrikant.png" alt="Shrikant"></a>
                         </div>
                         <h3 class="team-name h6"><a href="#">Shrikant</a></h3>
                         <p class="team-degi">Pharmacist</p>
