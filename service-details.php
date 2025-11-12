@@ -14,7 +14,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg-4.jpg">
+    <div class="breadcumb-wrapper" style="background-image: url('assets/img/breadcumb/breadcumb-bg-4.jpg');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Service <span class="inner-text">Details</span></h1>

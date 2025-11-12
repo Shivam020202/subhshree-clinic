@@ -106,7 +106,7 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper" style="background-image: url('assets/img/DummyBanner/Chemical-peel-banner.jpg');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Ultherapy <span class="inner-text">Treatment</span></h1>

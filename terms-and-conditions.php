@@ -11,7 +11,7 @@ $page_keywords = "terms and conditions, appointment policy, cancellation policy,
 
     <?php include 'header.php'; ?>
 
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    <div class="breadcumb-wrapper" style="background-image: url('assets/img/bg/breadcumb-bg.jpg');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Terms & Conditions</h1>

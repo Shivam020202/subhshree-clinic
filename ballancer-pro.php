@@ -105,7 +105,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/DummyBanner/Chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper" style="background-image: url('assets/img/DummyBanner/Chemical-peel-banner.jpg');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Ballancer <span class="inner-text">Pro</span></h1>

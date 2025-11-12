@@ -104,7 +104,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/smt-left-banners/skinpen-microneed.png">
+    <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/smt-left-banners/skinpen-microneed.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <!-- Updated breadcrumb title for SkinPen service -->

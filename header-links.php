@@ -251,6 +251,8 @@
     </noscript>
     <!-- Theme Custom CSS (kept render-blocking as it contains critical layout styles) -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Breadcrumb Banner Full Width Styles -->
+    <link rel="stylesheet" href="assets/css/breadcrumb-banner.css">
 
     <!-- Custom Styles for Disabled Menu Links -->
     <style>

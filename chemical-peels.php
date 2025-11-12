@@ -104,7 +104,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </div>
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/smt-left-banners/chemical-peel.png">
+    <div class="breadcumb-wrapper"
+        style="background-image: url('assets/img/banner/smt-left-banners/chemical-peel.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <!-- Updated breadcrumb title for Chemical Peel service -->
@@ -236,7 +237,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 <li>Repetitive facial expressions and muscle movements</li>
                             </ul>
                         </div>
-                    </div>                    <!-- Added testimonial slider section -->
+                    </div> <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;

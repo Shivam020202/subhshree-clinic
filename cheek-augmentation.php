@@ -106,7 +106,7 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
 <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/Face/cheek-aug.png">
+    <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Face/cheek-aug.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Cheek <span class="inner-text">Augmentation</span></h1>
