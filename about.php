@@ -207,7 +207,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                                 <div class="bg-white p-20 text-center">
                                     <p class="mb-1"><i class="far fa-clock text-theme me-2"></i><strong>Timings</strong>
                                     </p>
-                                    <p class="mb-1">Monday to Friday : 10:00 AM - 07:00 PM</p>
+                                    <p class="mb-1">Mon to Fri : 10:00 AM - 07:00 PM</p>
                                     <p class="mb-0">Sunday : Closed</p>
                                 </div>
                             </div>
