@@ -7,13 +7,52 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
 <html class="no-js" lang="zxx">
 <?php include 'header-links.php'; ?>
 
+<style>
+    /* Remove padding/spacing around breadcrumb banner */
+    .breadcumb-wrapper {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Mobile optimization for breadcrumb text */
+    @media (max-width: 767px) {
+        .breadcumb-wrapper {
+            min-height: 250px !important;
+            background-size: cover !important;
+        }
+
+        .breadcumb-title {
+            font-size: 28px !important;
+            margin-bottom: 10px;
+        }
+
+        .breadcumb-menu {
+            font-size: 14px;
+        }
+
+        .breadcumb-content {
+            padding: 20px 15px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .breadcumb-wrapper {
+            min-height: 300px !important;
+        }
+
+        .breadcumb-title {
+            font-size: 36px !important;
+        }
+    }
+</style>
+
 <body>
 
     <?php include 'header.php'; ?>
 
 
     <div class="breadcumb-wrapper"
-        style="background-image: url('assets/img/banner/smt-left-banners/1-about-us.png'); background-size: contain; background-position: center; background-repeat: no-repeat; min-height: 400px; display: flex; align-items: center;">
+        style="background-image: url('assets/img/banner/smt-left-banners/1-about-us.png'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 400px; display: flex; align-items: center; margin: 0; padding: 0;">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>
