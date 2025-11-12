@@ -12,7 +12,8 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
     <?php include 'header.php'; ?>
 
 
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/banner/smt-left-banners/1-about-us.png">
+    <div class="breadcumb-wrapper"
+        style="background-image: url('assets/img/banner/smt-left-banners/1-about-us.png'); background-size: contain; background-position: center; background-repeat: no-repeat; min-height: 400px; display: flex; align-items: center;">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>
