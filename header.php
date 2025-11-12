@@ -44,10 +44,9 @@ if (!isset($base_path)) {
                                 <li><a href="<?php echo $base_path; ?>morpheus8.php">Morpheus8</a></li>
                                 <li><a href="<?php echo $base_path; ?>skin-tightening.php">Skin Tightening</a></li>
                                 <li><a href="<?php echo $base_path; ?>forma.php">Forma</a></li>
-                                <li><a href="<?php echo $base_path; ?>skinpen.php">Skinpen</a></li>
                                 <li><a href="<?php echo $base_path; ?>rosacea-treatment.php">Rosacea Treatment</a></li>
                                 <li><a href="<?php echo $base_path; ?>glo2facial.php">GLO2FACIAL</a></li>
-                                <li><a href="<?php echo $base_path; ?>hydrafacial.php">Hydrafacial Syndeo</a></li>
+                                <li><a href="<?php echo $base_path; ?>hydrafacial.php">Hydrafacial Elite</a></li>
                                 <li><a href="<?php echo $base_path; ?>microchannel-infusion-therapy.php">Microchannel
                                         Infusion Therapy</a></li>
                                 <li><a href="<?php echo $base_path; ?>melasma.php">Melasma</a></li>
@@ -80,11 +79,8 @@ if (!isset($base_path)) {
                                 <li><a href="<?php echo $base_path; ?>dermal-fillers.php">Dermal Fillers</a></li>
                                 <li><a href="<?php echo $base_path; ?>lip-augmentation.php">Lip Augmentation</a></li>
                                 <li><a href="<?php echo $base_path; ?>juvederm.php">Juvederm</a></li>
-                                <li><a href="<?php echo $base_path; ?>ultherapy.php">Ultherapy</a></li>
                                 <li><a href="<?php echo $base_path; ?>threads.php">Threads</a></li>
                                 <li><a href="<?php echo $base_path; ?>lumecca.php">Lumecca</a></li>
-                                <li><a href="<?php echo $base_path; ?>zo-professional-treatment.php">Zo Professional
-                                        Treatment</a></li>
                                 <li><a href="<?php echo $base_path; ?>fire-ice-facial.php">Fire & Ice Facial
                                         Treatment</a></li>
                             </ul>
@@ -101,9 +97,7 @@ if (!isset($base_path)) {
                                 <li><a href="<?php echo $base_path; ?>hip-augmentation.php">Hip Augmentation</a></li>
                                 <li><a href="<?php echo $base_path; ?>non-surgical-butt-lift.php">Non-Surgical Butt
                                         Lift</a></li>
-                                <li><a href="<?php echo $base_path; ?>ballancer-pro.php">Ballancer Pro</a></li>
-                                <li><a href="<?php echo $base_path; ?>emerald-laser.php">Emerald Laser</a></li>
-                                <li><a href="<?php echo $base_path; ?>emsculpt-neo.php">Emsculpt Neo</a></li>
+
                             </ul>
                         </li>
                     </ul>
@@ -306,9 +300,7 @@ if (!isset($base_path)) {
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>forma.php">Forma</a>
                                                                 </li>
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>skinpen.php">Skinpen</a>
-                                                                </li>
+
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>rosacea-treatment.php">Rosacea
                                                                         Treatment</a></li>
@@ -316,7 +308,7 @@ if (!isset($base_path)) {
                                                                         href="<?php echo $base_path; ?>glo2facial.php">GLO2FACIAL</a>
                                                                 </li>
                                                                 <li><a href="<?php echo $base_path; ?>hydrafacial.php">Hydrafacial
-                                                                        Syndeo</a></li>
+                                                                        Elite</a></li>
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>microchannel-infusion-therapy.php">Microchannel
                                                                         Infusion
@@ -359,9 +351,6 @@ if (!isset($base_path)) {
                                                                         & Radio-frequency</a>
                                                                 </li>
                                                                 <li><a
-                                                                        href="<?php echo $base_path; ?>resurfacing.php">Resurfacing</a>
-                                                                </li>
-                                                                <li><a
                                                                         href="<?php echo $base_path; ?>tattoo-removal.php">Tattoo
                                                                         Removal</a></li>
 
@@ -394,91 +383,72 @@ if (!isset($base_path)) {
                                                                         href="<?php echo $base_path; ?>juvederm.php">Juvederm</a>
                                                                 </li>
                                                                 <li><a
-                                                                        href="<?php echo $base_path; ?>ultherapy.php">Ultherapy</a>
-                                                                </li>
-                                                                <li><a
                                                                         href="<?php echo $base_path; ?>threads.php">Threads</a>
                                                                 </li>
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>lumecca.php">Lumecca</a>
                                                                 </li>
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>zo-professional-treatment.php">Zo
-                                                                        Professional
-                                                                        Treatment</a></li>
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>fire-ice-facial.php">Fire
-                                                                        & Ice Facial
-                                                                        Treatment</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="smt-service-category-block">
-                                                            <h4 class="smt-service-category-title"><a
-                                                                    href="<?php echo $base_path; ?>service.php#body">BODY</a>
-                                                            </h4>
-                                                            <ul class="smt-service-links-list">
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>cellulite-reduction.php">Cellulite
-                                                                        Reduction</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>morpheus8.php">Morpheus8
-                                                                        Body</a></li>
-                                                                <li><a href="<?php echo $base_path; ?>forma-plus.php">Forma
-                                                                        Plus</a></li>
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>breast-augmentation.php">Breast
-                                                                        Augmentation</a></li>
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>hip-augmentation.php">Hip
-                                                                        Augmentation</a>
-                                                                </li>
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>non-surgical-butt-lift.php">Non-Surgical
-                                                                        Butt
-                                                                        Lift</a></li>
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>ballancer-pro.php">Ballancer
-                                                                        Pro</a>
-                                                                </li>
-                                                                <li><a
-                                                                        href="<?php echo $base_path; ?>emerald-laser.php">Emerald
-                                                                        Laser</a>
-                                                                </li>
-                                                                <li><a href="<?php echo $base_path; ?>emsculpt-neo.php">Emsculpt
-                                                                        Neo</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $base_path; ?>blogs.php">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
+                                                                <a href="<?php echo $base_path; ?>fire-ice-facial.php">Fire
+                                                                    & Ice Facial
+                                                                    Treatment</a>
                                 </li>
                             </ul>
-                        </nav>
                     </div>
-                    <div class="col-auto">
-                        <div class="header-icons">
-                            <a href="<?php echo $base_path; ?>contact.php"
-                                class="vs-btn style2 d-none d-xl-inline-block">Book</a>
-                            <!-- <button class="bar-btn sideMenuToggler d-none d-xl-inline-block">
-                                <span class="bar"></span>
-                                <span class="bar"></span>
-                                <span class="bar"></span>
-                            </button> -->
-                            <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i
-                                    class="fal fa-bars"></i></button>
-                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="smt-service-category-block">
+                        <h4 class="smt-service-category-title"><a
+                                href="<?php echo $base_path; ?>service.php#body">BODY</a>
+                        </h4>
+                        <ul class="smt-service-links-list">
+                            <li><a href="<?php echo $base_path; ?>cellulite-reduction.php">Cellulite
+                                    Reduction</a></li>
+                            <li><a href="<?php echo $base_path; ?>morpheus8.php">Morpheus8
+                                    Body</a></li>
+                            <li><a href="<?php echo $base_path; ?>forma-plus.php">Forma
+                                    Plus</a></li>
+                            <li><a href="<?php echo $base_path; ?>breast-augmentation.php">Breast
+                                    Augmentation</a></li>
+                            <li><a href="<?php echo $base_path; ?>hip-augmentation.php">Hip
+                                    Augmentation</a>
+                            </li>
+                            <li><a href="<?php echo $base_path; ?>non-surgical-butt-lift.php">Non-Surgical
+                                    Butt
+                                    Lift</a></li>
+                            <li><a href="<?php echo $base_path; ?>ballancer-pro.php">Ballancer
+                                    Pro</a>
+                            </li>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    </li>
+    <li>
+        <a href="<?php echo $base_path; ?>blogs.php">Blog</a>
+    </li>
+    <li>
+        <a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
+    </li>
+    </ul>
+    </nav>
+    </div>
+    <div class="col-auto">
+        <div class="header-icons">
+            <a href="<?php echo $base_path; ?>contact.php" class="vs-btn style2 d-none d-xl-inline-block">Book</a>
+            <!-- <button class="bar-btn sideMenuToggler d-none d-xl-inline-block">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </button> -->
+            <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i class="fal fa-bars"></i></button>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
 </header>
