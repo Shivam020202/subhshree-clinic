@@ -232,7 +232,7 @@ $page_keywords = "contact dermatologist lucknow, book appointment skin clinic lu
                             </div>
                             <div class="tb-col">
                                 <span class="th">time : </span>
-                                <span class="td">11 : 00 - 19 : 00</span>
+                                <span class="td">10 : 00 AM - 07 : 00 PM</span>
                             </div>
                         </div>
                     </div>
