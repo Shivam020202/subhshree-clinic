@@ -565,7 +565,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </ul>
                         </div>
                         
-                    </aside>
+                                    <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
+                    <div class="widget-banner">
+                        <h4 class="title">Book Your Consultation</h4>
+                        <div class="banner-text">Get personalized treatment recommendations</div>
+                        <a href="contact.php" class="vs-btn">Book Now</a>
+                    </div>
+                </div>
+            </aside>
                 </div>
             </div>
         </div>

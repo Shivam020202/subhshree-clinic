@@ -14,7 +14,14 @@
       "Bash(python3:*)",
       "Bash(while read f)",
       "Bash(do if grep -q testimonial-slider $f)",
-      "Bash(then echo '✓ $f')"
+      "Bash(then echo '✓ $f')",
+      "Bash(for:*)",
+      "Bash(do if grep -q \"testimonial-slider\" \"$file\")",
+      "Bash(then if ! grep -q \"Book Now\\|Book Your\" \"$file\")",
+      "Bash(then echo \"$file\")",
+      "Bash(do if grep -q testimonial-slider $file)",
+      "Bash(then if ! grep -q \"Book Now\\|Book Your\" $file)",
+      "Bash(then echo $file)"
     ],
     "deny": [],
     "ask": []
