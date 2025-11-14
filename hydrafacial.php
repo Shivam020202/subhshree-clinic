@@ -461,30 +461,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 </li>
                             </ul>
                         </div>
-                        <div class="widget widget_download   ">
-                            <h4 class="widget_title">Download Brochures</h4>
-                            <div class="download-widget-wrap">
-                                <a href="#" class="download-widget">
-                                    <span class="download-widget-icon"><i class="far fa-file-pdf"></i></span>
-                                    <span class="media-body">
-                                        <span class="download-widget-title">Treatment Guide</span>
-                                        <span class="download-widget-size">(2.5 MB)</span>
-                                    </span>
-                                </a>
-                                <a href="#" class="download-widget">
-                                    <span class="download-widget-icon"><i class="far fa-file-pdf"></i></span>
-                                    <span class="media-body">
-                                        <span class="download-widget-title">Price List</span>
-                                        <span class="download-widget-size">(1.8 MB)</span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
+                        
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
                             <div class="widget-banner">
                                 <h4 class="title">Book Your Consultation</h4>
                                 <div class="banner-text">Get personalized treatment recommendations</div>
-                                <a href="appointment.html" class="vs-btn">Book Now</a>
+                                <a href="contact.php" class="vs-btn">Book Now</a>
                             </div>
                         </div>
                     </aside>

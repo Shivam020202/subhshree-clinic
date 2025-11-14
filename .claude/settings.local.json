@@ -11,7 +11,10 @@
       "Bash(fi)",
       "Bash(done)",
       "Bash(mv:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(while read f)",
+      "Bash(do if grep -q testimonial-slider $f)",
+      "Bash(then echo '✓ $f')"
     ],
     "deny": [],
     "ask": []

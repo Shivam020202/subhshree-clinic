@@ -416,16 +416,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 <li><a href="service-details-dermaplanning.html">Dermaplanning</a></li>
                             </ul>
                         </div>
-                        <span class="sec-subtitle4">Try some</span>
-                        <div class="img-box3 style3">
-                            <div class="img-2 jump-img"><img src="assets/img/shape/leaf-1-7.png" alt="about"></div>
-                            <div class="img-product">
-                                <a href="shop-details.html"><img src="assets/img/about/price-2-1-1.png" alt="about"></a>
-                                <p class="product-title"><a href="shop-details.html" class="text-inherit">recovery
-                                        serum</a></p>
-                                <p class="product-price">$45.00</p>
-                            </div>
-                        </div>
+                        
                     </aside>
                 </div>
             </div>
