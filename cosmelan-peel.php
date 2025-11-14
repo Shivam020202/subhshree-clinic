@@ -464,31 +464,19 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
-                        <div class="service-box">
+                                                                        <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
-                                <!-- Updated service list for dermatology services -->
-                                <li><a href="service-details-cosmelan-peel.html">Cosmelan Peel</a></li>
-                                <li><a href="service-details-chemical-peel.html">Chemical Peels</a></li>
-                                <li><a href="service-details-led-light-therapy.html">LED Light Therapy</a></li>
-                                <li><a href="service-details-microneedling.html">Microneedling</a></li>
-                                <li><a href="service-details.html">Laser Hair Removal</a></li>
-                                <li><a href="service-details.html">Anti-Aging Treatments</a></li>
+                                <li><a href="chemical-peels.php">Chemical Peel</a></li>
+                                <li><a href="skin-tightening.php">Skin Tightening</a></li>
+                                <li><a href="facial-sculpting.php">Facial Sculpting</a></li>
+                                <li><a href="hydrafacial.php">HydraFacial</a></li>
+                                <li><a href="cosmelan-peel.php">Cosmelan Peel</a></li>
+                                <li><a href="led-light-therapy.php">LED Light Therapy</a></li>
+                                <li><a href="microneedling.php">Microneedling</a></li>
                             </ul>
                         </div>
-                        <span class="sec-subtitle4">Featured Product</span>
-                        <div class="img-box3 style3">
-                            <div class="img-2 jump-img"><img src="assets/img/shape/leaf-1-7.png" alt="about"></div>
-                            <div class="img-product">
-                                <a href="shop-details.html"><img src="assets/img/about/price-2-1-1.png"
-                                        alt="Cosmelan Maintenance Cream"></a>
-                                <!-- Updated product for Cosmelan aftercare -->
-                                <p class="product-title"><a href="shop-details.html" class="text-inherit">Cosmelan
-                                        Maintenance Cream</a></p>
-                                <p class="product-price">$85.00</p>
-                            </div>
-                        </div>
-                                    <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
+                        <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
                     <div class="widget-banner">
                         <h4 class="title">Book Your Consultation</h4>
                         <div class="banner-text">Get personalized treatment recommendations</div>
