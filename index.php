@@ -344,7 +344,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         </div>
                     </div>
                     <div class="col col-xxl-auto text-center d-none d-lg-block">
-                        <img src="assets/img/home/rose.png" alt="shape" class="mt-n4">
+                        <img src="assets/img/home/center-image.webp" alt="shape" class="mt-n4">
                     </div>
                     <div class="col-md-6 col-lg-5 col-xxl-auto">
                         <div class="service-style1">
