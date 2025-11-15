@@ -1,0 +1,12 @@
+# Ignore WordPress blog directory
+/blogs/
+blogs/*
+blogs/**
+
+# Ignore WordPress files if any in root
+wp-*.php
+wp-config.php
+wp-content/uploads/
+xmlrpc.php
+readme.html
+license.txt
