@@ -147,7 +147,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             <li>Results can last up to 2 years with proper maintenance</li>
                         </ul>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-6 mb-30">
                             <div class="mega-hover"><img
                                     src="https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?q=80&w=1600&auto=format&fit=crop"
@@ -160,7 +160,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                     alt="shape" class="w-100">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Added "What are Collagen Stimulators" section -->
                     <div class="mb-50">
@@ -241,7 +241,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 <li>Year 2+: Touch-up treatments to maintain optimal results</li>
                             </ul>
                         </div>
-                    </div>                    <!-- Added testimonial slider section -->
+                    </div> <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;
@@ -544,7 +544,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
-                                                                        <div class="service-box">
+                        <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -557,13 +557,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </ul>
                         </div>
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                    <div class="widget-banner">
-                        <h4 class="title">Book Your Consultation</h4>
-                        <div class="banner-text">Get personalized treatment recommendations</div>
-                        <a href="contact.php" class="vs-btn">Book Now</a>
-                    </div>
-                </div>
-            </aside>
+                            <div class="widget-banner">
+                                <h4 class="title">Book Your Consultation</h4>
+                                <div class="banner-text">Get personalized treatment recommendations</div>
+                                <a href="contact.php" class="vs-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
             </div>
         </div>

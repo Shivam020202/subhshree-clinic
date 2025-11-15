@@ -10,106 +10,16 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 <body>
 
     <?php include 'header.php'; ?>
-    <!-- Mobile Services Mega Menu -->
-    <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
-        <div class="smt-mobile-services-header">
-            <h3 class="smt-mobile-services-title">Our Services</h3>
-            <button class="smt-mobile-services-close" onclick="smtCloseMobileServices()">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
 
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                SKIN
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="chemical-peels.php">Chemical Peel</a>
-                <a href="collagen-stimulators.php">Collagen Stimulators</a>
-                <a href="cosmelan-peel.php">Cosmelan Peel</a>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <a href="dermaplanning.php">Dermaplaning</a>
-                <a href="hand-rejuvenation.php">Hand Rejuvenation</a>
-                <a href="led-light-therapy.php">LED Light Therapy</a>
-                <a href="microneedling.php">Microneedling</a>
-                <a href="morpheus8.php">Morpheus8</a>
-                <a href="skin-tightening.php">Skin Tightening</a>
-                <a href="forma.php">Forma</a>
-                <a href="skinpen.php">Skinpen</a>
-                <a href="rosacea-treatment.php">Rosacea Treatment</a>
-                <a href="glo2facial.php">GLO2FACIAL</a>
-                <a href="hydrafacial.php">Hydrafacial Syndeo</a>
-                <a href="microchannel-infusion-therapy.php">Microchannel Infusion Therapy</a>
-                <span class="disabled-link">Melasma</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                LASER
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="acne-scar.php">Acne Scar Treatment</a>
-                <a href="aging-skin.php">Aging Skin</a>
-                <a href="hyperpigmentation.php">Hyperpigmentation</a>
-                <a href="laser-hair-reduction.php">Laser Hair Reduction</a>
-                <a href="moles-removal.php">Mole Removal</a>
-                <a href="pores.php">Pores</a>
-                <a href="stretch-marks.php">Stretch Marks</a>
-                <span class="disabled-link">Laser & Radio-frequency Resurfacing</span>
-                <a href="tattoo-removal.php">Tattoo Removal</a>
-                <span class="disabled-link">ADVATX</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                FACE
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="aging-skin.php">Aging Skin</a>
-                <span class="disabled-link">Cheek Augmentation</span>
-                <span class="disabled-link">Facial Sculpting</span>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <span class="disabled-link">Lip Augmentation</span>
-                <span class="disabled-link">Juvederm</span>
-                <span class="disabled-link">Ultherapy</span>
-                <span class="disabled-link">Threads</span>
-                <span class="disabled-link">Lumecca</span>
-                <span class="disabled-link">Zo Professional Treatment</span>
-                <span class="disabled-link">Fire & Ice Facial Treatment</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                BODY
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <span class="disabled-link">Cellulite Reduction</span>
-                <a href="morpheus8.php">Morpheus8 Body</a>
-                <span class="disabled-link">Forma Plus</span>
-                <span class="disabled-link">Breast Augmentation</span>
-                <span class="disabled-link">Hip Augmentation</span>
-                <span class="disabled-link">Non-Surgical Butt Lift</span>
-                <span class="disabled-link">Ballancer Pro</span>
-                <span class="disabled-link">Emerald Laser</span>
-                <span class="disabled-link">Emsculpt Neo</span>
-            </div>
-        </div>
-    </div>
 
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/smt-left-banners/microneed-infusion.png');">
+    <div class="breadcumb-wrapper"
+        style="background-image: url('assets/img/banner/smt-left-banners/microneed-infusion.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Microchannel Infusion Therapy</h1>
+                <h1 class="breadcumb-title">Microchannel Infusion <br /> Therapy</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
                         <li><a href="index-3.html">Home</a></li>
@@ -125,11 +35,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
-                    <div class="mb-30">
+                    <!-- <div class="mb-30">
                         <div class="mega-hover"><img
                                 src="https://images.unsplash.com/photo-1622968346925-b34afc49e8a6?q=80&w=1600&auto=format&fit=crop"
                                 alt="thumbnail"></div>
-                    </div>
+                    </div> -->
                     <h2 class="text-uppercase">Microchannel Infusion Therapy</h2>
                     <p>Our Microchannel Infusion Therapy uses advanced micro-channeling technology to create thousands
                         of microscopic channels in the skin, dramatically enhancing the absorption and effectiveness of
@@ -148,7 +58,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             <li>Minimal downtime with progressive, natural results</li>
                         </ul>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-6 mb-30">
                             <div class="mega-hover"><img
                                     src="https://images.unsplash.com/photo-1619451334792-150d4e5d2c10?q=80&w=1600&auto=format&fit=crop"
@@ -161,7 +71,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                     alt="shape" class="w-100">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Added "What is Microchannel Infusion Therapy" section -->
                     <div class="mb-50">
@@ -241,7 +151,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 <li>Overall skin quality and radiance</li>
                             </ul>
                         </div>
-                    </div>                    <!-- Added testimonial slider section -->
+                    </div> <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;
@@ -544,7 +454,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
-                                                                        <div class="service-box">
+                        <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -557,13 +467,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </ul>
                         </div>
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                    <div class="widget-banner">
-                        <h4 class="title">Book Your Consultation</h4>
-                        <div class="banner-text">Get personalized treatment recommendations</div>
-                        <a href="contact.php" class="vs-btn">Book Now</a>
-                    </div>
-                </div>
-            </aside>
+                            <div class="widget-banner">
+                                <h4 class="title">Book Your Consultation</h4>
+                                <div class="banner-text">Get personalized treatment recommendations</div>
+                                <a href="contact.php" class="vs-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
             </div>
         </div>

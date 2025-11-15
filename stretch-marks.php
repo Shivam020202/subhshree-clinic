@@ -11,98 +11,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
     <?php include 'header.php'; ?>
 
-    <!-- Mobile Services Mega Menu -->
-    <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
-        <div class="smt-mobile-services-header">
-            <h3 class="smt-mobile-services-title">Our Services</h3>
-            <button class="smt-mobile-services-close" onclick="smtCloseMobileServices()">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
 
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                SKIN
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="chemical-peels.php">Chemical Peel</a>
-                <span class="disabled-link">Collagen Stimulators</span>
-                <a href="cosmelan-peel.php">Cosmelan Peel</a>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <a href="dermaplanning.php">Dermaplaning</a>
-                <a href="hand-rejuvenation.php">Hand Rejuvenation</a>
-                <a href="led-light-therapy.php">LED Light Therapy</a>
-                <a href="microneedling.php">Microneedling</a>
-                <a href="morpheus8.php">Morpheus8</a>
-                <a href="skin-tightening.php">Skin Tightening</a>
-                <a href="forma.php">Forma</a>
-                <a href="skinpen.php">Skinpen</a>
-                <a href="rosacea-treatment.php">Rosacea Treatment</a>
-                <span class="disabled-link">GLO2FACIAL</span>
-                <a href="hydrafacial.php">Hydrafacial Syndeo</a>
-                <span class="disabled-link">Microchannel Infusion Therapy</span>
-                <span class="disabled-link">Melasma</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                LASER
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="acne-scar.php">Acne Scar Treatment</a>
-                <a href="aging-skin.php">Aging Skin</a>
-                <a href="hyperpigmentation.php">Hyperpigmentation</a>
-                <a href="laser-hair-reduction.php">Laser Hair Reduction</a>
-                <a href="moles-removal.php">Mole Removal</a>
-                <a href="pores.php">Pores</a>
-                <a href="stretch-marks.php">Stretch Marks</a>
-                <span class="disabled-link">Laser & Radio-frequency Resurfacing</span>
-                <a href="tattoo-removal.php">Tattoo Removal</a>
-                <span class="disabled-link">ADVATX</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                FACE
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="aging-skin.php">Aging Skin</a>
-                <span class="disabled-link">Cheek Augmentation</span>
-                <span class="disabled-link">Facial Sculpting</span>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <span class="disabled-link">Lip Augmentation</span>
-                <span class="disabled-link">Juvederm</span>
-                <span class="disabled-link">Ultherapy</span>
-                <span class="disabled-link">Threads</span>
-                <span class="disabled-link">Lumecca</span>
-                <span class="disabled-link">Zo Professional Treatment</span>
-                <span class="disabled-link">Fire & Ice Facial Treatment</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                BODY
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <span class="disabled-link">Cellulite Reduction</span>
-                <a href="morpheus8.php">Morpheus8 Body</a>
-                <span class="disabled-link">Forma Plus</span>
-                <span class="disabled-link">Breast Augmentation</span>
-                <span class="disabled-link">Hip Augmentation</span>
-                <span class="disabled-link">Non-Surgical Butt Lift</span>
-                <span class="disabled-link">Ballancer Pro</span>
-                <span class="disabled-link">Emerald Laser</span>
-                <span class="disabled-link">Emsculpt Neo</span>
-            </div>
-        </div>
-    </div>
 
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Laser/Stretch-mark-laser.png');">
         <div class="container z-index-common">
@@ -123,11 +32,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
-                    <div class="mb-30">
+                    <!-- <div class="mb-30">
                         <div class="mega-hover"><img src="assets/img/new/service-main.jpg"
                                 alt="Stretch Marks Treatment Treatment">
                         </div>
-                    </div>
+                    </div> -->
                     <h2 class="text-uppercase">Advanced Stretch Marks Reduction</h2>
                     <p>Transform the appearance of stretch marks with our advanced laser and RF treatments at SMT Skin
                         Clinic. Our medical-grade technologies stimulate collagen production and promote skin
@@ -146,7 +55,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             <li>Long-lasting, natural-looking results</li>
                         </ul>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-6 mb-30">
                             <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Treatment"
                                     class="w-100">
@@ -157,7 +66,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                     class="w-100">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Stretch Marks Treatment?</h3>
@@ -223,161 +132,161 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <section class="testimonial-section">
                         <div class="container ">
-<style>
-                        .testimonial-section {
-                            padding: 60px 0;
-                            background: #f8f9fa;
-                            margin: 40px 0;
-                            border-radius: 10px;
-                        }
+                            <style>
+                                .testimonial-section {
+                                    padding: 60px 0;
+                                    background: #f8f9fa;
+                                    margin: 40px 0;
+                                    border-radius: 10px;
+                                }
 
-                        .testimonial-section .section-title {
-                            text-align: center;
-                            font-size: 32px;
-                            font-weight: 700;
-                            margin-bottom: 40px;
-                            color: #333;
-                        }
+                                .testimonial-section .section-title {
+                                    text-align: center;
+                                    font-size: 32px;
+                                    font-weight: 700;
+                                    margin-bottom: 40px;
+                                    color: #333;
+                                }
 
-                        .testimonial-slider {
-                            position: relative;
-                            max-width: 900px;
-                            margin: 0 auto;
-                            padding: 0 60px;
-                        }
+                                .testimonial-slider {
+                                    position: relative;
+                                    max-width: 900px;
+                                    margin: 0 auto;
+                                    padding: 0 60px;
+                                }
 
-                        .testimonial-track {
-                            display: flex;
-                            transition: transform 0.5s ease-in-out;
-                        }
+                                .testimonial-track {
+                                    display: flex;
+                                    transition: transform 0.5s ease-in-out;
+                                }
 
-                        .testimonial-slide {
-                            min-width: 100%;
-                            padding: 40px;
-                            background: white;
-                            border-radius: 10px;
-                            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-                            text-align: center;
-                        }
+                                .testimonial-slide {
+                                    min-width: 100%;
+                                    padding: 40px;
+                                    background: white;
+                                    border-radius: 10px;
+                                    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+                                    text-align: center;
+                                }
 
-                        .rating {
-                            margin-bottom: 20px;
-                        }
+                                .rating {
+                                    margin-bottom: 20px;
+                                }
 
-                        .rating i {
-                            color: #ffc107;
-                            font-size: 20px;
-                            margin: 0 2px;
-                        }
+                                .rating i {
+                                    color: #ffc107;
+                                    font-size: 20px;
+                                    margin: 0 2px;
+                                }
 
-                        .testimonial-text {
-                            font-size: 16px;
-                            line-height: 1.8;
-                            color: #555;
-                            margin-bottom: 25px;
-                            font-style: italic;
-                        }
+                                .testimonial-text {
+                                    font-size: 16px;
+                                    line-height: 1.8;
+                                    color: #555;
+                                    margin-bottom: 25px;
+                                    font-style: italic;
+                                }
 
-                        .testimonial-author {
-                            margin-top: 20px;
-                        }
+                                .testimonial-author {
+                                    margin-top: 20px;
+                                }
 
-                        .author-name {
-                            font-size: 18px;
-                            font-weight: 700;
-                            color: #333;
-                            margin-bottom: 5px;
-                        }
+                                .author-name {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: #333;
+                                    margin-bottom: 5px;
+                                }
 
-                        .author-details {
-                            font-size: 14px;
-                            color: #777;
-                        }
+                                .author-details {
+                                    font-size: 14px;
+                                    color: #777;
+                                }
 
-                        .slider-nav {
-                            position: absolute;
-                            top: 50%;
-                            transform: translateY(-50%);
-                            background: white;
-                            border: 2px solid #ddd;
-                            width: 45px;
-                            height: 45px;
-                            border-radius: 50%;
-                            cursor: pointer;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            transition: all 0.3s ease;
-                            z-index: 10;
-                        }
+                                .slider-nav {
+                                    position: absolute;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    background: white;
+                                    border: 2px solid #ddd;
+                                    width: 45px;
+                                    height: 45px;
+                                    border-radius: 50%;
+                                    cursor: pointer;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    transition: all 0.3s ease;
+                                    z-index: 10;
+                                }
 
-                        .slider-nav:hover {
-                            background: #007bff;
-                            border-color: #007bff;
-                            color: white;
-                        }
+                                .slider-nav:hover {
+                                    background: #007bff;
+                                    border-color: #007bff;
+                                    color: white;
+                                }
 
-                        .slider-nav.prev {
-                            left: 0;
-                        }
+                                .slider-nav.prev {
+                                    left: 0;
+                                }
 
-                        .slider-nav.next {
-                            right: 0;
-                        }
+                                .slider-nav.next {
+                                    right: 0;
+                                }
 
-                        .slider-nav i {
-                            font-size: 18px;
-                            color: inherit;
-                        }
+                                .slider-nav i {
+                                    font-size: 18px;
+                                    color: inherit;
+                                }
 
-                        .slider-indicators {
-                            display: flex;
-                            justify-content: center;
-                            gap: 10px;
-                            margin-top: 30px;
-                        }
+                                .slider-indicators {
+                                    display: flex;
+                                    justify-content: center;
+                                    gap: 10px;
+                                    margin-top: 30px;
+                                }
 
-                        .indicator {
-                            width: 12px;
-                            height: 12px;
-                            border-radius: 50%;
-                            background: #ddd;
-                            border: none;
-                            cursor: pointer;
-                            transition: all 0.3s ease;
-                        }
+                                .indicator {
+                                    width: 12px;
+                                    height: 12px;
+                                    border-radius: 50%;
+                                    background: #ddd;
+                                    border: none;
+                                    cursor: pointer;
+                                    transition: all 0.3s ease;
+                                }
 
-                        .indicator.active {
-                            background: #007bff;
-                            width: 30px;
-                            border-radius: 6px;
-                        }
+                                .indicator.active {
+                                    background: #007bff;
+                                    width: 30px;
+                                    border-radius: 6px;
+                                }
 
-                        @media (max-width: 768px) {
-                            .testimonial-slider {
-                                padding: 0 50px;
-                            }
+                                @media (max-width: 768px) {
+                                    .testimonial-slider {
+                                        padding: 0 50px;
+                                    }
 
-                            .testimonial-slide {
-                                padding: 30px 20px;
-                            }
+                                    .testimonial-slide {
+                                        padding: 30px 20px;
+                                    }
 
-                            .testimonial-section .section-title {
-                                font-size: 24px;
-                            }
+                                    .testimonial-section .section-title {
+                                        font-size: 24px;
+                                    }
 
-                            .slider-nav {
-                                width: 35px;
-                                height: 35px;
-                            }
+                                    .slider-nav {
+                                        width: 35px;
+                                        height: 35px;
+                                    }
 
-                            .slider-nav i {
-                                font-size: 14px;
-                            }
-                        }
-                    </style>
+                                    .slider-nav i {
+                                        font-size: 14px;
+                                    }
+                                }
+                            </style>
 
-                    
+
                             <h2 class="section-title ">What Our Patients Say</h2>
 
                             <div class="testimonial-slider" style="overflow: hidden;">
@@ -513,7 +422,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
-                                                                        <div class="service-box">
+                        <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -526,13 +435,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </ul>
                         </div>
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                    <div class="widget-banner">
-                        <h4 class="title">Book Your Consultation</h4>
-                        <div class="banner-text">Get personalized treatment recommendations</div>
-                        <a href="contact.php" class="vs-btn">Book Now</a>
-                    </div>
-                </div>
-            </aside>
+                            <div class="widget-banner">
+                                <h4 class="title">Book Your Consultation</h4>
+                                <div class="banner-text">Get personalized treatment recommendations</div>
+                                <a href="contact.php" class="vs-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
             </div>
         </div>

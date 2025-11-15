@@ -129,7 +129,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             <div class="row gx-50">
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
-                                                                        <div class="service-box">
+                        <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -142,19 +142,19 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </ul>
                         </div>
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                    <div class="widget-banner">
-                        <h4 class="title">Book Your Consultation</h4>
-                        <div class="banner-text">Get personalized treatment recommendations</div>
-                        <a href="contact.php" class="vs-btn">Book Now</a>
-                    </div>
-                </div>
-            </aside>
+                            <div class="widget-banner">
+                                <h4 class="title">Book Your Consultation</h4>
+                                <div class="banner-text">Get personalized treatment recommendations</div>
+                                <a href="contact.php" class="vs-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
-                    <div class="mb-30">
+                    <!-- <div class="mb-30">
                         <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg" alt="Dermaplanning Treatment">
                         </div>
-                    </div>
+                    </div> -->
                     <h2 class="text-uppercase">Dermaplanning - Professional Exfoliation</h2>
                     <p>Discover the transformative benefits of Dermaplanning at SMT Skin Clinic, a professional
                         exfoliation treatment that removes dead skin cells and fine facial hair (peach fuzz) to reveal
@@ -207,7 +207,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
 
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-6 mb-30">
                             <div class="mega-hover"><img src="assets/img/service/s-d-1-2.jpg" alt="Before Dermaplanning"
                                     class="w-100">
@@ -218,10 +218,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                     class="w-100">
                             </div>
                         </div>
-                    </div>
-
+                    </div> -->
                     <style>
-<style>
                         .testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
@@ -374,9 +372,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             }
                         }
                     </style>
-                    </style>
 
-<!-- Testimonial Slider Section -->
+
+                    <!-- Testimonial Slider Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">What Our Patients Say</h3>
                         <div class="testimonial-slider">

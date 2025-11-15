@@ -9,101 +9,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
-    <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
-        <div class="smt-mobile-services-header">
-            <h3 class="smt-mobile-services-title">Our Services</h3>
-            <button class="smt-mobile-services-close" onclick="smtCloseMobileServices()">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
+    <?php include 'header.php'; ?>
 
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                SKIN
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="chemical-peels.php">Chemical Peel</a>
-                <span class="disabled-link">Collagen Stimulators</span>
-                <a href="cosmelan-peel.php">Cosmelan Peel</a>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <a href="dermaplanning.php">Dermaplaning</a>
-                <a href="hand-rejuvenation.php">Hand Rejuvenation</a>
-                <a href="led-light-therapy.php">LED Light Therapy</a>
-                <a href="microneedling.php">Microneedling</a>
-                <a href="morpheus8.php">Morpheus8</a>
-                <a href="skin-tightening.php">Skin Tightening</a>
-                <a href="forma.php">Forma</a>
-                <a href="skinpen.php">Skinpen</a>
-                <a href="rosacea-treatment.php">Rosacea Treatment</a>
-                <span class="disabled-link">GLO2FACIAL</span>
-                <a href="hydrafacial.php">Hydrafacial Syndeo</a>
-                <span class="disabled-link">Microchannel Infusion Therapy</span>
-                <span class="disabled-link">Melasma</span>
-            </div>
-        </div>
 
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                LASER
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="acne-scar.php">Acne Scar Treatment</a>
-                <a href="aging-skin.php">Aging Skin</a>
-                <a href="hyperpigmentation.php">Hyperpigmentation</a>
-                <a href="laser-hair-reduction.php">Laser Hair Reduction</a>
-                <a href="moles-removal.php">Mole Removal</a>
-                <a href="pores.php">Pores</a>
-                <a href="stretch-marks.php">Stretch Marks</a>
-                <span class="disabled-link">Laser & Radio-frequency Resurfacing</span>
-                <a href="tattoo-removal.php">Tattoo Removal</a>
-                <span class="disabled-link">ADVATX</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                FACE
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="aging-skin.php">Aging Skin</a>
-                <span class="disabled-link">Cheek Augmentation</span>
-                <span class="disabled-link">Facial Sculpting</span>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <span class="disabled-link">Lip Augmentation</span>
-                <span class="disabled-link">Juvederm</span>
-                <span class="disabled-link">Ultherapy</span>
-                <span class="disabled-link">Threads</span>
-                <span class="disabled-link">Lumecca</span>
-                <span class="disabled-link">Zo Professional Treatment</span>
-                <span class="disabled-link">Fire & Ice Facial Treatment</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                BODY
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <span class="disabled-link">Cellulite Reduction</span>
-                <a href="morpheus8.php">Morpheus8 Body</a>
-                <span class="disabled-link">Forma Plus</span>
-                <span class="disabled-link">Breast Augmentation</span>
-                <span class="disabled-link">Hip Augmentation</span>
-                <span class="disabled-link">Non-Surgical Butt Lift</span>
-                <span class="disabled-link">Ballancer Pro</span>
-                <span class="disabled-link">Emerald Laser</span>
-                <span class="disabled-link">Emsculpt Neo</span>
-            </div>
-        </div>
-    </div>
-
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Face/facial-ageing-skin.png');">
@@ -159,7 +68,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop" alt="shape" class="w-100">
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                                    alt="shape" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -168,13 +79,19 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What is Aging Skin Treatment?</h3>
                         <p>Aging skin treatment is a comprehensive approach to combat the visible signs of skin aging,
-                            including fine lines, wrinkles, sagging, and loss of luminosity. These advanced treatments work
-                            by stimulating collagen and elastin production, improving cellular turnover, and enhancing the
+                            including fine lines, wrinkles, sagging, and loss of luminosity. These advanced treatments
+                            work
+                            by stimulating collagen and elastin production, improving cellular turnover, and enhancing
+                            the
                             skin's natural regenerative processes to restore a more youthful, refreshed appearance.</p>
-                        <p>Our multi-modal approach combines cutting-edge technologies such as fractional RF microneedling,
-                            non-ablative laser resurfacing, biorevitalizing injectables, and medical-grade skincare protocols.
-                            Each treatment plan is meticulously tailored to address your specific aging concerns, skin type,
-                            and lifestyle needs, delivering natural-looking improvements in firmness, texture, and radiance over time.</p>
+                        <p>Our multi-modal approach combines cutting-edge technologies such as fractional RF
+                            microneedling,
+                            non-ablative laser resurfacing, biorevitalizing injectables, and medical-grade skincare
+                            protocols.
+                            Each treatment plan is meticulously tailored to address your specific aging concerns, skin
+                            type,
+                            and lifestyle needs, delivering natural-looking improvements in firmness, texture, and
+                            radiance over time.</p>
                         <div class="row mt-30">
                             <div class="col-md-4 mb-20">
                                 <div class="text-center border border-secondary rounded p-3 m-3">
@@ -200,33 +117,41 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added "What Causes Skin Aging" section -->
                     <div class="mb-50">
                         <h3 class="h4 mb-25">What Causes Skin Aging?</h3>
-                        <p>Skin aging is a complex process influenced by both intrinsic (internal) and extrinsic (external)
-                            factors. Understanding these causes allows us to create targeted treatment strategies that address
+                        <p>Skin aging is a complex process influenced by both intrinsic (internal) and extrinsic
+                            (external)
+                            factors. Understanding these causes allows us to create targeted treatment strategies that
+                            address
                             the root mechanisms of aging:</p>
 
                         <div class="row mt-30">
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-calendar-alt text-theme me-2"></i>Intrinsic Aging</h5>
-                                <p>As we age, our skin naturally produces less collagen and elastin, resulting in decreased
+                                <p>As we age, our skin naturally produces less collagen and elastin, resulting in
+                                    decreased
                                     firmness and elasticity. Cell turnover slows, leading to duller skin, and the skin's
                                     ability to retain moisture diminishes, causing dryness and fine lines.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-sun text-theme me-2"></i>Photoaging & UV Damage</h5>
-                                <p>Chronic sun exposure is the primary cause of premature aging. UV radiation breaks down
-                                    collagen fibers, damages DNA, and triggers hyperpigmentation, leading to wrinkles, age
+                                <p>Chronic sun exposure is the primary cause of premature aging. UV radiation breaks
+                                    down
+                                    collagen fibers, damages DNA, and triggers hyperpigmentation, leading to wrinkles,
+                                    age
                                     spots, and loss of skin integrity.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-wind text-theme me-2"></i>Environmental Stressors</h5>
-                                <p>Pollution, harsh weather conditions, and exposure to free radicals accelerate oxidative
+                                <p>Pollution, harsh weather conditions, and exposure to free radicals accelerate
+                                    oxidative
                                     stress, damaging skin cells and breaking down the skin's protective barrier, which
                                     contributes to premature aging signs.</p>
                             </div>
                             <div class="col-md-6 mb-30">
                                 <h5><i class="fas fa-heartbeat text-theme me-2"></i>Lifestyle Factors</h5>
-                                <p>Poor nutrition, inadequate sleep, chronic stress, smoking, and excessive alcohol consumption
-                                    all contribute to accelerated skin aging by affecting circulation, collagen synthesis, and
+                                <p>Poor nutrition, inadequate sleep, chronic stress, smoking, and excessive alcohol
+                                    consumption
+                                    all contribute to accelerated skin aging by affecting circulation, collagen
+                                    synthesis, and
                                     cellular repair mechanisms.</p>
                             </div>
                         </div>
@@ -417,10 +342,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "At 45, I was noticing significant sagging and deep wrinkles that made me look
-                                            older than I felt. The combination of RF microneedling and laser treatments at SMT
-                                            Skin Clinic has truly turned back the clock. My skin is noticeably firmer, my
-                                            wrinkles have softened, and I've regained that youthful glow. The results are
+                                            "At 45, I was noticing significant sagging and deep wrinkles that made me
+                                            look
+                                            older than I felt. The combination of RF microneedling and laser treatments
+                                            at SMT
+                                            Skin Clinic has truly turned back the clock. My skin is noticeably firmer,
+                                            my
+                                            wrinkles have softened, and I've regained that youthful glow. The results
+                                            are
                                             natural and beautiful!"
                                         </p>
                                         <div class="testimonial-author">
@@ -438,8 +367,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "The fine lines around my eyes and mouth were aging me prematurely. Dr. Sharma's
-                                            personalized anti-aging protocol, combining advanced laser technology with medical
+                                            "The fine lines around my eyes and mouth were aging me prematurely. Dr.
+                                            Sharma's
+                                            personalized anti-aging protocol, combining advanced laser technology with
+                                            medical
                                             skincare, has delivered remarkable results. My skin texture has improved
                                             dramatically, and people tell me I look years younger. Absolutely worth it!"
                                         </p>
@@ -458,9 +389,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "After trying countless creams and facials with minimal results, I decided to invest
-                                            in professional treatment. The aging skin program at SMT Skin Clinic exceeded all
-                                            my expectations. The gradual improvements in firmness, tone, and overall skin quality
+                                            "After trying countless creams and facials with minimal results, I decided
+                                            to invest
+                                            in professional treatment. The aging skin program at SMT Skin Clinic
+                                            exceeded all
+                                            my expectations. The gradual improvements in firmness, tone, and overall
+                                            skin quality
                                             have been incredible. I finally have the confidence to go makeup-free!"
                                         </p>
                                         <div class="testimonial-author">
@@ -537,16 +471,22 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
 
                     <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our aging skin treatment begins with a comprehensive facial assessment to evaluate your skin's
-                        condition, identify specific aging concerns, and determine the optimal treatment combination. The process is
-                        carefully monitored with minimal downtime options available. We provide detailed aftercare guidance including
-                        sun protection protocols, professional skincare recommendations, and lifestyle modifications to maintain and
-                        enhance your results. Most patients notice gradual improvements over several weeks as collagen remodeling
-                        progresses, with optimal outcomes achieved through consistent treatment and maintenance protocols.</p>
+                    <p class="pb-1">Our aging skin treatment begins with a comprehensive facial assessment to evaluate
+                        your skin's
+                        condition, identify specific aging concerns, and determine the optimal treatment combination.
+                        The process is
+                        carefully monitored with minimal downtime options available. We provide detailed aftercare
+                        guidance including
+                        sun protection protocols, professional skincare recommendations, and lifestyle modifications to
+                        maintain and
+                        enhance your results. Most patients notice gradual improvements over several weeks as collagen
+                        remodeling
+                        progresses, with optimal outcomes achieved through consistent treatment and maintenance
+                        protocols.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
-                                                                        <div class="service-box">
+                        <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -559,23 +499,23 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </ul>
                         </div>
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                    <div class="widget-banner">
-                        <h4 class="title">Book Your Consultation</h4>
-                        <div class="banner-text">Get personalized treatment recommendations</div>
-                        <a href="contact.php" class="vs-btn">Book Now</a>
-                    </div>
-                </div>
-            </aside>
+                            <div class="widget-banner">
+                                <h4 class="title">Book Your Consultation</h4>
+                                <div class="banner-text">Get personalized treatment recommendations</div>
+                                <a href="contact.php" class="vs-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
             </div>
         </div>
     </section><!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

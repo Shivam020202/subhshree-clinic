@@ -4,6 +4,107 @@ if (!isset($base_path)) {
     $base_path = '';
 }
 ?>
+
+<style>
+    /* SMT Services Mega Menu Styling - Full Width */
+    .smt-services-mega-wrapper {
+        position: static !important;
+    }
+
+    .smt-services-mega-dropdown {
+        position: absolute;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100vw !important;
+        margin-left: calc(-50vw + 50%) !important;
+        background: #ffffff;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20px);
+        transition: all 0.3s ease;
+        padding: 40px 0;
+    }
+
+    .smt-services-mega-wrapper:hover .smt-services-mega-dropdown {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .smt-services-mega-content {
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .smt-service-category-block {
+        margin-bottom: 30px;
+    }
+
+    .smt-service-category-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #c9ab81;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #c9ab81;
+        text-transform: uppercase;
+    }
+
+    .smt-service-category-title a {
+        color: #c9ab81;
+        text-decoration: none;
+    }
+
+    .smt-service-category-title a:hover {
+        color: #b39872;
+    }
+
+    .smt-service-links-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .smt-service-links-list li {
+        margin-bottom: 10px;
+    }
+
+    .smt-service-links-list li a {
+        color: #333333;
+        text-decoration: none;
+        font-size: 14px;
+        transition: all 0.3s ease;
+        display: block;
+        padding: 5px 0;
+    }
+
+    .smt-service-links-list li a:hover {
+        color: #c9ab81;
+        padding-left: 10px;
+    }
+
+    /* Mobile mega menu - keep as dropdown */
+    @media (max-width: 991px) {
+        .smt-services-mega-dropdown {
+            position: relative !important;
+            width: 100% !important;
+            margin-left: 0 !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: none !important;
+            box-shadow: none;
+            padding: 15px 0;
+        }
+
+        .smt-service-category-block {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
 <!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -388,9 +489,10 @@ if (!isset($base_path)) {
                                                                 <li><a
                                                                         href="<?php echo $base_path; ?>lumecca.php">Lumecca</a>
                                                                 </li>
-                                                                <a href="<?php echo $base_path; ?>fire-ice-facial.php">Fire
-                                                                    & Ice Facial
-                                                                    Treatment</a>
+                                                                <li><a
+                                                                        href="<?php echo $base_path; ?>fire-ice-facial.php">Fire
+                                                                        & Ice Facial
+                                                                        Treatment</a></li>
                                 </li>
                             </ul>
                     </div>
