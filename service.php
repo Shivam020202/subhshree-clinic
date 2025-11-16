@@ -9,7 +9,74 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
 
 <style>
     .vs-btn.style2 {
+        color: black !important;
+    }
+
+    /* Carousel Navigation Arrows */
+    .arrow-wrap {
+        position: relative;
+    }
+
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #007bff !important;
         color: white !important;
+        border: none !important;
+        border-radius: 50% !important;
+        width: 50px !important;
+        height: 50px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        cursor: pointer !important;
+        z-index: 100 !important;
+        transition: all 0.3s ease !important;
+        font-size: 20px !important;
+        opacity: 1 !important;
+    }
+
+    .slick-arrow:hover {
+        background: #0056b3 !important;
+        transform: translateY(-50%) scale(1.1) !important;
+    }
+
+    .slick-prev {
+        left: -25px !important;
+    }
+
+    .slick-next {
+        right: -25px !important;
+    }
+
+    .slick-arrow i {
+        color: white !important;
+        font-size: 20px !important;
+    }
+
+    .slick-disabled {
+        opacity: 0.5 !important;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .slick-prev {
+            left: 10px !important;
+        }
+
+        .slick-next {
+            right: 10px !important;
+        }
+
+        .slick-arrow {
+            width: 40px !important;
+            height: 40px !important;
+        }
+
+        .slick-arrow i {
+            font-size: 16px !important;
+        }
     }
 </style>
 
@@ -45,12 +112,12 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <p class="sec-text">Transform your skin with our comprehensive range of advanced skincare treatments
                     designed to rejuvenate, restore, and enhance your natural beauty.</p>
             </div>
-            <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1">
+            <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1" data-arrows="true" data-prev-arrow="far fa-chevron-left" data-next-arrow="far fa-chevron-right">
                 <!-- Chemical Peel -->
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997989/pexels-photo-3997989.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/chemical-peel.webp"
                                 alt="Chemical Peel" class="w-100">
                         </div>
                         <div class="service-content">
@@ -66,7 +133,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/collagen.webp"
                                 alt="Collagen Stimulators" class="w-100">
                         </div>
                         <div class="service-content">
@@ -82,7 +149,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/7755158/pexels-photo-7755158.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/cosmelan-peel.webp"
                                 alt="Cosmelan Peel" class="w-100">
                         </div>
                         <div class="service-content">
@@ -98,7 +165,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997390/pexels-photo-3997390.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/derma-filler.webp"
                                 alt="Dermal Fillers" class="w-100">
                         </div>
                         <div class="service-content">
@@ -114,7 +181,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/dermaplaning.webp"
                                 alt="Dermaplaning" class="w-100">
                         </div>
                         <div class="service-content">
@@ -130,7 +197,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/6663411/pexels-photo-6663411.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/hand-rejuvenation.webp"
                                 alt="Hand Rejuvenation" class="w-100">
                         </div>
                         <div class="service-content">
@@ -146,7 +213,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997952/pexels-photo-3997952.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/led-light-therapy.webp"
                                 alt="LED Light Therapy" class="w-100">
                         </div>
                         <div class="service-content">
@@ -162,7 +229,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997991/pexels-photo-3997991.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/microneedling.webp"
                                 alt="Microneedling" class="w-100">
                         </div>
                         <div class="service-content">
@@ -178,7 +245,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997360/pexels-photo-3997360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/morpheus-8.webp"
                                 alt="Morpheus8" class="w-100">
                         </div>
                         <div class="service-content">
@@ -193,7 +260,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069612/pexels-photo-5069612.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/skin-tightening.webp"
                                 alt="Skin Tightening" class="w-100">
                         </div>
                         <div class="service-content">
@@ -209,7 +276,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/forma.webp"
                                 alt="Forma" class="w-100">
                         </div>
                         <div class="service-content">
@@ -224,7 +291,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/7755158/pexels-photo-7755158.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/skinpen-microneed.webp"
                                 alt="SkinPen" class="w-100">
                         </div>
                         <div class="service-content">
@@ -240,7 +307,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997951/pexels-photo-3997951.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/rosacea.webp"
                                 alt="Rosacea Treatment" class="w-100">
                         </div>
                         <div class="service-content">
@@ -255,7 +322,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/glo2facial.webp"
                                 alt="GLO2FACIAL" class="w-100">
                         </div>
                         <div class="service-content">
@@ -270,7 +337,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/hydrafacial.webp"
                                 alt="HydraFacial Syndeo" class="w-100">
                         </div>
                         <div class="service-content">
@@ -286,7 +353,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997952/pexels-photo-3997952.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/microchannel-infusion.webp"
                                 alt="Microchannel Infusion Therapy" class="w-100">
                         </div>
                         <div class="service-content">
@@ -302,7 +369,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/skin/melasma.webp"
                                 alt="Melasma Treatment" class="w-100">
                         </div>
                         <div class="service-content">
@@ -329,12 +396,12 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <p class="sec-text">Experience the power of cutting-edge laser technology for precise, effective
                     treatment of various skin concerns.</p>
             </div>
-            <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1">
+            <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1" data-arrows="true" data-prev-arrow="far fa-chevron-left" data-next-arrow="far fa-chevron-right">
                 <!-- Acne Scar Treatment -->
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997987/pexels-photo-3997987.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/pore-reduction-laser.webp"
                                 alt="Acne Scar Treatment" class="w-100">
                         </div>
                         <div class="service-content">
@@ -350,7 +417,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/7755158/pexels-photo-7755158.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/facial-ageing-skin.webp"
                                 alt="Aging Skin" class="w-100">
                         </div>
                         <div class="service-content">
@@ -365,7 +432,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/pore-reduction-laser.webp"
                                 alt="Hyperpigmentation" class="w-100">
                         </div>
                         <div class="service-content">
@@ -380,7 +447,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/pore-reduction-laser.webp"
                                 alt="Laser Hair Reduction" class="w-100">
                         </div>
                         <div class="service-content">
@@ -395,7 +462,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997952/pexels-photo-3997952.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/mole-removal.webp"
                                 alt="Mole Removal" class="w-100">
                         </div>
                         <div class="service-content">
@@ -410,7 +477,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997390/pexels-photo-3997390.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/pore-reduction-laser.webp"
                                 alt="Pore Treatment" class="w-100">
                         </div>
                         <div class="service-content">
@@ -424,7 +491,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069612/pexels-photo-5069612.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/Stretch-mark-laser.webp"
                                 alt="Stretch Marks" class="w-100">
                         </div>
                         <div class="service-content">
@@ -439,7 +506,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997360/pexels-photo-3997360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/radiofrequency-resurfacing.webp"
                                 alt="Laser & Radio-frequency" class="w-100">
                         </div>
                         <div class="service-content">
@@ -455,7 +522,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/radiofrequency-resurfacing.webp"
                                 alt="Resurfacing" class="w-100">
                         </div>
                         <div class="service-content">
@@ -470,7 +537,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997989/pexels-photo-3997989.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/laser/tattoo-removal.webp"
                                 alt="Tattoo Removal" class="w-100">
                         </div>
                         <div class="service-content">
@@ -496,12 +563,12 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <p class="sec-text">Enhance your natural beauty with our comprehensive facial treatments designed to
                     sculpt, rejuvenate, and perfect your features.</p>
             </div>
-            <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1">
+            <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1" data-arrows="true" data-prev-arrow="far fa-chevron-left" data-next-arrow="far fa-chevron-right">
                 <!-- Cheek Augmentation -->
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997390/pexels-photo-3997390.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/cheek-aug.webp"
                                 alt="Cheek Augmentation" class="w-100">
                         </div>
                         <div class="service-content">
@@ -516,7 +583,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/face-sculpting.webp"
                                 alt="Facial Sculpting" class="w-100">
                         </div>
                         <div class="service-content">
@@ -531,7 +598,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/lip-augmentation.webp"
                                 alt="Lip Augmentation" class="w-100">
                         </div>
                         <div class="service-content">
@@ -547,7 +614,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997952/pexels-photo-3997952.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/juvederm.webp"
                                 alt="Juvederm" class="w-100">
                         </div>
                         <div class="service-content">
@@ -561,7 +628,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069612/pexels-photo-5069612.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/face-derma-fillers.webp"
                                 alt="Ultherapy" class="w-100">
                         </div>
                         <div class="service-content">
@@ -575,7 +642,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997987/pexels-photo-3997987.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/PDO-threads.webp"
                                 alt="Thread Lift" class="w-100">
                         </div>
                         <div class="service-content">
@@ -590,7 +657,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/7755158/pexels-photo-7755158.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/IPL.webp"
                                 alt="Lumecca" class="w-100">
                         </div>
                         <div class="service-content">
@@ -604,7 +671,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/face-derma-fillers.webp"
                                 alt="ZO Professional Treatment" class="w-100">
                         </div>
                         <div class="service-content">
@@ -619,7 +686,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/face/fire-and-ice-facial-treatment.webp"
                                 alt="Fire & Ice Facial" class="w-100">
                         </div>
                         <div class="service-content">
@@ -645,12 +712,12 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <p class="sec-text">Transform your body with our advanced sculpting, contouring, and rejuvenation
                     treatments for beautiful, confident results.</p>
             </div>
-            <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1">
+            <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1" data-arrows="true" data-prev-arrow="far fa-chevron-left" data-next-arrow="far fa-chevron-right">
                 <!-- Cellulite Reduction -->
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997360/pexels-photo-3997360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/body/cellulite.webp"
                                 alt="Cellulite Reduction" class="w-100">
                         </div>
                         <div class="service-content">
@@ -666,7 +733,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069612/pexels-photo-5069612.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/body/forma-plus-skin-tightening.webp"
                                 alt="Forma Plus" class="w-100">
                         </div>
                         <div class="service-content">
@@ -681,7 +748,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997376/pexels-photo-3997376.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/body/breast-augmentation.webp"
                                 alt="Breast Augmentation" class="w-100">
                         </div>
                         <div class="service-content">
@@ -696,7 +763,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997390/pexels-photo-3997390.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/body/hip-augmentation2.webp"
                                 alt="Hip Augmentation" class="w-100">
                         </div>
                         <div class="service-content">
@@ -711,7 +778,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997952/pexels-photo-3997952.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/body/non-surgical-butt-lift.webp"
                                 alt="Non-Surgical Butt Lift" class="w-100">
                         </div>
                         <div class="service-content">
@@ -726,7 +793,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/body/cellulite.webp"
                                 alt="Ballancer Pro" class="w-100">
                         </div>
                         <div class="service-content">
@@ -741,7 +808,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3997987/pexels-photo-3997987.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/body/cellulite.webp"
                                 alt="Emerald Laser" class="w-100">
                         </div>
                         <div class="service-content">
@@ -756,7 +823,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+                            <img src="assets/img/servicepage/body/morp-8-body.webp"
                                 alt="Emsculpt Neo" class="w-100">
                         </div>
                         <div class="service-content">

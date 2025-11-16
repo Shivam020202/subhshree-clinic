@@ -21,7 +21,8 @@
       "Bash(then echo \"$file\")",
       "Bash(do if grep -q testimonial-slider $file)",
       "Bash(then if ! grep -q \"Book Now\\|Book Your\" $file)",
-      "Bash(then echo $file)"
+      "Bash(then echo $file)",
+      "Bash(do mv \"$file\" \"$file// /-\")"
     ],
     "deny": [],
     "ask": []
