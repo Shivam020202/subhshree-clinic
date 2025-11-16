@@ -11,6 +11,9 @@
         content="<?php echo isset($page_keywords) ? $page_keywords : 'dermatologist lucknow, skin clinic lucknow, laser treatment lucknow, dermal fillers lucknow, best skin doctor lucknow, aesthetic clinic lucknow, cosmetic dermatology lucknow, skin specialist lucknow, Dr Shubhshree Misra'; ?>">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
+
+
+    <meta name="google-site-verification" content="5asG5iOuk3rII-vI4V0gJ6V-qwU9YQqepVFewlN7CJc" />
     <!-- Geo Tags for Local SEO
     <meta name="geo.region" content="IN-UP">
     <meta name="geo.placename" content="Lucknow">
