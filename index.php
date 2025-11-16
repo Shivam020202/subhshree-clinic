@@ -177,7 +177,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col-lg-7 col-xxl align-self-center wow fadeInUp" data-wow-delay="0.3s">
                     <span class="sec-subtitle">Welcome to <span class="sec-subtext">SMT Skin Clinic</span></span>
-                    <h2 class="sec-title2">DISCOVER A <span class="text-theme">RADIANT YOU</span></h2>
+                    <h2 class="sec-title2">Best Skin Clinic in Lucknow <span class="text-theme">Advanced Skin, Hair & Aesthetic Treatments by Expert Dermatologists</span></h2>
                     <p class="quote-text">
                         At <strong>SMT Skin Clinic by Dr. Shubhshree</strong>, we believe your skin should reflect your
                         inner
