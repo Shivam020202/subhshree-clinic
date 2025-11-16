@@ -11,21 +11,21 @@
         content="<?php echo isset($page_keywords) ? $page_keywords : 'dermatologist lucknow, skin clinic lucknow, laser treatment lucknow, dermal fillers lucknow, best skin doctor lucknow, aesthetic clinic lucknow, cosmetic dermatology lucknow, skin specialist lucknow, Dr Shubhshree Misra'; ?>">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-    <!-- Geo Tags for Local SEO -->
+    <!-- Geo Tags for Local SEO
     <meta name="geo.region" content="IN-UP">
     <meta name="geo.placename" content="Lucknow">
     <meta name="geo.position" content="26.8467;80.9462">
-    <meta name="ICBM" content="26.8467, 80.9462">
+    <meta name="ICBM" content="26.8467, 80.9462"> -->
 
-    <!-- Language and Location -->
+    <!-- Language and Location
     <meta name="language" content="en-IN">
     <meta name="coverage" content="Worldwide">
     <meta name="distribution" content="Global">
     <meta name="target" content="all">
     <meta name="audience" content="all">
-    <meta name="rating" content="general">
+    <meta name="rating" content="general"> -->
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Facebook
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
     <meta property="og:title"
@@ -34,16 +34,16 @@
         content="<?php echo isset($page_description) ? $page_description : 'Premier dermatology clinic in Lucknow offering laser treatments, dermal fillers & aesthetic services by Dr. Shubhshree Misra at SMT Skin Clinic'; ?>">
     <meta property="og:image" content="https://<?php echo $_SERVER['HTTP_HOST']; ?>/assets/img/logo-subhshree.png">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:site_name" content="SMT Skin Clinic">
+    <meta property="og:site_name" content="SMT Skin Clinic"> -->
 
-    <!-- Twitter -->
+    <!-- Twitter
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
     <meta property="twitter:title"
         content="<?php echo isset($page_title) ? $page_title : 'SMT Skin Clinic Lucknow'; ?>">
     <meta property="twitter:description"
         content="<?php echo isset($page_description) ? $page_description : 'Best dermatology & aesthetic clinic in Lucknow'; ?>">
-    <meta property="twitter:image" content="https://<?php echo $_SERVER['HTTP_HOST']; ?>/assets/img/logo-subhshree.png">
+    <meta property="twitter:image" content="https://<?php echo $_SERVER['HTTP_HOST']; ?>/assets/img/logo-subhshree.png"> -->
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -70,7 +70,7 @@
     <!-- Preload important local font (Font Awesome) to avoid FOIT and improve FCP -->
     <link rel="preload" href="assets/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
-    <!-- Schema.org markup for Google+ -->
+    <!-- Schema.org markup for Google+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -215,7 +215,7 @@
             }
         ]
     }
-    </script>
+    </script> -->
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
