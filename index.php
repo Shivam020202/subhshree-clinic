@@ -177,12 +177,12 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col-lg-7 col-xxl align-self-center wow fadeInUp" data-wow-delay="0.3s">
                     <span class="sec-subtitle">Welcome to <span class="sec-subtext">SMT Skin Clinic</span></span>
-                    <h2 class="sec-title2">Best Skin Clinic in Lucknow <span class="text-theme">Advanced Skin, Hair & Aesthetic Treatments by Expert Dermatologists</span></h2>
+                    <h1 class="sec-title2">Best Skin Clinic in Lucknow <span class="text-theme">Advanced Skin, Hair & Aesthetic Treatments by Expert Dermatologists</span></h1>
                     <p class="quote-text">
-                        At <strong>SMT Skin Clinic by Dr. Shubhshree</strong>, we believe your skin should reflect your
-                        inner
-                        vitality, no matter
-                        your lifestyle. We offer comprehensive Dermatology & Aesthetics solutions.
+                        The best skin clinic in Lucknow is led by an experienced dermatologist who understands your skin’s unique needs—and at SMT Skin Clinic, Dr. Shubhshree brings expertise, precision and compassionate care to every treatment. With a strong focus on medical accuracy and modern aesthetic science, our clinic offers safe, effective and personalized solutions for all skin and hair concerns.
+                    </p>
+                    <p>SMT Skin Clinic provides customized treatments for acne and acne scars, pigmentation, melasma, anti-aging, open pores, hair fall, scalp conditions and advanced laser hair reduction. Every procedure is performed using US-FDA approved technology to ensure visible, long-lasting results with complete safety.
+                        <p>Under the guidance of Dr. Shubhshree, the clinic has become a trusted destination for individuals seeking clear, healthy and naturally radiant skin. Experience premium care, advanced technology and expert dermatology—discover why SMT Skin Clinic is counted among the best skin clinics in Lucknow.</p>
                     </p>
                     <div class="row gx-25">
                         <div class="col-md-6">
