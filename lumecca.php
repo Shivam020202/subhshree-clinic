@@ -443,7 +443,7 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
                             <div class="widget-banner">
                                 <h4 class="title">Book Your Consultation</h4>
                                 <div class="banner-text">Get personalized treatment recommendations</div>
-                                <a href="contact.php" class="vs-btn">Book Now</a>
+                                <a href="contact.php" class="vs-btn mt-3">Book Now</a>
                             </div>
                         </div>
                     </aside>
