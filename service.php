@@ -397,67 +397,10 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                     treatment of various skin concerns.</p>
             </div>
             <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="1" data-arrows="true" data-prev-arrow="far fa-chevron-left" data-next-arrow="far fa-chevron-right">
-                <!-- Acne Scar Treatment -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="service-box">
-                        <div class="service-img">
-                            <img src="assets/img/servicepage/laser/pore-reduction-laser.webp"
-                                alt="Acne Scar Treatment" class="w-100">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="service-title"><a href="acne-scar.php" class="text-inherit">Acne Scar
-                                    Treatment</a></h3>
-                            <p class="service-text">Advanced laser therapies to diminish acne scars and restore smooth
-                                skin.</p>
-                            <a href="acne-scar.php" class="vs-btn style2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Aging Skin -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="service-box">
-                        <div class="service-img">
-                            <img src="assets/img/servicepage/face/facial-ageing-skin.webp"
-                                alt="Aging Skin" class="w-100">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="service-title"><a href="aging-skin.php" class="text-inherit">Aging Skin</a></h3>
-                            <p class="service-text">Combat signs of aging with laser skin rejuvenation and resurfacing.
-                            </p>
-                            <a href="aging-skin.php" class="vs-btn style2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Hyperpigmentation -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="service-box">
-                        <div class="service-img">
-                            <img src="assets/img/servicepage/laser/pore-reduction-laser.webp"
-                                alt="Hyperpigmentation" class="w-100">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="service-title"><a href="hyperpigmentation.php"
-                                    class="text-inherit">Hyperpigmentation</a></h3>
-                            <p class="service-text">Laser treatment to even skin tone and eliminate dark spots.</p>
-                            <a href="hyperpigmentation.php" class="vs-btn style2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Laser Hair Reduction -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="service-box">
-                        <div class="service-img">
-                            <img src="assets/img/servicepage/laser/pore-reduction-laser.webp"
-                                alt="Laser Hair Reduction" class="w-100">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="service-title"><a href="laser-hair-reduction.php" class="text-inherit">Laser Hair
-                                    Reduction</a></h3>
-                            <p class="service-text">Permanent hair reduction with advanced laser technology.</p>
-                            <a href="laser-hair-reduction.php" class="vs-btn style2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
+                
+                
+                
+                
                 <!-- Mole Removal -->
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
@@ -522,7 +465,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="assets/img/servicepage/laser/radiofrequency-resurfacing.webp"
+                            <img src="assets/img/servicepage/laser/pore-reduction-laser.webp"
                                 alt="Resurfacing" class="w-100">
                         </div>
                         <div class="service-content">
@@ -789,36 +732,8 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                         </div>
                     </div>
                 </div>
-                <!-- Ballancer Pro -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="service-box">
-                        <div class="service-img">
-                            <img src="assets/img/servicepage/body/cellulite.webp"
-                                alt="Ballancer Pro" class="w-100">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="service-title"><a href="ballancer-pro.php" class="text-inherit">Ballancer Pro</a>
-                            </h3>
-                            <p class="service-text">Lymphatic drainage massage for detox and body sculpting.</p>
-                            <a href="ballancer-pro.php" class="vs-btn style2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Emerald Laser -->
-                <div class="col-xl-4 col-md-6">
-                    <div class="service-box">
-                        <div class="service-img">
-                            <img src="assets/img/servicepage/body/cellulite.webp"
-                                alt="Emerald Laser" class="w-100">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="service-title"><a href="emerald-laser.php" class="text-inherit">Emerald Laser</a>
-                            </h3>
-                            <p class="service-text">FDA-cleared low-level laser therapy for fat reduction.</p>
-                            <a href="emerald-laser.php" class="vs-btn style2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
+                
+                
                 <!-- Emsculpt Neo -->
                 <div class="col-xl-4 col-md-6">
                     <div class="service-box">
