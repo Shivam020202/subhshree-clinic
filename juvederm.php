@@ -9,8 +9,8 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,7 +103,7 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Face/juvederm.png');">
@@ -129,19 +129,26 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Juvederm Treatment"></div>
                     </div>
 
                     <h2 class="text-uppercase">Premium Juvederm Filler Treatments</h2>
-                    <p>Experience the world's leading dermal filler brand at SMT Skin Clinic. Juvederm is a collection of
-                        FDA-approved hyaluronic acid fillers designed to address various signs of aging and enhance facial features.
-                        From smoothing wrinkles to adding volume and defining contours, Juvederm offers comprehensive facial
+                    <p>Experience the world's leading dermal filler brand at SMT Skin Clinic. Juvederm is a collection
+                        of
+                        FDA-approved hyaluronic acid fillers designed to address various signs of aging and enhance
+                        facial features.
+                        From smoothing wrinkles to adding volume and defining contours, Juvederm offers comprehensive
+                        facial
                         rejuvenation solutions.</p>
 
-                    <p>Our experienced practitioners are certified Juvederm specialists who use advanced injection techniques to
-                        deliver natural-looking, beautiful results. Whether you're seeking subtle enhancement or dramatic transformation,
-                        our customized Juvederm treatments ensure optimal outcomes tailored to your unique aesthetic goals.</p>
+                    <p>Our experienced practitioners are certified Juvederm specialists who use advanced injection
+                        techniques to
+                        deliver natural-looking, beautiful results. Whether you're seeking subtle enhancement or
+                        dramatic transformation,
+                        our customized Juvederm treatments ensure optimal outcomes tailored to your unique aesthetic
+                        goals.</p>
 
                     <div class="list-style2">
                         <ul class="list-unstyled">
@@ -155,23 +162,29 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
 
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is Juvederm?</h3>
-                        <p>Juvederm is a premium collection of hyaluronic acid-based dermal fillers manufactured by Allergan.
-                            The Juvederm family includes several specialized formulations, each designed to target specific
+                        <p>Juvederm is a premium collection of hyaluronic acid-based dermal fillers manufactured by
+                            Allergan.
+                            The Juvederm family includes several specialized formulations, each designed to target
+                            specific
                             facial concerns - from fine lines and wrinkles to volume loss and lip enhancement.</p>
 
-                        <p>What sets Juvederm apart is its unique VYCROSS technology, which creates a smooth, malleable gel
-                            that integrates seamlessly with your natural tissue. This advanced formulation provides longer-lasting
+                        <p>What sets Juvederm apart is its unique VYCROSS technology, which creates a smooth, malleable
+                            gel
+                            that integrates seamlessly with your natural tissue. This advanced formulation provides
+                            longer-lasting
                             results and more natural movement compared to traditional fillers.</p>
 
                         <div class="mt-20">
                             <h4 class="h5">Juvederm Product Range:</h4>
                             <div class="list-style2 mt-15">
                                 <ul class="list-unstyled">
-                                    <li><strong>Juvederm Voluma XC:</strong> Deep volume restoration for cheeks and midface</li>
+                                    <li><strong>Juvederm Voluma XC:</strong> Deep volume restoration for cheeks and
+                                        midface</li>
                                     <li><strong>Juvederm Volbella XC:</strong> Lip enhancement and perioral lines</li>
                                     <li><strong>Juvederm Vollure XC:</strong> Moderate to severe facial wrinkles</li>
                                     <li><strong>Juvederm Ultra XC:</strong> Lip augmentation and wrinkle correction</li>
-                                    <li><strong>Juvederm Ultra Plus XC:</strong> Deeper folds and volume enhancement</li>
+                                    <li><strong>Juvederm Ultra Plus XC:</strong> Deeper folds and volume enhancement
+                                    </li>
                                     <li><strong>Juvederm Volux:</strong> Jawline definition and chin augmentation</li>
                                 </ul>
                             </div>
@@ -185,7 +198,8 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
                         <div class="list-style2 mt-20">
                             <ul class="list-unstyled">
                                 <li><strong>Volume Loss:</strong> Restore youthful fullness to cheeks and midface</li>
-                                <li><strong>Wrinkles & Lines:</strong> Smooth nasolabial folds, marionette lines, and smile lines</li>
+                                <li><strong>Wrinkles & Lines:</strong> Smooth nasolabial folds, marionette lines, and
+                                    smile lines</li>
                                 <li><strong>Lip Enhancement:</strong> Add volume, definition, and hydration to lips</li>
                                 <li><strong>Facial Contouring:</strong> Define jawline, chin, and cheekbones</li>
                                 <li><strong>Under-Eye Hollows:</strong> Fill tear troughs for refreshed appearance</li>
@@ -196,18 +210,19 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -361,12 +376,13 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Juvederm Voluma transformed my face! My cheeks look naturally fuller
+                                    <p class="mb-3">"Juvederm Voluma transformed my face! My cheeks look naturally
+                                        fuller
                                         and lifted. I've received so many compliments on how refreshed I look!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Preeti Malhotra, Age 41</strong>
@@ -382,7 +398,8 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I got Juvederm for my smile lines and I'm amazed at how natural it looks.
+                                    <p class="mb-3">"I got Juvederm for my smile lines and I'm amazed at how natural it
+                                        looks.
                                         The results have lasted over a year and I still love them!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Anjali Reddy, Age 37</strong>
@@ -399,7 +416,8 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
                                     <p class="mb-3">"Juvederm Volbella gave me the perfect lips - natural and beautiful.
-                                        The treatment was quick and virtually painless. Highly recommend SMT Skin Clinic!"</p>
+                                        The treatment was quick and virtually painless. Highly recommend SMT Skin
+                                        Clinic!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Divya Khanna, Age 29</strong>
                                         <div class="rating mt-1">
@@ -416,14 +434,17 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
                     </div>
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Our Juvederm treatments begin with a comprehensive consultation to select the ideal product for your needs.
-                        The injection process typically takes 15-45 minutes depending on treatment areas, with results visible immediately.
-                        We provide detailed aftercare instructions and follow-up appointments to ensure optimal healing and long-lasting
+                    <p class="pb-1">Our Juvederm treatments begin with a comprehensive consultation to select the ideal
+                        product for your needs.
+                        The injection process typically takes 15-45 minutes depending on treatment areas, with results
+                        visible immediately.
+                        We provide detailed aftercare instructions and follow-up appointments to ensure optimal healing
+                        and long-lasting
                         satisfaction with your results.</p>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -449,12 +470,12 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

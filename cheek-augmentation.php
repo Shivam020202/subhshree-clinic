@@ -9,8 +9,8 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,7 +103,7 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Face/cheek-aug.png');">
@@ -129,18 +129,24 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Cheek Augmentation Treatment"></div>
                     </div>
 
                     <h2 class="text-uppercase">Premium Cheek Augmentation Treatments</h2>
-                    <p>Restore youthful contours and enhance facial structure with our premium cheek augmentation treatments at SMT
-                        Skin Clinic. Using advanced dermal filler techniques, we help you achieve naturally elevated cheekbones
+                    <p>Restore youthful contours and enhance facial structure with our premium cheek augmentation
+                        treatments at SMT
+                        Skin Clinic. Using advanced dermal filler techniques, we help you achieve naturally elevated
+                        cheekbones
                         and improved facial harmony that enhances your overall appearance.</p>
 
-                    <p>Our experienced practitioners specialize in precise cheek sculpting to deliver beautiful, natural-looking
-                        results. Whether you're looking to restore lost volume, enhance your cheekbones, or create better facial
-                        balance, our customized approach ensures optimal outcomes tailored to your unique facial structure.</p>
+                    <p>Our experienced practitioners specialize in precise cheek sculpting to deliver beautiful,
+                        natural-looking
+                        results. Whether you're looking to restore lost volume, enhance your cheekbones, or create
+                        better facial
+                        balance, our customized approach ensures optimal outcomes tailored to your unique facial
+                        structure.</p>
 
                     <div class="list-style2">
                         <ul class="list-unstyled">
@@ -154,13 +160,18 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
 
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is Cheek Augmentation?</h3>
-                        <p>Cheek augmentation is a non-surgical cosmetic procedure that uses dermal fillers to enhance the
-                            volume and contour of the cheeks. This treatment restores youthful fullness, lifts sagging skin,
+                        <p>Cheek augmentation is a non-surgical cosmetic procedure that uses dermal fillers to enhance
+                            the
+                            volume and contour of the cheeks. This treatment restores youthful fullness, lifts sagging
+                            skin,
                             and creates more defined, elevated cheekbones for improved facial balance.</p>
 
-                        <p>The treatment involves strategic injections of hyaluronic acid-based fillers into specific areas
-                            of the cheeks to address volume loss and enhance facial structure. Our clinic uses only premium,
-                            FDA-approved fillers that integrate seamlessly with your natural tissues, providing results that
+                        <p>The treatment involves strategic injections of hyaluronic acid-based fillers into specific
+                            areas
+                            of the cheeks to address volume loss and enhance facial structure. Our clinic uses only
+                            premium,
+                            FDA-approved fillers that integrate seamlessly with your natural tissues, providing results
+                            that
                             look completely natural and feel soft to the touch.</p>
 
                         <div class="mt-20">
@@ -180,15 +191,20 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
 
                     <div class="mb-40">
                         <h3 class="h4 mb-20">Why Do Cheeks Lose Volume?</h3>
-                        <p>Understanding the causes of cheek volume loss helps in addressing the condition effectively:</p>
+                        <p>Understanding the causes of cheek volume loss helps in addressing the condition effectively:
+                        </p>
 
                         <div class="list-style2 mt-20">
                             <ul class="list-unstyled">
-                                <li><strong>Natural Aging Process:</strong> Fat pads in the cheeks descend and diminish with age</li>
-                                <li><strong>Collagen Breakdown:</strong> Decreased collagen production reduces skin elasticity and volume</li>
-                                <li><strong>Bone Resorption:</strong> Facial bone structure changes, reducing support</li>
+                                <li><strong>Natural Aging Process:</strong> Fat pads in the cheeks descend and diminish
+                                    with age</li>
+                                <li><strong>Collagen Breakdown:</strong> Decreased collagen production reduces skin
+                                    elasticity and volume</li>
+                                <li><strong>Bone Resorption:</strong> Facial bone structure changes, reducing support
+                                </li>
                                 <li><strong>Gravity Effects:</strong> Downward pull on facial tissues over time</li>
-                                <li><strong>Weight Loss:</strong> Significant weight changes can affect facial fat distribution</li>
+                                <li><strong>Weight Loss:</strong> Significant weight changes can affect facial fat
+                                    distribution</li>
                                 <li><strong>Genetics:</strong> Some individuals naturally have less cheek volume</li>
                             </ul>
                         </div>
@@ -196,18 +212,19 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -361,13 +378,15 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The cheek augmentation gave me back the youthful contours I had lost.
-                                        The results are so natural - my friends say I look refreshed but can't tell what I did!"</p>
+                                    <p class="mb-3">"The cheek augmentation gave me back the youthful contours I had
+                                        lost.
+                                        The results are so natural - my friends say I look refreshed but can't tell what
+                                        I did!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Priya Sharma, Age 38</strong>
                                         <div class="rating mt-1">
@@ -382,7 +401,8 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I always wanted more defined cheekbones. Dr. at SMT Skin Clinic understood
+                                    <p class="mb-3">"I always wanted more defined cheekbones. Dr. at SMT Skin Clinic
+                                        understood
                                         exactly what I wanted and the results exceeded my expectations!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Ananya Verma, Age 32</strong>
@@ -416,14 +436,17 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
                     </div>
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Our cheek augmentation treatments begin with a comprehensive facial analysis and consultation.
-                        The injection process typically takes 20-30 minutes, with results visible immediately. We provide detailed
-                        aftercare instructions and follow-up appointments to ensure optimal healing and satisfaction with your
+                    <p class="pb-1">Our cheek augmentation treatments begin with a comprehensive facial analysis and
+                        consultation.
+                        The injection process typically takes 20-30 minutes, with results visible immediately. We
+                        provide detailed
+                        aftercare instructions and follow-up appointments to ensure optimal healing and satisfaction
+                        with your
                         enhanced facial contours.</p>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -449,12 +472,12 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

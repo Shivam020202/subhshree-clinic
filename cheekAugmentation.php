@@ -11,8 +11,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 <body>
 
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -110,7 +110,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </div>
 
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/breadcumb/breadcumb-bg-4.jpg');">
@@ -145,9 +145,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <!-- Added cheek augmentation specific content -->
                     <h2 class="text-uppercase">Expert Cheek Augmentation Treatments</h2>
-                    <p>Enhance your natural beauty by restoring youthful volume to your cheeks with our expert cheek augmentation treatments at SMT Skin Clinic. We use advanced FDA-approved fillers and techniques to achieve a balanced, lifted look that complements your facial features.</p>
+                    <p>Enhance your natural beauty by restoring youthful volume to your cheeks with our expert cheek
+                        augmentation treatments at SMT Skin Clinic. We use advanced FDA-approved fillers and techniques
+                        to achieve a balanced, lifted look that complements your facial features.</p>
 
-                    <p>Our skilled practitioners carefully tailor each treatment to your unique anatomy, whether you seek subtle enhancement or more dramatic contouring. Enjoy safe procedures with minimal downtime and long-lasting results that boost your confidence.</p>
+                    <p>Our skilled practitioners carefully tailor each treatment to your unique anatomy, whether you
+                        seek subtle enhancement or more dramatic contouring. Enjoy safe procedures with minimal downtime
+                        and long-lasting results that boost your confidence.</p>
 
                     <div class="list-style2">
                         <ul class="list-unstyled">
@@ -163,9 +167,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added What is Cheek Augmentation section -->
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is Cheek Augmentation?</h3>
-                        <p>Cheek augmentation is a cosmetic procedure that restores lost volume or adds definition to the cheeks. Using injectable fillers, primarily hyaluronic acid-based, the treatment enhances the mid-face area to create a youthful, balanced appearance.</p>
+                        <p>Cheek augmentation is a cosmetic procedure that restores lost volume or adds definition to
+                            the cheeks. Using injectable fillers, primarily hyaluronic acid-based, the treatment
+                            enhances the mid-face area to create a youthful, balanced appearance.</p>
 
-                        <p>Our clinic uses premium fillers administered with precision to lift and contour the cheeks, improving facial symmetry and reducing signs of aging. The procedure is quick, with immediate results and minimal downtime.</p>
+                        <p>Our clinic uses premium fillers administered with precision to lift and contour the cheeks,
+                            improving facial symmetry and reducing signs of aging. The procedure is quick, with
+                            immediate results and minimal downtime.</p>
 
                         <div class="mt-20">
                             <h4 class="h5">Common Benefits:</h4>
@@ -185,16 +193,21 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- Added Causes of cheek volume loss -->
                     <div class="mb-40">
                         <h3 class="h4 mb-20">What Causes Cheek Volume Loss?</h3>
-                        <p>Loss of cheek volume is a natural part of aging and other factors that affect facial structure and skin health:</p>
+                        <p>Loss of cheek volume is a natural part of aging and other factors that affect facial
+                            structure and skin health:</p>
 
                         <div class="list-style2 mt-20">
                             <ul class="list-unstyled">
-                                <li><strong>Collagen Decline:</strong> Decreased collagen production reduces skin firmness</li>
-                                <li><strong>Fat Loss and Migration:</strong> Facial fat pads shrink and shift downward</li>
+                                <li><strong>Collagen Decline:</strong> Decreased collagen production reduces skin
+                                    firmness</li>
+                                <li><strong>Fat Loss and Migration:</strong> Facial fat pads shrink and shift downward
+                                </li>
                                 <li><strong>Bone Remodeling:</strong> Changes in underlying bone structure</li>
-                                <li><strong>Repeated Facial Movements:</strong> Volume loss highlights wrinkles and lines</li>
+                                <li><strong>Repeated Facial Movements:</strong> Volume loss highlights wrinkles and
+                                    lines</li>
                                 <li><strong>Hormonal Fluctuations:</strong> Affect skin elasticity and fullness</li>
-                                <li><strong>Environmental Damage:</strong> UV exposure and habits accelerating aging</li>
+                                <li><strong>Environmental Damage:</strong> UV exposure and habits accelerating aging
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -214,8 +227,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <!-- Added testimonial slider section -->
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -369,12 +381,14 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The cheek augmentation treatment gave me back the youthful fullness I lost. The subtle lift makes me look refreshed and natural. Highly recommend SMT Clinic’s team!"</p>
+                                    <p class="mb-3">"The cheek augmentation treatment gave me back the youthful fullness
+                                        I lost. The subtle lift makes me look refreshed and natural. Highly recommend
+                                        SMT Clinic’s team!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Anjali Mehta, Age 33</strong>
                                         <div class="rating mt-1">
@@ -389,7 +403,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The results exceeded my expectations. The volume restoration in my cheeks looks so natural that nobody guessed I had treatment. The procedure was quick and painless."</p>
+                                    <p class="mb-3">"The results exceeded my expectations. The volume restoration in my
+                                        cheeks looks so natural that nobody guessed I had treatment. The procedure was
+                                        quick and painless."</p>
                                     <div class="testimonial-author">
                                         <strong>- Rajiv Kumar, Age 40</strong>
                                         <div class="rating mt-1">
@@ -404,7 +420,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Professional, caring staff and impressive results! The cheek augmentation boosted my confidence, and I felt comfortable throughout the process."</p>
+                                    <p class="mb-3">"Professional, caring staff and impressive results! The cheek
+                                        augmentation boosted my confidence, and I felt comfortable throughout the
+                                        process."</p>
                                     <div class="testimonial-author">
                                         <strong>- Saira Khan, Age 37</strong>
                                         <div class="rating mt-1">
@@ -422,7 +440,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Our cheek augmentation treatments start with a personalized consultation and detailed facial evaluation. The injection process generally takes 15-30 minutes, with results visible immediately. We provide thorough aftercare guidance and schedule follow-ups to ensure your results last and you stay satisfied.</p>
+                    <p class="pb-1">Our cheek augmentation treatments start with a personalized consultation and
+                        detailed facial evaluation. The injection process generally takes 15-30 minutes, with results
+                        visible immediately. We provide thorough aftercare guidance and schedule follow-ups to ensure
+                        your results last and you stay satisfied.</p>
                 </div>
                 <div class="col-lg-4">
                     <!-- Updated sidebar for cheek augmentation -->
@@ -453,7 +474,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 </li>
                             </ul>
                         </div>
-                        
+
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
                             <div class="widget-banner">
                                 <h4 class="title">Book Your Consultation</h4>
@@ -473,10 +494,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     ==============================-->
 
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 
 </body>

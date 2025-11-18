@@ -9,8 +9,8 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,11 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Face/fire-and-ice-facial-treatment.png');">
+    <div class="breadcumb-wrapper"
+        style="background-image: url('assets/img/banner/Face/fire-and-ice-facial-treatment.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Fire & Ice <span class="inner-text">Facial</span></h1>
@@ -129,19 +130,26 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Fire & Ice Facial Treatment"></div>
                     </div>
 
                     <h2 class="text-uppercase">The Red Carpet Fire & Ice Facial</h2>
-                    <p>Experience the iconic Fire & Ice Facial at SMT Skin Clinic - the celebrity-favorite treatment that delivers
-                        instant red-carpet results with zero downtime. This revolutionary two-step resurfacing treatment combines
-                        intensive resurfacing (Fire) with a rejuvenating mask (Ice) to dramatically improve skin texture, reduce
+                    <p>Experience the iconic Fire & Ice Facial at SMT Skin Clinic - the celebrity-favorite treatment
+                        that delivers
+                        instant red-carpet results with zero downtime. This revolutionary two-step resurfacing treatment
+                        combines
+                        intensive resurfacing (Fire) with a rejuvenating mask (Ice) to dramatically improve skin
+                        texture, reduce
                         fine lines, and create an immediate radiant glow.</p>
 
-                    <p>Our certified aestheticians use this clinically proven treatment to deliver visible results in just one
-                        session. Perfect before special events or as a regular skincare maintenance treatment, the Fire & Ice
-                        Facial addresses multiple skin concerns simultaneously while leaving you with instantly luminous,
+                    <p>Our certified aestheticians use this clinically proven treatment to deliver visible results in
+                        just one
+                        session. Perfect before special events or as a regular skincare maintenance treatment, the Fire
+                        & Ice
+                        Facial addresses multiple skin concerns simultaneously while leaving you with instantly
+                        luminous,
                         camera-ready skin.</p>
 
                     <div class="list-style2">
@@ -156,13 +164,16 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
 
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is the Fire & Ice Facial?</h3>
-                        <p>The Fire & Ice Facial is a signature professional treatment that combines two powerful steps to
+                        <p>The Fire & Ice Facial is a signature professional treatment that combines two powerful steps
+                            to
                             resurface and rejuvenate the skin. The "Fire" step uses an intensive resurfacing masque with
                             niacin, salicylic acid, and enzymes to deeply exfoliate and stimulate circulation. The "Ice"
-                            step follows with a cooling, hydrating mask to calm, soothe, and nourish the newly revealed skin.</p>
+                            step follows with a cooling, hydrating mask to calm, soothe, and nourish the newly revealed
+                            skin.</p>
 
                         <p>This unique dual-action treatment creates an immediate tightening and firming sensation while
-                            dramatically improving skin texture and tone. The carefully formulated products work synergistically
+                            dramatically improving skin texture and tone. The carefully formulated products work
+                            synergistically
                             to provide both instant and progressive results without the typical downtime associated with
                             intensive resurfacing treatments.</p>
 
@@ -187,30 +198,36 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
 
                         <div class="list-style2 mt-20">
                             <ul class="list-unstyled">
-                                <li><strong>Zero Downtime:</strong> Walk out with glowing skin immediately after treatment</li>
-                                <li><strong>Intense Yet Gentle:</strong> Powerful results without irritation or peeling</li>
-                                <li><strong>Red Carpet Ready:</strong> Perfect before weddings, parties, or photo shoots</li>
-                                <li><strong>Multi-Action Formula:</strong> Addresses multiple concerns in one treatment</li>
+                                <li><strong>Zero Downtime:</strong> Walk out with glowing skin immediately after
+                                    treatment</li>
+                                <li><strong>Intense Yet Gentle:</strong> Powerful results without irritation or peeling
+                                </li>
+                                <li><strong>Red Carpet Ready:</strong> Perfect before weddings, parties, or photo shoots
+                                </li>
+                                <li><strong>Multi-Action Formula:</strong> Addresses multiple concerns in one treatment
+                                </li>
                                 <li><strong>Universal Application:</strong> Safe and effective for all skin types</li>
-                                <li><strong>Clinical Strength:</strong> Professional-grade products for maximum efficacy</li>
+                                <li><strong>Clinical Strength:</strong> Professional-grade products for maximum efficacy
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -364,12 +381,13 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I got the Fire & Ice Facial before my wedding and my skin looked absolutely
+                                    <p class="mb-3">"I got the Fire & Ice Facial before my wedding and my skin looked
+                                        absolutely
                                         perfect in all the photos! The glow was incredible and lasted for days!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Anika Sharma, Age 27</strong>
@@ -385,8 +403,10 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"This is my go-to facial before any important event! My skin looks instantly
-                                        smoother and more radiant. No redness, no downtime - just beautiful results!"</p>
+                                    <p class="mb-3">"This is my go-to facial before any important event! My skin looks
+                                        instantly
+                                        smoother and more radiant. No redness, no downtime - just beautiful results!"
+                                    </p>
                                     <div class="testimonial-author">
                                         <strong>- Rhea Kapoor, Age 33</strong>
                                         <div class="rating mt-1">
@@ -401,7 +421,8 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I was amazed at how quickly this treatment works! My skin felt tighter, looked
+                                    <p class="mb-3">"I was amazed at how quickly this treatment works! My skin felt
+                                        tighter, looked
                                         brighter, and the texture improved dramatically. Now I get it monthly!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Tara Banerjee, Age 39</strong>
@@ -419,15 +440,20 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
                     </div>
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Your Fire & Ice Facial experience begins with thorough skin cleansing and preparation. The intensive
-                        resurfacing masque is applied for maximum effect, followed by the cooling rejuvenation mask. The entire
-                        treatment takes approximately 30-45 minutes. You'll experience a warming, tingling sensation during the
-                        Fire phase, followed by immediate cooling relief during the Ice phase. There's zero downtime - you can
-                        apply makeup and return to activities immediately. For optimal results, we recommend monthly treatments.</p>
+                    <p class="pb-1">Your Fire & Ice Facial experience begins with thorough skin cleansing and
+                        preparation. The intensive
+                        resurfacing masque is applied for maximum effect, followed by the cooling rejuvenation mask. The
+                        entire
+                        treatment takes approximately 30-45 minutes. You'll experience a warming, tingling sensation
+                        during the
+                        Fire phase, followed by immediate cooling relief during the Ice phase. There's zero downtime -
+                        you can
+                        apply makeup and return to activities immediately. For optimal results, we recommend monthly
+                        treatments.</p>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -453,12 +479,12 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

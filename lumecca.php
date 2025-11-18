@@ -9,8 +9,8 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,7 +103,7 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Face/IPL.png');">
@@ -129,19 +129,25 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Lumecca IPL Treatment"></div>
                     </div>
 
                     <h2 class="text-uppercase">Advanced Lumecca IPL Photofacial</h2>
                     <p>Experience the most powerful Intense Pulsed Light (IPL) treatment available with Lumecca at SMT
-                        Skin Clinic. This revolutionary photofacial treatment effectively treats pigmentation, sun damage,
-                        vascular lesions, and skin texture irregularities, revealing clearer, more even-toned, and youthful-looking
+                        Skin Clinic. This revolutionary photofacial treatment effectively treats pigmentation, sun
+                        damage,
+                        vascular lesions, and skin texture irregularities, revealing clearer, more even-toned, and
+                        youthful-looking
                         skin in just 1-3 sessions.</p>
 
-                    <p>Our certified Lumecca specialists use this cutting-edge technology to deliver high-intensity light energy
-                        that targets and eliminates pigment and vascular irregularities without damaging surrounding tissue.
-                        Whether you're dealing with age spots, rosacea, or overall skin discoloration, Lumecca provides dramatic
+                    <p>Our certified Lumecca specialists use this cutting-edge technology to deliver high-intensity
+                        light energy
+                        that targets and eliminates pigment and vascular irregularities without damaging surrounding
+                        tissue.
+                        Whether you're dealing with age spots, rosacea, or overall skin discoloration, Lumecca provides
+                        dramatic
                         improvement with minimal downtime.</p>
 
                     <div class="list-style2">
@@ -156,13 +162,18 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
 
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is Lumecca IPL?</h3>
-                        <p>Lumecca is an advanced Intense Pulsed Light (IPL) technology that delivers the most powerful energy
-                            of any IPL device on the market. This photofacial treatment uses broad-spectrum light to target
-                            melanin (pigment) and hemoglobin (blood vessels) in the skin, effectively treating various skin
+                        <p>Lumecca is an advanced Intense Pulsed Light (IPL) technology that delivers the most powerful
+                            energy
+                            of any IPL device on the market. This photofacial treatment uses broad-spectrum light to
+                            target
+                            melanin (pigment) and hemoglobin (blood vessels) in the skin, effectively treating various
+                            skin
                             concerns and revealing a more even, radiant complexion.</p>
 
-                        <p>Unlike traditional IPL treatments that require multiple sessions for visible results, Lumecca's
-                            superior power allows for dramatic improvement in just 1-3 treatments. The light energy is absorbed
+                        <p>Unlike traditional IPL treatments that require multiple sessions for visible results,
+                            Lumecca's
+                            superior power allows for dramatic improvement in just 1-3 treatments. The light energy is
+                            absorbed
                             by target chromophores, causing them to fragment and be naturally eliminated by the body's
                             lymphatic system.</p>
 
@@ -187,30 +198,37 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
 
                         <div class="list-style2 mt-20">
                             <ul class="list-unstyled">
-                                <li><strong>Light Energy Delivery:</strong> High-intensity broad-spectrum light penetrates skin layers</li>
-                                <li><strong>Target Absorption:</strong> Melanin and hemoglobin absorb the light energy</li>
-                                <li><strong>Thermal Reaction:</strong> Absorbed energy converts to heat, fragmenting target cells</li>
-                                <li><strong>Natural Elimination:</strong> Body's lymphatic system removes fragmented pigment</li>
-                                <li><strong>Collagen Stimulation:</strong> Heat triggers new collagen production for improved texture</li>
-                                <li><strong>Skin Renewal:</strong> Gradual improvement continues for weeks after treatment</li>
+                                <li><strong>Light Energy Delivery:</strong> High-intensity broad-spectrum light
+                                    penetrates skin layers</li>
+                                <li><strong>Target Absorption:</strong> Melanin and hemoglobin absorb the light energy
+                                </li>
+                                <li><strong>Thermal Reaction:</strong> Absorbed energy converts to heat, fragmenting
+                                    target cells</li>
+                                <li><strong>Natural Elimination:</strong> Body's lymphatic system removes fragmented
+                                    pigment</li>
+                                <li><strong>Collagen Stimulation:</strong> Heat triggers new collagen production for
+                                    improved texture</li>
+                                <li><strong>Skin Renewal:</strong> Gradual improvement continues for weeks after
+                                    treatment</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -364,12 +382,13 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Lumecca completely transformed my sun-damaged skin! After just two sessions,
+                                    <p class="mb-3">"Lumecca completely transformed my sun-damaged skin! After just two
+                                        sessions,
                                         my age spots faded dramatically. My complexion is so much more even now!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Madhuri Joshi, Age 49</strong>
@@ -385,8 +404,10 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I struggled with rosacea for years. Lumecca reduced my facial redness
-                                        significantly after the first treatment. I finally feel confident without makeup!"</p>
+                                    <p class="mb-3">"I struggled with rosacea for years. Lumecca reduced my facial
+                                        redness
+                                        significantly after the first treatment. I finally feel confident without
+                                        makeup!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Shalini Bose, Age 36</strong>
                                         <div class="rating mt-1">
@@ -401,7 +422,8 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Amazing results with minimal downtime! My skin tone is so much more even
+                                    <p class="mb-3">"Amazing results with minimal downtime! My skin tone is so much more
+                                        even
                                         and the freckles I've had forever are barely visible now. Love Lumecca!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Tanvi Deshmukh, Age 42</strong>
@@ -419,15 +441,19 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
                     </div>
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Your Lumecca treatment begins with a skin analysis and customized treatment plan. The procedure
-                        typically takes 15-20 minutes with a warming sensation during light pulses. Immediately after treatment,
-                        pigmented areas may darken before flaking off over 7-14 days. Minimal downtime of 3-5 days is typical,
-                        with visible results appearing within one week. We provide comprehensive sun protection guidelines and
+                    <p class="pb-1">Your Lumecca treatment begins with a skin analysis and customized treatment plan.
+                        The procedure
+                        typically takes 15-20 minutes with a warming sensation during light pulses. Immediately after
+                        treatment,
+                        pigmented areas may darken before flaking off over 7-14 days. Minimal downtime of 3-5 days is
+                        typical,
+                        with visible results appearing within one week. We provide comprehensive sun protection
+                        guidelines and
                         aftercare instructions to ensure optimal results.</p>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -453,12 +479,12 @@ $page_keywords = "lumecca, IPL photofacial, pigmentation treatment, skin rejuven
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

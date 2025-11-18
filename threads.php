@@ -9,8 +9,8 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,7 +103,7 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Face/PDO-threads.png');">
@@ -129,18 +129,25 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Thread Lift Treatment"></div>
                     </div>
 
                     <h2 class="text-uppercase">Premium PDO Thread Lift Treatments</h2>
-                    <p>Achieve a lifted, more youthful appearance without surgery using PDO (Polydioxanone) thread lift treatments
-                        at SMT Skin Clinic. This innovative procedure uses absorbable surgical threads to lift and tighten sagging
-                        skin while stimulating natural collagen production for long-lasting rejuvenation and facial contouring.</p>
+                    <p>Achieve a lifted, more youthful appearance without surgery using PDO (Polydioxanone) thread lift
+                        treatments
+                        at SMT Skin Clinic. This innovative procedure uses absorbable surgical threads to lift and
+                        tighten sagging
+                        skin while stimulating natural collagen production for long-lasting rejuvenation and facial
+                        contouring.</p>
 
-                    <p>Our experienced practitioners specialize in advanced thread placement techniques to deliver natural-looking
-                        lift and definition. Whether you're looking to lift sagging cheeks, define your jawline, or smooth neck
-                        bands, our customized thread lift treatments provide immediate results with continued improvement over time.</p>
+                    <p>Our experienced practitioners specialize in advanced thread placement techniques to deliver
+                        natural-looking
+                        lift and definition. Whether you're looking to lift sagging cheeks, define your jawline, or
+                        smooth neck
+                        bands, our customized thread lift treatments provide immediate results with continued
+                        improvement over time.</p>
 
                     <div class="list-style2">
                         <ul class="list-unstyled">
@@ -154,23 +161,30 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
 
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is a Thread Lift?</h3>
-                        <p>A thread lift is a minimally invasive cosmetic procedure that uses dissolvable PDO (Polydioxanone)
-                            sutures to lift and tighten sagging facial skin. These medical-grade threads are gently inserted
+                        <p>A thread lift is a minimally invasive cosmetic procedure that uses dissolvable PDO
+                            (Polydioxanone)
+                            sutures to lift and tighten sagging facial skin. These medical-grade threads are gently
+                            inserted
                             beneath the skin to provide an immediate lifting effect while stimulating the body's natural
                             collagen production for continued improvement.</p>
 
-                        <p>The threads are made from the same material used in surgical sutures and are completely safe and
-                            biocompatible. Over time, they naturally dissolve while leaving behind newly formed collagen that
+                        <p>The threads are made from the same material used in surgical sutures and are completely safe
+                            and
+                            biocompatible. Over time, they naturally dissolve while leaving behind newly formed collagen
+                            that
                             continues to provide structure and support to the skin.</p>
 
                         <div class="mt-20">
                             <h4 class="h5">Thread Types:</h4>
                             <div class="list-style2 mt-15">
                                 <ul class="list-unstyled">
-                                    <li><strong>Lifting Threads (Barbed):</strong> Provide immediate mechanical lift for sagging tissue</li>
-                                    <li><strong>Smooth Threads:</strong> Stimulate collagen for skin rejuvenation and texture improvement</li>
+                                    <li><strong>Lifting Threads (Barbed):</strong> Provide immediate mechanical lift for
+                                        sagging tissue</li>
+                                    <li><strong>Smooth Threads:</strong> Stimulate collagen for skin rejuvenation and
+                                        texture improvement</li>
                                     <li><strong>Screw Threads:</strong> Add volume and restore hollowed areas</li>
-                                    <li><strong>Mesh Threads:</strong> Create support structure for comprehensive rejuvenation</li>
+                                    <li><strong>Mesh Threads:</strong> Create support structure for comprehensive
+                                        rejuvenation</li>
                                 </ul>
                             </div>
                         </div>
@@ -183,7 +197,8 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
                         <div class="list-style2 mt-20">
                             <ul class="list-unstyled">
                                 <li><strong>Mid-Face Sagging:</strong> Lift and restore volume to drooping cheeks</li>
-                                <li><strong>Jowls & Jawline:</strong> Define and contour for a more youthful profile</li>
+                                <li><strong>Jowls & Jawline:</strong> Define and contour for a more youthful profile
+                                </li>
                                 <li><strong>Nasolabial Folds:</strong> Reduce deep smile lines</li>
                                 <li><strong>Neck Bands:</strong> Smooth vertical neck lines and sagging</li>
                                 <li><strong>Brow Lift:</strong> Elevate drooping eyebrows</li>
@@ -194,18 +209,19 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -359,12 +375,13 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The thread lift gave me back my jawline! I was amazed at the immediate
+                                    <p class="mb-3">"The thread lift gave me back my jawline! I was amazed at the
+                                        immediate
                                         results and it keeps looking better as time goes on. No surgery needed!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Kavita Nair, Age 46</strong>
@@ -380,7 +397,8 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I was hesitant about getting a facelift, but thread lift was the perfect
+                                    <p class="mb-3">"I was hesitant about getting a facelift, but thread lift was the
+                                        perfect
                                         alternative. My cheeks are lifted and my face looks so much more youthful!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Deepa Srinivasan, Age 51</strong>
@@ -396,7 +414,8 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Best investment in myself! The downtime was minimal and the lifting effect
+                                    <p class="mb-3">"Best investment in myself! The downtime was minimal and the lifting
+                                        effect
                                         is incredible. Dr. at SMT Skin Clinic is truly an artist!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Pooja Bhatia, Age 43</strong>
@@ -414,14 +433,18 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
                     </div>
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Your thread lift treatment begins with a comprehensive facial assessment and customized treatment plan.
-                        The procedure typically takes 45-60 minutes under local anesthesia. You'll see immediate lifting results, with
-                        continued improvement over 2-3 months as collagen production increases. Minimal downtime of 3-5 days is expected,
-                        with some temporary swelling or bruising. We provide detailed aftercare instructions to ensure optimal results.</p>
+                    <p class="pb-1">Your thread lift treatment begins with a comprehensive facial assessment and
+                        customized treatment plan.
+                        The procedure typically takes 45-60 minutes under local anesthesia. You'll see immediate lifting
+                        results, with
+                        continued improvement over 2-3 months as collagen production increases. Minimal downtime of 3-5
+                        days is expected,
+                        with some temporary swelling or bruising. We provide detailed aftercare instructions to ensure
+                        optimal results.</p>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -447,12 +470,12 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

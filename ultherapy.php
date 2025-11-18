@@ -9,8 +9,8 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,7 +103,7 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/DummyBanner/Chemical-peel-banner.jpg');">
@@ -129,19 +129,26 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Ultherapy Treatment"></div>
                     </div>
 
                     <h2 class="text-uppercase">Premium Ultherapy Non-Surgical Facelift</h2>
-                    <p>Experience the revolutionary power of Ultherapy at SMT Skin Clinic - the only FDA-cleared non-invasive
-                        procedure that lifts and tightens facial skin using the power of ultrasound. This breakthrough treatment
-                        naturally stimulates collagen production deep within the skin, delivering a lifted, more youthful appearance
+                    <p>Experience the revolutionary power of Ultherapy at SMT Skin Clinic - the only FDA-cleared
+                        non-invasive
+                        procedure that lifts and tightens facial skin using the power of ultrasound. This breakthrough
+                        treatment
+                        naturally stimulates collagen production deep within the skin, delivering a lifted, more
+                        youthful appearance
                         without surgery or downtime.</p>
 
-                    <p>Our certified Ultherapy specialists use advanced ultrasound imaging to precisely target the foundational
-                        layers typically addressed in cosmetic surgery - but without cutting or disrupting the skin's surface.
-                        Whether you're looking to lift the brow, neck, or under-chin area, Ultherapy delivers natural-looking
+                    <p>Our certified Ultherapy specialists use advanced ultrasound imaging to precisely target the
+                        foundational
+                        layers typically addressed in cosmetic surgery - but without cutting or disrupting the skin's
+                        surface.
+                        Whether you're looking to lift the brow, neck, or under-chin area, Ultherapy delivers
+                        natural-looking
                         results that continue to improve over time.</p>
 
                     <div class="list-style2">
@@ -156,13 +163,18 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
 
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is Ultherapy?</h3>
-                        <p>Ultherapy is a revolutionary non-surgical skin lifting and tightening treatment that uses micro-focused
-                            ultrasound energy to stimulate the body's natural collagen production. Unlike lasers that work on the
-                            skin's surface, Ultherapy delivers precise energy to the deep structural layers - the same layers
+                        <p>Ultherapy is a revolutionary non-surgical skin lifting and tightening treatment that uses
+                            micro-focused
+                            ultrasound energy to stimulate the body's natural collagen production. Unlike lasers that
+                            work on the
+                            skin's surface, Ultherapy delivers precise energy to the deep structural layers - the same
+                            layers
                             addressed in surgical facelifts.</p>
 
-                        <p>What makes Ultherapy unique is its ability to visualize the layers of tissue being treated during
-                            the procedure using ultrasound imaging. This ensures energy is delivered precisely where it will
+                        <p>What makes Ultherapy unique is its ability to visualize the layers of tissue being treated
+                            during
+                            the procedure using ultrasound imaging. This ensures energy is delivered precisely where it
+                            will
                             be most beneficial, making the treatment both safe and effective.</p>
 
                         <div class="mt-20">
@@ -186,30 +198,36 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
 
                         <div class="list-style2 mt-20">
                             <ul class="list-unstyled">
-                                <li><strong>Ultrasound Energy:</strong> Precisely targets deep tissue layers without affecting the surface</li>
-                                <li><strong>Collagen Stimulation:</strong> Heat triggers the body's natural healing response</li>
-                                <li><strong>Tissue Tightening:</strong> Existing collagen contracts for immediate subtle lift</li>
-                                <li><strong>New Collagen Growth:</strong> Fresh collagen production continues for months</li>
+                                <li><strong>Ultrasound Energy:</strong> Precisely targets deep tissue layers without
+                                    affecting the surface</li>
+                                <li><strong>Collagen Stimulation:</strong> Heat triggers the body's natural healing
+                                    response</li>
+                                <li><strong>Tissue Tightening:</strong> Existing collagen contracts for immediate subtle
+                                    lift</li>
+                                <li><strong>New Collagen Growth:</strong> Fresh collagen production continues for months
+                                </li>
                                 <li><strong>Natural Results:</strong> Gradual improvement looks completely natural</li>
-                                <li><strong>Long-Lasting:</strong> Effects continue to improve and can last 1-2 years</li>
+                                <li><strong>Long-Lasting:</strong> Effects continue to improve and can last 1-2 years
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -363,13 +381,15 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Ultherapy was amazing! No downtime and my neck looks so much tighter.
-                                        The results keep getting better each month. So glad I chose this over surgery!"</p>
+                                    <p class="mb-3">"Ultherapy was amazing! No downtime and my neck looks so much
+                                        tighter.
+                                        The results keep getting better each month. So glad I chose this over surgery!"
+                                    </p>
                                     <div class="testimonial-author">
                                         <strong>- Sunita Desai, Age 52</strong>
                                         <div class="rating mt-1">
@@ -384,7 +404,8 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"My brows were drooping and making me look tired. After Ultherapy, my eyes
+                                    <p class="mb-3">"My brows were drooping and making me look tired. After Ultherapy,
+                                        my eyes
                                         look more open and youthful. People say I look well-rested now!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Rekha Iyer, Age 48</strong>
@@ -400,8 +421,10 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I was skeptical about non-surgical treatments, but Ultherapy exceeded my
-                                        expectations. My jawline is more defined and my skin feels tighter. Worth every penny!"</p>
+                                    <p class="mb-3">"I was skeptical about non-surgical treatments, but Ultherapy
+                                        exceeded my
+                                        expectations. My jawline is more defined and my skin feels tighter. Worth every
+                                        penny!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Vandana Pillai, Age 45</strong>
                                         <div class="rating mt-1">
@@ -418,14 +441,18 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
                     </div>
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Your Ultherapy treatment begins with a comprehensive consultation and ultrasound assessment. The
-                        procedure typically takes 60-90 minutes depending on areas treated. You may experience some tingling or warmth
-                        during treatment, but most clients tolerate it well. Results develop gradually over 2-3 months as new collagen
-                        forms, with no downtime required. You can return to normal activities immediately after treatment.</p>
+                    <p class="pb-1">Your Ultherapy treatment begins with a comprehensive consultation and ultrasound
+                        assessment. The
+                        procedure typically takes 60-90 minutes depending on areas treated. You may experience some
+                        tingling or warmth
+                        during treatment, but most clients tolerate it well. Results develop gradually over 2-3 months
+                        as new collagen
+                        forms, with no downtime required. You can return to normal activities immediately after
+                        treatment.</p>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -451,12 +478,12 @@ $page_keywords = "ultherapy, skin tightening, non-surgical facelift, ultrasound 
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

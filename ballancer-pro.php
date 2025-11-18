@@ -283,7 +283,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </style>
                     </style>
 
-                    <!-- Testimonial Slider Section -->
+                    <!-- Testimonial Slider Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">What Our Patients Say</h3>
                         <div class="testimonial-slider">

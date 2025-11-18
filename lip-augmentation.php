@@ -9,8 +9,8 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,10 +103,11 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/smt-left-banners/lip-augmentation.png');">
+    <div class="breadcumb-wrapper"
+        style="background-image: url('assets/img/banner/smt-left-banners/lip-augmentation.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Lip <span class="inner-text">Augmentation</span></h1>
@@ -129,18 +130,24 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Lip Augmentation Treatment"></div>
                     </div>
 
                     <h2 class="text-uppercase">Premium Lip Augmentation Treatments</h2>
                     <p>Achieve fuller, more defined lips with our premium lip augmentation treatments at SMT
-                        Skin Clinic. Using advanced hyaluronic acid-based fillers, we help you achieve naturally beautiful
-                        lips that enhance your facial features and boost your confidence with results that look and feel natural.</p>
+                        Skin Clinic. Using advanced hyaluronic acid-based fillers, we help you achieve naturally
+                        beautiful
+                        lips that enhance your facial features and boost your confidence with results that look and feel
+                        natural.</p>
 
-                    <p>Our experienced practitioners specialize in precise lip enhancement techniques to deliver beautiful, balanced
-                        results. Whether you're looking to add volume, define your lip border, or correct asymmetry, our customized
-                        approach ensures optimal outcomes tailored to your unique facial proportions and aesthetic goals.</p>
+                    <p>Our experienced practitioners specialize in precise lip enhancement techniques to deliver
+                        beautiful, balanced
+                        results. Whether you're looking to add volume, define your lip border, or correct asymmetry, our
+                        customized
+                        approach ensures optimal outcomes tailored to your unique facial proportions and aesthetic
+                        goals.</p>
 
                     <div class="list-style2">
                         <ul class="list-unstyled">
@@ -154,13 +161,19 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
 
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is Lip Augmentation?</h3>
-                        <p>Lip augmentation is a cosmetic procedure that uses dermal fillers to enhance the shape, structure,
-                            and volume of the lips. This treatment can create fuller lips, improve lip symmetry, define the
-                            lip border, and reduce fine lines around the mouth for a more youthful, attractive appearance.</p>
+                        <p>Lip augmentation is a cosmetic procedure that uses dermal fillers to enhance the shape,
+                            structure,
+                            and volume of the lips. This treatment can create fuller lips, improve lip symmetry, define
+                            the
+                            lip border, and reduce fine lines around the mouth for a more youthful, attractive
+                            appearance.</p>
 
-                        <p>The treatment involves precise injections of hyaluronic acid-based fillers into specific areas
-                            of the lips to achieve your desired look. Our clinic uses only premium, FDA-approved fillers that
-                            integrate seamlessly with your natural lip tissue, providing results that look completely natural
+                        <p>The treatment involves precise injections of hyaluronic acid-based fillers into specific
+                            areas
+                            of the lips to achieve your desired look. Our clinic uses only premium, FDA-approved fillers
+                            that
+                            integrate seamlessly with your natural lip tissue, providing results that look completely
+                            natural
                             and feel soft and supple.</p>
 
                         <div class="mt-20">
@@ -189,25 +202,27 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
                                 <li><strong>Asymmetry:</strong> Uneven lips can be balanced for improved appearance</li>
                                 <li><strong>Definition Loss:</strong> The lip border becomes less defined over time</li>
                                 <li><strong>Fine Lines:</strong> Vertical lines around the mouth can be smoothed</li>
-                                <li><strong>Aesthetic Enhancement:</strong> Many desire fuller lips as a beauty ideal</li>
+                                <li><strong>Aesthetic Enhancement:</strong> Many desire fuller lips as a beauty ideal
+                                </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -361,12 +376,13 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I was nervous about getting lip fillers, but Dr. at SMT Skin Clinic made me
+                                    <p class="mb-3">"I was nervous about getting lip fillers, but Dr. at SMT Skin Clinic
+                                        made me
                                         feel so comfortable. My lips look naturally fuller - exactly what I wanted!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Riya Mehta, Age 26</strong>
@@ -382,7 +398,8 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"My lips were uneven and I always felt self-conscious. The lip augmentation
+                                    <p class="mb-3">"My lips were uneven and I always felt self-conscious. The lip
+                                        augmentation
                                         corrected the asymmetry perfectly. I can't stop smiling now!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Simran Kaur, Age 30</strong>
@@ -398,7 +415,8 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Best decision ever! The treatment was quick and virtually painless. My lips
+                                    <p class="mb-3">"Best decision ever! The treatment was quick and virtually painless.
+                                        My lips
                                         look plump and beautiful, and everyone compliments me on them!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Isha Agarwal, Age 24</strong>
@@ -416,13 +434,16 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
                     </div>
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Our lip augmentation treatments begin with a detailed consultation to understand your aesthetic goals.
-                        The injection process typically takes 15-20 minutes, with results visible immediately. We provide comprehensive
-                        aftercare instructions and follow-up appointments to ensure optimal healing and satisfaction with your enhanced lips.</p>
+                    <p class="pb-1">Our lip augmentation treatments begin with a detailed consultation to understand
+                        your aesthetic goals.
+                        The injection process typically takes 15-20 minutes, with results visible immediately. We
+                        provide comprehensive
+                        aftercare instructions and follow-up appointments to ensure optimal healing and satisfaction
+                        with your enhanced lips.</p>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -448,12 +469,12 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

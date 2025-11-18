@@ -9,8 +9,8 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
 
 <body>
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -103,7 +103,7 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
         </div>
     </div>
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/DummyBanner/Chemical-peel-banner.jpg');">
@@ -129,19 +129,26 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="ZO Professional Treatment"></div>
                     </div>
 
                     <h2 class="text-uppercase">Medical-Grade ZO Skin Health Treatments</h2>
-                    <p>Experience transformative skin health with ZO Professional Treatments at SMT Skin Clinic. Developed by
-                        world-renowned dermatologist Dr. Zein Obagi, ZO Skin Health treatments combine powerful medical-grade
-                        products with advanced in-office procedures to address multiple skin concerns and achieve optimal skin
+                    <p>Experience transformative skin health with ZO Professional Treatments at SMT Skin Clinic.
+                        Developed by
+                        world-renowned dermatologist Dr. Zein Obagi, ZO Skin Health treatments combine powerful
+                        medical-grade
+                        products with advanced in-office procedures to address multiple skin concerns and achieve
+                        optimal skin
                         health from the inside out.</p>
 
-                    <p>Our ZO-certified specialists create customized treatment protocols that combine professional-strength
-                        treatments with comprehensive at-home skincare regimens. Whether you're battling acne, pigmentation,
-                        aging, or seeking overall skin rejuvenation, ZO Skin Health provides results-driven solutions backed
+                    <p>Our ZO-certified specialists create customized treatment protocols that combine
+                        professional-strength
+                        treatments with comprehensive at-home skincare regimens. Whether you're battling acne,
+                        pigmentation,
+                        aging, or seeking overall skin rejuvenation, ZO Skin Health provides results-driven solutions
+                        backed
                         by medical science.</p>
 
                     <div class="list-style2">
@@ -156,23 +163,32 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
 
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What are ZO Professional Treatments?</h3>
-                        <p>ZO Professional Treatments are advanced in-office procedures that utilize medical-grade products and
-                            techniques to address various skin concerns. These treatments work at the cellular level to restore
-                            skin health, improve function, and create lasting transformation rather than temporary cosmetic fixes.</p>
+                        <p>ZO Professional Treatments are advanced in-office procedures that utilize medical-grade
+                            products and
+                            techniques to address various skin concerns. These treatments work at the cellular level to
+                            restore
+                            skin health, improve function, and create lasting transformation rather than temporary
+                            cosmetic fixes.</p>
 
                         <p>The ZO approach focuses on three key principles: preventive care, continuous improvement, and
-                            therapeutic results. By combining professional treatments with physician-strength at-home products,
+                            therapeutic results. By combining professional treatments with physician-strength at-home
+                            products,
                             ZO creates comprehensive skincare programs that deliver optimal and sustainable results.</p>
 
                         <div class="mt-20">
                             <h4 class="h5">Popular ZO Treatments:</h4>
                             <div class="list-style2 mt-15">
                                 <ul class="list-unstyled">
-                                    <li><strong>ZO 3-Step Peel:</strong> Progressive peel for improved texture and tone</li>
-                                    <li><strong>ZO Stimulator Peel:</strong> Deep exfoliation for dramatic resurfacing</li>
-                                    <li><strong>ZO Facial:</strong> Customized professional treatment for specific concerns</li>
-                                    <li><strong>Retinol Stimulation:</strong> Anti-aging and acne management protocol</li>
-                                    <li><strong>Pigmentation Control:</strong> Intensive brightening treatment program</li>
+                                    <li><strong>ZO 3-Step Peel:</strong> Progressive peel for improved texture and tone
+                                    </li>
+                                    <li><strong>ZO Stimulator Peel:</strong> Deep exfoliation for dramatic resurfacing
+                                    </li>
+                                    <li><strong>ZO Facial:</strong> Customized professional treatment for specific
+                                        concerns</li>
+                                    <li><strong>Retinol Stimulation:</strong> Anti-aging and acne management protocol
+                                    </li>
+                                    <li><strong>Pigmentation Control:</strong> Intensive brightening treatment program
+                                    </li>
                                     <li><strong>Acne Treatment:</strong> Comprehensive acne management system</li>
                                 </ul>
                             </div>
@@ -185,8 +201,10 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
 
                         <div class="list-style2 mt-20">
                             <ul class="list-unstyled">
-                                <li><strong>Aging Signs:</strong> Fine lines, wrinkles, loss of elasticity, and skin laxity</li>
-                                <li><strong>Pigmentation:</strong> Melasma, sun spots, post-inflammatory hyperpigmentation</li>
+                                <li><strong>Aging Signs:</strong> Fine lines, wrinkles, loss of elasticity, and skin
+                                    laxity</li>
+                                <li><strong>Pigmentation:</strong> Melasma, sun spots, post-inflammatory
+                                    hyperpigmentation</li>
                                 <li><strong>Acne:</strong> Active breakouts, congested pores, and acne scarring</li>
                                 <li><strong>Texture Issues:</strong> Rough skin, enlarged pores, uneven surface</li>
                                 <li><strong>Rosacea:</strong> Facial redness, inflammation, and sensitive skin</li>
@@ -197,18 +215,19 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Treatment" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Treatment" class="w-100"></div>
                         </div>
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -362,13 +381,15 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The ZO treatment program transformed my skin! After years of trying different
-                                        products, ZO finally gave me clear, glowing skin. The results are incredible!"</p>
+                                    <p class="mb-3">"The ZO treatment program transformed my skin! After years of trying
+                                        different
+                                        products, ZO finally gave me clear, glowing skin. The results are incredible!"
+                                    </p>
                                     <div class="testimonial-author">
                                         <strong>- Shruti Patel, Age 34</strong>
                                         <div class="rating mt-1">
@@ -383,8 +404,10 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"My melasma has faded significantly with the ZO pigmentation protocol. I'm
-                                        amazed at the difference! My confidence is back and I barely need foundation anymore."</p>
+                                    <p class="mb-3">"My melasma has faded significantly with the ZO pigmentation
+                                        protocol. I'm
+                                        amazed at the difference! My confidence is back and I barely need foundation
+                                        anymore."</p>
                                     <div class="testimonial-author">
                                         <strong>- Lakshmi Rao, Age 41</strong>
                                         <div class="rating mt-1">
@@ -399,7 +422,8 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"ZO Skin Health is worth every penny! My skin texture is smoother, pores are
+                                    <p class="mb-3">"ZO Skin Health is worth every penny! My skin texture is smoother,
+                                        pores are
                                         smaller, and I look years younger. Best investment in my skin ever!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Nisha Menon, Age 47</strong>
@@ -417,15 +441,19 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
                     </div>
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Your ZO journey begins with a comprehensive skin health consultation and custom treatment plan.
-                        In-office treatments typically take 45-60 minutes. Depending on the protocol, you may experience some
-                        peeling or redness for 3-7 days. Results improve progressively with consistent use of prescribed at-home
-                        products. We provide detailed instructions and ongoing support to ensure optimal outcomes and maintain
+                    <p class="pb-1">Your ZO journey begins with a comprehensive skin health consultation and custom
+                        treatment plan.
+                        In-office treatments typically take 45-60 minutes. Depending on the protocol, you may experience
+                        some
+                        peeling or redness for 3-7 days. Results improve progressively with consistent use of prescribed
+                        at-home
+                        products. We provide detailed instructions and ongoing support to ensure optimal outcomes and
+                        maintain
                         your skin's health long-term.</p>
                 </div>
                 <div class="col-lg-4">
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -451,12 +479,12 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
     </section>
 
     <!--==============================
-			Footer Area
-	==============================-->
+            Footer Area
+    ==============================-->
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 </body>
 

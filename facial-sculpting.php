@@ -11,8 +11,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 <body>
 
 
-<?php include 'header.php'; ?>
-<!-- Mobile Services Mega Menu -->
+    <?php include 'header.php'; ?>
+    <!-- Mobile Services Mega Menu -->
     <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
         <div class="smt-mobile-services-header">
             <h3 class="smt-mobile-services-title">Our Services</h3>
@@ -87,7 +87,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <span class="disabled-link">Zo Professional Treatment</span>
                 <span class="disabled-link">Fire & Ice Facial Treatment</span>
             </div>
-            
+
         </div>
 
 
@@ -111,10 +111,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     </div>
 
 
-<!--==============================
+    <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/smt-left-banners/Face-sculpting.png');">
+    <div class="breadcumb-wrapper"
+        style="background-image: url('assets/img/banner/smt-left-banners/Face-sculpting.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <!-- Updated breadcrumb title for facial sculpting -->
@@ -139,16 +140,21 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
                     <div class="mb-30">
-                        <div class="mega-hover"><img src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
+                        <div class="mega-hover"><img
+                                src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Facial Sculpting Treatment"></div>
                     </div>
 
 
                     <!-- Facial Sculpting specific content -->
                     <h2 class="text-uppercase">Advanced Facial Sculpting Treatments</h2>
-                    <p>Refine and contour your facial features with our advanced facial sculpting treatments at SMT Skin Clinic. Utilizing a combination of FDA-approved injectable fillers and expert techniques, we help enhance facial symmetry and achieve a youthful, balanced appearance.</p>
+                    <p>Refine and contour your facial features with our advanced facial sculpting treatments at SMT Skin
+                        Clinic. Utilizing a combination of FDA-approved injectable fillers and expert techniques, we
+                        help enhance facial symmetry and achieve a youthful, balanced appearance.</p>
 
-                    <p>Our experienced practitioners personalize every treatment to suit your unique facial structure and aesthetic goals. The procedure is minimally invasive, offering natural-looking results with little to no downtime.</p>
+                    <p>Our experienced practitioners personalize every treatment to suit your unique facial structure
+                        and aesthetic goals. The procedure is minimally invasive, offering natural-looking results with
+                        little to no downtime.</p>
 
                     <div class="list-style2">
                         <ul class="list-unstyled">
@@ -164,9 +170,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- What is Facial Sculpting section -->
                     <div class="mb-40 mt-40">
                         <h3 class="h4 mb-20">What is Facial Sculpting?</h3>
-                        <p>Facial sculpting is a cosmetic procedure aimed at enhancing and balancing facial contours using injectable dermal fillers. It targets areas such as the cheeks, jawline, chin, and temples to create definition and restore youthful volume.</p>
+                        <p>Facial sculpting is a cosmetic procedure aimed at enhancing and balancing facial contours
+                            using injectable dermal fillers. It targets areas such as the cheeks, jawline, chin, and
+                            temples to create definition and restore youthful volume.</p>
 
-                        <p>This non-surgical treatment is designed to improve facial harmony by reshaping and lifting key areas of the face. Our clinic uses top-quality FDA-approved products, applied with precision to achieve subtle yet transformative results.</p>
+                        <p>This non-surgical treatment is designed to improve facial harmony by reshaping and lifting
+                            key areas of the face. Our clinic uses top-quality FDA-approved products, applied with
+                            precision to achieve subtle yet transformative results.</p>
 
                         <div class="mt-20">
                             <h4 class="h5">Benefits of Facial Sculpting:</h4>
@@ -203,11 +213,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <div class="row">
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="Before Facial Sculpting" class="w-100"></div>
                         </div>
                         <div class="col-6 mb-30">
-                            <div class="mega-hover"><img src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
+                            <div class="mega-hover"><img
+                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
                                     alt="After Facial Sculpting" class="w-100"></div>
                         </div>
                     </div>
@@ -215,8 +227,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <!-- Testimonial slider section -->
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -370,12 +381,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </style>
                     </style>
 
-<div class="mb-40 mt-40">
+                    <div class="mb-40 mt-40">
                         <h3 class="h4 mb-30">Patient Success Stories</h3>
                         <div class="testimonial-slider">
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The facial sculpting treatment gave me the definition I always wanted without surgery. The results are natural and enhanced my confidence!"</p>
+                                    <p class="mb-3">"The facial sculpting treatment gave me the definition I always
+                                        wanted without surgery. The results are natural and enhanced my confidence!"</p>
                                     <div class="testimonial-author">
                                         <strong>- Ayesha Khan, Age 29</strong>
                                         <div class="rating mt-1">
@@ -390,7 +402,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I loved how quick and comfortable the facial sculpting session was. The lift and contouring transformed my look subtlety and beautifully."</p>
+                                    <p class="mb-3">"I loved how quick and comfortable the facial sculpting session was.
+                                        The lift and contouring transformed my look subtlety and beautifully."</p>
                                     <div class="testimonial-author">
                                         <strong>- Sunil Verma, Age 38</strong>
                                         <div class="rating mt-1">
@@ -405,7 +418,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </div>
                             <div class="testimonial-slide">
                                 <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The team at SMT Clinic was professional and caring. My facial sculpting results look so natural, and I'm thrilled with the renewed contours of my face."</p>
+                                    <p class="mb-3">"The team at SMT Clinic was professional and caring. My facial
+                                        sculpting results look so natural, and I'm thrilled with the renewed contours of
+                                        my face."</p>
                                     <div class="testimonial-author">
                                         <strong>- Priya Desai, Age 41</strong>
                                         <div class="rating mt-1">
@@ -423,12 +438,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
 
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
-                    <p class="pb-1">Facial sculpting treatments begin with a comprehensive consultation to understand your goals and facial structure. The procedure takes approximately 30-45 minutes, providing immediate visible results. Detailed aftercare instructions and follow-up appointments ensure optimal healing and long-term satisfaction.</p>
+                    <p class="pb-1">Facial sculpting treatments begin with a comprehensive consultation to understand
+                        your goals and facial structure. The procedure takes approximately 30-45 minutes, providing
+                        immediate visible results. Detailed aftercare instructions and follow-up appointments ensure
+                        optimal healing and long-term satisfaction.</p>
                 </div>
                 <div class="col-lg-4">
                     <!-- Sidebar -->
                     <aside class="sidebar-area">
-                                                                                                <div class="widget widget_categories   ">
+                        <div class="widget widget_categories   ">
                             <h3 class="widget_title">Our Services</h3>
                             <ul>
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -459,10 +477,10 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     ==============================-->
 
 
-<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
 
-<?php include 'footer-scripts.php'; ?>
+    <?php include 'footer-scripts.php'; ?>
 
 
 </body>

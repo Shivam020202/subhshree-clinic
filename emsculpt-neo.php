@@ -140,7 +140,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         building and radiofrequency for fat reduction. This synergistic approach provides comprehensive
                         body sculpting results that enhance muscle definition while reducing unwanted fat deposits.
                         <strong>Achieve your dream physique with this FDA-approved, clinically proven body contouring
-                            breakthrough.</strong></p>
+                            breakthrough.</strong>
+                    </p>
 
                     <!-- What is Emsculpt Neo Section -->
                     <div class="mt-40 mb-30">
@@ -218,8 +219,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
                     <style>
-<style>
-                        .testimonial-section {
+                        <style>.testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -373,7 +373,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </style>
                     </style>
 
-<!-- Testimonial Slider Section -->
+                    <!-- Testimonial Slider Section -->
                     <div class="mt-40 mb-30">
                         <h3 class="h4">What Our Patients Say</h3>
                         <div class="testimonial-slider">
@@ -427,7 +427,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
-                                                                        <div class="service-box">
+                        <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
                                 <li><a href="chemical-peels.php">Chemical Peel</a></li>
@@ -440,13 +440,13 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </ul>
                         </div>
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                    <div class="widget-banner">
-                        <h4 class="title">Book Your Consultation</h4>
-                        <div class="banner-text">Get personalized treatment recommendations</div>
-                        <a href="contact.php" class="vs-btn mt-3">Book Now</a>
-                    </div>
-                </div>
-            </aside>
+                            <div class="widget-banner">
+                                <h4 class="title">Book Your Consultation</h4>
+                                <div class="banner-text">Get personalized treatment recommendations</div>
+                                <a href="contact.php" class="vs-btn mt-3">Book Now</a>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
             </div>
         </div>
