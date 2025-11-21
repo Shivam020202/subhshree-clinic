@@ -58,6 +58,29 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         }
     }
 </style>
+<style>
+    .btn-appointment {
+        padding: .35rem .9rem;
+        border-width: 1.5px;
+        transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease, color .15s ease;
+        --bs-btn-hover-bg: rgba(255, 255, 255, 0.06);
+    }
+
+    .btn-appointment:hover,
+    .btn-appointment:focus {
+        transform: translateY(-3px) scale(1.02);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+        background-color: rgba(255, 255, 255, 0.08);
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .btn-appointment .fa-calendar-alt {
+        font-size: 0.95rem;
+        color: #fff;
+        opacity: .95;
+    }
+</style>
 
 <body>
 
@@ -177,14 +200,26 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col-lg-7 col-xxl align-self-center wow fadeInUp" data-wow-delay="0.3s">
                     <span class="sec-subtitle">Welcome to <span class="sec-subtext">SMT Skin Clinic</span></span>
-                    <h1 class="sec-title2">Best Skin Clinic in Lucknow <span class="text-theme" style="font-size:28px;">Advanced Skin, Hair & Aesthetic Treatments by Expert Dermatologists</span></h1>
+                    <h1 class="sec-title2">Best Skin Clinic in Lucknow <span class="text-theme"
+                            style="font-size:28px;">Advanced Skin, Hair & Aesthetic Treatments by Expert
+                            Dermatologists</span></h1>
 
-                    
+
                     <p class="quote-text">
-                        The best skin clinic in Lucknow is led by an experienced dermatologist who understands your skin’s unique needs—and at SMT Skin Clinic, Dr. Shubhshree brings expertise, precision and compassionate care to every treatment. With a strong focus on medical accuracy and modern aesthetic science, our clinic offers safe, effective and personalized solutions for all skin and hair concerns.
+                        The best skin clinic in Lucknow is led by an experienced dermatologist who understands your
+                        skin’s unique needs—and at SMT Skin Clinic, Dr. Shubhshree brings expertise, precision and
+                        compassionate care to every treatment. With a strong focus on medical accuracy and modern
+                        aesthetic science, our clinic offers safe, effective and personalized solutions for all skin and
+                        hair concerns.
                     </p>
-                    <p>SMT Skin Clinic provides customized treatments for acne and acne scars, pigmentation, melasma, anti-aging, open pores, hair fall, scalp conditions and advanced laser hair reduction. Every procedure is performed using US-FDA approved technology to ensure visible, long-lasting results with complete safety.
-                        <p>Under the guidance of Dr. Shubhshree, the clinic has become a trusted destination for individuals seeking clear, healthy and naturally radiant skin. Experience premium care, advanced technology and expert dermatology—discover why SMT Skin Clinic is counted among the best skin clinics in Lucknow.</p>
+                    <p>SMT Skin Clinic provides customized treatments for acne and acne scars, pigmentation, melasma,
+                        anti-aging, open pores, hair fall, scalp conditions and advanced laser hair reduction. Every
+                        procedure is performed using US-FDA approved technology to ensure visible, long-lasting results
+                        with complete safety.
+                    <p>Under the guidance of Dr. Shubhshree, the clinic has become a trusted destination for individuals
+                        seeking clear, healthy and naturally radiant skin. Experience premium care, advanced technology
+                        and expert dermatology—discover why SMT Skin Clinic is counted among the best skin clinics in
+                        Lucknow.</p>
                     </p>
                     <div class="row gx-25">
                         <div class="col-md-6">
@@ -625,7 +660,12 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         </div>
                         <div class="info-item">
                             <h4 class="info-title"> SUNDAY</h4>
-                            <p class="info-text">CLOSED</p>
+                            <p class="info-text mb-2">Appointment Only</p><a href="/contact.php"
+                                class="btn btn-outline-light btn-sm btn-appointment d-inline-flex align-items-center"
+                                aria-label="Make an Appointment">
+                                <i class="far fa-calendar-alt me-2" aria-hidden="true"></i>
+                                Make an Appointment
+                            </a>
                         </div>
                         <a href="tel:+918864877133" class="vs-btn style6"><i class="fal fa-headset"></i>+91 88648
                             77133</a>
