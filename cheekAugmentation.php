@@ -120,7 +120,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <h1 class="breadcumb-title">Cheek <span class="inner-text">Augmentation</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index-3.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="service.html">Services</a></li>
                         <li>Cheek <span class="inner-text">Augmentation</span></li>
                     </ul>
@@ -225,9 +225,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
 
-                    <!-- Added testimonial slider section -->
+                     <!-- Added testimonial slider section -->
                     <style>
-                        <style>.testimonial-section {
+                        .testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -379,66 +379,100 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             }
                         }
                     </style>
-                    </style>
 
-                    <div class="mb-40 mt-40">
-                        <h3 class="h4 mb-30">Patient Success Stories</h3>
-                        <div class="testimonial-slider">
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The cheek augmentation treatment gave me back the youthful fullness
-                                        I lost. The subtle lift makes me look refreshed and natural. Highly recommend
-                                        SMT Clinic’s team!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Anjali Mehta, Age 33</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
+                    <section class="testimonial-section">
+                        <div class="container ">
+                            <h2 class="section-title ">What Our Patients Say</h2>
+
+                            <div class="testimonial-slider" style="overflow: hidden;">
+                                <button class="slider-nav prev" onclick="prevSlide()">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+
+                                <div class="testimonial-track" id="testimonialTrack">
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "After struggling with acne scars for years, I finally found hope at SMT
+                                            Skin
+                                            Clinic. The combination of fractional laser and microneedling treatments has
+                                            dramatically improved my skin texture. My ice pick scars are barely visible
+                                            now,
+                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            difference!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Ananya Verma</div>
+                                            <div class="author-details">Age 28, Software Developer, Lucknow</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "I had severe boxcar scarring from teenage acne that affected my self-esteem
+                                            for
+                                            over a decade. The personalized treatment plan at SMT Skin Clinic, including
+                                            TCA
+                                            CROSS and laser resurfacing, has transformed my skin. The results exceeded
+                                            my
+                                            expectations. Highly recommend their acne scar treatments!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Rohit Singh</div>
+                                            <div class="author-details">Age 34, Business Owner, Kanpur</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "The rolling scars on my cheeks made me avoid cameras and social gatherings.
+                                            After completing my treatment series at SMT Skin Clinic, my skin is smoother
+                                            than
+                                            it's been in years. The team was professional, the treatments were
+                                            comfortable,
+                                            and the progressive improvements kept me motivated. Thank you!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Priyanka Dubey</div>
+                                            <div class="author-details">Age 31, Teacher, Allahabad</div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <button class="slider-nav next" onclick="nextSlide()">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
                             </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The results exceeded my expectations. The volume restoration in my
-                                        cheeks looks so natural that nobody guessed I had treatment. The procedure was
-                                        quick and painless."</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Rajiv Kumar, Age 40</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Professional, caring staff and impressive results! The cheek
-                                        augmentation boosted my confidence, and I felt comfortable throughout the
-                                        process."</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Saira Khan, Age 37</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
+
+                            <div class="slider-indicators">
+                                <button class="indicator active" onclick="goToSlide(0)"></button>
+                                <button class="indicator" onclick="goToSlide(1)"></button>
+                                <button class="indicator" onclick="goToSlide(2)"></button>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
                     <p class="pb-1">Our cheek augmentation treatments start with a personalized consultation and
                         detailed facial evaluation. The injection process generally takes 15-30 minutes, with results

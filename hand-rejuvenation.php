@@ -21,7 +21,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <h1 class="breadcumb-title">Hand <span class="inner-text">Rejuvenation</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index-3.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Hand <span class="inner-text">Rejuvenation</span></li>
                     </ul>
                 </div>
@@ -102,8 +102,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div> -->
 
+                     <!-- Added testimonial slider section -->
                     <style>
-                        <style>.testimonial-section {
+                        .testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -255,22 +256,100 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             }
                         }
                     </style>
-                    </style>
 
-                    <!-- Testimonial Slider Section -->
-                    <div class="mt-40 mb-30">
-                        <h3 class="h4">What Our Patients Say</h3>
-                        <div class="testimonial-slider">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"I was amazed by the results of my hand rejuvenation treatment. My hands look 10
-                                        years younger! The age spots are gone and my hands feel so much smoother. Dr.
-                                        Sharma and her team are truly exceptional."</p>
-                                    <div class="testimonial-author">
-                                        <h5>Priya Mehta</h5>
-                                        <span>Age 52, Lucknow</span>
+                    <section class="testimonial-section">
+                        <div class="container ">
+                            <h2 class="section-title ">What Our Patients Say</h2>
+
+                            <div class="testimonial-slider" style="overflow: hidden;">
+                                <button class="slider-nav prev" onclick="prevSlide()">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+
+                                <div class="testimonial-track" id="testimonialTrack">
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "After struggling with acne scars for years, I finally found hope at SMT
+                                            Skin
+                                            Clinic. The combination of fractional laser and microneedling treatments has
+                                            dramatically improved my skin texture. My ice pick scars are barely visible
+                                            now,
+                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            difference!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Ananya Verma</div>
+                                            <div class="author-details">Age 28, Software Developer, Lucknow</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "I had severe boxcar scarring from teenage acne that affected my self-esteem
+                                            for
+                                            over a decade. The personalized treatment plan at SMT Skin Clinic, including
+                                            TCA
+                                            CROSS and laser resurfacing, has transformed my skin. The results exceeded
+                                            my
+                                            expectations. Highly recommend their acne scar treatments!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Rohit Singh</div>
+                                            <div class="author-details">Age 34, Business Owner, Kanpur</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "The rolling scars on my cheeks made me avoid cameras and social gatherings.
+                                            After completing my treatment series at SMT Skin Clinic, my skin is smoother
+                                            than
+                                            it's been in years. The team was professional, the treatments were
+                                            comfortable,
+                                            and the progressive improvements kept me motivated. Thank you!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Priyanka Dubey</div>
+                                            <div class="author-details">Age 31, Teacher, Allahabad</div>
+                                        </div>
                                     </div>
                                 </div>
+
+                                <button class="slider-nav next" onclick="nextSlide()">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+
+                            <div class="slider-indicators">
+                                <button class="indicator active" onclick="goToSlide(0)"></button>
+                                <button class="indicator" onclick="goToSlide(1)"></button>
+                                <button class="indicator" onclick="goToSlide(2)"></button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
                             </div>
                             <div class="testimonial-item">
                                 <div class="testimonial-content">

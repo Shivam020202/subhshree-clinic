@@ -17,7 +17,7 @@ $page_keywords = "contact dermatologist lucknow, book appointment skin clinic lu
                 <h1 class="breadcumb-title">Contact <span class="inner-text">Us</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Contact <span class="inner-text">Us</span></li>
                     </ul>
                 </div>

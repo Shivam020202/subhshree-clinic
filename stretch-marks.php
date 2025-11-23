@@ -19,7 +19,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <h1 class="breadcumb-title">Stretch <span class="inner-text">Marks</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="service.php">Services</a></li>
                         <li>Stretch Marks Treatment</li>
                     </ul>

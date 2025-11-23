@@ -112,7 +112,7 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
                 <h1 class="breadcumb-title">Thread <span class="inner-text">Lift</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="service.php">Services</a></li>
                         <li>Thread <span class="inner-text">Lift</span></li>
                     </ul>
@@ -159,69 +159,9 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
                         </ul>
                     </div>
 
-                    <div class="mb-40 mt-40">
-                        <h3 class="h4 mb-20">What is a Thread Lift?</h3>
-                        <p>A thread lift is a minimally invasive cosmetic procedure that uses dissolvable PDO
-                            (Polydioxanone)
-                            sutures to lift and tighten sagging facial skin. These medical-grade threads are gently
-                            inserted
-                            beneath the skin to provide an immediate lifting effect while stimulating the body's natural
-                            collagen production for continued improvement.</p>
-
-                        <p>The threads are made from the same material used in surgical sutures and are completely safe
-                            and
-                            biocompatible. Over time, they naturally dissolve while leaving behind newly formed collagen
-                            that
-                            continues to provide structure and support to the skin.</p>
-
-                        <div class="mt-20">
-                            <h4 class="h5">Thread Types:</h4>
-                            <div class="list-style2 mt-15">
-                                <ul class="list-unstyled">
-                                    <li><strong>Lifting Threads (Barbed):</strong> Provide immediate mechanical lift for
-                                        sagging tissue</li>
-                                    <li><strong>Smooth Threads:</strong> Stimulate collagen for skin rejuvenation and
-                                        texture improvement</li>
-                                    <li><strong>Screw Threads:</strong> Add volume and restore hollowed areas</li>
-                                    <li><strong>Mesh Threads:</strong> Create support structure for comprehensive
-                                        rejuvenation</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-40">
-                        <h3 class="h4 mb-20">What Can Thread Lift Treat?</h3>
-                        <p>Thread lift treatments are versatile and can address multiple facial concerns:</p>
-
-                        <div class="list-style2 mt-20">
-                            <ul class="list-unstyled">
-                                <li><strong>Mid-Face Sagging:</strong> Lift and restore volume to drooping cheeks</li>
-                                <li><strong>Jowls & Jawline:</strong> Define and contour for a more youthful profile
-                                </li>
-                                <li><strong>Nasolabial Folds:</strong> Reduce deep smile lines</li>
-                                <li><strong>Neck Bands:</strong> Smooth vertical neck lines and sagging</li>
-                                <li><strong>Brow Lift:</strong> Elevate drooping eyebrows</li>
-                                <li><strong>Marionette Lines:</strong> Lift corners of the mouth</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-6 mb-30">
-                            <div class="mega-hover"><img
-                                    src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
-                                    alt="Before Treatment" class="w-100"></div>
-                        </div>
-                        <div class="col-6 mb-30">
-                            <div class="mega-hover"><img
-                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
-                                    alt="After Treatment" class="w-100"></div>
-                        </div>
-                    </div>
-
+                     <!-- Added testimonial slider section -->
                     <style>
-                        <style>.testimonial-section {
+                        .testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -373,65 +313,100 @@ $page_keywords = "thread lift, PDO threads, facial lifting, non-surgical facelif
                             }
                         }
                     </style>
-                    </style>
 
-                    <div class="mb-40 mt-40">
-                        <h3 class="h4 mb-30">Patient Success Stories</h3>
-                        <div class="testimonial-slider">
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The thread lift gave me back my jawline! I was amazed at the
-                                        immediate
-                                        results and it keeps looking better as time goes on. No surgery needed!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Kavita Nair, Age 46</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
+                    <section class="testimonial-section">
+                        <div class="container ">
+                            <h2 class="section-title ">What Our Patients Say</h2>
+
+                            <div class="testimonial-slider" style="overflow: hidden;">
+                                <button class="slider-nav prev" onclick="prevSlide()">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+
+                                <div class="testimonial-track" id="testimonialTrack">
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "After struggling with acne scars for years, I finally found hope at SMT
+                                            Skin
+                                            Clinic. The combination of fractional laser and microneedling treatments has
+                                            dramatically improved my skin texture. My ice pick scars are barely visible
+                                            now,
+                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            difference!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Ananya Verma</div>
+                                            <div class="author-details">Age 28, Software Developer, Lucknow</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "I had severe boxcar scarring from teenage acne that affected my self-esteem
+                                            for
+                                            over a decade. The personalized treatment plan at SMT Skin Clinic, including
+                                            TCA
+                                            CROSS and laser resurfacing, has transformed my skin. The results exceeded
+                                            my
+                                            expectations. Highly recommend their acne scar treatments!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Rohit Singh</div>
+                                            <div class="author-details">Age 34, Business Owner, Kanpur</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "The rolling scars on my cheeks made me avoid cameras and social gatherings.
+                                            After completing my treatment series at SMT Skin Clinic, my skin is smoother
+                                            than
+                                            it's been in years. The team was professional, the treatments were
+                                            comfortable,
+                                            and the progressive improvements kept me motivated. Thank you!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Priyanka Dubey</div>
+                                            <div class="author-details">Age 31, Teacher, Allahabad</div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <button class="slider-nav next" onclick="nextSlide()">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
                             </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I was hesitant about getting a facelift, but thread lift was the
-                                        perfect
-                                        alternative. My cheeks are lifted and my face looks so much more youthful!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Deepa Srinivasan, Age 51</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Best investment in myself! The downtime was minimal and the lifting
-                                        effect
-                                        is incredible. Dr. at SMT Skin Clinic is truly an artist!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Pooja Bhatia, Age 43</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
+
+                            <div class="slider-indicators">
+                                <button class="indicator active" onclick="goToSlide(0)"></button>
+                                <button class="indicator" onclick="goToSlide(1)"></button>
+                                <button class="indicator" onclick="goToSlide(2)"></button>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
                     <p class="pb-1">Your thread lift treatment begins with a comprehensive facial assessment and
                         customized treatment plan.

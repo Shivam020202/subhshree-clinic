@@ -112,7 +112,7 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
                 <h1 class="breadcumb-title">ZO <span class="inner-text">Professional Treatment</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="service.php">Services</a></li>
                         <li>ZO <span class="inner-text">Professional Treatment</span></li>
                     </ul>
@@ -161,73 +161,9 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
                         </ul>
                     </div>
 
-                    <div class="mb-40 mt-40">
-                        <h3 class="h4 mb-20">What are ZO Professional Treatments?</h3>
-                        <p>ZO Professional Treatments are advanced in-office procedures that utilize medical-grade
-                            products and
-                            techniques to address various skin concerns. These treatments work at the cellular level to
-                            restore
-                            skin health, improve function, and create lasting transformation rather than temporary
-                            cosmetic fixes.</p>
-
-                        <p>The ZO approach focuses on three key principles: preventive care, continuous improvement, and
-                            therapeutic results. By combining professional treatments with physician-strength at-home
-                            products,
-                            ZO creates comprehensive skincare programs that deliver optimal and sustainable results.</p>
-
-                        <div class="mt-20">
-                            <h4 class="h5">Popular ZO Treatments:</h4>
-                            <div class="list-style2 mt-15">
-                                <ul class="list-unstyled">
-                                    <li><strong>ZO 3-Step Peel:</strong> Progressive peel for improved texture and tone
-                                    </li>
-                                    <li><strong>ZO Stimulator Peel:</strong> Deep exfoliation for dramatic resurfacing
-                                    </li>
-                                    <li><strong>ZO Facial:</strong> Customized professional treatment for specific
-                                        concerns</li>
-                                    <li><strong>Retinol Stimulation:</strong> Anti-aging and acne management protocol
-                                    </li>
-                                    <li><strong>Pigmentation Control:</strong> Intensive brightening treatment program
-                                    </li>
-                                    <li><strong>Acne Treatment:</strong> Comprehensive acne management system</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-40">
-                        <h3 class="h4 mb-20">What Can ZO Treatments Address?</h3>
-                        <p>ZO Skin Health treatments are designed to treat a wide range of skin concerns:</p>
-
-                        <div class="list-style2 mt-20">
-                            <ul class="list-unstyled">
-                                <li><strong>Aging Signs:</strong> Fine lines, wrinkles, loss of elasticity, and skin
-                                    laxity</li>
-                                <li><strong>Pigmentation:</strong> Melasma, sun spots, post-inflammatory
-                                    hyperpigmentation</li>
-                                <li><strong>Acne:</strong> Active breakouts, congested pores, and acne scarring</li>
-                                <li><strong>Texture Issues:</strong> Rough skin, enlarged pores, uneven surface</li>
-                                <li><strong>Rosacea:</strong> Facial redness, inflammation, and sensitive skin</li>
-                                <li><strong>Sun Damage:</strong> Photo-aging, discoloration, and texture changes</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-6 mb-30">
-                            <div class="mega-hover"><img
-                                    src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
-                                    alt="Before Treatment" class="w-100"></div>
-                        </div>
-                        <div class="col-6 mb-30">
-                            <div class="mega-hover"><img
-                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
-                                    alt="After Treatment" class="w-100"></div>
-                        </div>
-                    </div>
-
+                     <!-- Added testimonial slider section -->
                     <style>
-                        <style>.testimonial-section {
+                        .testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -379,67 +315,100 @@ $page_keywords = "zo skin health, professional facial, medical-grade skincare, s
                             }
                         }
                     </style>
-                    </style>
 
-                    <div class="mb-40 mt-40">
-                        <h3 class="h4 mb-30">Patient Success Stories</h3>
-                        <div class="testimonial-slider">
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The ZO treatment program transformed my skin! After years of trying
-                                        different
-                                        products, ZO finally gave me clear, glowing skin. The results are incredible!"
-                                    </p>
-                                    <div class="testimonial-author">
-                                        <strong>- Shruti Patel, Age 34</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
+                    <section class="testimonial-section">
+                        <div class="container ">
+                            <h2 class="section-title ">What Our Patients Say</h2>
+
+                            <div class="testimonial-slider" style="overflow: hidden;">
+                                <button class="slider-nav prev" onclick="prevSlide()">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+
+                                <div class="testimonial-track" id="testimonialTrack">
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "After struggling with acne scars for years, I finally found hope at SMT
+                                            Skin
+                                            Clinic. The combination of fractional laser and microneedling treatments has
+                                            dramatically improved my skin texture. My ice pick scars are barely visible
+                                            now,
+                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            difference!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Ananya Verma</div>
+                                            <div class="author-details">Age 28, Software Developer, Lucknow</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "I had severe boxcar scarring from teenage acne that affected my self-esteem
+                                            for
+                                            over a decade. The personalized treatment plan at SMT Skin Clinic, including
+                                            TCA
+                                            CROSS and laser resurfacing, has transformed my skin. The results exceeded
+                                            my
+                                            expectations. Highly recommend their acne scar treatments!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Rohit Singh</div>
+                                            <div class="author-details">Age 34, Business Owner, Kanpur</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "The rolling scars on my cheeks made me avoid cameras and social gatherings.
+                                            After completing my treatment series at SMT Skin Clinic, my skin is smoother
+                                            than
+                                            it's been in years. The team was professional, the treatments were
+                                            comfortable,
+                                            and the progressive improvements kept me motivated. Thank you!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Priyanka Dubey</div>
+                                            <div class="author-details">Age 31, Teacher, Allahabad</div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <button class="slider-nav next" onclick="nextSlide()">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
                             </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"My melasma has faded significantly with the ZO pigmentation
-                                        protocol. I'm
-                                        amazed at the difference! My confidence is back and I barely need foundation
-                                        anymore."</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Lakshmi Rao, Age 41</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"ZO Skin Health is worth every penny! My skin texture is smoother,
-                                        pores are
-                                        smaller, and I look years younger. Best investment in my skin ever!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Nisha Menon, Age 47</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
+
+                            <div class="slider-indicators">
+                                <button class="indicator active" onclick="goToSlide(0)"></button>
+                                <button class="indicator" onclick="goToSlide(1)"></button>
+                                <button class="indicator" onclick="goToSlide(2)"></button>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
                     <p class="pb-1">Your ZO journey begins with a comprehensive skin health consultation and custom
                         treatment plan.

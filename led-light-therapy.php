@@ -21,7 +21,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <h1 class="breadcumb-title">LED Light <span class="inner-text">Therapy</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index-3.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#">Services</a></li>
                         <li>LED Light <span class="inner-text">Therapy</span></li>
                     </ul>
@@ -153,226 +153,254 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
 
-                    <!-- Added testimonial slider section -->
-                    <div class="mb-50">
-                        <style>
-                            .testimonial-section {
-                                padding: 60px 0;
-                                background: #f8f9fa;
-                                margin: 40px 0;
-                                border-radius: 10px;
-                            }
+                     <!-- Added testimonial slider section -->
+                    <style>
+                        .testimonial-section {
+                            padding: 60px 0;
+                            background: #f8f9fa;
+                            margin: 40px 0;
+                            border-radius: 10px;
+                        }
 
-                            .testimonial-section .section-title {
-                                text-align: center;
-                                font-size: 32px;
-                                font-weight: 700;
-                                margin-bottom: 40px;
-                                color: #333;
-                            }
+                        .testimonial-section .section-title {
+                            text-align: center;
+                            font-size: 32px;
+                            font-weight: 700;
+                            margin-bottom: 40px;
+                            color: #333;
+                        }
 
+                        .testimonial-slider {
+                            position: relative;
+                            max-width: 900px;
+                            margin: 0 auto;
+                            padding: 0 60px;
+                        }
+
+                        .testimonial-track {
+                            display: flex;
+                            transition: transform 0.5s ease-in-out;
+                        }
+
+                        .testimonial-slide {
+                            min-width: 100%;
+                            padding: 40px;
+                            background: white;
+                            border-radius: 10px;
+                            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+                            text-align: center;
+                        }
+
+                        .rating {
+                            margin-bottom: 20px;
+                        }
+
+                        .rating i {
+                            color: #ffc107;
+                            font-size: 20px;
+                            margin: 0 2px;
+                        }
+
+                        .testimonial-text {
+                            font-size: 16px;
+                            line-height: 1.8;
+                            color: #555;
+                            margin-bottom: 25px;
+                            font-style: italic;
+                        }
+
+                        .testimonial-author {
+                            margin-top: 20px;
+                        }
+
+                        .author-name {
+                            font-size: 18px;
+                            font-weight: 700;
+                            color: #333;
+                            margin-bottom: 5px;
+                        }
+
+                        .author-details {
+                            font-size: 14px;
+                            color: #777;
+                        }
+
+                        .slider-nav {
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: white;
+                            border: 2px solid #ddd;
+                            width: 45px;
+                            height: 45px;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: all 0.3s ease;
+                            z-index: 10;
+                        }
+
+                        .slider-nav:hover {
+                            background: #007bff;
+                            border-color: #007bff;
+                            color: white;
+                        }
+
+                        .slider-nav.prev {
+                            left: 0;
+                        }
+
+                        .slider-nav.next {
+                            right: 0;
+                        }
+
+                        .slider-nav i {
+                            font-size: 18px;
+                            color: inherit;
+                        }
+
+                        .slider-indicators {
+                            display: flex;
+                            justify-content: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                        }
+
+                        .indicator {
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            background: #ddd;
+                            border: none;
+                            cursor: pointer;
+                            transition: all 0.3s ease;
+                        }
+
+                        .indicator.active {
+                            background: #007bff;
+                            width: 30px;
+                            border-radius: 6px;
+                        }
+
+                        @media (max-width: 768px) {
                             .testimonial-slider {
-                                position: relative;
-                                max-width: 900px;
-                                margin: 0 auto;
-                                padding: 0 60px;
-                            }
-
-                            .testimonial-track {
-                                display: flex;
-                                transition: transform 0.5s ease-in-out;
+                                padding: 0 50px;
                             }
 
                             .testimonial-slide {
-                                min-width: 100%;
-                                padding: 40px;
-                                background: white;
-                                border-radius: 10px;
-                                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-                                text-align: center;
+                                padding: 30px 20px;
                             }
 
-                            .rating {
-                                margin-bottom: 20px;
-                            }
-
-                            .rating i {
-                                color: #ffc107;
-                                font-size: 20px;
-                                margin: 0 2px;
-                            }
-
-                            .testimonial-text {
-                                font-size: 16px;
-                                line-height: 1.8;
-                                color: #555;
-                                margin-bottom: 25px;
-                                font-style: italic;
-                            }
-
-                            .testimonial-author {
-                                margin-top: 20px;
-                            }
-
-                            .author-name {
-                                font-size: 18px;
-                                font-weight: 700;
-                                color: #333;
-                                margin-bottom: 5px;
-                            }
-
-                            .author-details {
-                                font-size: 14px;
-                                color: #777;
+                            .testimonial-section .section-title {
+                                font-size: 24px;
                             }
 
                             .slider-nav {
-                                position: absolute;
-                                top: 50%;
-                                transform: translateY(-50%);
-                                background: white;
-                                border: 2px solid #ddd;
-                                width: 45px;
-                                height: 45px;
-                                border-radius: 50%;
-                                cursor: pointer;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                transition: all 0.3s ease;
-                                z-index: 10;
-                            }
-
-                            .slider-nav:hover {
-                                background: #007bff;
-                                border-color: #007bff;
-                                color: white;
-                            }
-
-                            .slider-nav.prev {
-                                left: 0;
-                            }
-
-                            .slider-nav.next {
-                                right: 0;
+                                width: 35px;
+                                height: 35px;
                             }
 
                             .slider-nav i {
-                                font-size: 18px;
-                                color: inherit;
+                                font-size: 14px;
                             }
+                        }
+                    </style>
 
-                            .slider-indicators {
-                                display: flex;
-                                justify-content: center;
-                                gap: 10px;
-                                margin-top: 30px;
-                            }
+                    <section class="testimonial-section">
+                        <div class="container ">
+                            <h2 class="section-title ">What Our Patients Say</h2>
 
-                            .indicator {
-                                width: 12px;
-                                height: 12px;
-                                border-radius: 50%;
-                                background: #ddd;
-                                border: none;
-                                cursor: pointer;
-                                transition: all 0.3s ease;
-                            }
+                            <div class="testimonial-slider" style="overflow: hidden;">
+                                <button class="slider-nav prev" onclick="prevSlide()">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
 
-                            .indicator.active {
-                                background: #007bff;
-                                width: 30px;
-                                border-radius: 6px;
-                            }
-
-                            @media (max-width: 768px) {
-                                .testimonial-slider {
-                                    padding: 0 50px;
-                                }
-
-                                .testimonial-slide {
-                                    padding: 30px 20px;
-                                }
-
-                                .testimonial-section .section-title {
-                                    font-size: 24px;
-                                }
-
-                                .slider-nav {
-                                    width: 35px;
-                                    height: 35px;
-                                }
-
-                                .slider-nav i {
-                                    font-size: 14px;
-                                }
-                            }
-                        </style>
-
-
-                        <h3 class="h4 mb-40 text-center">Patient Success Stories</h3>
-                        <div class="testimonial-slider">
-                            <div class="testimonial-item bg-light p-30 rounded">
-                                <div class="testimonial-content">
-                                    <div class="rating mb-20">
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
+                                <div class="testimonial-track" id="testimonialTrack">
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "After struggling with acne scars for years, I finally found hope at SMT
+                                            Skin
+                                            Clinic. The combination of fractional laser and microneedling treatments has
+                                            dramatically improved my skin texture. My ice pick scars are barely visible
+                                            now,
+                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            difference!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Ananya Verma</div>
+                                            <div class="author-details">Age 28, Software Developer, Lucknow</div>
+                                        </div>
                                     </div>
-                                    <p class="mb-20">"The LED light therapy sessions have been a game-changer for my
-                                        acne. After just 6 sessions, my breakouts reduced significantly and my skin
-                                        looks so much clearer. It's completely painless and I can return to work
-                                        immediately after."</p>
-                                    <div class="testimonial-author">
-                                        <h6 class="mb-0">Arjun Patel</h6>
-                                        <span class="text-muted">Age 24, Software Developer</span>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "I had severe boxcar scarring from teenage acne that affected my self-esteem
+                                            for
+                                            over a decade. The personalized treatment plan at SMT Skin Clinic, including
+                                            TCA
+                                            CROSS and laser resurfacing, has transformed my skin. The results exceeded
+                                            my
+                                            expectations. Highly recommend their acne scar treatments!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Rohit Singh</div>
+                                            <div class="author-details">Age 34, Business Owner, Kanpur</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "The rolling scars on my cheeks made me avoid cameras and social gatherings.
+                                            After completing my treatment series at SMT Skin Clinic, my skin is smoother
+                                            than
+                                            it's been in years. The team was professional, the treatments were
+                                            comfortable,
+                                            and the progressive improvements kept me motivated. Thank you!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Priyanka Dubey</div>
+                                            <div class="author-details">Age 31, Teacher, Allahabad</div>
+                                        </div>
                                     </div>
                                 </div>
+
+                                <button class="slider-nav next" onclick="nextSlide()">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
                             </div>
 
-                            <div class="testimonial-item bg-light p-30 rounded">
-                                <div class="testimonial-content">
-                                    <div class="rating mb-20">
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                    </div>
-                                    <p class="mb-20">"I love how relaxing the LED therapy sessions are. Not only has it
-                                        helped with my fine lines, but my overall skin texture has improved
-                                        dramatically. The red light therapy is like a spa treatment that actually
-                                        works!"</p>
-                                    <div class="testimonial-author">
-                                        <h6 class="mb-0">Meera Singh</h6>
-                                        <span class="text-muted">Age 42, Interior Designer</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="testimonial-item bg-light p-30 rounded">
-                                <div class="testimonial-content">
-                                    <div class="rating mb-20">
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                    </div>
-                                    <p class="mb-20">"As someone with sensitive skin, I was thrilled to find a treatment
-                                        with no side effects. The LED light therapy has helped reduce my rosacea
-                                        flare-ups and given me the confidence to go makeup-free again."</p>
-                                    <div class="testimonial-author">
-                                        <h6 class="mb-0">Kavya Reddy</h6>
-                                        <span class="text-muted">Age 35, Marketing Executive</span>
-                                    </div>
-                                </div>
+                            <div class="slider-indicators">
+                                <button class="indicator active" onclick="goToSlide(0)"></button>
+                                <button class="indicator" onclick="goToSlide(1)"></button>
+                                <button class="indicator" onclick="goToSlide(2)"></button>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
                     <h3 class="h4">Treatment Process & Benefits</h3>
                     <p class="pb-1">Our LED Light Therapy sessions are completely relaxing and comfortable. You'll
                         simply lie back while the LED panels deliver therapeutic light to your skin for 15-20 minutes.

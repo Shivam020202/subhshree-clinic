@@ -112,7 +112,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <h1 class="breadcumb-title">GLO2FACIAL</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index-3.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>GLO2FACIAL</li>
                     </ul>
                 </div>

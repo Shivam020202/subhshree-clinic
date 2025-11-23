@@ -22,7 +22,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <h1 class="breadcumb-title">Hyperpigmentation</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index-3.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Hyperpigmentation</li>
                     </ul>
                 </div>

@@ -112,7 +112,7 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
                 <h1 class="breadcumb-title">Cheek <span class="inner-text">Augmentation</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="service.php">Services</a></li>
                         <li>Cheek <span class="inner-text">Augmentation</span></li>
                     </ul>
@@ -158,73 +158,9 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
                         </ul>
                     </div>
 
-                    <div class="mb-40 mt-40">
-                        <h3 class="h4 mb-20">What is Cheek Augmentation?</h3>
-                        <p>Cheek augmentation is a non-surgical cosmetic procedure that uses dermal fillers to enhance
-                            the
-                            volume and contour of the cheeks. This treatment restores youthful fullness, lifts sagging
-                            skin,
-                            and creates more defined, elevated cheekbones for improved facial balance.</p>
-
-                        <p>The treatment involves strategic injections of hyaluronic acid-based fillers into specific
-                            areas
-                            of the cheeks to address volume loss and enhance facial structure. Our clinic uses only
-                            premium,
-                            FDA-approved fillers that integrate seamlessly with your natural tissues, providing results
-                            that
-                            look completely natural and feel soft to the touch.</p>
-
-                        <div class="mt-20">
-                            <h4 class="h5">Treatment Benefits:</h4>
-                            <div class="list-style2 mt-15">
-                                <ul class="list-unstyled">
-                                    <li>Enhanced cheekbone definition</li>
-                                    <li>Restored youthful facial volume</li>
-                                    <li>Improved facial symmetry and balance</li>
-                                    <li>Lifted mid-face appearance</li>
-                                    <li>Reduced nasolabial folds</li>
-                                    <li>More sculpted, contoured look</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-40">
-                        <h3 class="h4 mb-20">Why Do Cheeks Lose Volume?</h3>
-                        <p>Understanding the causes of cheek volume loss helps in addressing the condition effectively:
-                        </p>
-
-                        <div class="list-style2 mt-20">
-                            <ul class="list-unstyled">
-                                <li><strong>Natural Aging Process:</strong> Fat pads in the cheeks descend and diminish
-                                    with age</li>
-                                <li><strong>Collagen Breakdown:</strong> Decreased collagen production reduces skin
-                                    elasticity and volume</li>
-                                <li><strong>Bone Resorption:</strong> Facial bone structure changes, reducing support
-                                </li>
-                                <li><strong>Gravity Effects:</strong> Downward pull on facial tissues over time</li>
-                                <li><strong>Weight Loss:</strong> Significant weight changes can affect facial fat
-                                    distribution</li>
-                                <li><strong>Genetics:</strong> Some individuals naturally have less cheek volume</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-6 mb-30">
-                            <div class="mega-hover"><img
-                                    src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
-                                    alt="Before Treatment" class="w-100"></div>
-                        </div>
-                        <div class="col-6 mb-30">
-                            <div class="mega-hover"><img
-                                    src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=437&h=419&fit=crop"
-                                    alt="After Treatment" class="w-100"></div>
-                        </div>
-                    </div>
-
+                     <!-- Added testimonial slider section -->
                     <style>
-                        <style>.testimonial-section {
+                        .testimonial-section {
                             padding: 60px 0;
                             background: #f8f9fa;
                             margin: 40px 0;
@@ -376,65 +312,100 @@ $page_keywords = "cheek augmentation, cheek fillers, facial contouring, cheek en
                             }
                         }
                     </style>
-                    </style>
 
-                    <div class="mb-40 mt-40">
-                        <h3 class="h4 mb-30">Patient Success Stories</h3>
-                        <div class="testimonial-slider">
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"The cheek augmentation gave me back the youthful contours I had
-                                        lost.
-                                        The results are so natural - my friends say I look refreshed but can't tell what
-                                        I did!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Priya Sharma, Age 38</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
+                    <section class="testimonial-section">
+                        <div class="container ">
+                            <h2 class="section-title ">What Our Patients Say</h2>
+
+                            <div class="testimonial-slider" style="overflow: hidden;">
+                                <button class="slider-nav prev" onclick="prevSlide()">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+
+                                <div class="testimonial-track" id="testimonialTrack">
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "After struggling with acne scars for years, I finally found hope at SMT
+                                            Skin
+                                            Clinic. The combination of fractional laser and microneedling treatments has
+                                            dramatically improved my skin texture. My ice pick scars are barely visible
+                                            now,
+                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            difference!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Ananya Verma</div>
+                                            <div class="author-details">Age 28, Software Developer, Lucknow</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "I had severe boxcar scarring from teenage acne that affected my self-esteem
+                                            for
+                                            over a decade. The personalized treatment plan at SMT Skin Clinic, including
+                                            TCA
+                                            CROSS and laser resurfacing, has transformed my skin. The results exceeded
+                                            my
+                                            expectations. Highly recommend their acne scar treatments!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Rohit Singh</div>
+                                            <div class="author-details">Age 34, Business Owner, Kanpur</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slide">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testimonial-text">
+                                            "The rolling scars on my cheeks made me avoid cameras and social gatherings.
+                                            After completing my treatment series at SMT Skin Clinic, my skin is smoother
+                                            than
+                                            it's been in years. The team was professional, the treatments were
+                                            comfortable,
+                                            and the progressive improvements kept me motivated. Thank you!"
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-name">Priyanka Dubey</div>
+                                            <div class="author-details">Age 31, Teacher, Allahabad</div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <button class="slider-nav next" onclick="nextSlide()">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
                             </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I always wanted more defined cheekbones. Dr. at SMT Skin Clinic
-                                        understood
-                                        exactly what I wanted and the results exceeded my expectations!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Ananya Verma, Age 32</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Professional and caring staff! My cheek augmentation has completely
-                                        transformed my face. I look and feel years younger!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Neha Kapoor, Age 45</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
+
+                            <div class="slider-indicators">
+                                <button class="indicator active" onclick="goToSlide(0)"></button>
+                                <button class="indicator" onclick="goToSlide(1)"></button>
+                                <button class="indicator" onclick="goToSlide(2)"></button>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
                     <h3 class="h4">Treatment Experience & Aftercare</h3>
                     <p class="pb-1">Our cheek augmentation treatments begin with a comprehensive facial analysis and
                         consultation.

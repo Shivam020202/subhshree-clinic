@@ -17,7 +17,7 @@ $page_keywords = "terms and conditions, appointment policy, cancellation policy,
                 <h1 class="breadcumb-title">Terms & Conditions</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Terms & Conditions</li>
                     </ul>
                 </div>
@@ -181,7 +181,7 @@ $page_keywords = "terms and conditions, appointment policy, cancellation policy,
                         <div class="text-center mt-5">
                             <a href="privacy-policy.php" class="vs-btn style2">Privacy Policy</a>
                             <a href="contact.php" class="vs-btn ms-3">Contact Us</a>
-                            <a href="index.php" class="vs-btn style2 ms-3">Back to Home</a>
+                            <a href="/" class="vs-btn style2 ms-3">Back to Home</a>
                         </div>
 
                     </div>

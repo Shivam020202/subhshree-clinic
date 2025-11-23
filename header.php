@@ -304,7 +304,7 @@ if (!isset($base_path)) {
                     <div class="header-links style-white">
                         <ul>
                             <li class="d-none d-xxl-inline-block"><i class="far fa-map-marker-alt"></i>SMT Skin
-                                Clinic, Windsor Place, 17/2, behind Yojna Bhawan, The Mall
+                                Clinic, Windsor Place, 17/2, beside Yojna Bhawan, The Mall
                                 Avenue, Lucknow, Uttar Pradesh 226001</li>
                             <li><i class="far fa-phone-alt"></i><a href="tel:8864877133">+91 88648 77133</a></li>
                             <li><i class="far fa-envelope"></i><a

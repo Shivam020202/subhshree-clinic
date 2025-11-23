@@ -111,7 +111,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 <h1 class="breadcumb-title">SkinPen <span class="inner-text">Microneedling</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index-3.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#">Services</a></li>
                         <li>SkinPen <span class="inner-text">Microneedling</span></li>
                     </ul>

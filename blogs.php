@@ -18,7 +18,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                 <h1 class="breadcumb-title">Our <span class="inner-text">Blog</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Blog</li>
                     </ul>
                 </div>

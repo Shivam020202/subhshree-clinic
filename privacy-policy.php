@@ -17,7 +17,7 @@ $page_keywords = "privacy policy, data protection, DPDP Act, personal data, SMT 
                 <h1 class="breadcumb-title">Privacy Policy</h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Privacy Policy</li>
                     </ul>
                 </div>
@@ -187,7 +187,7 @@ $page_keywords = "privacy policy, data protection, DPDP Act, personal data, SMT 
 
                         <div class="text-center mt-5">
                             <a href="contact.php" class="vs-btn">Contact Us</a>
-                            <a href="index.php" class="vs-btn style2 ms-3">Back to Home</a>
+                            <a href="/" class="vs-btn style2 ms-3">Back to Home</a>
                         </div>
 
                     </div>

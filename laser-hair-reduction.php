@@ -1,7 +1,7 @@
 <?php
-$page_title = "Wellnez - Spa Beauty & Wellness Salon HTML5 Template - Service Details";
-$page_description = "SMT Clinic - Your Health, Our Priority";
-$page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, doctor, hospital, healthcare";
+$page_title = "Laser Hair Reduction - SMT Skin Clinic";
+$page_description = "Laser Hair Reduction - SMT Skin Clinic";
+$page_keywords = "Laser Hair Reduction, SMT Skin Clinic";
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -18,11 +18,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Laser/LHR.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Service <span class="inner-text">Details</span></h1>
+                <h1 class="breadcumb-title">Laser Hair <span class="inner-text">Reduction</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index-3.html">Home</a></li>
-                        <li>Service <span class="inner-text">Details</span></li>
+                        <li><a href="/">Home</a></li>
+                        <li>Laser Hair <span class="inner-text">Reduction</span></li>
                     </ul>
                 </div>
             </div>

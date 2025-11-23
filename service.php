@@ -93,7 +93,7 @@ $page_keywords = "skin treatments lucknow, laser therapy lucknow, dermal fillers
                 <h1 class="breadcumb-title">Our <span class="inner-text">Services</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Our <span class="inner-text">Services</span></li>
                     </ul>
                 </div>
