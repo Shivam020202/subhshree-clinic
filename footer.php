@@ -5,105 +5,93 @@ if (!isset($base_path)) {
     $base_path = '';
 }
 ?>
-<footer class="footer-wrapper footer-layout3" data-bg-src="<?php echo $base_path; ?>assets/img/bg/footer-bg-3-1.jpg">
-    <div class="widget-area">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-6 col-xxl-auto">
-                    <div class="widget footer-widget">
-                        <div class="footer-logo mb-4">
+<footer class="epic-footer">
+    <div class="container">
+        <div class="epic-footer__top">
+            <div class="row g-4 g-lg-5 align-items-stretch epic-footer__row">
+                <div class="col-lg-4">
+                    <div class="epic-footer__column">
+                        <div class="epic-footer__logo">
                             <img src="<?php echo $base_path; ?>assets/img/logo-subhshree.png"
                                 alt="SMT Skin Clinic Logo">
-                            <!-- SMT Skin Clinic -->
-                            <!-- <span class="footer-logo-text">SMT Skin Clinic</span> -->
                         </div>
-                        <p class="footer-info"><i class="fal fa-map-marker-alt text-theme me-2"></i> SMT Skin
-                            Clinic, Windsor Place, 17/2, beside Yojna Bhawan,
-                            The
-                            Mall
-                            Avenue,<br /> Lucknow, Uttar Pradesh 226001<br> <a href="tel:+918864877133"
-                                class="text-inherit"><i class="far fa-phone-alt text-theme me-2"></i>+91 88648
-                                77133</a> <br> <a class="text-inherit" href="mailto:smtskinclinic@gmail.com"><i
-                                    class="fal fa-envelope text-theme me-2"></i>smtskinclinic@gmail.com</a> </p>
-                        <h4 class="fs-22 mb-2">Clinic Hours</h4>
-                        <p class="footer-time">Monday to Saturday <span class="time">10:00 AM - 07:00 PM</span></p>
-                        <p class="footer-time">Sunday: <span class="time">Closed</span></p>
+                        <p class="epic-footer__intro">SMT Skin Clinic blends clinical dermatology with bespoke aesthetic
+                            artistry, creating radiant, healthy skin with advanced care in the heart of Lucknow.</p>
+                        <ul class="epic-footer__contact-list">
+                            <li class="epic-footer__contact-item">
+                                <span class="epic-footer__contact-icon"><i class="fal fa-map-marker-alt"></i></span>
+                                <span class="epic-footer__contact-text">SMT Skin Clinic, Windsor Place, 17/2, beside
+                                    Yojna
+                                    Bhawan, The Mall Avenue, Lucknow, Uttar Pradesh 226001</span>
+                            </li>
+                            <li class="epic-footer__contact-item">
+                                <span class="epic-footer__contact-icon"><i class="far fa-phone-alt"></i></span>
+                                <span class="epic-footer__contact-text"><a href="tel:+918864877133">+91 88648
+                                        77133</a></span>
+                            </li>
+                            <li class="epic-footer__contact-item">
+                                <span class="epic-footer__contact-icon"><i class="fal fa-envelope"></i></span>
+                                <span class="epic-footer__contact-text"><a
+                                        href="mailto:smtskinclinic@gmail.com">smtskinclinic@gmail.com</a></span>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
-                <div class="col-md-6 col-xxl-auto">
-                    <div class="widget widget_nav_menu footer-widget">
-                        <h3 class="widget_title">Quick Links</h3>
-                        <div class="menu-all-pages-container footer-menu">
-                            <ul class="menu">
-                                <li><a href="<?php echo $base_path; ?>service.php">Services</a></li>
-                                <li><a href="<?php echo $base_path; ?>about.php">About Us</a></li>
-                                <!-- <li><a href="/">Price List</a></li> -->
-                                <li><a href="<?php echo $base_path; ?>contact.php">Contact Us</a></li>
-                                <li><a href="<?php echo $base_path; ?>blogs.php">Our Blog</a></li>
-                                <li><a href="<?php echo $base_path; ?>privacy-policy.php">Privacy Policy</a></li>
-                                <li><a href="<?php echo $base_path; ?>terms-and-conditions.php">Terms & Conditions</a>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="epic-footer__column">
+                        <h4 class="epic-footer__section-title">Quick Links</h4>
+                        <ul class="epic-footer__links">
+                            <li class="epic-footer__link"><a href="<?php echo $base_path; ?>service.php">Services</a>
+                            </li>
+                            <li class="epic-footer__link"><a href="<?php echo $base_path; ?>about.php">About Us</a></li>
+                            <li class="epic-footer__link"><a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
+                            </li>
+                            <li class="epic-footer__link"><a href="<?php echo $base_path; ?>blogs.php">Our Blog</a></li>
+                            <li class="epic-footer__link"><a href="<?php echo $base_path; ?>privacy-policy.php">Privacy
+                                    Policy</a></li>
+                            <li class="epic-footer__link"><a
+                                    href="<?php echo $base_path; ?>terms-and-conditions.php">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                        <h5 class="epic-footer__hours-title mb-0">Clinic Hours</h5>
+                        <ul class="epic-footer__hours-list">
+                            <li class="epic-footer__hours-item"><span>Monday to Saturday</span><span>10 AM - 7
+                                    PM</span></li>
+                            <li class="epic-footer__hours-item"><span>Sunday</span><span>Closed</span></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-12 col-xxl-auto">
-                    <div class="widget footer-widget">
-                        <h4 class="widget_title">Stay Connected</h4>
-                        <form class="form-style5">
-                            <p class="form-text">Subscribe to our newsletter for the latest updates on skin health,
-                                treatments, and exclusive offers.</p>
-                            <input class="form-control" type="email" placeholder="Your email address" required="">
-                            <button type="submit" class="vs-btn">Subscribe</button>
+                <div class="col-lg-4 col-md-6">
+                    <div class="epic-footer__column">
+                        <h4 class="epic-footer__section-title">Stay Connected</h4>
+                        <p class="epic-footer__newsletter-copy">Subscribe to our newsletter for the latest updates on
+                            skin health,
+                            transformative treatments, and exclusive offers curated by our specialists.</p>
+                        <form class="epic-footer__newsletter" action="#" method="post">
+                            <div class="epic-footer__newsletter-field">
+                                <input type="email" name="email" class="form-control" placeholder="Your email address"
+                                    required>
+                                <button type="submit" class="btn epic-footer__newsletter-btn">Subscribe</button>
+                            </div>
                         </form>
                     </div>
                 </div>
-                <!-- <div class="col-md-6 col-xxl-auto">
-                    <div class="widget footer-widget">
-                        <h4 class="widget_title">Our Moments</h4>
-                        <div class="sidebar-gallery column-4">
-                            <div class="gallery-thumb">
-                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-1.jpg" alt="Clinic Interior" class="w-100">
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-2.jpg" alt="Treatment Session" class="w-100">
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-3.jpg" alt="Doctor Consultation" class="w-100">
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-4.jpg" alt="Patient Care" class="w-100">
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-5.jpg" alt="Advanced Equipment" class="w-100">
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-6.jpg" alt="Happy Patient" class="w-100">
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-7.jpg" alt="Skincare Products" class="w-100">
-                            </div>
-                            <div class="gallery-thumb">
-                                <img src="<?php echo $base_path; ?>assets/img/widget/gal-1-8.jpg" alt="Clinic Entrance" class="w-100">
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
-    </div>
-    <div class="copyright-wrap">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-auto text-center">
-                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a href="/">SMT
-                            Skin Clinic</a>. All Rights Reserved 2025</p>
+        <div class="epic-footer__bottom">
+            <div class="row gy-3 align-items-center">
+                <div class="col-md text-center text-md-start">
+                    <p class="epic-footer__legal mb-0">Copyright <i class="fal fa-copyright"></i> 2025 <a href="/">SMT
+                            Skin Clinic</a>. All Rights
+                        Reserved 2025</p>
                 </div>
-                <div class="col-auto d-none d-md-block">
-                    <a href="<?php echo $base_path; ?>privacy-policy.php" class="payment-method">Privacy Policy</a>
-                    <span class="mx-2">|</span>
-                    <a href="<?php echo $base_path; ?>terms-and-conditions.php" class="payment-method">Terms &
-                        Conditions</a>
+                <div class="col-md text-center text-md-end">
+                    <div class="epic-footer__policies">
+                        <a href="<?php echo $base_path; ?>privacy-policy.php">Privacy Policy</a>
+                        <span>|</span>
+                        <a href="<?php echo $base_path; ?>terms-and-conditions.php">Terms &amp; Conditions</a>
+                    </div>
                 </div>
             </div>
         </div>

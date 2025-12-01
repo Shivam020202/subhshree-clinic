@@ -270,7 +270,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                     <div class="gallery-style2">
                         <div class="gallery-img"><img src="assets/img/home/ba1.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
-                            <a href="#" class="btn-icon"><i class="far fa-arrow-right"></i></a>
+                            <a href="/service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
                                 <svg viewBox="0 0 150 150">
                                     <text>
@@ -285,7 +285,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                     <div class="gallery-style2">
                         <div class="gallery-img"><img src="assets/img/home/ba2.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
-                            <a href="#" class="btn-icon"><i class="far fa-arrow-right"></i></a>
+                            <a href="/service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
                                 <svg viewBox="0 0 150 150">
                                     <text>
@@ -300,7 +300,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                     <div class="gallery-style2">
                         <div class="gallery-img"><img src="assets/img/home/ba3.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
-                            <a href="#" class="btn-icon"><i class="far fa-arrow-right"></i></a>
+                            <a href="/service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
                                 <svg viewBox="0 0 150 150">
                                     <text>
@@ -315,7 +315,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                     <div class="gallery-style2">
                         <div class="gallery-img"><img src="assets/img/home/ba4.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
-                            <a href="#" class="btn-icon"><i class="far fa-arrow-right"></i></a>
+                            <a href="/service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
                                 <svg viewBox="0 0 150 150">
                                     <text>

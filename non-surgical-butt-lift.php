@@ -127,7 +127,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
 
-                     <!-- Added testimonial slider section -->
+                    <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;
@@ -374,33 +374,39 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </section>
 
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"The team at SMT made me feel comfortable throughout the entire process. The
-                                        non-surgical butt lift exceeded my expectations - my buttocks are lifted,
-                                        firmer, and beautifully shaped. Professional service and amazing technology!"
-                                    </p>
-                                    <div class="testimonial-author">
-                                        <h5>Kavya Gupta</h5>
-                                        <span>Age 33, Kanpur</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"I was hesitant about enhancement procedures, but Dr. Shubhshree's approach was
-                                        scientific and reassuring. The non-surgical butt lift gave me exactly what I
-                                        wanted - a natural lift that enhances my curves perfectly."</p>
-                                    <div class="testimonial-author">
-                                        <h5>Ananya Agarwal</h5>
-                                        <span>Age 27, Allahabad</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <script>
+                        (function () {
+                            const track = document.getElementById('testimonialTrack');
+                            if (!track) {
+                                return;
+                            }
+
+                            const slides = Array.from(track.children);
+                            const indicators = Array.from(document.querySelectorAll('.slider-indicators .indicator'));
+                            let currentIndex = 0;
+
+                            function updateSlider(index) {
+                                const clampedIndex = (index + slides.length) % slides.length;
+                                track.style.transform = `translateX(-${clampedIndex * 100}%)`;
+                                indicators.forEach((indicator, idx) => {
+                                    indicator.classList.toggle('active', idx === clampedIndex);
+                                });
+                                currentIndex = clampedIndex;
+                            }
+
+                            window.goToSlide = function (index) {
+                                updateSlider(index);
+                            };
+
+                            window.nextSlide = function () {
+                                updateSlider(currentIndex + 1);
+                            };
+
+                            window.prevSlide = function () {
+                                updateSlider(currentIndex - 1);
+                            };
+                        })();
+                    </script>
 
                     <h3 class="h4">Natural Enhancement and Long-Term Results</h3>
                     <p class="pb-1">Our non-surgical butt lift treatments provide natural-looking enhancement that

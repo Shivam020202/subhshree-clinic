@@ -33,7 +33,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                     <div class="vs-blog blog-single has-post-thumbnail">
                         <div class="blog-img">
                             <a href="blogs/chemical-peels-dark-spots.php"><img
-                                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=500&fit=crop"
+                                    src="assets/img/blog/blog-5-1.jpg"
                                     alt="Chemical Peels for Dark Spots"></a>
                         </div>
                         <div class="blog-content">
@@ -58,7 +58,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                     <div class="vs-blog blog-single has-post-thumbnail">
                         <div class="blog-img">
                             <a href="blogs/remove-dark-circles.php"><img
-                                    src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&h=500&fit=crop"
+                                    src="assets/img/blog/blog-d-1-1.jpg"
                                     alt="Remove Dark Circles Under Eyes"></a>
                         </div>
                         <div class="blog-content">
@@ -81,7 +81,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                     <div class="vs-blog blog-single has-post-thumbnail">
                         <div class="blog-img">
                             <a href="blogs/remove-acne-scars-naturally.php"><img
-                                    src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=500&fit=crop"
+                                    src="assets/img/blog/blog-s-1-1.jpg"
                                     alt="Remove Acne Scars Naturally"></a>
                         </div>
                         <div class="blog-content">
@@ -108,8 +108,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                         <div class="widget  ">
                             <div class="vs-widget-admin">
                                 <div class="admin-img">
-                                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop"
-                                        alt="Dr. Shubhshree">
+                                        <img src="assets/img/about/dr-subhshree-about.jpg" alt="Dr. Shubhshree">
                                 </div>
                                 <h3 class="widget_title">ABOUT AUTHOR</h3>
                                 <p class="admin-text">Dr. Shubhshree is a board-certified dermatologist specializing in
@@ -143,7 +142,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="blogs/chemical-peels-dark-spots.php"><img
-                                                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=100&h=100&fit=crop"
+                                                src="assets/img/blog/blog-5-3.jpg"
                                                 alt="Chemical Peels"></a>
                                     </div>
                                     <div class="media-body">
@@ -159,7 +158,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="blogs/remove-dark-circles.php"><img
-                                                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=100&h=100&fit=crop"
+                                                src="assets/img/blog/blog-d-1-3.jpg"
                                                 alt="Dark Circles"></a>
                                     </div>
                                     <div class="media-body">
@@ -175,7 +174,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="blogs/remove-acne-scars-naturally.php"><img
-                                                src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=100&h=100&fit=crop"
+                                                src="assets/img/blog/blog-s-1-3.jpg"
                                                 alt="Acne Scars"></a>
                                     </div>
                                     <div class="media-body">
@@ -190,7 +189,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                                 </div>
                             </div>
                         </div>
-                        <div class="widget widget_tag_cloud   ">
+                        <!-- <div class="widget widget_tag_cloud   ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
                                 <a href="blogs.php">Chemical Peels</a>
@@ -200,7 +199,7 @@ $page_keywords = "skin care blog, dermatology tips, chemical peels, dark circles
                                 <a href="blogs.php">Skin Care</a>
                                 <a href="blogs.php">Natural Remedies</a>
                             </div>
-                        </div>
+                        </div> -->
                     </aside>
                 </div>
             </div>

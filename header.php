@@ -517,9 +517,9 @@ if (!isset($base_path)) {
                             <li><a href="<?php echo $base_path; ?>non-surgical-butt-lift.php">Non-Surgical
                                     Butt
                                     Lift</a></li>
-                            <li><a href="<?php echo $base_path; ?>ballancer-pro.php">Ballancer
+                            <!-- <li><a href="<?php echo $base_path; ?>ballancer-pro.php">Ballancer
                                     Pro</a>
-                            </li>
+                            </li> -->
                             </li>
                         </ul>
                     </div>

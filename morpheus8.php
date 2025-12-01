@@ -105,7 +105,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div> -->
 
-                     <!-- Added testimonial slider section -->
+                    <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;
@@ -352,32 +352,39 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </section>
 
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"I was skeptical about non-surgical treatments, but Morpheus8 exceeded all my
-                                        expectations. My acne scars have significantly improved and my skin texture is
-                                        so much better. Highly recommend this treatment!"</p>
-                                    <div class="testimonial-author">
-                                        <h5>Amit Gupta</h5>
-                                        <span>Age 35, Kanpur</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"The Morpheus8 treatment gave me the confidence boost I needed. My skin is
-                                        firmer, more youthful, and the fine lines around my eyes have virtually
-                                        disappeared. Professional service and amazing results!"</p>
-                                    <div class="testimonial-author">
-                                        <h5>Neha Agarwal</h5>
-                                        <span>Age 38, Allahabad</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <script>
+                        (function () {
+                            const track = document.getElementById('testimonialTrack');
+                            if (!track) {
+                                return;
+                            }
+
+                            const slides = Array.from(track.children);
+                            const indicators = Array.from(document.querySelectorAll('.slider-indicators .indicator'));
+                            let currentIndex = 0;
+
+                            function updateSlider(index) {
+                                const clampedIndex = (index + slides.length) % slides.length;
+                                track.style.transform = `translateX(-${clampedIndex * 100}%)`;
+                                indicators.forEach((indicator, idx) => {
+                                    indicator.classList.toggle('active', idx === clampedIndex);
+                                });
+                                currentIndex = clampedIndex;
+                            }
+
+                            window.goToSlide = function (index) {
+                                updateSlider(index);
+                            };
+
+                            window.nextSlide = function () {
+                                updateSlider(currentIndex + 1);
+                            };
+
+                            window.prevSlide = function () {
+                                updateSlider(currentIndex - 1);
+                            };
+                        })();
+                    </script>
 
                     <h3 class="h4">Advanced Technology Benefits</h3>
                     <p class="pb-1">Morpheus8 represents the pinnacle of aesthetic technology, offering unparalleled

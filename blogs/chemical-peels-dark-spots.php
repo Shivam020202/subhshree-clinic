@@ -392,11 +392,11 @@ $base_path = "../";
                         </div>
 
                         <!-- CTA Widget -->
-                        <div class="widget widget_cta bg-theme">
+                        <div class="widget widget_cta p-4 bg-theme">
                             <h3 class="widget_title text-white">Book Your Consultation</h3>
                             <p class="text-white mb-20">Ready to achieve clearer, brighter skin? Schedule your
                                 consultation today!</p>
-                            <a href="../contact.php" class="vs-btn style2">Contact Us</a>
+                            <a href="../contact.php" class="vs-btn style2 border">Contact Us</a>
                         </div>
                     </aside>
                 </div>
