@@ -81,9 +81,8 @@ $base_path = "../";
     <?php include '../header.php'; ?>
 
     <!-- Breadcrumb -->
-    <div class="breadcumb-wrapper"
-        data-bg-src="https://images.unsplash.com/photo-1599847987657-881f11b92a75?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1035"
-        data-old-src="../assets/img/blog/acne-scar-banner.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="../assets/img/blog/blog-s-1-1.jpg"
+        data-old-src="../assets/img/blog/blog-s-1-1.jpg">
         <div class="overlay"></div>
         <div class="container z-index-common">
             <div class="breadcumb-content">
@@ -106,8 +105,8 @@ $base_path = "../";
                 <div class="col-lg-8">
                     <div class="blog-single">
                         <div class="blog-img mega-hover mb-40">
-                            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1000&h=600&fit=crop"
-                                data-old-src="../assets/img/blog/acne-scar-detail.jpg" alt="Acne Scar Treatment">
+                            <img src="../assets/img/blog/blog-s-1-1.jpg"
+                                data-old-src="../assets/img/blog/blog-s-1-1.jpg" alt="Acne Scar Treatment">
                         </div>
 
                         <div class="blog-meta mb-20  mt-5">
@@ -136,8 +135,8 @@ $base_path = "../";
                                 scars you have, as different scar types respond better to specific treatments.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/acne-scar-types.jpg" alt="Types of Acne Scars">
+                                <img src="../assets/img/blog/blog-s-1-2.jpg"
+                                    data-old-src="../assets/img/blog/blog-s-1-2.jpg" alt="Types of Acne Scars">
                             </div>
 
                             <p class="mt-3 pt-3"><strong>Common types of acne scars include:</strong></p>
@@ -192,8 +191,8 @@ $base_path = "../";
                             </p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/aloe-vera-treatment.jpg" alt="Aloe Vera for Skin">
+                                <img src="../assets/img/blog/blog-s-1-3.jpg"
+                                    data-old-src="../assets/img/blog/blog-s-1-3.jpg" alt="Aloe Vera for Skin">
                             </div>
 
                             <p class="mt-3 pt-3"><strong>Benefits:</strong></p>
@@ -286,9 +285,8 @@ $base_path = "../";
                                 ingredients available in professional skincare products:</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/natural-skincare.jpg"
-                                    alt="Natural Skincare Products">
+                                <img src="../assets/img/blog/blog-s-1-4.jpg"
+                                    data-old-src="../assets/img/blog/blog-s-1-4.jpg" alt="Natural Skincare Products">
                             </div>
 
                             <h4 class="h5 mt-30 mb-20">Niacinamide (Vitamin B3)</h4>
@@ -385,8 +383,8 @@ $base_path = "../";
                             <p>Try these simple, effective home remedies using kitchen ingredients:</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/diy-face-mask.jpg" alt="DIY Natural Face Mask">
+                                <img src="../assets/img/blog/blog-1-1.jpg"
+                                    data-old-src="../assets/img/blog/blog-1-1.jpg" alt="DIY Natural Face Mask">
                             </div>
 
                             <h4 class="h5 mt-30 mb-20">Brightening Turmeric Mask</h4>
@@ -554,9 +552,8 @@ $base_path = "../";
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="chemical-peels-dark-spots.php"><img
-                                                src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1000&h=600&fit=crop"
-                                                data-old-src="../assets/img/blog/chemical-peel-thumb.jpg"
-                                                alt="Chemical Peels"></a>
+                                                src="../assets/img/blog/blog-5-3.jpg"
+                                                data-old-src="../assets/img/blog/blog-5-3.jpg" alt="Chemical Peels"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"
@@ -569,10 +566,8 @@ $base_path = "../";
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="remove-dark-circles.php"><img
-                                                src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1000&h=600&fit=crop"
-                                                data-old-src="../assets/img/blog/dark-circles-thumb.jpg"
-                                                alt="Dark Circles"></a>
+                                        <a href="remove-dark-circles.php"><img src="../assets/img/blog/blog-d-1-2.jpg"
+                                                data-old-src="../assets/img/blog/blog-d-1-2.jpg" alt="Dark Circles"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"

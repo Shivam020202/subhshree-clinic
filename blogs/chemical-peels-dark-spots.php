@@ -81,9 +81,8 @@ $base_path = "../";
     <?php include '../header.php'; ?>
 
     <!-- Breadcrumb -->
-    <div class="breadcumb-wrapper"
-        data-bg-src="https://images.unsplash.com/photo-1599847987657-881f11b92a75?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1035"
-        data-old-src="../assets/img/blog/chemical-peel-banner.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="../assets/img/DummyBanner/Chemical-peel-banner.jpg"
+        data-old-src="../assets/img/DummyBanner/Chemical-peel-banner.jpg">
         <div class="overlay"></div>
 
         <div class="container z-index-common">
@@ -109,8 +108,7 @@ $base_path = "../";
                 <div class="col-lg-8">
                     <div class="blog-single">
                         <div class="blog-img mega-hover mb-40">
-                            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&h=600&fit=crop"
-                                alt="Chemical Peels for Dark Spots">
+                            <img src="../assets/img/blog/blog-5-1.jpg" alt="Chemical Peels for Dark Spots">
                         </div>
 
                         <div class="blog-meta mt-5 mb-20">
@@ -140,8 +138,7 @@ $base_path = "../";
                                 natural healing response, stimulating the production of new, healthy skin cells.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1000&h=600&fit=crop"
-                                    alt="Chemical Peel Process">
+                                <img src="../assets/img/blog/blog-5-2.jpg" alt="Chemical Peel Process">
                             </div>
 
                             <p class="mt-5"><strong>How it works:</strong> The acids in chemical peels dissolve the
@@ -182,9 +179,8 @@ $base_path = "../";
                                 rejuvenation benefits that extend far beyond hyperpigmentation treatment.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1696881762224-4e6b86c39a67?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
-                                    data-old-src="../assets/img/blog/skin-rejuvenation.jpg"
-                                    alt="Skin Rejuvenation Results">
+                                <img src="../assets/img/blog/blog-5-3.jpg"
+                                    data-old-src="../assets/img/blog/blog-5-3.jpg" alt="Skin Rejuvenation Results">
                             </div>
 
                             <p class="mt-5"><strong>Additional benefits include:</strong></p>
@@ -238,9 +234,8 @@ $base_path = "../";
                                 deliver long-lasting improvements in dark spots and overall skin quality.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/before-after-chemical-peel.jpg"
-                                    alt="Chemical Peel Before and After">
+                                <img src="../assets/img/blog/blog-5-4.jpg"
+                                    data-old-src="../assets/img/blog/blog-5-4.jpg" alt="Chemical Peel Before and After">
                             </div>
 
                             <p class="mt-5">While you may notice immediate brightening after your first treatment,
@@ -347,10 +342,8 @@ $base_path = "../";
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="remove-dark-circles.php"><img
-                                                src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop"
-                                                data-old-src="../assets/img/blog/dark-circles-thumb.jpg"
-                                                alt="Dark Circles"></a>
+                                        <a href="remove-dark-circles.php"><img src="../assets/img/blog/blog-d-1-2.jpg"
+                                                data-old-src="../assets/img/blog/blog-d-1-2.jpg" alt="Dark Circles"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"
@@ -364,9 +357,8 @@ $base_path = "../";
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="remove-acne-scars-naturally.php"><img
-                                                src="https://images.unsplash.com/photo-1556229010-aa1e77a4@w=1000&h=600&fit=crop"
-                                                data-old-src="../assets/img/blog/acne-scar-thumb.jpg"
-                                                alt="Acne Scars"></a>
+                                                src="../assets/img/blog/blog-s-1-3.jpg"
+                                                data-old-src="../assets/img/blog/blog-s-1-3.jpg" alt="Acne Scars"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"

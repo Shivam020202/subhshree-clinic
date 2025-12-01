@@ -81,9 +81,8 @@ $base_path = "../";
     <?php include '../header.php'; ?>
 
     <!-- Breadcrumb -->
-    <div class="breadcumb-wrapper"
-        data-bg-src="https://images.unsplash.com/photo-1599847987657-881f11b92a75?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1035"
-        data-old-src="../assets/img/blog/dark-circles-banner.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="../assets/img/blog/blog-d-1-1.jpg"
+        data-old-src="../assets/img/blog/blog-d-1-1.jpg">
         <div class="overlay"></div>
         <div class="container z-index-common">
             <div class="breadcumb-content">
@@ -106,8 +105,8 @@ $base_path = "../";
                 <div class="col-lg-8">
                     <div class="blog-single">
                         <div class="blog-img mega-hover mb-40">
-                            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1000&h=600&fit=crop"
-                                data-old-src="../assets/img/blog/dark-circles-detail.jpg" alt="Dark Circles Treatment">
+                            <img src="../assets/img/blog/blog-d-1-1.jpg"
+                                data-old-src="../assets/img/blog/blog-d-1-1.jpg" alt="Dark Circles Treatment">
                         </div>
 
                         <div class="blog-meta mb-20 mt-5">
@@ -137,8 +136,8 @@ $base_path = "../";
                                 the most effective treatment approach.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/eye-anatomy.jpg" alt="Eye Area Anatomy">
+                                <img src="../assets/img/blog/blog-d-1-2.jpg"
+                                    data-old-src="../assets/img/blog/blog-d-1-2.jpg" alt="Eye Area Anatomy">
                             </div>
 
                             <p class="mt-3 pt-3"><strong>Common causes of dark circles include:</strong></p>
@@ -186,12 +185,12 @@ $base_path = "../";
                             </div>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/dermal-filler-eyes.jpg"
-                                    alt="Dermal Filler Treatment">
+                                <img src="../assets/img/blog/blog-1-1.jpg"
+                                    data-old-src="../assets/img/blog/blog-1-1.jpg" alt="Dermal Filler Treatment">
                             </div>
 
-                            <p class="mt-3 pt-3">At SMT Skin Clinic, our experienced practitioners use advanced injection techniques to
+                            <p class="mt-3 pt-3">At SMT Skin Clinic, our experienced practitioners use advanced
+                                injection techniques to
                                 ensure safe, comfortable, and beautiful results with minimal downtime.</p>
 
                             <h4 class="h5 mt-30 mb-20">2. Chemical Peels for Pigmentation</h4>
@@ -247,8 +246,8 @@ $base_path = "../";
                                 home care and lifestyle modifications can enhance and maintain your improvements.</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/eye-care-routine.jpg" alt="Eye Care Routine">
+                                <img src="../assets/img/blog/blog-1-2.jpg"
+                                    data-old-src="../assets/img/blog/blog-1-2.jpg" alt="Eye Care Routine">
                             </div>
 
                             <h4 class="h5 mt-30 mb-20">Skincare Routine for Dark Circles</h4>
@@ -320,9 +319,8 @@ $base_path = "../";
                             <p>When selecting eye care products, look for these clinically proven ingredients:</p>
 
                             <div class="blog-img mega-hover mb-30 mt-30">
-                                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1000&h=600&fit=crop"
-                                    data-old-src="../assets/img/blog/eye-cream-ingredients.jpg"
-                                    alt="Eye Cream Ingredients">
+                                <img src="../assets/img/blog/blog-1-3.jpg"
+                                    data-old-src="../assets/img/blog/blog-1-3.jpg" alt="Eye Cream Ingredients">
                             </div>
 
                             <div class="list-style2 mb-30 mt-3 pt-3">
@@ -434,9 +432,8 @@ $base_path = "../";
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="chemical-peels-dark-spots.php"><img
-                                                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1000&h=600&fit=crop"
-                                                data-old-src="../assets/img/blog/chemical-peel-thumb.jpg"
-                                                alt="Chemical Peels"></a>
+                                                src="../assets/img/blog/blog-5-3.jpg"
+                                                data-old-src="../assets/img/blog/blog-5-3.jpg" alt="Chemical Peels"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"
@@ -450,9 +447,8 @@ $base_path = "../";
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="remove-acne-scars-naturally.php"><img
-                                                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1000&h=600&fit=crop"
-                                                data-old-src="../assets/img/blog/acne-scar-thumb.jpg"
-                                                alt="Acne Scars"></a>
+                                                src="../assets/img/blog/blog-s-1-3.jpg"
+                                                data-old-src="../assets/img/blog/blog-s-1-3.jpg" alt="Acne Scars"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"

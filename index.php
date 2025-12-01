@@ -591,8 +591,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blogs/chemical-peels-dark-spots.php"><img
-                                    src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=500&fit=crop"
+                            <a href="blogs/chemical-peels-dark-spots.php"><img src="assets/img/blog/blog-5-1.jpg"
                                     alt="Chemical Peels for Dark Spots" class="w-100"></a>
                         </div>
                         <div class="blog-content">
@@ -609,8 +608,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blogs/remove-dark-circles.php"><img
-                                    src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&h=500&fit=crop"
+                            <a href="blogs/remove-dark-circles.php"><img src="assets/img/blog/blog-d-1-1.jpg"
                                     alt="Remove Dark Circles Under Eyes" class="w-100"></a>
                         </div>
                         <div class="blog-content">
@@ -627,8 +625,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <a href="blogs/remove-acne-scars-naturally.php"><img
-                                    src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=500&fit=crop"
+                            <a href="blogs/remove-acne-scars-naturally.php"><img src="assets/img/blog/blog-s-1-1.jpg"
                                     alt="Remove Acne Scars Naturally" class="w-100"></a>
                         </div>
                         <div class="blog-content">
