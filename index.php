@@ -112,7 +112,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-5 text-md-end text-center mt-3 mt-md-0">
-                            <a href="contact.php" class="vs-btn cta-btn">
+                            <a href="quiz.php" class="vs-btn cta-btn">
                                 <i class="fas fa-calendar-check me-2 pb-1"></i>Take Quiz
                             </a>
                         </div>
