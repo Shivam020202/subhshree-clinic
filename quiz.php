@@ -91,7 +91,7 @@
 
         // --- GEMINI API INTEGRATION ---
         // API Key is left empty for runtime injection by the canvas environment
-        const apiKey = "";
+        const apiKey = "AIzaSyDzAtkB95EuPcRHYp1_gz_44lcbxYAuVeU";
 
         async function callGemini(contents) {
             if (!apiKey) {
