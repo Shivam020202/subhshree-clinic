@@ -27,3 +27,6 @@
 
 <!-- Main Js File -->
 <script src="assets/js/main.js"></script>
+
+<!-- Banner Slider JS -->
+<script src="assets/js/banner-slider.js"></script>

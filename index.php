@@ -86,8 +86,44 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
     <?php include 'header.php'; ?>
 
-    <!-- Hero Area -->
-    <div class="hero-layout3">
+    <!-- New Banner Slider Section -->
+    <section class="banner-slider-section">
+        <div class="banner-slider-wrapper">
+            <!-- Slick Slider -->
+            <div class="banner-slider" id="bannerSlider">
+                <div class="banner-slide">
+                    <img src="assets/img/banner/2.png" alt="SMT Skin Clinic Banner 1" class="banner-img">
+                </div>
+                <div class="banner-slide">
+                    <img src="assets/img/banner/1.png" alt="SMT Skin Clinic Banner 2" class="banner-img">
+                </div>
+            </div>
+
+            <!-- CTA Strip -->
+            <div class="banner-cta-strip">
+                <div class="cta-pattern-bg"></div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-md-7">
+                            <div class="cta-content">
+                                <h3 class="cta-title">Transform Your Skin with Expert Care</h3>
+                                <p class="cta-text">Experience advanced dermatology treatments by Dr. Shubhshree Misra.
+                                    Book your consultation today!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5 text-md-end text-center mt-3 mt-md-0">
+                            <a href="contact.php" class="vs-btn cta-btn">
+                                <i class="fas fa-calendar-check me-2 pb-1"></i>Take Quiz
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Area (Hidden) -->
+    <div class="hero-layout3" style="display: none;">
         <div class="vs-carousel" data-arrows="true" data-slide-show="1" data-lg-slide-show="1" data-center-mode="true"
             data-xl-center-mode="true" data-ml-center-mode="true" data-lg-center-mode="true" data-md-center-mode="true"
             data-center-padding="475px" data-xl-center-padding="350px" data-ml-center-padding="300px"

@@ -12,9 +12,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <?php include 'header.php'; ?>
 
 
-    <!--==============================
-    Breadcumb
-============================== -->
+    <!--====== Breadcumb ===== -->
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Laser/Acne-scar.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
@@ -27,9 +25,8 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                 </div>
             </div>
         </div>
-    </div><!--==============================
-    Service Details
-    ==============================-->
+    </div>
+    <!--======Service Details ======-->
     <section class=" space-top space-extra-bottom">
         <div class="container">
             <div class="row flex-row-reverse gx-50">

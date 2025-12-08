@@ -286,6 +286,9 @@
         }
     </style>
 
+    <!-- Banner Slider Styles -->
+    <link rel="stylesheet" href="assets/css/banner-slider.css">
+
 </head>
 
 <!-- Small, safe CSS to reserve aspect ratios and prevent layout shifts for hero and decorative images -->
