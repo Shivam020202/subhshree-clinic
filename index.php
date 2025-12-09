@@ -91,11 +91,19 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     <!-- Video Banner Section -->
     <section class="video-banner-section">
         <div class="video-banner-container">
-            <video class="video-banner-video" autoplay muted loop playsinline poster="assets/img/hero.png">
-                <source src="assets/img/hero-video.mp4" type="video/mp4">
+            <a href="contact.php" class="d-block text-decoration-none">
+                <!-- Desktop Video -->
+                <video class="video-banner-video d-none d-md-block" autoplay muted loop playsinline poster="assets/img/hero.png">
+                    <source src="assets/img/hero-video.mp4" type="video/mp4">
+                    
+                </video>
                 
-            </video>
-            
+                <!-- Mobile Video -->
+                <video class="video-banner-video d-block d-md-none" autoplay muted loop playsinline poster="assets/img/hero.png">
+                    <source src="assets/img/hero-video-mobile.mp4" type="video/mp4">
+                    
+                </video>
+            </a>
         </div>
     </section>
 
