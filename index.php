@@ -221,8 +221,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         <div class="shape-mockup jump-reverse-img d-none d-xxl-block" data-top="22%" data-left="-7%">
             <div class="curb-shape1"></div>
         </div>
-        <div class="shape-mockup jump-img  d-none d-xxxl-block" data-top="17%" data-right="13%"><img
-                src="assets/img/shape/leaf-1-4.png" alt="shape"></div>
+        
         <div class="container">
             <div class="row gx-55">
                 <div class="col-lg-5 col-xxl-auto align-self-center wow fadeInUp" data-wow-delay="0.2s">
@@ -244,12 +243,12 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                                         d="M0 204C0 91.3339 91.3339 0 204 0V0C316.666 0 408 91.3339 408 204V316.879V375C408 487.666 316.666 579 204 579V579C91.3339 579 0 487.666 0 375V204Z">
                                     </path>
                                     <text>
-                                        <textPath href="#textboxpath" startOffset="810">Fresh skin, new glow</textPath>
+                                        <textPath href="#textboxpath" startOffset="720">Rediscover your Radiance</textPath>
                                     </text>
                                 </svg>
                             </div>
-                            <div class="img-1"><img src="assets/img/home/Section 2.jpg" alt="about"></div>
-                            <div class="img-2 jump-img"><img src="assets/img/shape/leaf-1-7.png" alt="about"></div>
+                            <div class="img-1"><img src="assets/img/about/about-image (2).jpeg" alt="about"></div>
+                            
                         </div>
                     </div>
                 </div>
