@@ -86,10 +86,22 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
     <?php include 'header.php'; ?>
 
-    <!-- New Banner Slider Section -->
-    <section class="banner-slider-section">
+    
+
+    <!-- Video Banner Section -->
+    <section class="video-banner-section">
+        <div class="video-banner-container">
+            <video class="video-banner-video" autoplay muted loop playsinline poster="assets/img/hero.png">
+                <source src="assets/img/hero-video.mp4" type="video/mp4">
+                
+            </video>
+            
+        </div>
+    </section>
+
+    <!-- New Banner Slider Section (Commented Out) -->
+    <!-- <section class="banner-slider-section">
         <div class="banner-slider-wrapper">
-            <!-- Slick Slider -->
             <div class="banner-slider" id="bannerSlider">
                 <div class="banner-slide">
                     <img src="assets/img/banner/2.png" alt="SMT Skin Clinic Banner 1" class="banner-img">
@@ -99,7 +111,6 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
             </div>
 
-            <!-- CTA Strip -->
             <div class="banner-cta-strip">
                 <div class="cta-pattern-bg"></div>
                 <div class="container">
@@ -120,7 +131,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Hero Area (Hidden) -->
     <div class="hero-layout3" style="display: none;">
@@ -198,7 +209,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     </div>
 
     <!-- About Area -->
-    <section class=" overflow-hidden space-top space-extra-bottom bg-gradient-2">
+    <section class=" overflow-hidden mt-5 mb-5 bg-gradient-2">
         <div class="shape-mockup jump-reverse-img d-none d-xxl-block" data-top="22%" data-left="-7%">
             <div class="curb-shape1"></div>
         </div>
@@ -236,12 +247,10 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col-lg-7 col-xxl align-self-center wow fadeInUp" data-wow-delay="0.3s">
                     <span class="sec-subtitle">Welcome to <span class="sec-subtext">SMT Skin Clinic</span></span>
-                    <h1 class="sec-title2">Best Skin Clinic in Lucknow <span class="text-theme"
-                            style="font-size:28px;">Advanced Skin, Hair & Aesthetic Treatments by Expert
-                            Dermatologists</span></h1>
+                    <h1 class="sec-title2">Best Skin Clinic in Lucknow</h1>
 
 
-                    <p class="quote-text">
+                    <p class="quote-text fs-6 lh-sm">
                         The best skin clinic in Lucknow is led by an experienced dermatologist who understands your
                         skin’s unique needs—and at SMT Skin Clinic, Dr. Shubhshree brings expertise, precision and
                         compassionate care to every treatment. With a strong focus on medical accuracy and modern
@@ -257,7 +266,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         and expert dermatology—discover why SMT Skin Clinic is counted among the best skin clinics in
                         Lucknow.</p>
                     </p>
-                    <div class="row gx-25">
+                    <!-- <div class="row">
                         <div class="col-md-6">
                             <div class="feature-style1">
                                 <div class="vs-icon"><img src="assets/img/icon/ab-f-2-1.png" alt="icon"></div>
@@ -288,7 +297,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -371,7 +380,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     </div>
 
     <!-- Service Area -->
-    <section class="space">
+    <section class="mt-5 mb-5">
         <div class="title-area text-center wow fadeInUp" data-wow-delay="0.2s">
             <span class="sec-subtitle">Our Specializations at <span class="sec-subtext">SMT Skin Clinic</span></span>
             <h2 class="sec-title">Expert Dermatology Services</h2>
@@ -417,7 +426,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         </div>
                     </div>
                     <div class="col col-xxl-auto text-center d-none d-lg-block">
-                        <img src="assets/img/home/center-image.webp" alt="shape" class="mt-n4">
+                        <img src="assets/img/home/center-img.png" alt="shape" class="mt-n4">
                     </div>
                     <div class="col-md-6 col-lg-5 col-xxl-auto">
                         <div class="service-style1">
@@ -456,7 +465,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     </section>
 
     <!-- Price Plan Area -->
-    <section class="space-top space-extra-bottom">
+    <section class=" ">
         <div class="parallax" data-parallax-image="assets/img/home/sec5-bg.webp"></div>
         <div class="container">
             <div class="row justify-content-center"></div>
@@ -614,7 +623,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     </section>
 
     <!-- Blog Area -->
-    <section class=" space-top space-extra-bottom">
+    <section class=" mt-5 mb-5">
         <div class="container">
             <div class="title-area text-center wow fadeInUp" data-wow-delay="0.2s">
                 <span class="sec-subtitle">From Our Experts</span>
@@ -680,7 +689,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     </section>
 
     <!-- Contact Area -->
-    <section class="vs-cart-wrapper  space">
+    <section class="vs-cart-wrapper  ">
         <div class="parallax" data-parallax-image="assets/img/home/contact-bg.webp"></div>
         <div class="container">
             <div class="row gx-0">

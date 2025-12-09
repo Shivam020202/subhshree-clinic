@@ -288,6 +288,9 @@
 
     <!-- Banner Slider Styles -->
     <link rel="stylesheet" href="assets/css/banner-slider.css">
+    
+    <!-- Video Banner Styles -->
+    <link rel="stylesheet" href="assets/css/video-banner.css">
 
 </head>
 
