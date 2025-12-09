@@ -320,7 +320,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 data-ml-center-padding="200px" data-lg-center-padding="150px" data-md-center-padding="80px">
                 <div class="col">
                     <div class="gallery-style2">
-                        <div class="gallery-img"><img src="assets/img/home/ba1.webp" alt="gallery"></div>
+                        <div class="gallery-img"><img src="assets/img/before-after/b-a1.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
                             <a href="/service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
@@ -335,7 +335,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col">
                     <div class="gallery-style2">
-                        <div class="gallery-img"><img src="assets/img/home/ba2.webp" alt="gallery"></div>
+                        <div class="gallery-img"><img src="assets/img/before-after/b-a2.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
                             <a href="/service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
@@ -350,7 +350,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col">
                     <div class="gallery-style2">
-                        <div class="gallery-img"><img src="assets/img/home/ba3.webp" alt="gallery"></div>
+                        <div class="gallery-img"><img src="assets/img/before-after/b-a3.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
                             <a href="/service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
@@ -365,7 +365,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 </div>
                 <div class="col">
                     <div class="gallery-style2">
-                        <div class="gallery-img"><img src="assets/img/home/ba4.webp" alt="gallery"></div>
+                        <div class="gallery-img"><img src="assets/img/before-after/b-a4.webp" alt="gallery"></div>
                         <div class="circle-btn style2">
                             <a href="/service.php" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                             <div class="btn-text">
