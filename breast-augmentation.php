@@ -132,7 +132,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
 
-                     <!-- Added testimonial slider section -->
+                    <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;
@@ -379,32 +379,37 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </section>
 
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"After pregnancy and breastfeeding, I wanted to restore my breast shape without
-                                        surgery. The non-surgical enhancement treatments exceeded my expectations. The
-                                        lifting and firmness improvements are remarkable!"</p>
-                                    <div class="testimonial-author">
-                                        <h5>Neha Gupta</h5>
-                                        <span>Age 35, Kanpur</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"The team at SMT Skin Clinic made me feel comfortable throughout the entire
-                                        process. The non-surgical approach was exactly what I was looking for -
-                                        effective results without the risks of surgery. Highly recommend!"</p>
-                                    <div class="testimonial-author">
-                                        <h5>Pooja Agarwal</h5>
-                                        <span>Age 31, Allahabad</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <script>
+                        let currentSlide = 0;
+                        const slides = document.querySelectorAll('.testimonial-slide');
+                        const indicators = document.querySelectorAll('.indicator');
+                        const track = document.getElementById('testimonialTrack');
+
+                        function updateSlider() {
+                            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+                            indicators.forEach((indicator, index) => {
+                                indicator.classList.toggle('active', index === currentSlide);
+                            });
+                        }
+
+                        function nextSlide() {
+                            currentSlide = (currentSlide + 1) % slides.length;
+                            updateSlider();
+                        }
+
+                        function prevSlide() {
+                            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                            updateSlider();
+                        }
+
+                        function goToSlide(index) {
+                            currentSlide = index;
+                            updateSlider();
+                        }
+
+                        // Auto-advance slides every 5 seconds
+                        setInterval(nextSlide, 5000);
+                    </script>
 
                     <h3 class="h4">Safe and Effective Results</h3>
                     <p class="pb-1">Our non-surgical breast enhancement treatments provide a safe, effective alternative
