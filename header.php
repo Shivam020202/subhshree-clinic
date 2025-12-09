@@ -204,7 +204,7 @@ if (!isset($base_path)) {
                     </ul>
                 </li>
                 <li>
-                    <a href="<?php echo $base_path; ?>blogs.php">Blog</a>
+                    <a href="<?php echo $base_path; ?>blogs">Blog</a>
                 </li>
                 <li>
                     <a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
@@ -530,7 +530,7 @@ if (!isset($base_path)) {
     </div>
     </li>
     <li>
-        <a href="<?php echo $base_path; ?>blogs.php">Blog</a>
+        <a href="<?php echo $base_path; ?>blogs">Blog</a>
     </li>
     <li>
         <a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
