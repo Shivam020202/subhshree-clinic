@@ -631,7 +631,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     </section>
 
     <!-- Blog Area -->
-    <section class=" mt-5 mb-5">
+    <section style="display: none;" class=" mt-5 mb-5">
         <div class="container">
             <div class="title-area text-center wow fadeInUp" data-wow-delay="0.2s">
                 <span class="sec-subtitle">From Our Experts</span>
