@@ -86,22 +86,24 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
     <?php include 'header.php'; ?>
 
-    
+
 
     <!-- Video Banner Section -->
     <section class="video-banner-section">
         <div class="video-banner-container">
             <a href="contact.php" class="d-block text-decoration-none">
                 <!-- Desktop Video -->
-                <video class="video-banner-video d-none d-md-block" autoplay muted loop playsinline poster="assets/img/hero.png">
+                <video class="video-banner-video d-none d-md-block" autoplay muted loop playsinline
+                    poster="assets/img/hero.webp">
                     <source src="assets/img/hero-video.mp4" type="video/mp4">
-                    
+
                 </video>
-                
+
                 <!-- Mobile Video -->
-                <video class="video-banner-video d-block d-md-none" autoplay muted loop playsinline poster="assets/img/hero.png">
+                <video class="video-banner-video d-block d-md-none" autoplay muted loop playsinline
+                    poster="assets/img/hero.webp">
                     <source src="assets/img/hero-video-mobile.mp4" type="video/mp4">
-                    
+
                 </video>
             </a>
         </div>
@@ -221,7 +223,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         <div class="shape-mockup jump-reverse-img d-none d-xxl-block" data-top="22%" data-left="-7%">
             <div class="curb-shape1"></div>
         </div>
-        
+
         <div class="container">
             <div class="row gx-55">
                 <div class="col-lg-5 col-xxl-auto align-self-center wow fadeInUp" data-wow-delay="0.2s">
@@ -243,12 +245,13 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                                         d="M0 204C0 91.3339 91.3339 0 204 0V0C316.666 0 408 91.3339 408 204V316.879V375C408 487.666 316.666 579 204 579V579C91.3339 579 0 487.666 0 375V204Z">
                                     </path>
                                     <text>
-                                        <textPath href="#textboxpath" startOffset="720">Rediscover your Radiance</textPath>
+                                        <textPath href="#textboxpath" startOffset="720">Rediscover your Radiance
+                                        </textPath>
                                     </text>
                                 </svg>
                             </div>
                             <div class="img-1"><img src="assets/img/about/about-image (2).jpeg" alt="about"></div>
-                            
+
                         </div>
                     </div>
                 </div>
