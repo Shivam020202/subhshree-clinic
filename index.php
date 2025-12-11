@@ -85,7 +85,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     .quiz-cta-section {
         position: relative;
         background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
-        padding: 25px 0;
+        padding: 18px 0;
         overflow: hidden;
         border-top: 2px solid #c9ab81;
         border-bottom: 2px solid #c9ab81;
@@ -132,10 +132,11 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     .quiz-icon {
         display: inline-block;
         margin-bottom: 0 !important;
+        flex-shrink: 0;
     }
 
     .quiz-icon i {
-        font-size: 32px;
+        font-size: 28px;
         color: #c9ab81;
         animation: pulseIcon 2s ease-in-out infinite;
     }
@@ -155,23 +156,20 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     }
 
     .quiz-heading {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 700;
         color: #fff;
-        margin-bottom: 6px;
+        margin-bottom: 0;
         font-family: 'Marcellus', serif;
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
         line-height: 1.2;
     }
 
     .quiz-subtitle {
-        font-size: 14px;
+        font-size: 13px;
         color: #e0e0e0;
-        margin-bottom: 15px;
-        line-height: 1.4;
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-bottom: 0;
+        line-height: 1.3;
     }
 
     .quiz-cta-btn {
@@ -180,12 +178,12 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         justify-content: center;
         background: linear-gradient(135deg, #c9ab81 0%, #b89968 100%);
         color: #fff;
-        padding: 10px 28px;
-        font-size: 15px;
+        padding: 8px 24px;
+        font-size: 14px;
         font-weight: 600;
         border-radius: 25px;
         text-decoration: none;
-        box-shadow: 0 5px 15px rgba(201, 171, 129, 0.3);
+        box-shadow: 0 4px 12px rgba(201, 171, 129, 0.3);
         transition: all 0.3s ease;
         position: relative;
         overflow: hidden;
@@ -226,50 +224,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     /* Responsive Styles for Quiz CTA */
     @media (max-width: 991px) {
         .quiz-cta-section {
-            padding: 22px 0;
-        }
-
-        .quiz-heading {
-            font-size: 22px;
-        }
-
-        .quiz-subtitle {
-            font-size: 13px;
-        }
-
-        .quiz-icon i {
-            font-size: 28px;
-        }
-    }
-
-    @media (max-width: 767px) {
-        .quiz-cta-section {
-            padding: 20px 0;
-        }
-
-        .quiz-heading {
-            font-size: 20px;
-            margin-bottom: 5px;
-        }
-
-        .quiz-subtitle {
-            font-size: 13px;
-            margin-bottom: 12px;
-        }
-
-        .quiz-cta-btn {
-            padding: 9px 24px;
-            font-size: 14px;
-        }
-
-        .quiz-icon i {
-            font-size: 26px;
-        }
-    }
-
-    @media (max-width: 575px) {
-        .quiz-cta-section {
-            padding: 18px 0;
+            padding: 16px 0;
         }
 
         .quiz-heading {
@@ -278,16 +233,66 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
         .quiz-subtitle {
             font-size: 12px;
-            margin-bottom: 10px;
+        }
+
+        .quiz-icon i {
+            font-size: 26px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .quiz-cta-section {
+            padding: 15px 0;
+        }
+
+        .quiz-content {
+            display: block !important;
+            text-align: center;
+        }
+
+        .quiz-icon {
+            margin-bottom: 8px !important;
+            margin-right: 0 !important;
+        }
+
+        .quiz-heading {
+            font-size: 17px;
+        }
+
+        .quiz-subtitle {
+            font-size: 11px;
         }
 
         .quiz-cta-btn {
-            padding: 8px 22px;
+            padding: 7px 20px;
             font-size: 13px;
         }
 
         .quiz-icon i {
             font-size: 24px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .quiz-cta-section {
+            padding: 14px 0;
+        }
+
+        .quiz-heading {
+            font-size: 16px;
+        }
+
+        .quiz-subtitle {
+            font-size: 11px;
+        }
+
+        .quiz-cta-btn {
+            padding: 7px 18px;
+            font-size: 12px;
+        }
+
+        .quiz-icon i {
+            font-size: 22px;
         }
 
         .quiz-shape-left,
@@ -339,20 +344,23 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     <section class="quiz-cta-section">
         <div class="quiz-pattern-overlay"></div>
         <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <div class="quiz-content">
-                        <div class="quiz-icon mb-3">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-7">
+                    <div class="quiz-content d-flex align-items-center">
+                        <div class="quiz-icon me-3">
                             <i class="fas fa-clipboard-list"></i>
                         </div>
-                        <h2 class="quiz-heading">Find Your Perfect Skin Solution</h2>
-                        <p class="quiz-subtitle">Take our personalized skin assessment quiz and discover the ideal
-                            treatments tailored just for you</p>
-                        <a href="quiz.php" class="quiz-cta-btn">
-                            <span>Start Your Skin Journey</span>
-                            <i class="fas fa-arrow-right ms-2"></i>
-                        </a>
+                        <div>
+                            <h2 class="quiz-heading mb-1">Find Your Perfect Skin Solution</h2>
+                            <p class="quiz-subtitle mb-0">Take our personalized skin assessment quiz and discover the ideal treatments tailored just for you</p>
+                        </div>
                     </div>
+                </div>
+                <div class="col-lg-4 col-md-5 text-md-end text-center mt-3 mt-md-0">
+                    <a href="quiz.php" class="quiz-cta-btn">
+                        <span>Start Quiz</span>
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
                 </div>
             </div>
         </div>
