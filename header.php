@@ -336,9 +336,9 @@ if (!isset($base_path)) {
                         <div class="nav-logo d-flex align-items-center">
                             <a href="<?php echo $base_path; ?>index.php"><img
                                     src="<?php echo $base_path; ?>assets/img/logo-subhshree.png" alt="logo"></a>
-                            <div class="d-flex flex-column ms-2 mt-4">
+                            <div class="d-flex flex-column ms-2 mt-2">
                                 <p class="h4 mb-0">SMT Skin Clinic</p>
-                                <p class="italic small">The aesthectic excellence</p>
+                                <p class="italic small mb-2">The aesthectic excellence</p>
                             </div>
                         </div>
                     </div>
