@@ -80,6 +80,233 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         color: #fff;
         opacity: .95;
     }
+
+    /* Quiz CTA Section Styles */
+    .quiz-cta-section {
+        position: relative;
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+        padding: 60px 0;
+        overflow: hidden;
+        border-top: 2px solid #c9ab81;
+        border-bottom: 2px solid #c9ab81;
+    }
+
+    .quiz-pattern-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image:
+            repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(201, 171, 129, 0.03) 40px, rgba(201, 171, 129, 0.03) 80px),
+            repeating-linear-gradient(-45deg, transparent, transparent 40px, rgba(201, 171, 129, 0.02) 40px, rgba(201, 171, 129, 0.02) 80px);
+        pointer-events: none;
+        opacity: 0.6;
+    }
+
+    .quiz-shape-left,
+    .quiz-shape-right {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(201, 171, 129, 0.1) 0%, transparent 70%);
+        pointer-events: none;
+    }
+
+    .quiz-shape-left {
+        top: -150px;
+        left: -150px;
+    }
+
+    .quiz-shape-right {
+        bottom: -150px;
+        right: -150px;
+    }
+
+    .quiz-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .quiz-icon {
+        display: inline-block;
+    }
+
+    .quiz-icon i {
+        font-size: 48px;
+        color: #c9ab81;
+        animation: pulseIcon 2s ease-in-out infinite;
+    }
+
+    @keyframes pulseIcon {
+
+        0%,
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        50% {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+    }
+
+    .quiz-heading {
+        font-size: 36px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 15px;
+        font-family: 'Marcellus', serif;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        line-height: 1.3;
+    }
+
+    .quiz-subtitle {
+        font-size: 18px;
+        color: #e0e0e0;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .quiz-cta-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #c9ab81 0%, #b89968 100%);
+        color: #fff;
+        padding: 18px 45px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 10px 30px rgba(201, 171, 129, 0.4);
+        transition: all 0.4s ease;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .quiz-cta-btn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        transition: left 0.6s ease;
+        z-index: -1;
+    }
+
+    .quiz-cta-btn:hover::before {
+        left: 100%;
+    }
+
+    .quiz-cta-btn:hover {
+        transform: translateY(-4px) scale(1.05);
+        box-shadow: 0 15px 40px rgba(201, 171, 129, 0.6);
+        background: linear-gradient(135deg, #d4b78e 0%, #c9ab81 100%);
+        color: #fff;
+    }
+
+    .quiz-cta-btn i {
+        transition: transform 0.3s ease;
+    }
+
+    .quiz-cta-btn:hover i {
+        transform: translateX(5px);
+    }
+
+    /* Responsive Styles for Quiz CTA */
+    @media (max-width: 991px) {
+        .quiz-cta-section {
+            padding: 50px 0;
+        }
+
+        .quiz-heading {
+            font-size: 30px;
+        }
+
+        .quiz-subtitle {
+            font-size: 16px;
+        }
+
+        .quiz-icon i {
+            font-size: 42px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .quiz-cta-section {
+            padding: 40px 0;
+        }
+
+        .quiz-heading {
+            font-size: 26px;
+            margin-bottom: 12px;
+        }
+
+        .quiz-subtitle {
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+
+        .quiz-cta-btn {
+            padding: 15px 35px;
+            font-size: 16px;
+        }
+
+        .quiz-icon i {
+            font-size: 38px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .quiz-cta-section {
+            padding: 35px 0;
+        }
+
+        .quiz-heading {
+            font-size: 22px;
+        }
+
+        .quiz-subtitle {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-cta-btn {
+            padding: 14px 30px;
+            font-size: 15px;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .quiz-icon i {
+            font-size: 34px;
+        }
+
+        .quiz-shape-left,
+        .quiz-shape-right {
+            width: 200px;
+            height: 200px;
+        }
+
+        .quiz-shape-left {
+            top: -100px;
+            left: -100px;
+        }
+
+        .quiz-shape-right {
+            bottom: -100px;
+            right: -100px;
+        }
+    }
 </style>
 
 <body>
@@ -108,6 +335,32 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
             </a>
         </div>
     </section>
+
+    <!-- Quiz CTA Strip -->
+    <section class="quiz-cta-section">
+        <div class="quiz-pattern-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="quiz-content">
+                        <div class="quiz-icon mb-3">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h2 class="quiz-heading">Find Your Perfect Skin Solution</h2>
+                        <p class="quiz-subtitle">Take our personalized skin assessment quiz and discover the ideal
+                            treatments tailored just for you</p>
+                        <a href="quiz.php" class="quiz-cta-btn">
+                            <span>Start Your Skin Journey</span>
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-shape-left"></div>
+        <div class="quiz-shape-right"></div>
+    </section>
+
 
     <!-- New Banner Slider Section (Commented Out) -->
     <!-- <section class="banner-slider-section">
