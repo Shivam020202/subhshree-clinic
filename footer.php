@@ -47,7 +47,7 @@ if (!isset($base_path)) {
                             <li class="epic-footer__link"><a href="<?php echo $base_path; ?>about.php">About Us</a></li>
                             <li class="epic-footer__link"><a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
                             </li>
-                            <li class="epic-footer__link"><a href="<?php echo $base_path; ?>blogs.php">Our Blog</a></li>
+                            <li class="epic-footer__link"><a href="<?php echo $base_path; ?>blogs">Our Blog</a></li>
                             <li class="epic-footer__link"><a href="<?php echo $base_path; ?>privacy-policy.php">Privacy
                                     Policy</a></li>
                             <li class="epic-footer__link"><a
