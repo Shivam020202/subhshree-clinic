@@ -538,7 +538,7 @@ if (!isset($base_path)) {
     </ul>
     </nav>
     </div>
-    <div class="col-auto">
+    <div class="row">
         <div class="header-icons">
             <a href="<?php echo $base_path; ?>contact.php" class="vs-btn style2 d-none d-xl-inline-block">Book</a>
             <!-- <button class="bar-btn sideMenuToggler d-none d-xl-inline-block">
