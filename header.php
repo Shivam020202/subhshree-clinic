@@ -297,7 +297,7 @@ if (!isset($base_path)) {
         </div> -->
 
 <header class="vs-header header-layout1">
-    <div class="header-top">
+    <!-- <div class="header-top">
         <div class="container">
             <div class="row justify-content-center justify-content-md-between align-items-center">
                 <div class="col-auto text-center py-2 py-md-0">
@@ -317,17 +317,17 @@ if (!isset($base_path)) {
                     <div class="social-style1">
                         <a href="https://www.facebook.com/SMTSkinclinic" target="_blank"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+
                         <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"><i
                                 class="fab fa-instagram"></i></a>
                         <a href="https://share.google/OUlgLyEYYaQFtlTJD" target="_blank"><i
                                 class="fab fa-google"></i></a>
-                        <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="sticky-wrap">
         <div class="sticky-active">
             <div class="container">
@@ -546,6 +546,10 @@ if (!isset($base_path)) {
                                 <span class="bar"></span>
                                 <span class="bar"></span>
                             </button> -->
+            <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i class="fal fa-bars"></i></button>
+        </div>
+        <div class="header-icons">
+            <a href="tel:+918864877133" class="vs-btn style2 d-none d-xl-inline-block">Call Now</a>
             <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i class="fal fa-bars"></i></button>
         </div>
     </div>
