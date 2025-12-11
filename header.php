@@ -527,17 +527,15 @@ if (!isset($base_path)) {
             </div>
         </div>
     </div>
-    </div>
-    </li>
+
     <li>
         <a href="<?php echo $base_path; ?>blogs">Blog</a>
     </li>
     <li>
         <a href="<?php echo $base_path; ?>contact.php">Contact Us</a>
     </li>
-    </ul>
-    </nav>
-    </div>
+
+
     <div class="row">
         <div class="header-icons">
             <a href="<?php echo $base_path; ?>contact.php" class="vs-btn style2 d-none d-xl-inline-block">Book</a>
@@ -552,9 +550,5 @@ if (!isset($base_path)) {
             <a href="tel:+918864877133" class="vs-btn style2 d-none d-xl-inline-block">Call Now</a>
             <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i class="fal fa-bars"></i></button>
         </div>
-    </div>
-    </div>
-    </div>
-    </div>
     </div>
 </header>
