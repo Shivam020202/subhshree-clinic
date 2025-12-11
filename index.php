@@ -85,7 +85,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     .quiz-cta-section {
         position: relative;
         background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
-        padding: 60px 0;
+        padding: 25px 0;
         overflow: hidden;
         border-top: 2px solid #c9ab81;
         border-bottom: 2px solid #c9ab81;
@@ -131,10 +131,11 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
     .quiz-icon {
         display: inline-block;
+        margin-bottom: 0 !important;
     }
 
     .quiz-icon i {
-        font-size: 48px;
+        font-size: 32px;
         color: #c9ab81;
         animation: pulseIcon 2s ease-in-out infinite;
     }
@@ -154,20 +155,20 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     }
 
     .quiz-heading {
-        font-size: 36px;
+        font-size: 24px;
         font-weight: 700;
         color: #fff;
-        margin-bottom: 15px;
+        margin-bottom: 6px;
         font-family: 'Marcellus', serif;
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-        line-height: 1.3;
+        line-height: 1.2;
     }
 
     .quiz-subtitle {
-        font-size: 18px;
+        font-size: 14px;
         color: #e0e0e0;
-        margin-bottom: 30px;
-        line-height: 1.6;
+        margin-bottom: 15px;
+        line-height: 1.4;
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
@@ -179,13 +180,13 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         justify-content: center;
         background: linear-gradient(135deg, #c9ab81 0%, #b89968 100%);
         color: #fff;
-        padding: 18px 45px;
-        font-size: 18px;
+        padding: 10px 28px;
+        font-size: 15px;
         font-weight: 600;
-        border-radius: 50px;
+        border-radius: 25px;
         text-decoration: none;
-        box-shadow: 0 10px 30px rgba(201, 171, 129, 0.4);
-        transition: all 0.4s ease;
+        box-shadow: 0 5px 15px rgba(201, 171, 129, 0.3);
+        transition: all 0.3s ease;
         position: relative;
         overflow: hidden;
         z-index: 1;
@@ -225,50 +226,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     /* Responsive Styles for Quiz CTA */
     @media (max-width: 991px) {
         .quiz-cta-section {
-            padding: 50px 0;
-        }
-
-        .quiz-heading {
-            font-size: 30px;
-        }
-
-        .quiz-subtitle {
-            font-size: 16px;
-        }
-
-        .quiz-icon i {
-            font-size: 42px;
-        }
-    }
-
-    @media (max-width: 767px) {
-        .quiz-cta-section {
-            padding: 40px 0;
-        }
-
-        .quiz-heading {
-            font-size: 26px;
-            margin-bottom: 12px;
-        }
-
-        .quiz-subtitle {
-            font-size: 15px;
-            margin-bottom: 25px;
-        }
-
-        .quiz-cta-btn {
-            padding: 15px 35px;
-            font-size: 16px;
-        }
-
-        .quiz-icon i {
-            font-size: 38px;
-        }
-    }
-
-    @media (max-width: 575px) {
-        .quiz-cta-section {
-            padding: 35px 0;
+            padding: 22px 0;
         }
 
         .quiz-heading {
@@ -276,19 +234,60 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         }
 
         .quiz-subtitle {
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
-        .quiz-cta-btn {
-            padding: 14px 30px;
-            font-size: 15px;
-            width: 100%;
-            max-width: 320px;
+            font-size: 13px;
         }
 
         .quiz-icon i {
-            font-size: 34px;
+            font-size: 28px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .quiz-cta-section {
+            padding: 20px 0;
+        }
+
+        .quiz-heading {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .quiz-subtitle {
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+
+        .quiz-cta-btn {
+            padding: 9px 24px;
+            font-size: 14px;
+        }
+
+        .quiz-icon i {
+            font-size: 26px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .quiz-cta-section {
+            padding: 18px 0;
+        }
+
+        .quiz-heading {
+            font-size: 18px;
+        }
+
+        .quiz-subtitle {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        .quiz-cta-btn {
+            padding: 8px 22px;
+            font-size: 13px;
+        }
+
+        .quiz-icon i {
+            font-size: 24px;
         }
 
         .quiz-shape-left,
