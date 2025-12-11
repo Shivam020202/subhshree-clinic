@@ -352,7 +352,8 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         </div>
                         <div>
                             <h2 class="quiz-heading mb-1">Find Your Perfect Skin Solution</h2>
-                            <p class="quiz-subtitle mb-0">Take our personalized skin assessment quiz and discover the ideal treatments tailored just for you</p>
+                            <p class="quiz-subtitle mb-0">Take our personalized skin assessment quiz and discover the
+                                ideal treatments tailored just for you</p>
                         </div>
                     </div>
                 </div>
