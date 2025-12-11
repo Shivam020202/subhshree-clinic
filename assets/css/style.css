@@ -3766,7 +3766,7 @@ a.text-theme:hover,
 }
 /*------------------- 4.2. Header  -------------------*/
 .nav-logo a img {
-  max-height: 100px;
+  max-height: 70px;
   padding: 10px;
 }
 
