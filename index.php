@@ -326,7 +326,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 <!-- Desktop Video -->
                 <video class="video-banner-video d-none d-md-block" autoplay muted loop playsinline
                     poster="assets/img/hero.webp">
-                    <source src="assets/img/hero-video.mp4" type="video/mp4">
+                    <source src="assets/img/new-hero.mp4" type="video/mp4">
 
                 </video>
 
