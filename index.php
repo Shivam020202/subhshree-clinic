@@ -770,7 +770,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                                 </ul>
                             </div>
                             <div class="package-btn">
-                                <a href="contact.html" class="vs-btn style3">Book Now</a>
+                                <a href="contact.php" class="vs-btn style3">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -796,7 +796,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                                 </ul>
                             </div>
                             <div class="package-btn">
-                                <a href="contact.html" class="vs-btn style3">Book Now</a>
+                                <a href="contact.php" class="vs-btn style3">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -822,7 +822,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                                 </ul>
                             </div>
                             <div class="package-btn">
-                                <a href="contact.html" class="vs-btn style3">Book Now</a>
+                                <a href="contact.php" class="vs-btn style3">Book Now</a>
                             </div>
                         </div>
                     </div>
