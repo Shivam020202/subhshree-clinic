@@ -436,11 +436,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
                         slider.addEventListener('mouseleave', startAutoSlide);
                     </script>
-                    </div>
-
                 </div>
                 <div class="col-lg-4 col-xl-auto">
-                    <aside>
+                    <aside >
                         <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">

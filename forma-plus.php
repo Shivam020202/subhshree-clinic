@@ -436,9 +436,6 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
                         slider.addEventListener('mouseleave', startAutoSlide);
                     </script>
-                    </div>
-
-                   
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
