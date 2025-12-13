@@ -37,6 +37,24 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- <div class="mb-30">
                         <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg" alt="thumbnail"></div>
                     </div> -->
+
+
+                      <h2 class="text-uppercase">Enlarged Pores Treatment</h2>
+                    <p class="pb-1">Enlarged pores can be due to genetics, excess oil production, aging, or sun
+                        damage. Our tailored approach may include chemical peels, microneedling, lasers, and
+                        medical-grade skincare to refine skin texture and minimize the appearance of pores.</p>
+                    
+                    <h3 class="h5 mt-4 mb-2">How We Treat Pores</h3>
+                    <ul class="list-unstyled ms-3">
+                        <li>• Chemical peels to improve cell turnover</li>
+                        <li>• Microneedling for collagen stimulation</li>
+                        <li>• Laser therapies for skin tightening and clarity</li>
+                        <li>• Retinoids and oil-control regimens</li>
+                    </ul>
+                    
+                    <h3 class="h5 mt-4 mb-2">Results & Maintenance</h3>
+                    <p class="mb-0">Results are progressive and improve over multiple sessions. Daily SPF and
+                        consistent skincare are key to maintaining a smoother, refined look.</p>
                     <h2 class="text-uppercase">health by or through water</h2>
                     <p>We think your skin should look and refshed matter Nourish your outer inner beauty with our
                         essential oil infused beauty products Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -461,22 +479,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         slider.addEventListener('mouseleave', startAutoSlide);
                     </script>
 
-                    <h3 class="h4">Enlarged Pores Treatment</h3>
-                    <p class="pb-1">Enlarged pores can be due to genetics, excess oil production, aging, or sun
-                        damage. Our tailored approach may include chemical peels, microneedling, lasers, and
-                        medical-grade skincare to refine skin texture and minimize the appearance of pores.</p>
-                    
-                    <h3 class="h5 mt-4 mb-2">How We Treat Pores</h3>
-                    <ul class="list-unstyled ms-3">
-                        <li>• Chemical peels to improve cell turnover</li>
-                        <li>• Microneedling for collagen stimulation</li>
-                        <li>• Laser therapies for skin tightening and clarity</li>
-                        <li>• Retinoids and oil-control regimens</li>
-                    </ul>
-                    
-                    <h3 class="h5 mt-4 mb-2">Results & Maintenance</h3>
-                    <p class="mb-0">Results are progressive and improve over multiple sessions. Daily SPF and
-                        consistent skincare are key to maintaining a smoother, refined look.</p>
+                  
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>

@@ -128,6 +128,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         </div>
                     </div>
 
+                    <div class="mt-40 mb-30">
+                         <h3 class="h4">Progressive and Long-Lasting Results</h3>
+                    <p class="pb-1">Forma Plus delivers both immediate and progressive results. While some tightening
+                        effects are noticeable immediately after treatment, optimal results develop over 3-4 months as
+                        new collagen forms and existing collagen continues to remodel. The treatment stimulates natural
+                        processes that continue working long after your session ends, providing long-lasting
+                        improvements in skin tightness, body contours, and overall appearance.</p>
+                    </div>
+
                      <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
@@ -429,12 +438,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </script>
                     </div>
 
-                    <h3 class="h4">Progressive and Long-Lasting Results</h3>
-                    <p class="pb-1">Forma Plus delivers both immediate and progressive results. While some tightening
-                        effects are noticeable immediately after treatment, optimal results develop over 3-4 months as
-                        new collagen forms and existing collagen continues to remodel. The treatment stimulates natural
-                        processes that continue working long after your session ends, providing long-lasting
-                        improvements in skin tightness, body contours, and overall appearance.</p>
+                   
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>

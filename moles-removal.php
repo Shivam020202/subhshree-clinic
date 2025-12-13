@@ -37,6 +37,27 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     <!-- <div class="mb-30">
                         <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg" alt="thumbnail"></div>
                     </div> -->
+
+                      <h2 class="text-uppercase">Mole Removal</h2>
+                    <p class="pb-1">Mole removal is a safe, precise dermatological procedure performed for
+                        cosmetic reasons or when a mole shows changes in size, shape, or color. Methods include
+                        shave removal, excision, or laser, depending on the mole type and location.</p>
+                    
+                    <h3 class="h5 mt-4 mb-2">When To Consider Mole Removal</h3>
+                    <ul class="list-unstyled ms-3">
+                        <li>• Cosmetic concerns or irritation from clothing</li>
+                        <li>• Recent changes in symmetry, borders, color, or size</li>
+                        <li>• Recommendations after clinical examination</li>
+                    </ul>
+                    
+                    <h3 class="h5 mt-4 mb-2">What To Expect</h3>
+                    <p class="mb-3">The area is cleansed and numbed locally. The procedure is quick, and
+                        aftercare involves keeping the site clean, using prescribed ointment, and protecting
+                        from sun exposure.</p>
+                    
+                    <h3 class="h5 mt-4 mb-2">Aftercare</h3>
+                    <p class="mb-0">Follow your clinician's instructions for wound care, avoid picking at scabs,
+                        and use SPF to minimize pigmentation at the site post-healing.</p>
                     <h2 class="text-uppercase">health by or through water</h2>
                     <p>We think your skin should look and refshed matter Nourish your outer inner beauty with our
                         essential oil infused beauty products Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -461,26 +482,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         slider.addEventListener('mouseleave', startAutoSlide);
                     </script>
 
-                    <h3 class="h4">Mole Removal</h3>
-                    <p class="pb-1">Mole removal is a safe, precise dermatological procedure performed for
-                        cosmetic reasons or when a mole shows changes in size, shape, or color. Methods include
-                        shave removal, excision, or laser, depending on the mole type and location.</p>
-                    
-                    <h3 class="h5 mt-4 mb-2">When To Consider Mole Removal</h3>
-                    <ul class="list-unstyled ms-3">
-                        <li>• Cosmetic concerns or irritation from clothing</li>
-                        <li>• Recent changes in symmetry, borders, color, or size</li>
-                        <li>• Recommendations after clinical examination</li>
-                    </ul>
-                    
-                    <h3 class="h5 mt-4 mb-2">What To Expect</h3>
-                    <p class="mb-3">The area is cleansed and numbed locally. The procedure is quick, and
-                        aftercare involves keeping the site clean, using prescribed ointment, and protecting
-                        from sun exposure.</p>
-                    
-                    <h3 class="h5 mt-4 mb-2">Aftercare</h3>
-                    <p class="mb-0">Follow your clinician's instructions for wound care, avoid picking at scabs,
-                        and use SPF to minimize pigmentation at the site post-healing.</p>
+                  
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
