@@ -422,13 +422,12 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         <div class="service-box">
                             <h3 class="box-title">All Services</h3>
                             <ul class="list-unstyled">
-                                <li><a href="chemical-peels.php">Chemical Peel</a></li>
-                                <li><a href="skin-tightening.php">Skin Tightening</a></li>
-                                <li><a href="facial-sculpting.php">Facial Sculpting</a></li>
-                                <li><a href="hydrafacial.php">HydraFacial</a></li>
-                                <li><a href="cosmelan-peel.php">Cosmelan Peel</a></li>
-                                <li><a href="led-light-therapy.php">LED Light Therapy</a></li>
-                                <li><a href="microneedling.php">Microneedling</a></li>
+                                <li><a href="chemical-peels.php">Chemical Peels</a></li>
+                                <li><a href="laser-hair-reduction.php">Laser Hair Removal</a></li>
+                                <li><a href="acne-scar.php">Acne Treatment</a></li>
+                                <li><a href="aging-skin.php">Anti-Aging Treatments</a></li>
+                                <li><a href="skin-tightening.php">Skin Rejuvenation</a></li>
+                                <li><a href="hyperpigmentation.php">Pigmentation Treatment</a></li>
                             </ul>
                         </div>
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
