@@ -10,97 +10,6 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 <body>
 
     <?php include 'header.php'; ?>
-    <!-- Mobile Services Mega Menu -->
-    <div class="smt-mobile-services-menu" id="smtMobileServicesMenu">
-        <div class="smt-mobile-services-header">
-            <h3 class="smt-mobile-services-title">Our Services</h3>
-            <button class="smt-mobile-services-close" onclick="smtCloseMobileServices()">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                SKIN
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="chemical-peels.php">Chemical Peel</a>
-                <span class="disabled-link">Collagen Stimulators</span>
-                <a href="cosmelan-peel.php">Cosmelan Peel</a>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <a href="dermaplanning.php">Dermaplaning</a>
-                <a href="hand-rejuvenation.php">Hand Rejuvenation</a>
-                <a href="led-light-therapy.php">LED Light Therapy</a>
-                <a href="microneedling.php">Microneedling</a>
-                <a href="morpheus8.php">Morpheus8</a>
-                <a href="skin-tightening.php">Skin Tightening</a>
-                <a href="forma.php">Forma</a>
-                <a href="skinpen.php">Skinpen</a>
-                <a href="rosacea-treatment.php">Rosacea Treatment</a>
-                <span class="disabled-link">GLO2FACIAL</span>
-                <a href="hydrafacial.php">Hydrafacial Syndeo</a>
-                <span class="disabled-link">Microchannel Infusion Therapy</span>
-                <span class="disabled-link">Melasma</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                LASER
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="acne-scar.php">Acne Scar Treatment</a>
-                <a href="aging-skin.php">Aging Skin</a>
-                <a href="hyperpigmentation.php">Hyperpigmentation</a>
-                <a href="laser-hair-reduction.php">Laser Hair Reduction</a>
-                <a href="moles-removal.php">Mole Removal</a>
-                <a href="pores.php">Pores</a>
-                <a href="stretch-marks.php">Stretch Marks</a>
-                <span class="disabled-link">Laser & Radio-frequency Resurfacing</span>
-                <a href="tattoo-removal.php">Tattoo Removal</a>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                FACE
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="aging-skin.php">Aging Skin</a>
-                <span class="disabled-link">Cheek Augmentation</span>
-                <span class="disabled-link">Facial Sculpting</span>
-                <a href="dermal-fillers.php">Dermal Fillers</a>
-                <span class="disabled-link">Lip Augmentation</span>
-                <span class="disabled-link">Juvederm</span>
-                <span class="disabled-link">Ultherapy</span>
-                <span class="disabled-link">Threads</span>
-                <span class="disabled-link">Lumecca</span>
-                <span class="disabled-link">Zo Professional Treatment</span>
-                <span class="disabled-link">Fire & Ice Facial Treatment</span>
-            </div>
-        </div>
-
-        <div class="smt-mobile-category-wrapper">
-            <button class="smt-mobile-category-button" onclick="smtToggleMobileCategory(this)">
-                BODY
-                <i class="fas fa-chevron-down"></i>
-            </button>
-            <div class="smt-mobile-category-services">
-                <a href="cellulite-reduction.php">Cellulite Reduction</a>
-                <a href="morpheus8.php">Morpheus8 Body</a>
-                <a href="forma-plus.php">Forma Plus</a>
-                <a href="breast-augmentation.php">Breast Augmentation</a>
-                <a href="hip-augmentation.php">Hip Augmentation</a>
-                <a href="non-surgical-butt-lift.php">Non-Surgical Butt Lift</a>
-                <a href="ballancer-pro.php">Ballancer Pro</a>
-                <a href="emerald-laser.php">Emerald Laser</a>
-                <a href="emsculpt-neo.php">Emsculpt Neo</a>
-            </div>
-        </div>
-    </div>
 
     <!--==============================
     Breadcumb
@@ -468,30 +377,57 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </section>
 
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"The team at SMT provided a comprehensive approach to my cellulite concerns.
-                                        After completing my treatment series, the improvement in my skin texture is
-                                        remarkable. Professional, effective, and worth every penny!"</p>
-                                    <div class="testimonial-author">
-                                        <h5>Anjali Singh</h5>
-                                        <span>Age 41, Kanpur</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"I was skeptical about cellulite treatments, but Dr. Shubhshree's approach was
-                                        scientific and thorough. The results exceeded my expectations - my skin is
-                                        firmer and the dimpling has significantly reduced."</p>
-                                    <div class="testimonial-author">
-                                        <h5>Ritu Agarwal</h5>
-                                        <span>Age 38, Allahabad</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <script>
+                        let currentSlide = 0;
+                        const totalSlides = 3;
+                        let autoSlideInterval;
+
+                        function updateSlider() {
+                            const track = document.getElementById('testimonialTrack');
+                            const indicators = document.querySelectorAll('.indicator');
+
+                            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+                            indicators.forEach((indicator, index) => {
+                                indicator.classList.toggle('active', index === currentSlide);
+                            });
+                        }
+
+                        function nextSlide() {
+                            currentSlide = (currentSlide + 1) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function prevSlide() {
+                            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function goToSlide(index) {
+                            currentSlide = index;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function startAutoSlide() {
+                            autoSlideInterval = setInterval(nextSlide, 5000);
+                        }
+
+                        function resetAutoSlide() {
+                            clearInterval(autoSlideInterval);
+                            startAutoSlide();
+                        }
+
+                        // Initialize auto-slide
+                        startAutoSlide();
+
+                        // Pause auto-slide on hover
+                        const slider = document.querySelector('.testimonial-slider');
+                        slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+                        slider.addEventListener('mouseleave', startAutoSlide);
+                    </script>
                     </div>
 
                     <h3 class="h4">Comprehensive Results</h3>

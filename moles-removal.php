@@ -18,11 +18,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <div class="breadcumb-wrapper" style="background-image: url('assets/img/banner/Laser/mole-removal.png');">
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Service <span class="inner-text">Details</span></h1>
+                <h1 class="breadcumb-title">Mole <span class="inner-text">Removal</span></h1>
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
                         <li><a href="/">Home</a></li>
-                        <li>Service <span class="inner-text">Details</span></li>
+                        <li>Mole <span class="inner-text">Removal</span></li>
                     </ul>
                 </div>
             </div>

@@ -376,30 +376,57 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </section>
 
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"I was skeptical about non-surgical body contouring, but Forma Plus exceeded my
-                                        expectations. My arms and thighs are visibly tighter and more toned. The
-                                        treatment felt like a warm massage - so relaxing!"</p>
-                                    <div class="testimonial-author">
-                                        <h5>Meera Gupta</h5>
-                                        <span>Age 45, Kanpur</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>"The team at SMT Skin Clinic created a perfect treatment plan for my needs. Forma
-                                        Plus helped me achieve the body confidence I was looking for. Professional
-                                        service and incredible results without any surgery!"</p>
-                                    <div class="testimonial-author">
-                                        <h5>Sunita Agarwal</h5>
-                                        <span>Age 38, Allahabad</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <script>
+                        let currentSlide = 0;
+                        const totalSlides = 3;
+                        let autoSlideInterval;
+
+                        function updateSlider() {
+                            const track = document.getElementById('testimonialTrack');
+                            const indicators = document.querySelectorAll('.indicator');
+
+                            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+                            indicators.forEach((indicator, index) => {
+                                indicator.classList.toggle('active', index === currentSlide);
+                            });
+                        }
+
+                        function nextSlide() {
+                            currentSlide = (currentSlide + 1) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function prevSlide() {
+                            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function goToSlide(index) {
+                            currentSlide = index;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function startAutoSlide() {
+                            autoSlideInterval = setInterval(nextSlide, 5000);
+                        }
+
+                        function resetAutoSlide() {
+                            clearInterval(autoSlideInterval);
+                            startAutoSlide();
+                        }
+
+                        // Initialize auto-slide
+                        startAutoSlide();
+
+                        // Pause auto-slide on hover
+                        const slider = document.querySelector('.testimonial-slider');
+                        slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+                        slider.addEventListener('mouseleave', startAutoSlide);
+                    </script>
                     </div>
 
                     <h3 class="h4">Progressive and Long-Lasting Results</h3>

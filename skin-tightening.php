@@ -358,43 +358,57 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </section>
 
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-                                </div>
-                            </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"I was skeptical about non-surgical treatments, but the
-                                        radiofrequency skin tightening gave me amazing results. My neck area is so much
-                                        firmer now!"</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Rajesh Kumar, Age 52</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-slide">
-                                <div class="testimonial-content p-4" style="background: #f8f9fa; border-radius: 10px;">
-                                    <p class="mb-3">"Professional staff and excellent results! The skin tightening
-                                        treatment helped me regain confidence. I highly recommend SMT Skin Clinic to
-                                        everyone."</p>
-                                    <div class="testimonial-author">
-                                        <strong>- Anita Verma, Age 38</strong>
-                                        <div class="rating mt-1">
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                            <i class="fas fa-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <script>
+                        let currentSlide = 0;
+                        const totalSlides = 3;
+                        let autoSlideInterval;
+
+                        function updateSlider() {
+                            const track = document.getElementById('testimonialTrack');
+                            const indicators = document.querySelectorAll('.indicator');
+
+                            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+                            indicators.forEach((indicator, index) => {
+                                indicator.classList.toggle('active', index === currentSlide);
+                            });
+                        }
+
+                        function nextSlide() {
+                            currentSlide = (currentSlide + 1) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function prevSlide() {
+                            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function goToSlide(index) {
+                            currentSlide = index;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function startAutoSlide() {
+                            autoSlideInterval = setInterval(nextSlide, 5000);
+                        }
+
+                        function resetAutoSlide() {
+                            clearInterval(autoSlideInterval);
+                            startAutoSlide();
+                        }
+
+                        // Initialize auto-slide
+                        startAutoSlide();
+
+                        // Pause auto-slide on hover
+                        const slider = document.querySelector('.testimonial-slider');
+                        slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+                        slider.addEventListener('mouseleave', startAutoSlide);
+                    </script>
                     </div>
 
                     <h3 class="h4">Treatment Process & Results</h3>
@@ -403,41 +417,25 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         30-60 minutes depending on the treatment area. Most patients see immediate tightening effects,
                         with optimal results appearing over 3-6 months as collagen continues to rebuild.</p>
                 </div>
-                <div class="col-lg-4">
-                    <!-- Added missing sidebar -->
-                    <aside class="sidebar-area">
-                        <div class="widget widget_categories   ">
-                            <h3 class="widget_title">Our Services</h3>
-                            <ul>
-                                <li>
-                                    <a href="service-details-chemical-peel.html">Chemical Peel</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-skin-tightening.html">Skin Tightening</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-dermal-fillers.html">Dermal Fillers</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-hydrafacial.html">HydraFacial</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-cosmelan-peel.html">Cosmelan Peel</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-led-light-therapy.html">LED Light Therapy</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-microneedling.html">Microneedling</a>
-                                </li>
+                <div class="col-lg-4 col-xl-auto">
+                    <aside>
+                        <div class="service-box">
+                            <h3 class="box-title">All Services</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="chemical-peels.php">Chemical Peel</a></li>
+                                <li><a href="skin-tightening.php">Skin Tightening</a></li>
+                                <li><a href="facial-sculpting.php">Facial Sculpting</a></li>
+                                <li><a href="hydrafacial.php">HydraFacial</a></li>
+                                <li><a href="cosmelan-peel.php">Cosmelan Peel</a></li>
+                                <li><a href="led-light-therapy.php">LED Light Therapy</a></li>
+                                <li><a href="microneedling.php">Microneedling</a></li>
                             </ul>
                         </div>
-
                         <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
                             <div class="widget-banner">
                                 <h4 class="title">Book Your Consultation</h4>
                                 <div class="banner-text">Get personalized treatment recommendations</div>
-                                <a href="contact.php" class="vs-btn">Book Now</a>
+                                <a href="contact.php" class="vs-btn mt-3">Book Now</a>
                             </div>
                         </div>
                     </aside>
