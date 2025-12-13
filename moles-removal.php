@@ -461,18 +461,26 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         slider.addEventListener('mouseleave', startAutoSlide);
                     </script>
 
-                    <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our mole removal process begins with a thorough clinical examination to assess the
-                        mole's
-                        characteristics and determine the most appropriate removal technique. The procedure is performed
-                        under local
-                        anesthesia with meticulous attention to cosmetic outcomes. Post-procedure care includes keeping
-                        the area clean,
-                        applying prescribed ointments, protecting from sun exposure, and avoiding activities that may
-                        stress the wound.
-                        Most patients heal completely within 2-4 weeks with minimal to no visible scarring when
-                        aftercare instructions
-                        are followed diligently.</p>
+                    <h3 class="h4">Mole Removal</h3>
+                    <p class="pb-1">Mole removal is a safe, precise dermatological procedure performed for
+                        cosmetic reasons or when a mole shows changes in size, shape, or color. Methods include
+                        shave removal, excision, or laser, depending on the mole type and location.</p>
+                    
+                    <h3 class="h5 mt-4 mb-2">When To Consider Mole Removal</h3>
+                    <ul class="list-unstyled ms-3">
+                        <li>• Cosmetic concerns or irritation from clothing</li>
+                        <li>• Recent changes in symmetry, borders, color, or size</li>
+                        <li>• Recommendations after clinical examination</li>
+                    </ul>
+                    
+                    <h3 class="h5 mt-4 mb-2">What To Expect</h3>
+                    <p class="mb-3">The area is cleansed and numbed locally. The procedure is quick, and
+                        aftercare involves keeping the site clean, using prescribed ointment, and protecting
+                        from sun exposure.</p>
+                    
+                    <h3 class="h5 mt-4 mb-2">Aftercare</h3>
+                    <p class="mb-0">Follow your clinician's instructions for wound care, avoid picking at scabs,
+                        and use SPF to minimize pigmentation at the site post-healing.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -501,40 +509,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </section>
 
-    <!-- Service Details for Mole Removal -->
-    <section class="vs-service service-extra-section pt-30 pb-30">
-        <div class="container">
-            <div class="row gx-50">
-                <div class="col-lg-12">
-                    <div class="service-extra__wrap">
-                        <div class="service-extra__media mb-20">
-                            <img src="https://source.unsplash.com/1200x800/?dermatology,mole,skin"
-                                alt="Dermatology mole removal procedure" class="w-100 rounded">
-                        </div>
-                        <div class="service-extra__content">
-                            <h2 class="h3 mb-3">Mole Removal</h2>
-                            <p class="mb-3">Mole removal is a safe, precise dermatological procedure performed for
-                                cosmetic reasons or when a mole shows changes in size, shape, or color. Methods include
-                                shave removal, excision, or laser, depending on the mole type and location.</p>
-                            <h3 class="h5 mt-4 mb-2">When To Consider Mole Removal</h3>
-                            <ul class="list-unstyled ms-3">
-                                <li>• Cosmetic concerns or irritation from clothing</li>
-                                <li>• Recent changes in symmetry, borders, color, or size</li>
-                                <li>• Recommendations after clinical examination</li>
-                            </ul>
-                            <h3 class="h5 mt-4 mb-2">What To Expect</h3>
-                            <p class="mb-3">The area is cleansed and numbed locally. The procedure is quick, and
-                                aftercare involves keeping the site clean, using prescribed ointment, and protecting
-                                from sun exposure.</p>
-                            <h3 class="h5 mt-4 mb-2">Aftercare</h3>
-                            <p class="mb-0">Follow your clinician’s instructions for wound care, avoid picking at scabs,
-                                and use SPF to minimize pigmentation at the site post-healing.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--==============================
+<!--==============================
             Footer Area
     ==============================-->
 

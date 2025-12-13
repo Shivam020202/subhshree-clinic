@@ -461,16 +461,22 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         slider.addEventListener('mouseleave', startAutoSlide);
                     </script>
 
-                    <h3 class="h4">Treatment Process & Aftercare</h3>
-                    <p class="pb-1">Our pore refinement treatment begins with a comprehensive skin analysis to identify
-                        contributing
-                        factors and customize your treatment protocol. We combine professional treatments with
-                        medical-grade homecare
-                        products for optimal results. Consistent SPF 50+ protection is essential, along with oil-control
-                        cleansing and
-                        non-comedogenic skincare. Most patients see progressive improvement over 2-3 months with
-                        continued refinement
-                        through regular maintenance treatments and proper daily skincare regimen.</p>
+                    <h3 class="h4">Enlarged Pores Treatment</h3>
+                    <p class="pb-1">Enlarged pores can be due to genetics, excess oil production, aging, or sun
+                        damage. Our tailored approach may include chemical peels, microneedling, lasers, and
+                        medical-grade skincare to refine skin texture and minimize the appearance of pores.</p>
+                    
+                    <h3 class="h5 mt-4 mb-2">How We Treat Pores</h3>
+                    <ul class="list-unstyled ms-3">
+                        <li>• Chemical peels to improve cell turnover</li>
+                        <li>• Microneedling for collagen stimulation</li>
+                        <li>• Laser therapies for skin tightening and clarity</li>
+                        <li>• Retinoids and oil-control regimens</li>
+                    </ul>
+                    
+                    <h3 class="h5 mt-4 mb-2">Results & Maintenance</h3>
+                    <p class="mb-0">Results are progressive and improve over multiple sessions. Daily SPF and
+                        consistent skincare are key to maintaining a smoother, refined look.</p>
                 </div>
                 <div class="col-lg-4 col-xl-auto">
                     <aside>
@@ -499,39 +505,6 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         </div>
     </section>
 
-    <!--==============================
-        Enlarged Pores Treatment Section
-    ==============================-->
-    <section class="vs-service service-extra-section pt-30 pb-30">
-        <div class="container">
-            <div class="row gx-50">
-                <div class="col-lg-12">
-                    <div class="service-extra__wrap">
-                        <div class="service-extra__media mb-20">
-                            <img src="https://source.unsplash.com/1200x800/?skin,pores,facial"
-                                alt="Treatment for enlarged pores at skin clinic" class="w-100 rounded">
-                        </div>
-                        <div class="service-extra__content">
-                            <h2 class="h3 mb-3">Enlarged Pores Treatment</h2>
-                            <p class="mb-3">Enlarged pores can be due to genetics, excess oil production, aging, or sun
-                                damage. Our tailored approach may include chemical peels, microneedling, lasers, and
-                                medical-grade skincare to refine skin texture and minimize the appearance of pores.</p>
-                            <h3 class="h5 mt-4 mb-2">How We Treat Pores</h3>
-                            <ul class="list-unstyled ms-3">
-                                <li>• Chemical peels to improve cell turnover</li>
-                                <li>• Microneedling for collagen stimulation</li>
-                                <li>• Laser therapies for skin tightening and clarity</li>
-                                <li>• Retinoids and oil-control regimens</li>
-                            </ul>
-                            <h3 class="h5 mt-4 mb-2">Results & Maintenance</h3>
-                            <p class="mb-0">Results are progressive and improve over multiple sessions. Daily SPF and
-                                consistent skincare are key to maintaining a smoother, refined look.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!--==============================
             Footer Area

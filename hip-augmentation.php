@@ -35,7 +35,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
     <section class=" space-top space-extra-bottom">
         <div class="container">
             <div class="row flex-row-reverse gx-50">
-                <div class="col-lg-8 col-xl mb-30 mb-lg-0">
+                <div class="col-lg-8 mb-30 mb-lg-0">
                     <!-- <div class="mb-30">
                         <div class="mega-hover"><img src="assets/img/service/s-d-1-1.jpg"
                                 alt="Hip Augmentation Treatment">
