@@ -56,7 +56,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         from sun exposure.</p>
                     
                     <h3 class="h5 mt-4 mb-2">Aftercare</h3>
-                    <p class="mb-0">Follow your clinician's instructions for wound care, avoid picking at scabs,
+                    <p class="pb-1">Follow your clinician's instructions for wound care, avoid picking at scabs,
                         and use SPF to minimize pigmentation at the site post-healing.</p>
                     <h2 class="text-uppercase">health by or through water</h2>
                     <p>We think your skin should look and refshed matter Nourish your outer inner beauty with our

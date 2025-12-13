@@ -53,7 +53,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </ul>
                     
                     <h3 class="h5 mt-4 mb-2">Results & Maintenance</h3>
-                    <p class="mb-0">Results are progressive and improve over multiple sessions. Daily SPF and
+                    <p class="pb-1">Results are progressive and improve over multiple sessions. Daily SPF and
                         consistent skincare are key to maintaining a smoother, refined look.</p>
                     <h2 class="text-uppercase">health by or through water</h2>
                     <p>We think your skin should look and refshed matter Nourish your outer inner beauty with our

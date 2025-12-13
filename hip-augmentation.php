@@ -127,13 +127,15 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                             </ul>
                         </div>
                     </div>
-                    <div class="mt-40 bc-30">
-                    <h3 class="h4">Natural and Long-Lasting Enhancement</h3>
-                    <p class="pb-1">Our hip augmentation treatments provide natural-looking enhancement that complements
-                        your body's proportions and enhances your natural curves. Results vary based on the technique
-                        used, with some providing immediate effects and others developing gradually over several months.
-                        Our experienced team ensures optimal placement and proportion to create beautiful, balanced
-                        curves that enhance your confidence and complement your overall silhouette.</p></div>
+
+                    <div class="mt-40 mb-30">
+                        <h3 class="h4">Natural and Long-Lasting Enhancement</h3>
+                        <p class="pb-1">Our hip augmentation treatments provide natural-looking enhancement that complements
+                            your body's proportions and enhances your natural curves. Results vary based on the technique
+                            used, with some providing immediate effects and others developing gradually over several months.
+                            Our experienced team ensures optimal placement and proportion to create beautiful, balanced
+                            curves that enhance your confidence and complement your overall silhouette.</p>
+                    </div>
 
                      <!-- Added testimonial slider section -->
                     <style>

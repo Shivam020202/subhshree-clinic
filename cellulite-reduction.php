@@ -127,14 +127,16 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                 <li><strong>Topical Therapies:</strong> Medical-grade creams to support skin health</li>
                             </ul>
                         </div>
-                       
                     </div>
-                    <div class ="mt-40 mb-30">  <h3 class="h4">Comprehensive Results</h3>
-                    <p class="pb-1">Our cellulite reduction treatments offer both immediate and progressive
-                        improvements. While some smoothing effects are visible after the first session, optimal results
-                        develop over 3-6 months as collagen remodeling occurs. The combination of technologies ensures
-                        comprehensive addressing of all cellulite factors for long-lasting, natural-looking improvements
-                        in skin texture and firmness.</p></div>
+
+                    <div class="mt-40 mb-30">
+                        <h3 class="h4">Comprehensive Results</h3>
+                        <p class="pb-1">Our cellulite reduction treatments offer both immediate and progressive
+                            improvements. While some smoothing effects are visible after the first session, optimal results
+                            develop over 3-6 months as collagen remodeling occurs. The combination of technologies ensures
+                            comprehensive addressing of all cellulite factors for long-lasting, natural-looking improvements
+                            in skin texture and firmness.</p>
+                    </div>
 
                      <!-- Added testimonial slider section -->
                     <style>
