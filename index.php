@@ -21,6 +21,8 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 statusBox.classList.remove('success', 'error');
                 statusBox.classList.add(type);
                 statusBox.style.display = 'block';
+                statusBox.setAttribute('tabindex', '-1');
+                statusBox.focus({ preventScroll: false });
             };
 
             const validateEmail = (email) => {
@@ -97,7 +99,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                     const data = await response.json();
 
                     if (data.success) {
-                        showStatus('Thank you! Your enquiry has been sent. Our team will contact you shortly.', 'success');
+                        showStatus('Thanks! We have received your request and will contact you shortly.', 'success');
                         form.reset();
                     } else {
                         throw new Error(data.message || 'Form submission failed.');
