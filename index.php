@@ -457,9 +457,9 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
             <form id="modalContactForm" class="smt-fresh-form" action="https://api.web3forms.com/submit" method="POST"
                 novalidate>
                 <input type="hidden" name="access_key" value="8896dde3-76b7-4bc0-8a62-68a07cb4a523">
-                <input type="hidden" name="subject" value="New Consultation Request - SMT Skin Clinic">
+                <!-- <input type="hidden" name="subject" value="New Consultation Request - SMT Skin Clinic"> -->
                 <input type="hidden" name="from_name" value="SMT Skin Clinic Website">
-                <input type="text" name="botcheck" class="hidden" style="display: none;">
+                <!-- <input type="text" name="botcheck" class="hidden" style="display: none;"> -->
 
                 <div class="smt-fresh-form__grid">
                     <label class="smt-fresh-field">
