@@ -48,9 +48,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 const email = form.email?.value.trim();
                 const primaryConcern = form.primary_concern?.value.trim();
                 const otherConcernField = form.concern_other_text;
-                const mathAnswer = form.math_answer?.value.trim();
-
-                if (!name || !age || !city || !mobile || !primaryConcern || !mathAnswer) {
+                if (!name || !age || !city || !mobile || !primaryConcern) {
                     showStatus('Please complete all required fields.', 'error');
                     return;
                 }
@@ -76,12 +74,6 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                 if (primaryConcern === 'Other' && otherConcernField && !otherConcernField.value.trim()) {
                     showStatus('Please specify your concern.', 'error');
                     otherConcernField.focus();
-                    return;
-                }
-
-                if (parseInt(mathAnswer, 10) !== 8) {
-                    showStatus('Please solve the math check correctly (5 + 3 = 8).', 'error');
-                    form.math_answer.focus();
                     return;
                 }
 
