@@ -24,13 +24,14 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
             };
 
             const validateEmail = (email) => {
+                if (!email) return true;
                 const pattern = /^[\w.-]+@[\w.-]+\.[A-Za-z]{2,}$/;
                 return pattern.test(email);
             };
 
-            const validatePhone = (phone) => {
-                const digits = phone.replace(/\D/g, '');
-                return digits.length >= 10 && digits.length <= 15;
+            const validateMobile = (mobile) => {
+                const digits = mobile.replace(/\D/g, '');
+                return /^\d{10}$/.test(digits);
             };
 
             form.addEventListener('submit', async (e) => {
@@ -38,14 +39,29 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
                 statusBox.style.display = 'none';
 
-                const name = form.name.value.trim();
-                const email = form.email.value.trim();
-                const phone = form.phone.value.trim();
-                const message = form.message.value.trim();
-                const mathAnswer = form.math_answer.value.trim();
+                const name = form.name?.value.trim();
+                const age = form.age?.value.trim();
+                const city = form.city_locality?.value.trim();
+                const mobile = form.mobile?.value.trim();
+                const email = form.email?.value.trim();
+                const primaryConcern = form.primary_concern?.value.trim();
+                const otherConcernField = form.concern_other_text;
+                const mathAnswer = form.math_answer?.value.trim();
 
-                if (!name || !email || !phone || !message || !mathAnswer) {
+                if (!name || !age || !city || !mobile || !primaryConcern || !mathAnswer) {
                     showStatus('Please complete all required fields.', 'error');
+                    return;
+                }
+
+                if (Number(age) < 16 || Number(age) > 80) {
+                    showStatus('Please enter a valid age (16-80).', 'error');
+                    form.age.focus();
+                    return;
+                }
+
+                if (!validateMobile(mobile)) {
+                    showStatus('Please enter a valid 10-digit mobile number.', 'error');
+                    form.mobile.focus();
                     return;
                 }
 
@@ -55,9 +71,9 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                     return;
                 }
 
-                if (!validatePhone(phone)) {
-                    showStatus('Please enter a valid phone number (10-15 digits).', 'error');
-                    form.phone.focus();
+                if (primaryConcern === 'Other' && otherConcernField && !otherConcernField.value.trim()) {
+                    showStatus('Please specify your concern.', 'error');
+                    otherConcernField.focus();
                     return;
                 }
 
@@ -95,8 +111,25 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
             });
         };
 
-        attachContactForm('homepageContactForm', 'contactStatus', 'contactSubmitBtn');
+        // Attach only to the modal form; the on-page form has its own handler.
         attachContactForm('modalContactForm', 'contactModalStatus', 'contactModalSubmitBtn');
+
+        const concernSelect = document.getElementById('modal_primary_concern');
+        const otherConcernWrapper = document.getElementById('modal_other_concern_wrapper');
+        const otherConcernInput = document.getElementById('modal_concern_other_text');
+
+        if (concernSelect && otherConcernWrapper && otherConcernInput) {
+            concernSelect.addEventListener('change', () => {
+                if (concernSelect.value === 'Other') {
+                    otherConcernWrapper.style.display = 'block';
+                    otherConcernInput.required = true;
+                } else {
+                    otherConcernWrapper.style.display = 'none';
+                    otherConcernInput.required = false;
+                    otherConcernInput.value = '';
+                }
+            });
+        }
 
         const modal = document.getElementById('contactModal');
         if (modal) {
@@ -405,34 +438,74 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
             <form id="modalContactForm" class="smt-fresh-form" action="https://api.web3forms.com/submit" method="POST"
                 novalidate>
                 <input type="hidden" name="access_key" value="8896dde3-76b7-4bc0-8a62-68a07cb4a523">
-                <input type="hidden" name="subject" value="New Message - SMT Skin Clinic Homepage">
+                <input type="hidden" name="subject" value="New Consultation Request - SMT Skin Clinic">
                 <input type="hidden" name="from_name" value="SMT Skin Clinic Website">
                 <input type="text" name="botcheck" class="hidden" style="display: none;">
 
                 <div class="smt-fresh-form__grid">
                     <label class="smt-fresh-field">
-                        <span class="smt-fresh-field__label">Your Name *</span>
+                        <span class="smt-fresh-field__label">Full Name *</span>
                         <input type="text" id="modal_contact_name" name="name" placeholder="Enter your full name"
-                            aria-label="Your Name" required>
+                            aria-label="Full Name" required minlength="3">
                     </label>
 
                     <label class="smt-fresh-field">
-                        <span class="smt-fresh-field__label">Your Email *</span>
-                        <input type="email" id="modal_contact_email" name="email" placeholder="email@example.com"
-                            aria-label="Your Email" required>
+                        <span class="smt-fresh-field__label">Age *</span>
+                        <input type="number" id="modal_age" name="age" placeholder="Your age" aria-label="Age" required
+                            min="16" max="80">
                     </label>
 
                     <label class="smt-fresh-field">
-                        <span class="smt-fresh-field__label">Your Phone Number *</span>
-                        <input type="tel" id="modal_contact_phone" name="phone" placeholder="Include country code"
-                            aria-label="Your Phone Number" required>
+                        <span class="smt-fresh-field__label">Gender (Optional)</span>
+                        <select id="modal_gender" name="gender" aria-label="Gender">
+                            <option value="">Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                            <option value="Other">Other</option>
+                        </select>
                     </label>
 
                     <label class="smt-fresh-field smt-fresh-field--full">
-                        <span class="smt-fresh-field__label">Your Message *</span>
-                        <textarea id="modal_contact_message" name="message" rows="4"
-                            placeholder="Share your skin concerns or the results you want" aria-label="Your Message"
-                            required></textarea>
+                        <span class="smt-fresh-field__label">City & Locality *</span>
+                        <input type="text" id="modal_city_locality" name="city_locality"
+                            placeholder="e.g., Lucknow - Gomti Nagar" aria-label="City and locality" required>
+                    </label>
+
+                    <label class="smt-fresh-field">
+                        <span class="smt-fresh-field__label">Mobile Number * (10 digits)</span>
+                        <input type="tel" id="modal_mobile" name="mobile" placeholder="10-digit mobile"
+                            aria-label="Mobile number" required pattern="[6-9]\d{9}"
+                            title="Enter a valid 10-digit Indian mobile number">
+                    </label>
+
+                    <label class="smt-fresh-field">
+                        <span class="smt-fresh-field__label">Email (Optional)</span>
+                        <input type="email" id="modal_email" name="email" placeholder="email@example.com"
+                            aria-label="Email">
+                    </label>
+
+                    <label class="smt-fresh-field smt-fresh-field--full">
+                        <span class="smt-fresh-field__label">What brings you to SMT Skin Clinic? *</span>
+                        <select id="modal_primary_concern" name="primary_concern" aria-label="Primary concern" required>
+                            <option value="">Select a concern</option>
+                            <option value="Acne or acne scars">Acne or acne scars</option>
+                            <option value="Anti-aging / fine lines & wrinkles">Anti-aging / fine lines & wrinkles
+                            </option>
+                            <option value="Pigmentation / uneven skin tone">Pigmentation / uneven skin tone</option>
+                            <option value="Hair fall or hair thinning">Hair fall or hair thinning</option>
+                            <option value="Laser hair removal">Laser hair removal</option>
+                            <option value="Body contouring / weight loss">Body contouring / weight loss</option>
+                            <option value="Skin glow / maintenance">Skin glow / maintenance</option>
+                            <option value="Other">Other (Please specify below)</option>
+                        </select>
+                    </label>
+
+                    <label class="smt-fresh-field smt-fresh-field--full" id="modal_other_concern_wrapper"
+                        style="display:none;">
+                        <span class="smt-fresh-field__label">Please specify your concern *</span>
+                        <input type="text" id="modal_concern_other_text" name="concern_other_text"
+                            placeholder="Describe your concern" aria-label="Other concern">
                     </label>
 
                     <label class="smt-fresh-field">

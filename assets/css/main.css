@@ -457,8 +457,9 @@
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
-.smt-fresh-field {
-  display: flex;
+.smt-fresh-field input,
+.smt-fresh-field textarea,
+.smt-fresh-field select {
   flex-direction: column;
   gap: 8px;
   padding: 14px;
@@ -469,8 +470,9 @@
 }
 
 .smt-fresh-field--full {
-  grid-column: 1 / -1;
-}
+.smt-fresh-field input:focus,
+.smt-fresh-field textarea:focus,
+.smt-fresh-field select:focus {
 
 .smt-fresh-field__label {
   font-size: 0.92rem;
