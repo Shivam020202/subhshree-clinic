@@ -100,7 +100,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 
         const modal = document.getElementById('contactModal');
         if (modal) {
-            const closeBtn = modal.querySelector('.smt-modal__close');
+            const closeBtn = modal.querySelector('.smt-fresh-modal__close');
             let dismissed = false;
 
             const openModal = () => {
@@ -391,76 +391,62 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     </section>
 
     <!-- Lead Capture Modal -->
-    <div class="smt-modal-backdrop" id="contactModal" aria-hidden="true">
-        <div class="smt-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
-            <button class="smt-modal__close" type="button" aria-label="Close contact form">
+    <div class="smt-fresh-modal" id="contactModal" aria-hidden="true">
+        <div class="smt-fresh-modal__panel" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+            <button class="smt-fresh-modal__close" type="button" aria-label="Close contact form">
                 <i class="fal fa-times"></i>
             </button>
-            <div class="smt-modal__header">
-                <span class="sec-subtitle2">Send Us a Message</span>
-                <h2 class="sec-title text-uppercase" id="contactModalTitle">We’re here to help</h2>
-                <p class="smt-modal__lead">Fill out the form below, and our dermatology experts will get in touch with
-                    you shortly.</p>
+            <div class="smt-fresh-modal__header">
+                <p class="smt-fresh-modal__eyebrow">Send Us a Message</p>
+                <h2 class="smt-fresh-modal__title" id="contactModalTitle">We’re Here to Help</h2>
+                <p class="smt-fresh-modal__subtitle">Tell us about your skin goals and we’ll reach out with tailored
+                    next steps.</p>
             </div>
-            <div class="smt-modal__body">
-                <form id="modalContactForm" class="form-style4 smt-contact-form"
-                    action="https://api.web3forms.com/submit" method="POST" novalidate>
-                    <input type="hidden" name="access_key" value="8896dde3-76b7-4bc0-8a62-68a07cb4a523">
-                    <input type="hidden" name="subject" value="New Message - SMT Skin Clinic Homepage">
-                    <input type="hidden" name="from_name" value="SMT Skin Clinic Website">
-                    <input type="text" name="botcheck" class="hidden" style="display: none;">
+            <form id="modalContactForm" class="smt-fresh-form" action="https://api.web3forms.com/submit" method="POST"
+                novalidate>
+                <input type="hidden" name="access_key" value="8896dde3-76b7-4bc0-8a62-68a07cb4a523">
+                <input type="hidden" name="subject" value="New Message - SMT Skin Clinic Homepage">
+                <input type="hidden" name="from_name" value="SMT Skin Clinic Website">
+                <input type="text" name="botcheck" class="hidden" style="display: none;">
 
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="modal_contact_name">Your Name *</label>
-                                <input type="text" id="modal_contact_name" name="name" placeholder="Your Name"
-                                    aria-label="Your Name" required>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="modal_contact_email">Your Email *</label>
-                                <input type="email" id="modal_contact_email" name="email" placeholder="Your Email"
-                                    aria-label="Your Email" required>
-                            </div>
-                        </div>
-                    </div>
+                <div class="smt-fresh-form__grid">
+                    <label class="smt-fresh-field">
+                        <span class="smt-fresh-field__label">Your Name *</span>
+                        <input type="text" id="modal_contact_name" name="name" placeholder="Enter your full name"
+                            aria-label="Your Name" required>
+                    </label>
 
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="modal_contact_phone">Your Phone Number *</label>
-                                <input type="tel" id="modal_contact_phone" name="phone" placeholder="Your Phone Number"
-                                    aria-label="Your Phone Number" required>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="modal_contact_message">Your Message *</label>
-                                <textarea id="modal_contact_message" name="message" rows="4"
-                                    placeholder="Tell us about your skin concerns or questions"
-                                    aria-label="Your Message" required></textarea>
-                            </div>
-                        </div>
-                    </div>
+                    <label class="smt-fresh-field">
+                        <span class="smt-fresh-field__label">Your Email *</span>
+                        <input type="email" id="modal_contact_email" name="email" placeholder="email@example.com"
+                            aria-label="Your Email" required>
+                    </label>
 
-                    <div class="row g-3 align-items-end">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="modal_math_answer">What is 5 + 3? *</label>
-                                <input type="number" id="modal_math_answer" name="math_answer"
-                                    placeholder="Enter the answer" aria-label="Enter the answer" required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-md-end">
-                            <button class="vs-btn" type="submit" id="contactModalSubmitBtn">Send Enquiry</button>
-                        </div>
-                    </div>
+                    <label class="smt-fresh-field">
+                        <span class="smt-fresh-field__label">Your Phone Number *</span>
+                        <input type="tel" id="modal_contact_phone" name="phone" placeholder="Include country code"
+                            aria-label="Your Phone Number" required>
+                    </label>
 
-                    <div id="contactModalStatus" class="form-status" role="alert" aria-live="polite"></div>
-                </form>
-            </div>
+                    <label class="smt-fresh-field smt-fresh-field--full">
+                        <span class="smt-fresh-field__label">Your Message *</span>
+                        <textarea id="modal_contact_message" name="message" rows="4"
+                            placeholder="Share your skin concerns or the results you want" aria-label="Your Message"
+                            required></textarea>
+                    </label>
+
+                    <label class="smt-fresh-field">
+                        <span class="smt-fresh-field__label">Security Check: 5 + 3 *</span>
+                        <input type="number" id="modal_math_answer" name="math_answer" placeholder="Enter the answer"
+                            aria-label="Enter the answer" required>
+                    </label>
+                </div>
+
+                <div class="smt-fresh-form__actions">
+                    <div id="contactModalStatus" class="smt-fresh-status" role="alert" aria-live="polite"></div>
+                    <button class="smt-fresh-button" type="submit" id="contactModalSubmitBtn">Send Enquiry</button>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -1292,134 +1278,6 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                                 // Re-enable submit button
                                 submitBtn.disabled = false;
                                 submitBtn.textContent = 'Book Consultation';
-                            }
-                        });
-                    </script>
-                    <script>
-                        document.addEventListener('DOMContentLoaded', () => {
-                            const modal = document.getElementById('contactModal');
-                            const modalForm = document.getElementById('modalContactForm');
-                            const modalStatus = document.getElementById('contactModalStatus');
-                            const modalSubmitBtn = document.getElementById('contactModalSubmitBtn');
-                            const modalClose = modal ? modal.querySelector('.smt-modal__close') : null;
-                            let modalDismissed = false;
-
-                            const validateEmail = (email) => {
-                                const pattern = /^[\w.-]+@[\w.-]+\.[A-Za-z]{2,}$/;
-                                return pattern.test(email);
-                            };
-
-                            const validatePhone = (phone) => {
-                                const digits = phone.replace(/\D/g, '');
-                                return digits.length >= 10 && digits.length <= 15;
-                            };
-
-                            const showStatus = (message, type) => {
-                                if (!modalStatus) return;
-                                modalStatus.textContent = message;
-                                modalStatus.classList.remove('success', 'error');
-                                modalStatus.classList.add(type);
-                                modalStatus.style.display = 'block';
-                            };
-
-                            const openModal = () => {
-                                if (!modal || modalDismissed) return;
-                                modal.classList.add('is-open');
-                                modal.setAttribute('aria-hidden', 'false');
-                                document.body.classList.add('modal-open');
-                                const firstField = modal.querySelector('input, textarea');
-                                if (firstField) {
-                                    firstField.focus();
-                                }
-                            };
-
-                            const closeModal = () => {
-                                if (!modal) return;
-                                modal.classList.remove('is-open');
-                                modal.setAttribute('aria-hidden', 'true');
-                                document.body.classList.remove('modal-open');
-                                modalDismissed = true;
-                            };
-
-                            if (modal) {
-                                setTimeout(openModal, 5000);
-
-                                modal.addEventListener('click', (event) => {
-                                    if (event.target === modal) {
-                                        closeModal();
-                                    }
-                                });
-
-                                modalClose?.addEventListener('click', closeModal);
-
-                                document.addEventListener('keydown', (event) => {
-                                    if (event.key === 'Escape' && modal.classList.contains('is-open')) {
-                                        closeModal();
-                                    }
-                                });
-                            }
-
-                            if (modalForm && modalStatus && modalSubmitBtn) {
-                                modalForm.addEventListener('submit', async (e) => {
-                                    e.preventDefault();
-
-                                    modalStatus.style.display = 'none';
-
-                                    const name = modalForm.name.value.trim();
-                                    const email = modalForm.email.value.trim();
-                                    const phone = modalForm.phone.value.trim();
-                                    const message = modalForm.message.value.trim();
-                                    const mathAnswer = modalForm.math_answer.value.trim();
-
-                                    if (!name || !email || !phone || !message || !mathAnswer) {
-                                        showStatus('Please complete all required fields.', 'error');
-                                        return;
-                                    }
-
-                                    if (!validateEmail(email)) {
-                                        showStatus('Please enter a valid email address.', 'error');
-                                        modalForm.email.focus();
-                                        return;
-                                    }
-
-                                    if (!validatePhone(phone)) {
-                                        showStatus('Please enter a valid phone number (10-15 digits).', 'error');
-                                        modalForm.phone.focus();
-                                        return;
-                                    }
-
-                                    if (parseInt(mathAnswer, 10) !== 8) {
-                                        showStatus('Please solve the math check correctly (5 + 3 = 8).', 'error');
-                                        modalForm.math_answer.focus();
-                                        return;
-                                    }
-
-                                    modalSubmitBtn.disabled = true;
-                                    modalSubmitBtn.textContent = 'Sending...';
-
-                                    const formData = new FormData(modalForm);
-
-                                    try {
-                                        const response = await fetch(modalForm.action, {
-                                            method: 'POST',
-                                            body: formData
-                                        });
-
-                                        const data = await response.json();
-
-                                        if (data.success) {
-                                            showStatus('Thank you! Your enquiry has been sent. Our team will contact you shortly.', 'success');
-                                            modalForm.reset();
-                                        } else {
-                                            throw new Error(data.message || 'Form submission failed.');
-                                        }
-                                    } catch (error) {
-                                        showStatus('Oops! Something went wrong. Please try again or call us at +91 88648 77133.', 'error');
-                                    } finally {
-                                        modalSubmitBtn.disabled = false;
-                                        modalSubmitBtn.textContent = 'Send Enquiry';
-                                    }
-                                });
                             }
                         });
                     </script>
