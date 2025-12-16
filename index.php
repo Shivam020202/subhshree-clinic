@@ -176,14 +176,14 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
 <style>
     .quiz-cta-section {
         position: relative;
-        margin: 38px 0;
+        /* margin: 38px 0; */
         padding: 18px 0;
         background: linear-gradient(135deg, rgba(12, 19, 34, 0.94), rgba(26, 24, 27, 0.94)),
             radial-gradient(circle at 18% 20%, rgba(201, 171, 129, 0.18), transparent 32%),
             radial-gradient(circle at 82% 26%, rgba(87, 124, 170, 0.18), transparent 30%);
         color: #fff;
         overflow: hidden;
-        border-radius: 14px;
+        /* border-radius: 14px; */
         box-shadow: 0 20px 42px rgba(0, 0, 0, 0.18);
         isolation: isolate;
     }
