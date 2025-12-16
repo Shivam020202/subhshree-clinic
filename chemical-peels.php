@@ -445,30 +445,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         results. Most patients experience mild peeling for 3-7 days, revealing fresh, rejuvenated skin
                         underneath.</p>
                 </div>
-                <div class="col-lg-4 col-xl-auto ">
-                    <aside>
-                        <div class="service-box">
-                            <h3 class="box-title">All Services</h3>
-                            <ul class="list-unstyled">
+                
+                <?php include 'service-sidebar.php'; ?>
 
-                                <li><a href="service-details.html">Chemical Peels</a></li>
-                                <li><a href="service-details.html">Laser Hair Removal</a></li>
-                                <li><a href="service-details.html">Acne Treatment</a></li>
-                                <li><a href="service-details.html">Anti-Aging Treatments</a></li>
-                                <li><a href="service-details.html">Skin Rejuvenation</a></li>
-                                <li><a href="service-details.html">Pigmentation Treatment</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                            <div class="widget-banner">
-                                <h4 class="title">Book Your Consultation</h4>
-                                <div class="banner-text">Get personalized treatment recommendations</div>
-                                <a href="contact.php" class="vs-btn mt-3">Book Now</a>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
             </div>
         </div>
     </section>

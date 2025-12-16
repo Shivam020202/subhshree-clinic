@@ -70,20 +70,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         veniam. Lorem ipsum dolor sit amet, consectetur adipiscing Curabitur ut iaculis arcu. Proin
                         tincidunt, ipsum nec vehicula euismod, neque nibh pretium.</p>
                 </div>
-                <div class="col-lg-4 col-xl-auto">
-                    <aside>
-                        <div class="service-box">
-                            <h3 class="box-title">All Services</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="service-details.html">Health & Vitality</a></li>
-                                <li><a href="service-details.html">Custom Makup Max</a></li>
-                                <li><a href="service-details.html">Aenean et aliquet risus.</a></li>
-                                <li><a href="service-details.html">Pellentesque efficitur orci</a></li>
-                            </ul>
-                        </div>
-                        
-                    </aside>
-                </div>
+                
+                <?php include 'service-sidebar.php'; ?>
+
             </div>
         </div>
     </section><!--==============================
@@ -97,3 +86,4 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 </body>
 
 </html>
+

@@ -225,7 +225,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </div>
 
 
-                     <!-- Added testimonial slider section -->
+                    <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;
@@ -479,45 +479,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         visible immediately. We provide thorough aftercare guidance and schedule follow-ups to ensure
                         your results last and you stay satisfied.</p>
                 </div>
-                <div class="col-lg-4">
-                    <!-- Updated sidebar for cheek augmentation -->
-                    <aside class="sidebar-area">
-                        <div class="widget widget_categories   ">
-                            <h3 class="widget_title">Our Services</h3>
-                            <ul>
-                                <li>
-                                    <a href="service-details-chemical-peel.html">Chemical Peel</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-skin-tightening.html">Skin Tightening</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-cheek-augmentation.html">Cheek Augmentation</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-hydrafacial.html">HydraFacial</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-cosmelan-peel.html">Cosmelan Peel</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-led-light-therapy.html">LED Light Therapy</a>
-                                </li>
-                                <li>
-                                    <a href="service-details-microneedling.html">Microneedling</a>
-                                </li>
-                            </ul>
-                        </div>
 
-                        <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                            <div class="widget-banner">
-                                <h4 class="title">Book Your Consultation</h4>
-                                <div class="banner-text">Get personalized treatment recommendations</div>
-                                <a href="contact.php" class="vs-btn">Book Now</a>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
+                <?php include 'service-sidebar.php'; ?>
+
             </div>
         </div>
     </section>

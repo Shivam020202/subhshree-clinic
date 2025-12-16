@@ -159,7 +159,7 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
                         </ul>
                     </div>
 
-                     <!-- Added testimonial slider section -->
+                    <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;
@@ -415,29 +415,9 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
                         aftercare instructions and follow-up appointments to ensure optimal healing and satisfaction
                         with your enhanced lips.</p>
                 </div>
-                <div class="col-lg-4">
-                    <aside class="sidebar-area">
-                        <div class="widget widget_categories   ">
-                            <h3 class="widget_title">Our Services</h3>
-                            <ul>
-                                <li><a href="chemical-peels.php">Chemical Peel</a></li>
-                                <li><a href="skin-tightening.php">Skin Tightening</a></li>
-                                <li><a href="facial-sculpting.php">Facial Sculpting</a></li>
-                                <li><a href="hydrafacial.php">HydraFacial</a></li>
-                                <li><a href="cosmelan-peel.php">Cosmelan Peel</a></li>
-                                <li><a href="led-light-therapy.php">LED Light Therapy</a></li>
-                                <li><a href="microneedling.php">Microneedling</a></li>
-                            </ul>
-                        </div>
-                        <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                            <div class="widget-banner">
-                                <h4 class="title">Book Your Consultation</h4>
-                                <div class="banner-text">Get personalized treatment recommendations</div>
-                                <a href="contact.php" class="vs-btn mt-3">Book Now</a>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
+
+                <?php include 'service-sidebar.php'; ?>
+
             </div>
         </div>
     </section>

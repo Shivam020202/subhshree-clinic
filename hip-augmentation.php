@@ -130,14 +130,17 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
 
                     <div class="mt-40 mb-30">
                         <h3 class="h4">Natural and Long-Lasting Enhancement</h3>
-                        <p class="pb-1">Our hip augmentation treatments provide natural-looking enhancement that complements
-                            your body's proportions and enhances your natural curves. Results vary based on the technique
-                            used, with some providing immediate effects and others developing gradually over several months.
+                        <p class="pb-1">Our hip augmentation treatments provide natural-looking enhancement that
+                            complements
+                            your body's proportions and enhances your natural curves. Results vary based on the
+                            technique
+                            used, with some providing immediate effects and others developing gradually over several
+                            months.
                             Our experienced team ensures optimal placement and proportion to create beautiful, balanced
                             curves that enhance your confidence and complement your overall silhouette.</p>
                     </div>
 
-                     <!-- Added testimonial slider section -->
+                    <!-- Added testimonial slider section -->
                     <style>
                         .testimonial-section {
                             padding: 60px 0;
@@ -437,28 +440,9 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                         slider.addEventListener('mouseleave', startAutoSlide);
                     </script>
                 </div>
-                <div class="col-lg-4 col-xl-auto">
-                    <aside >
-                        <div class="service-box">
-                            <h3 class="box-title">All Services</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="chemical-peels.php">Chemical Peels</a></li>
-                                <li><a href="laser-hair-reduction.php">Laser Hair Removal</a></li>
-                                <li><a href="acne-scar.php">Acne Treatment</a></li>
-                                <li><a href="aging-skin.php">Anti-Aging Treatments</a></li>
-                                <li><a href="skin-tightening.php">Skin Rejuvenation</a></li>
-                                <li><a href="hyperpigmentation.php">Pigmentation Treatment</a></li>
-                            </ul>
-                        </div>
-                        <div class="widget widget_banner   " data-bg-src="assets/img/widget/widget-banner-bg.jpg">
-                            <div class="widget-banner">
-                                <h4 class="title">Book Your Consultation</h4>
-                                <div class="banner-text">Get personalized treatment recommendations</div>
-                                <a href="contact.php" class="vs-btn mt-3">Book Now</a>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
+
+                <?php include 'service-sidebar.php'; ?>
+
             </div>
         </div>
     </section>
