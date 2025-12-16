@@ -38,11 +38,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
-                    <div class="mb-30">
+                    <!-- <div class="mb-30">
                         <div class="mega-hover"><img
                                 src="https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Dermal Filler Treatment"></div>
-                    </div>
+                    </div> -->
 
                     <!-- Added dermal fillers specific content -->
                     <h2 class="text-uppercase">Premium Dermal Filler Treatments</h2>

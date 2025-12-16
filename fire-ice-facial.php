@@ -129,11 +129,11 @@ $page_keywords = "fire and ice facial, resurfacing facial, red carpet facial, sk
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
-                    <div class="mb-30">
+                    <!-- <div class="mb-30">
                         <div class="mega-hover"><img
                                 src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Fire & Ice Facial Treatment"></div>
-                    </div>
+                    </div> -->
 
                     <h2 class="text-uppercase">The Red Carpet Fire & Ice Facial</h2>
                     <p>Experience the iconic Fire & Ice Facial at SMT Skin Clinic - the celebrity-favorite treatment

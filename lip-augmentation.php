@@ -129,11 +129,11 @@ $page_keywords = "lip augmentation, lip fillers, lip enhancement, plump lips, li
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
-                    <div class="mb-30">
+                    <!-- <div class="mb-30">
                         <div class="mega-hover"><img
                                 src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Lip Augmentation Treatment"></div>
-                    </div>
+                    </div> -->
 
                     <h2 class="text-uppercase">Premium Lip Augmentation Treatments</h2>
                     <p>Achieve fuller, more defined lips with our premium lip augmentation treatments at SMT

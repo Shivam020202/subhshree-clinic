@@ -128,11 +128,11 @@ $page_keywords = "juvederm, dermal fillers, hyaluronic acid, facial rejuvenation
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
-                    <div class="mb-30">
+                    <!-- <div class="mb-30">
                         <div class="mega-hover"><img
                                 src="https://images.pexels.com/photos/7581580/pexels-photo-7581580.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Juvederm Treatment"></div>
-                    </div>
+                    </div> -->
 
                     <h2 class="text-uppercase">Premium Juvederm Filler Treatments</h2>
                     <p>Experience the world's leading dermal filler brand at SMT Skin Clinic. Juvederm is a collection

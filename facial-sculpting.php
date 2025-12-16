@@ -139,11 +139,11 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
         <div class="container">
             <div class="row flex-row-reverse gx-50">
                 <div class="col-lg-8 col-xl mb-30 mb-lg-0">
-                    <div class="mb-30">
+                    <!-- <div class="mb-30">
                         <div class="mega-hover"><img
                                 src="https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=895&h=499&fit=crop"
                                 alt="Facial Sculpting Treatment"></div>
-                    </div>
+                    </div> -->
 
 
                     <!-- Facial Sculpting specific content -->
