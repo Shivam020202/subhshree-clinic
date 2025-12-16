@@ -960,220 +960,315 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
     </section>
 
     <!-- Contact Area -->
-    <section class="vs-cart-wrapper  ">
+    <section class="vs-cart-wrapper contact-section-modern">
         <div class="parallax" data-parallax-image="assets/img/home/contact-bg.webp"></div>
         <div class="container">
-            <div class="row gx-0">
-                <div class="col-md-auto wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="info-box" data-overlay="theme" data-opacity="8">
-                        <h3 class="sec-title text-uppercase">Our Timing</h3>
-                        <div class="info-item">
-                            <h4 class="info-title">MONDAY - SATURDAY</h4>
-                            <p class="info-text">11:00 - 19:00</p>
+            <style>
+                .contact-card {
+                    background: #fff;
+                    border-radius: 14px;
+                    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+                    padding: 40px;
+                    position: relative;
+                    z-index: 2;
+                }
+
+                .contact-card::after {
+                    content: "";
+                    position: absolute;
+                    inset: 0;
+                    border-radius: 14px;
+                    background: linear-gradient(135deg, rgba(238, 240, 255, 0.4), rgba(255, 245, 239, 0.55));
+                    z-index: -1;
+                }
+
+                .smt-contact-form .form-group,
+                .smt-contact-form .form-row {
+                    margin-bottom: 16px;
+                }
+
+                .smt-contact-form input,
+                .smt-contact-form textarea {
+                    width: 100%;
+                    border: 1px solid #e2e2e2;
+                    border-radius: 10px;
+                    padding: 12px 14px;
+                    font-size: 15px;
+                    transition: all 0.2s ease;
+                    background: #fff;
+                }
+
+                .smt-contact-form input:focus,
+                .smt-contact-form textarea:focus {
+                    border-color: #c49b5a;
+                    box-shadow: 0 0 0 3px rgba(196, 155, 90, 0.15);
+                    outline: none;
+                }
+
+                .smt-contact-form label {
+                    font-weight: 600;
+                    margin-bottom: 8px;
+                    display: block;
+                    color: #1f1f1f;
+                }
+
+                .form-status {
+                    display: none;
+                    margin-top: 12px;
+                    padding: 12px 14px;
+                    border-radius: 10px;
+                    font-weight: 600;
+                }
+
+                .form-status.success {
+                    background: #e8f5e9;
+                    color: #256029;
+                    border: 1px solid #c8e6c9;
+                }
+
+                .form-status.error {
+                    background: #fdecea;
+                    color: #c62828;
+                    border: 1px solid #f5c6cb;
+                }
+
+                .contact-direct-card {
+                    background: #0f1b2c;
+                    color: #f3f6fb;
+                    border-radius: 12px;
+                    padding: 26px;
+                    height: 100%;
+                    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+                }
+
+                .contact-direct-card h3 {
+                    font-size: 22px;
+                    margin-bottom: 18px;
+                    letter-spacing: 0.02em;
+                }
+
+                .contact-direct-card .contact-item {
+                    display: grid;
+                    grid-template-columns: 44px 1fr;
+                    gap: 12px;
+                    align-items: center;
+                    padding: 12px 0;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+                }
+
+                .contact-direct-card .contact-item:last-child {
+                    border-bottom: none;
+                }
+
+                .contact-direct-card .icon-wrap {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: rgba(196, 155, 90, 0.15);
+                    color: #f6d48a;
+                    font-size: 18px;
+                }
+
+                .contact-direct-card a {
+                    color: #f6d48a;
+                    text-decoration: none;
+                    font-weight: 600;
+                }
+
+                .contact-direct-card a:hover {
+                    text-decoration: underline;
+                }
+
+                @media (max-width: 991px) {
+                    .contact-card {
+                        padding: 28px;
+                    }
+                }
+
+                @media (max-width: 767px) {
+                    .contact-card {
+                        padding: 24px;
+                    }
+
+                    .contact-direct-card {
+                        margin-top: 12px;
+                    }
+                }
+            </style>
+
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-11">
+                    <div class="contact-card">
+                        <div class="row gy-4 align-items-start">
+                            <div class="col-lg-7">
+                                <span class="sec-subtitle2">Send Us a Message</span>
+                                <h2 class="sec-title text-uppercase">Fill out the form below</h2>
+                                <p class="mb-4">and our dermatology experts will get in touch with you shortly.</p>
+
+                                <form id="homepageContactForm" class="smt-contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+                                    <input type="hidden" name="access_key" value="8896dde3-76b7-4bc0-8a62-68a07cb4a523">
+                                    <input type="hidden" name="subject" value="New Message - SMT Skin Clinic Homepage">
+                                    <input type="hidden" name="from_name" value="SMT Skin Clinic Website">
+                                    <input type="text" name="botcheck" class="hidden" style="display: none;">
+
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="contact_name">Your Name *</label>
+                                                <input type="text" id="contact_name" name="name" placeholder="Your Name" aria-label="Your Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="contact_email">Your Email *</label>
+                                                <input type="email" id="contact_email" name="email" placeholder="Your Email" aria-label="Your Email" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="contact_phone">Your Phone Number *</label>
+                                                <input type="tel" id="contact_phone" name="phone" placeholder="Your Phone Number" aria-label="Your Phone Number" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="contact_message">Your Message *</label>
+                                                <textarea id="contact_message" name="message" rows="4" placeholder="Tell us about your skin concerns or questions" aria-label="Your Message" required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-3 align-items-end">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="math_answer">What is 5 + 3? *</label>
+                                                <input type="number" id="math_answer" name="math_answer" placeholder="Enter the answer" aria-label="Enter the answer" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 text-md-end">
+                                            <button class="vs-btn" type="submit" id="contactSubmitBtn">Send Enquiry</button>
+                                        </div>
+                                    </div>
+
+                                    <div id="contactStatus" class="form-status" role="alert" aria-live="polite"></div>
+                                </form>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="contact-direct-card">
+                                    <h3>Reach Out Directly</h3>
+                                    <div class="contact-item">
+                                        <span class="icon-wrap"><i class="fal fa-envelope"></i></span>
+                                        <div>
+                                            <p class="mb-1">Email Us</p>
+                                            <p class="mb-0">Feel free to email us at <a href="mailto:smtskinclinic@gmail.com">smtskinclinic@gmail.com</a> for assistance.</p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="icon-wrap"><i class="fal fa-phone"></i></span>
+                                        <div>
+                                            <p class="mb-1">Call Us</p>
+                                            <p class="mb-0">For appointments or queries about skin treatments, call us at <a href="tel:+918864877133">+91 88648 77133</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="info-item">
-                            <h4 class="info-title"> SUNDAY</h4>
-                            <p class="info-text mb-2">Appointment Only</p><a href="/contact.php"
-                                class="btn btn-outline-light btn-sm btn-appointment d-inline-flex align-items-center"
-                                aria-label="Make an Appointment">
-                                <i class="far fa-calendar-alt me-2" aria-hidden="true"></i>
-                                Make an Appointment
-                            </a>
-                        </div>
-                        <a href="tel:+918864877133" class="vs-btn style6"><i class="fal fa-headset"></i>+91 88648
-                            77133</a>
                     </div>
-                </div>
-                <div class="col wow fadeInUp" data-wow-delay="0.3s">
-                    <form action="https://api.web3forms.com/submit" method="POST" class="form-style4" id="contactForm">
-                        <!-- Web3Forms Access Key -->
-                        <input type="hidden" name="access_key" value="8896dde3-76b7-4bc0-8a62-68a07cb4a523">
-
-                        <!-- Optional: Subject -->
-                        <input type="hidden" name="subject" value="New Consultation Request - SMT Skin Clinic">
-
-                        <!-- Optional: From Name -->
-                        <input type="hidden" name="from_name" value="SMT Skin Clinic Website">
-
-                        <!-- Honeypot Spam Protection (must be a text input, not checkbox) -->
-                        <input type="text" name="botcheck" class="hidden" style="display: none;">
-
-                        <span class="sec-subtitle2">Book Your Consultation</span>
-                        <h2 class="sec-title text-uppercase">get in <span class="text-theme">touch</span></h2>
-
-                        <!-- Section 1: About You -->
-                        <div class="form-group">
-                            <input type="text" name="name" id="full_name" placeholder="FULL NAME*" required
-                                minlength="3">
-                            <i class="far fa-user-circle"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="number" name="age" id="age" placeholder="AGE*" required min="16"
-                                        max="80">
-                                    <i class="far fa-calendar"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <select name="gender" id="gender" class="form-control">
-                                        <option value="">Gender (Optional)</option>
-                                        <option value="Male">Male</option>
-                                        <option value="Female">Female</option>
-                                        <option value="Prefer not to say">Prefer not to say</option>
-                                        <option value="Other">Other</option>
-                                    </select>
-                                    <i class="far fa-venus-mars"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="text" name="city_locality" id="city_locality"
-                                placeholder="CITY & LOCALITY* (e.g., Lucknow - Gomti Nagar)" required>
-                            <i class="far fa-map-marker-alt"></i>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="tel" name="mobile" id="mobile" placeholder="MOBILE NUMBER* (10 digits)"
-                                required pattern="[6-9]\d{9}" title="Enter a valid 10-digit Indian mobile number">
-                            <i class="far fa-phone"></i>
-                        </div>
-
-                        <div class="form-group">
-                            <input type="email" name="email" id="email" placeholder="EMAIL (Optional)">
-                            <i class="fal fa-envelope"></i>
-                        </div>
-
-                        <!-- Section 2: Your Skin/Hair Concern -->
-                        <div class="form-group">
-                            <select name="primary_concern" id="primary_concern" class="form-control" required>
-                                <option value="">What brings you to SMT Skin Clinic?*</option>
-                                <option value="Acne or acne scars">Acne or acne scars</option>
-                                <option value="Anti-aging / fine lines & wrinkles">Anti-aging / fine lines & wrinkles
-                                </option>
-                                <option value="Pigmentation / uneven skin tone">Pigmentation / uneven skin tone</option>
-                                <option value="Hair fall or hair thinning">Hair fall or hair thinning</option>
-                                <option value="Laser hair removal">Laser hair removal</option>
-                                <option value="Body contouring / weight loss">Body contouring / weight loss</option>
-                                <option value="Skin glow / maintenance">Skin glow / maintenance</option>
-                                <option value="Other">Other (Please specify below)</option>
-                            </select>
-                            <i class="far fa-heart-pulse"></i>
-                        </div>
-
-                        <div class="form-group" id="otherConcernGroup" style="display: none;">
-                            <input type="text" name="concern_other_text" id="concernOtherText"
-                                placeholder="PLEASE SPECIFY YOUR CONCERN*">
-                            <i class="far fa-comment-dots"></i>
-                        </div>
-
-                        <div class="form-group mt-4">
-                            <button class="vs-btn" type="submit" id="submitBtn">Book Consultation</button>
-                        </div>
-
-                        <div id="formMessage"
-                            style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none;"></div>
-                    </form>
-
-                    <script>
-                        // Show/hide "Other" text field based on dropdown selection
-                        document.getElementById('primary_concern').addEventListener('change', function () {
-                            const otherGroup = document.getElementById('otherConcernGroup');
-                            const otherText = document.getElementById('concernOtherText');
-
-                            if (this.value === 'Other') {
-                                otherGroup.style.display = 'block';
-                                otherText.required = true;
-                            } else {
-                                otherGroup.style.display = 'none';
-                                otherText.required = false;
-                                otherText.value = '';
-                            }
-                        });
-
-                        // Form validation and submission
-                        document.getElementById('contactForm').addEventListener('submit', async function (e) {
-                            e.preventDefault();
-
-                            // Validate concern is selected
-                            const concern = document.getElementById('primary_concern').value;
-                            if (!concern) {
-                                alert('Please select what brings you to SMT Skin Clinic.');
-                                document.getElementById('primary_concern').focus();
-                                return false;
-                            }
-
-                            // If "Other" is selected, validate text field
-                            const otherText = document.getElementById('concernOtherText');
-                            if (concern === 'Other' && !otherText.value.trim()) {
-                                alert('Please specify your concern in the text field.');
-                                otherText.focus();
-                                return false;
-                            }
-
-                            const submitBtn = document.getElementById('submitBtn');
-                            const formMessage = document.getElementById('formMessage');
-                            const form = this;
-
-                            // Disable submit button and show loading
-                            submitBtn.disabled = true;
-                            submitBtn.textContent = 'Sending...';
-
-                            const formData = new FormData(form);
-
-                            try {
-                                const response = await fetch('https://api.web3forms.com/submit', {
-                                    method: 'POST',
-                                    body: formData
-                                });
-
-                                const data = await response.json();
-
-                                if (data.success) {
-                                    // Show success message
-                                    formMessage.style.display = 'block';
-                                    formMessage.style.backgroundColor = '#d4edda';
-                                    formMessage.style.color = '#155724';
-                                    formMessage.style.border = '1px solid #c3e6cb';
-                                    formMessage.style.padding = '15px';
-                                    formMessage.style.borderRadius = '5px';
-                                    formMessage.textContent = '✓ Thank you! Your consultation request has been received. We will contact you shortly.';
-
-                                    // Reset form
-                                    form.reset();
-
-                                    // Hide other concern field
-                                    document.getElementById('otherConcernGroup').style.display = 'none';
-
-                                    // Auto-hide success message after 10 seconds
-                                    setTimeout(() => {
-                                        formMessage.style.display = 'none';
-                                    }, 10000);
-                                } else {
-                                    // Show error from API
-                                    throw new Error(data.message || 'Form submission failed');
-                                }
-                            } catch (error) {
-                                // Show error message
-                                formMessage.style.display = 'block';
-                                formMessage.style.backgroundColor = '#f8d7da';
-                                formMessage.style.color = '#721c24';
-                                formMessage.style.border = '1px solid #f5c6cb';
-                                formMessage.style.padding = '15px';
-                                formMessage.style.borderRadius = '5px';
-                                formMessage.textContent = '✕ Oops! Something went wrong. Please try again or call us at +91-8864877133';
-                            } finally {
-                                // Re-enable submit button
-                                submitBtn.disabled = false;
-                                submitBtn.textContent = 'Book Consultation';
-                            }
-                        });
-                    </script>
                 </div>
             </div>
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const form = document.getElementById('homepageContactForm');
+                const statusBox = document.getElementById('contactStatus');
+                const submitBtn = document.getElementById('contactSubmitBtn');
+
+                const showStatus = (message, type) => {
+                    statusBox.textContent = message;
+                    statusBox.classList.remove('success', 'error');
+                    statusBox.classList.add(type);
+                    statusBox.style.display = 'block';
+                };
+
+                const validateEmail = (email) => {
+                    const pattern = /^[\w.-]+@[\w.-]+\.[A-Za-z]{2,}$/;
+                    return pattern.test(email);
+                };
+
+                const validatePhone = (phone) => {
+                    const digits = phone.replace(/\D/g, '');
+                    return digits.length >= 10 && digits.length <= 15;
+                };
+
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+
+                    statusBox.style.display = 'none';
+
+                    const name = form.name.value.trim();
+                    const email = form.email.value.trim();
+                    const phone = form.phone.value.trim();
+                    const message = form.message.value.trim();
+                    const mathAnswer = form.math_answer.value.trim();
+
+                    if (!name || !email || !phone || !message || !mathAnswer) {
+                        showStatus('Please complete all required fields.', 'error');
+                        return;
+                    }
+
+                    if (!validateEmail(email)) {
+                        showStatus('Please enter a valid email address.', 'error');
+                        form.email.focus();
+                        return;
+                    }
+
+                    if (!validatePhone(phone)) {
+                        showStatus('Please enter a valid phone number (10-15 digits).', 'error');
+                        form.phone.focus();
+                        return;
+                    }
+
+                    if (parseInt(mathAnswer, 10) !== 8) {
+                        showStatus('Please solve the math check correctly (5 + 3 = 8).', 'error');
+                        form.math_answer.focus();
+                        return;
+                    }
+
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Sending...';
+
+                    const formData = new FormData(form);
+
+                    try {
+                        const response = await fetch(form.action, {
+                            method: 'POST',
+                            body: formData
+                        });
+
+                        const data = await response.json();
+
+                        if (data.success) {
+                            showStatus('Thank you! Your enquiry has been sent. Our team will contact you shortly.', 'success');
+                            form.reset();
+                        } else {
+                            throw new Error(data.message || 'Form submission failed.');
+                        }
+                    } catch (error) {
+                        showStatus('Oops! Something went wrong. Please try again or call us at +91 88648 77133.', 'error');
+                    } finally {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Send Enquiry';
+                    }
+                });
+            });
+        </script>
     </section>
 
     <?php include 'footer.php'; ?>
