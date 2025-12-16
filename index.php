@@ -508,11 +508,11 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                             placeholder="Describe your concern" aria-label="Other concern">
                     </label>
 
-                    <label class="smt-fresh-field">
+                    <!-- <label class="smt-fresh-field">
                         <span class="smt-fresh-field__label">Security Check: 5 + 3 *</span>
                         <input type="number" id="modal_math_answer" name="math_answer" placeholder="Enter the answer"
                             aria-label="Enter the answer" required>
-                    </label>
+                    </label> -->
                 </div>
 
                 <div class="smt-fresh-form__actions">
