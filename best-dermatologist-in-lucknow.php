@@ -488,6 +488,37 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
     }
     </script>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Shubhshree Misra",
+      "image": "https://www.smtskinclinic.com/assets/img/about/about-image (2).jpeg",
+      "description": "Dr. Shubhshree Misra is a Gold Medalist Dermatologist in Lucknow with 12+ years of experience in clinical and aesthetic dermatology.",
+      "medicalSpecialty": ["Dermatology", "Cosmetic Dermatology", "Aesthetic Medicine"],
+      "worksFor": {
+        "@type": "MedicalOrganization",
+        "name": "SMT Skin Clinic",
+        "url": "https://www.smtskinclinic.com"
+      },
+      "url": "https://www.smtskinclinic.com/best-dermatologist-in-lucknow.php",
+      "telephone": "+918864877133",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Windsor Place, 17/2, beside Yojna Bhawan, The Mall Avenue",
+        "addressLocality": "Lucknow",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "226001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 26.8367,
+        "longitude": 80.9527
+      },
+      "priceRange": "$$"
+    }
+    </script>
 </body>
 
 </html>
