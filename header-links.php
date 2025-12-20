@@ -1,4 +1,13 @@
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VXLER2WZM3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VXLER2WZM3');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>
@@ -288,7 +297,7 @@
 
     <!-- Banner Slider Styles -->
     <link rel="stylesheet" href="assets/css/banner-slider.css">
-    
+
     <!-- Video Banner Styles -->
     <link rel="stylesheet" href="assets/css/video-banner.css">
 
