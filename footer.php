@@ -81,7 +81,7 @@ if (!isset($base_path)) {
                             <div class="smt-unique-footer-social-links">
                                 <a href="https://www.facebook.com/SMTSkinclinic" target="_blank"
                                     class="smt-unique-footer-social-link"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://g.page/r/CS-0a2KAd6BiEBM/review" target="_blank"
+                                <a href="https://share.google/OFXZFlI9g6HuaDCa8" target="_blank"
                                     class="smt-unique-footer-social-link"><i class="fab fa-google"></i></a>
                             </div>
 
