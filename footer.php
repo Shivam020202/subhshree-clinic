@@ -87,14 +87,14 @@ if (!isset($base_path)) {
 
                             <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"
                                 class="smt-unique-instagram-highlight">
-                                <div class="smt-unique-insta-profile">
+                                <div class="smt-unique-insta-profile me-2">
                                     <i class="fab fa-instagram smt-unique-insta-icon"></i>
                                     <div class="smt-unique-insta-details">
                                         <span class="smt-unique-insta-name">SMT Skin Clinic</span>
                                         <span class="smt-unique-insta-handle">@smt.skin.clinic_dr.shubhshree</span>
                                     </div>
                                 </div>
-                                <span class="smt-unique-insta-follow-btn">Follow</span>
+                                <span class="smt-unique-insta-follow-btn ml-5">Follow</span>
                             </a>
                         </div>
                     </div>
