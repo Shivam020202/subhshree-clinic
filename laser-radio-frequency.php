@@ -360,7 +360,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                         <p class="testimonial-text">
                                             "The laser and RF treatment has rejuvenated my entire face. My skin looks
                                             years younger - tighter, brighter, and with reduced pores and fine lines.
-                                            Dr. Sharma's expertise with this advanced technology is evident in the
+                                            Dr. Shubhshree Misra's expertise with this advanced technology is evident in the
                                             natural, beautiful results. I couldn't be happier!"
                                         </p>
                                         <div class="testimonial-author">

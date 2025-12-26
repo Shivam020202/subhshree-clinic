@@ -328,7 +328,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             "The Microchannel Infusion Therapy has transformed my skin completely. My
                                             acne scars have faded significantly, and my skin texture is smoother than
                                             it's been in years. The treatment was comfortable, and the results have
-                                            exceeded my expectations. Dr. Sharma and her team are truly amazing!"
+                                            exceeded my expectations. Dr. Shubhshree Misra and her team are truly amazing!"
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Neha Rastogi</div>

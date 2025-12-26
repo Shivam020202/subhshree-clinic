@@ -323,7 +323,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                         </div>
                                         <p class="testimonial-text">
                                             "I struggled with melasma for years after my pregnancy. The dark patches on
-                                            my cheeks made me so self-conscious. Dr. Sharma's comprehensive treatment
+                                            my cheeks made me so self-conscious. Dr. Shubhshree Misra's comprehensive treatment
                                             plan with laser therapy and specialized peels has gradually lightened my
                                             melasma significantly. I finally feel confident going out without makeup!"
                                         </p>

@@ -415,7 +415,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I was hesitant about injectable treatments, but Dr. Sharma explained how
+                                            "I was hesitant about injectable treatments, but Dr. Shubhshree Misra explained how
                                             Sculptra works with my body's natural processes. The gradual improvement
                                             over 6 months was amazing - my face looks more youthful and refreshed
                                             without looking 'done'. The results have lasted over a year and still look

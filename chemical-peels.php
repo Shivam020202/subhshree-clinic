@@ -322,7 +322,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                         <p class="testimonial-text">
                                             "The chemical peel treatment at SMT Skin Clinic completely transformed my
                                             skin. My acne scars have significantly faded, and my skin looks brighter and
-                                            smoother than ever. Dr. Sharma and her team are incredibly professional and
+                                            smoother than ever. Dr. Shubhshree Misra and her team are incredibly professional and
                                             made me feel comfortable throughout the entire process."
                                         </p>
                                         <div class="testimonial-author">

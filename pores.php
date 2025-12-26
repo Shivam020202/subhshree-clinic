@@ -377,7 +377,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                         <p class="testimonial-text">
                                             "Years of oily skin left me with visible, stretched pores that I thought
                                             were permanent.
-                                            Dr. Sharma's treatment plan combining laser therapy and medical skincare has
+                                            Dr. Shubhshree Misra's treatment plan combining laser therapy and medical skincare has
                                             transformed
                                             my skin. The pores have tightened significantly, and my skin texture is
                                             smoother than

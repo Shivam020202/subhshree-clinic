@@ -355,7 +355,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <p class="testimonial-text">
-                                            "I had a large facial mole that always made me self-conscious. Dr. Sharma
+                                            "I had a large facial mole that always made me self-conscious. Dr. Shubhshree Misra
                                             removed it
                                             with such precision—the scar is barely visible and healed beautifully. The
                                             procedure

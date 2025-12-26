@@ -341,7 +341,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             gentle peels
                                             with tranexamic acid and strict sun protection, has finally given me the
                                             even skin
-                                            tone I'd given up hoping for. Dr. Sharma's expertise in treating
+                                            tone I'd given up hoping for. Dr. Shubhshree Misra's expertise in treating
                                             pigmentation is
                                             exceptional!"
                                         </p>

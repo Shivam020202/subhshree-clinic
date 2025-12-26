@@ -282,7 +282,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             Clinic. The combination of fractional laser and microneedling treatments has
                                             dramatically improved my skin texture. My ice pick scars are barely visible
                                             now,
-                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            and I feel so much more confident. Dr. Shubhshree Misra's expertise made all the
                                             difference!"
                                         </p>
                                         <div class="testimonial-author">

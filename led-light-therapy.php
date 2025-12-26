@@ -332,7 +332,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             Clinic. The combination of fractional laser and microneedling treatments has
                                             dramatically improved my skin texture. My ice pick scars are barely visible
                                             now,
-                                            and I feel so much more confident. Dr. Sharma's expertise made all the
+                                            and I feel so much more confident. Dr. Shubhshree Misra's expertise made all the
                                             difference!"
                                         </p>
                                         <div class="testimonial-author">
@@ -401,7 +401,58 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                     </section>
 
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-                    <h3 class="h4">Treatment Process & Benefits</h3>
+                    <script>
+                        let currentSlide = 0;
+                        const totalSlides = 3;
+                        let autoSlideInterval;
+
+                        function updateSlider() {
+                            const track = document.getElementById('testimonialTrack');
+                            const indicators = document.querySelectorAll('.indicator');
+
+                            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+                            indicators.forEach((indicator, index) => {
+                                indicator.classList.toggle('active', index === currentSlide);
+                            });
+                        }
+
+                        function nextSlide() {
+                            currentSlide = (currentSlide + 1) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function prevSlide() {
+                            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function goToSlide(index) {
+                            currentSlide = index;
+                            updateSlider();
+                            resetAutoSlide();
+                        }
+
+                        function startAutoSlide() {
+                            autoSlideInterval = setInterval(nextSlide, 5000);
+                        }
+
+                        function resetAutoSlide() {
+                            clearInterval(autoSlideInterval);
+                            startAutoSlide();
+                        }
+
+                        // Initialize auto-slide
+                        startAutoSlide();
+
+                        // Pause auto-slide on hover
+                        const slider = document.querySelector('.testimonial-slider');
+                        slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+                        slider.addEventListener('mouseleave', startAutoSlide);
+                    </script>
+                    <h3 class="h4">Treatment Process &amp; Benefits</h3>
                     <p class="pb-1">Our LED Light Therapy sessions are completely relaxing and comfortable. You'll
                         simply lie back while the LED panels deliver therapeutic light to your skin for 15-20 minutes.
                         The treatment is suitable for all skin types and can be combined with other therapies for

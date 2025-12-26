@@ -419,7 +419,7 @@ $page_keywords = "clinic, health, wellness, medical, treatment, care, therapy, d
                                             "The resurfacing treatment completely transformed my skin. Years of sun
                                             damage and acne scars are now barely visible. Yes, there was downtime, but
                                             the dramatic results were absolutely worth it. My skin looks 10 years
-                                            younger! Dr. Sharma's expertise made all the difference."
+                                            younger! Dr. Shubhshree Misra's expertise made all the difference."
                                         </p>
                                         <div class="testimonial-author">
                                             <div class="author-name">Sanjay Kumar</div>
