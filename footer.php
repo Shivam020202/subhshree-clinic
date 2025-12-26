@@ -75,6 +75,28 @@ if (!isset($base_path)) {
                                 <button type="submit" class="btn epic-footer__newsletter-btn">Subscribe</button>
                             </div>
                         </form>
+
+                        <div class="footer-social-section">
+                            <h5 class="text-white mb-3">Follow Us</h5>
+                            <div class="smt-unique-footer-social-links">
+                                <a href="https://www.facebook.com/SMTSkinclinic" target="_blank"
+                                    class="smt-unique-footer-social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://g.page/r/CS-0a2KAd6BiEBM/review" target="_blank"
+                                    class="smt-unique-footer-social-link"><i class="fab fa-google"></i></a>
+                            </div>
+
+                            <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"
+                                class="smt-unique-instagram-highlight">
+                                <div class="smt-unique-insta-profile">
+                                    <i class="fab fa-instagram smt-unique-insta-icon"></i>
+                                    <div class="smt-unique-insta-details">
+                                        <span class="smt-unique-insta-name">SMT Skin Clinic</span>
+                                        <span class="smt-unique-insta-handle">@smt.skin.clinic_dr.shubhshree</span>
+                                    </div>
+                                </div>
+                                <span class="smt-unique-insta-follow-btn">Follow</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,6 +119,9 @@ if (!isset($base_path)) {
         </div>
     </div>
 </footer>
+<a href="https://wa.me/918864877133" class="smt-unique-whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp my-float"></i>
+</a>
 
 <!-- Scroll To Top -->
 <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>

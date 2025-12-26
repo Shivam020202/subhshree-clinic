@@ -362,6 +362,9 @@
 .smt-fresh-modal__panel {
   position: relative;
   width: min(880px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   background: radial-gradient(
       circle at 12% 20%,
       rgba(201, 171, 129, 0.08),
@@ -470,9 +473,8 @@
 }
 
 .smt-fresh-field--full {
-.smt-fresh-field input:focus,
-.smt-fresh-field textarea:focus,
-.smt-fresh-field select:focus {
+  grid-column: 1 / -1;
+}
 
 .smt-fresh-field__label {
   font-size: 0.92rem;
@@ -589,5 +591,202 @@ body.modal-open {
 
   .smt-fresh-button {
     width: 100%;
+  }
+}
+
+/* Top Header - Unique Classes */
+.smt-unique-header-top {
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff !important;
+  padding: 8px 0; /* Thin padding */
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.smt-unique-header-top a,
+.smt-unique-header-top li,
+.smt-unique-header-top i {
+  color: #fff !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.smt-unique-header-top a:hover,
+.smt-unique-header-top i:hover {
+  color: #c9ab81 !important; /* Theme gold color */
+}
+
+.smt-unique-header-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.smt-unique-header-links li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.smt-unique-header-links i {
+  color: #c9ab81;
+}
+
+.smt-unique-social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.smt-unique-social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.smt-unique-social-links a:hover {
+  background: #c9ab81;
+  color: #fff;
+}
+
+/* WhatsApp Floating Button - Unique Class */
+.smt-unique-whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  left: 30px;
+  background-color: #25d366;
+  color: #fff !important;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 2147483647 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.smt-unique-whatsapp-float:hover {
+  background-color: #128c7e;
+  transform: scale(1.1);
+  color: #fff !important;
+}
+
+/* Footer Social Subsection - Unique Classes */
+.smt-unique-footer-social-links {
+  display: flex !important;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.smt-unique-footer-social-link {
+  width: 36px !important;
+  height: 36px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+}
+
+.smt-unique-footer-social-link:hover {
+  background: #c9ab81 !important;
+  color: #fff !important;
+  transform: translateY(-3px);
+}
+
+/* Instagram Highlight - Unique Classes */
+.smt-unique-instagram-highlight {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  ) !important;
+  padding: 12px 15px !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-top: 15px !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  max-width: 300px;
+  width: 100%;
+}
+
+.smt-unique-instagram-highlight:hover {
+  transform: translateY(-3px);
+  color: #fff !important;
+}
+
+.smt-unique-insta-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.smt-unique-insta-icon {
+  font-size: 24px;
+  color: #fff !important;
+}
+
+.smt-unique-insta-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.smt-unique-insta-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #fff !important;
+}
+
+.smt-unique-insta-handle {
+  font-size: 12px;
+  opacity: 0.9;
+  color: #fff !important;
+}
+
+.smt-unique-insta-follow-btn {
+  background: #fff !important;
+  color: #000 !important;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .smt-unique-header-top {
+    display: none; /* Hide on mobile if needed, or adjust */
+  }
+  .smt-unique-whatsapp-float {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
   }
 }

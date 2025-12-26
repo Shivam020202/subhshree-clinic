@@ -297,37 +297,31 @@ if (!isset($base_path)) {
         </div> -->
 
 <header class="vs-header header-layout1">
-    <!-- <div class="header-top">
+    <div class="smt-unique-header-top d-none d-lg-block">
         <div class="container">
-            <div class="row justify-content-center justify-content-md-between align-items-center">
-                <div class="col-auto text-center py-2 py-md-0">
-                    <div class="header-links style-white">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto">
+                    <div class="smt-unique-header-links">
                         <ul>
-                            <li class="d-none d-xxl-inline-block"><i class="far fa-map-marker-alt"></i>SMT Skin
-                                Clinic, Windsor Place, 17/2, beside Yojna Bhawan, The Mall
-                                Avenue, Lucknow, Uttar Pradesh 226001</li>
-                            <li><i class="far fa-phone-alt"></i><a href="tel:8864877133">+91 88648 77133</a></li>
-                            <li><i class="far fa-envelope"></i><a
-                                    href="mailto:smtskinclinic@gmail.com">smtskinclinic@gmail.com</a>
-                            </li>
+                            <li><i class="far fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/OUlgLyEYYaQFtlTJD"
+                                    target="_blank">SMT Skin Clinic, Windsor Place, Lucknow</a></li>
+                            <li><i class="far fa-phone-alt"></i><a href="tel:+918864877133">+91 88648 77133</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-auto d-none d-md-block">
-                    <div class="social-style1">
-                        <a href="https://www.facebook.com/SMTSkinclinic" target="_blank"><i
+                <div class="col-auto">
+                    <div class="smt-unique-social-links">
+                        <a href="https://www.facebook.com/SMTSkinclinic" target="_blank" title="Facebook"><i
                                 class="fab fa-facebook-f"></i></a>
-
-                        <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://share.google/OUlgLyEYYaQFtlTJD" target="_blank"><i
+                        <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"
+                            title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://g.page/r/CS-0a2KAd6BiEBM/review" target="_blank" title="Google"><i
                                 class="fab fa-google"></i></a>
-
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <div class="sticky-wrap">
         <div class="sticky-active">
             <div class="container">
