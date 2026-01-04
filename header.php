@@ -69,21 +69,70 @@ if (!isset($base_path)) {
     }
 
     .smt-service-links-list li {
-        margin-bottom: 10px;
+        margin-bottom: 4px;
     }
 
     .smt-service-links-list li a {
         color: #333333;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 13px;
         transition: all 0.3s ease;
         display: block;
+        padding: 3px 0;
+    }
         padding: 5px 0;
     }
 
     .smt-service-links-list li a:hover {
         color: #c9ab81;
         padding-left: 10px;
+    }
+
+    /* Desktop Navigation Fixes - Only target top level menu */
+    @media (min-width: 992px) {
+        .main-menu>ul {
+            display: flex !important;
+            flex-wrap: nowrap !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+        }
+
+        .main-menu>ul>li {
+            flex-shrink: 0 !important;
+        }
+
+        .main-menu>ul>li>a {
+            white-space: nowrap !important;
+        }
+
+        /* Ensure mega menu content wraps normally */
+        .smt-services-mega-dropdown .row {
+            flex-wrap: wrap !important;
+        }
+
+        .smt-service-links-list {
+            display: block !important;
+        }
+
+        .smt-service-links-list li {
+            display: block !important;
+            white-space: normal !important;
+        }
+        
+        /* Reduce mega menu spacing */
+        .smt-services-mega-dropdown {
+            padding: 25px 0 !important;
+        }
+        
+        .smt-service-category-block {
+            margin-bottom: 20px !important;
+        }
+        
+        .smt-service-category-title {
+            font-size: 16px !important;
+            margin-bottom: 12px !important;
+            padding-bottom: 8px !important;
+        }
     }
 
     /* Mobile mega menu - keep as dropdown */
