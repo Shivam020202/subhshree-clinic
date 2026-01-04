@@ -311,7 +311,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                             truly experts in their field."</p>
                         <div class="arrow-shape"><i class="arrow"></i><i class="arrow"></i><i class="arrow"></i><i
                                 class="arrow"></i></div>
-                        <h3 class="testi-name h5">Sarah Johnson</h3>
+                        <h3 class="testi-name h5">Priya Sharma</h3>
                         <span class="testi-degi">Business Executive</span>
                     </div>
                     <div>
@@ -320,7 +320,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                             beautiful. Highly recommend!"</p>
                         <div class="arrow-shape"><i class="arrow"></i><i class="arrow"></i><i class="arrow"></i><i
                                 class="arrow"></i></div>
-                        <h3 class="testi-name h5">Michael Chen</h3>
+                        <h3 class="testi-name h5">Rajesh Kumar</h3>
                         <span class="testi-degi">Entrepreneur</span>
                     </div>
                     <div>
@@ -329,7 +329,7 @@ $page_keywords = "Dr Shubhshree Misra lucknow, best dermatologist lucknow, skin 
                             throughout the entire process."</p>
                         <div class="arrow-shape"><i class="arrow"></i><i class="arrow"></i><i class="arrow"></i><i
                                 class="arrow"></i></div>
-                        <h3 class="testi-name h5">Jessica Martinez</h3>
+                        <h3 class="testi-name h5">Ananya Patel</h3>
                         <span class="testi-degi">Marketing Director</span>
                     </div>
                 </div>

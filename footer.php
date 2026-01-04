@@ -83,19 +83,11 @@ if (!isset($base_path)) {
                                     class="smt-unique-footer-social-link"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://share.google/OFXZFlI9g6HuaDCa8" target="_blank"
                                     class="smt-unique-footer-social-link"><i class="fab fa-google"></i></a>
+                                <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"
+                                    class="smt-unique-footer-social-link"><i class="fab fa-instagram"></i></a>
                             </div>
 
-                            <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"
-                                class="smt-unique-instagram-highlight">
-                                <div class="smt-unique-insta-profile me-2">
-                                    <i class="fab fa-instagram smt-unique-insta-icon"></i>
-                                    <div class="smt-unique-insta-details">
-                                        <span class="smt-unique-insta-name">SMT Skin Clinic</span>
-                                        <span class="smt-unique-insta-handle">@smt.skin.clinic_dr.shubhshree</span>
-                                    </div>
-                                </div>
-                                <span class="smt-unique-insta-follow-btn ml-5">Follow</span>
-                            </a>
+
                         </div>
                     </div>
                 </div>

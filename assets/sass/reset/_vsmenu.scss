@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 999999;
   width: 0;
   width: 100%;
@@ -11,7 +11,6 @@
   transition: all ease 0.8s;
   opacity: 0;
   visibility: hidden;
-
 
   // Mobile Menu Logo
   .mobile-logo {
@@ -81,7 +80,6 @@
   }
 }
 
-
 // Mobile Menu
 .vs-mobile-menu {
   overflow-y: auto;
@@ -131,7 +129,7 @@
         font-weight: 500;
 
         &:before {
-          content: '\f105';
+          content: "\f105";
           font-family: $icon-font;
           position: relative;
           left: 0;
@@ -142,7 +140,7 @@
       }
 
       &.vs-active {
-        >a {
+        > a {
           color: $theme-color;
 
           &:before {
@@ -154,7 +152,7 @@
       ul {
         overflow: visible !important;
         max-height: none !important;
-        
+
         li {
           padding-left: 20px;
 
@@ -166,7 +164,7 @@
     }
 
     .vs-item-has-children {
-      >a {
+      > a {
         .vs-mean-expand {
           position: absolute;
           right: 0;
@@ -185,34 +183,32 @@
           border-radius: 50%;
 
           &:before {
-            content: '\f067';
+            content: "\f067";
             font-family: $icon-font;
           }
         }
       }
 
       &.vs-active {
-        >a {
+        > a {
           .vs-mean-expand:before {
-            content: '\f068';
+            content: "\f068";
           }
         }
       }
     }
   }
 
-  >ul {
+  > ul {
     padding: 0 40px;
 
-    >li {
+    > li {
       &:last-child {
         border-bottom: none;
       }
     }
   }
 }
-
-
 
 .vs-menu-toggle {
   width: 50px;
@@ -248,14 +244,13 @@
   }
 }
 
-
 @media (max-width: 400px) {
   .vs-menu-wrapper .vs-menu-area {
     width: 100%;
     max-width: 270px;
   }
 
-  .vs-mobile-menu>ul {
+  .vs-mobile-menu > ul {
     padding: 0 20px;
   }
 }
