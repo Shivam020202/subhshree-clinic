@@ -80,7 +80,8 @@ if (!isset($base_path)) {
         display: block;
         padding: 3px 0;
     }
-        padding: 5px 0;
+
+    padding: 5px 0;
     }
 
     .smt-service-links-list li a:hover {
@@ -118,16 +119,16 @@ if (!isset($base_path)) {
             display: block !important;
             white-space: normal !important;
         }
-        
+
         /* Reduce mega menu spacing */
         .smt-services-mega-dropdown {
             padding: 25px 0 !important;
         }
-        
+
         .smt-service-category-block {
             margin-bottom: 20px !important;
         }
-        
+
         .smt-service-category-title {
             font-size: 16px !important;
             margin-bottom: 12px !important;
@@ -352,7 +353,7 @@ if (!isset($base_path)) {
                 <div class="col-auto">
                     <div class="smt-unique-header-links">
                         <ul>
-                            <li><i class="far fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/OUlgLyEYYaQFtlTJD"
+                            <li><i class="far fa-map-marker-alt"></i><a href="https://share.google/ZLNo7CHjWC8Y1e6uI"
                                     target="_blank">SMT Skin Clinic, Windsor Place, Lucknow</a></li>
                             <li><i class="far fa-phone-alt"></i><a href="tel:+918864877133">+91 88648 77133</a></li>
                         </ul>
