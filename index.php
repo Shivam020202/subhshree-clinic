@@ -736,7 +736,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                             <div class="feature-style1">
                                 <div class="vs-icon"><img src="assets/img/icon/ab-f-2-1.png" alt="icon"></div>
                                 <h3 class="feature-title h5"><a class="text-inherit"
-                                        href="service-details.html">Clinical
+                                        href="service.php">Clinical
                                         Dermatology</a></h3>
                                 <div class="arrow-shape"><i class="arrow"></i><i class="arrow"></i><i
                                         class="arrow"></i><i class="arrow"></i></div>
@@ -751,7 +751,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                             <div class="feature-style1">
                                 <div class="vs-icon"><img src="assets/img/icon/ab-f-2-2.png" alt="icon"></div>
                                 <h3 class="feature-title h5"><a class="text-inherit"
-                                        href="service-details.html">Aesthetic & Laser
+                                        href="service.php">Aesthetic & Laser
                                         Services</a></h3>
                                 <div class="arrow-shape"><i class="arrow"></i><i class="arrow"></i><i
                                         class="arrow"></i><i class="arrow"></i></div>
@@ -860,7 +860,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         <div class="service-style1 reverse">
                             <div class="vs-icon"><img src="assets/img/icon/sr-i-1-1.png" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Acne &
+                                <h3 class="service-title"><a href="service.php" class="text-inherit">Acne &
                                         Acne
                                         Scar Treatment</a></h3>
                                 <p class="service-text">Comprehensive solutions for active acne and effective methods to
@@ -870,8 +870,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         <div class="service-style1 reverse">
                             <div class="vs-icon"><img src="assets/img/icon/sr-i-1-2.png" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html"
-                                        class="text-inherit">Pigmentation &
+                                <h3 class="service-title"><a href="service.php" class="text-inherit">Pigmentation &
                                         Melasma</a></h3>
                                 <p class="service-text">Targeted treatments for dark spots, uneven skin tone, and
                                     stubborn
@@ -881,7 +880,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         <div class="service-style1 reverse">
                             <div class="vs-icon"><img src="assets/img/icon/sr-i-1-3.png" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Anti-Aging
+                                <h3 class="service-title"><a href="service.php" class="text-inherit">Anti-Aging
                                         &
                                         Wrinkle Reduction</a></h3>
                                 <p class="service-text">Advanced procedures to diminish fine lines, wrinkles, and
@@ -897,7 +896,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         <div class="service-style1">
                             <div class="vs-icon"><img src="assets/img/icon/sr-i-1-4.png" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Hair
+                                <h3 class="service-title"><a href="service.php" class="text-inherit">Hair
                                         Restoration & Management</a></h3>
                                 <p class="service-text">Solutions for hair fall, thinning hair, and scalp conditions,
                                     promoting healthier hair growth.</p>
@@ -906,7 +905,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         <div class="service-style1">
                             <div class="vs-icon"><img src="assets/img/icon/sr-i-1-5.png" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Laser
+                                <h3 class="service-title"><a href="service." class="text-inherit">Laser
                                         Treatments</a></h3>
                                 <p class="service-text">State-of-the-art laser technology for hair removal, skin
                                     resurfacing, and tattoo removal.</p>
@@ -915,7 +914,7 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
                         <div class="service-style1">
                             <div class="vs-icon"><img src="assets/img/icon/sr-i-1-6.png" alt="icon"></div>
                             <div class="service-content">
-                                <h3 class="service-title"><a href="service-details.html" class="text-inherit">Chemical
+                                <h3 class="service-title"><a href="service.php" class="text-inherit">Chemical
                                         Peels
                                         & Facials</a></h3>
                                 <p class="service-text">Customized peels and medical-grade facials to rejuvenate,
