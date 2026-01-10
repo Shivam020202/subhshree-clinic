@@ -5,7 +5,7 @@
             <ul class="list-unstyled">
 
                 <li><a href="chemical-peels.php">Chemical Peels</a></li>
-                <li><a href="laser-hair-removal.php">Laser Hair Removal</a></li>
+                <li><a href="laser-hair-reduction.php">Laser Hair Removal</a></li>
                 <li><a href="acne-scar.php">Acne Treatment</a></li>
                 <li><a href="aging-skin.php">Anti-Aging Treatments</a></li>
                 <li><a href="skin-tightening.php">Skin Rejuvenation</a></li>
