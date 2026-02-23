@@ -1369,6 +1369,236 @@ $page_keywords = "dermatologist lucknow, skin clinic lucknow, laser treatment lu
         </div>
     </section>
 
+    
+    
+    <!-- Locations Area -->
+    <section class="space-bottom pt-5 locations-section-dark" id="other-locations-section" style="background-color: #0c1322; padding: 50px 0;">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-4" style="border-color: rgba(255,255,255,0.1) !important;">
+                <h2 class="mb-0 text-white" style="font-size: 20px; font-weight: 500; display: flex; align-items: center; letter-spacing: 0.5px;">
+                    <i class="far fa-map-marker-alt text-primary me-2"></i>Serving Patients Across Lucknow
+                </h2>
+                <button id="toggleLocationsBtn" class="btn btn-sm" style="border: 1px solid rgba(255,255,255,0.3); border-radius: 20px; font-weight: 400; font-size: 13px; padding: 6px 16px; color: #d0d5d9; background: transparent; transition: all 0.3s ease;">
+                    Hide Locations <i class="far fa-angle-down ms-1"></i>
+                </button>
+            </div>
+            
+            <div id="locationsList" class="row">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-lucknow.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Lucknow</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-alambagh.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Alambagh</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-gomti-nagar.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Gomti Nagar</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-hazratganj.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Hazratganj</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-indira-nagar.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Indira Nagar</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-mahanagar.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Mahanagar</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-charbagh.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Charbagh</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-rajajipuram.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Rajajipuram</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-aliganj.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Aliganj</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-vikas-nagar.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Vikas Nagar</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-moti-nagar.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Moti Nagar</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-rajendra-nagar.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Rajendra Nagar</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-gomti-nagar-extension.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Gomti Nagar Extension</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-talkatora.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Talkatora</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-thakurganj.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Thakurganj</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-chowk.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Chowk</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-aminabad.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Aminabad</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-naka-hindola.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Naka Hindola</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-ashiyana.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Ashiyana</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-shaheed-path-area.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Shaheed Path Area</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-nirala-nagar.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Nirala Nagar</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-malhaur.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Malhaur</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-jankipuram.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Jankipuram</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-gudamba.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Gudamba</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-bakshi-ka-talab.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Bakshi Ka Talab</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-sarojini-nagar.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Sarojini Nagar</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-aishbagh.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Aishbagh</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-panki.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Panki</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-kursi-road-area.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Kursi Road Area</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-banthra.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Banthra</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <a href="best-dermatologist-in-sitapur-road-area.php" class="location-link" style="color: #929aab; text-decoration: none; font-size: 14px; font-weight: 400; display: flex; align-items: flex-start; transition: color 0.3s ease;">
+                        <i class="far fa-map-marker-alt me-2" style="color: #4a6ee0; margin-top: 4px; font-size: 12px;"></i>
+                        <span>Best Dermatologist in Sitapur Road Area</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        .location-link:hover {
+            color: #ffffff !important;
+        }
+        .locations-section-dark {
+            background-color: #0F172A !important; /* Deep navy/slate dark background like the image */
+        }
+        #toggleLocationsBtn:hover {
+            background: rgba(255,255,255,0.1) !important;
+            color: #fff !important;
+        }
+    </style>
+    <script>
+        document.getElementById("toggleLocationsBtn").addEventListener("click", function() {
+            var locList = document.getElementById("locationsList");
+            if (locList.style.display === "none") {
+                locList.style.display = "flex";
+                this.innerHTML = "Hide Locations <i class=\"far fa-angle-down ms-1\"></i>";
+            } else {
+                locList.style.display = "none";
+                this.innerHTML = "Show Locations <i class=\"far fa-angle-right ms-1\"></i>";
+            }
+        });
+    </script>
+
     <?php include 'footer.php'; ?>
 
     <?php include 'footer-scripts.php'; ?>

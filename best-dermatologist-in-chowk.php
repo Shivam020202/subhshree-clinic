@@ -1,7 +1,7 @@
 <?php
-$page_title = "Best Dermatologist in Lucknow | Top Skin Specialist - Dr. Shubhshree";
-$page_description = "Looking for the best dermatologist in Lucknow? Dr. Shubhshree Misra at SMT Skin Clinic offers expert laser, acne, and anti-aging treatments. Book your consultation today!";
-$page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, skin doctor in lucknow, laser treatment lucknow, acne treatment lucknow, Dr Shubhshree Misra, SMT Skin Clinic";
+$page_title = "Best Dermatologist in Chowk | Top Skin Specialist & Doctor - Dr. Shubhshree";
+$page_description = "Looking for the best dermatologist and skin doctor in Chowk? Dr. Shubhshree Misra at SMT Skin Clinic offers expert laser, acne, and anti-aging treatments. Book your consultation today!";
+$page_keywords = "Best dermatologist in Chowk, skin specialist in Chowk, skin doctor in Chowk, laser treatment Chowk, acne treatment Chowk, Dr Shubhshree Misra, SMT Skin Clinic";
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -94,7 +94,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
     <section class="location-hero">
         <div class="container">
             <div class="location-hero-content">
-                <h1 class="location-hero-title">Best Dermatologist in Lucknow</h1>
+                <h1 class="location-hero-title">Best Dermatologist & Top Skin Care Clinic in Chowk</h1>
                 <p class="location-hero-text">Experience world-class skin care with Dr. Shubhshree Misra. Advanced laser
                     treatments, clinical dermatology, and aesthetic solutions tailored for you.</p>
                 <a href="contact.php" class="vs-btn style2">Book Consultation</a>
@@ -108,14 +108,15 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
             <div class="row align-items-center">
                 <div class="col-lg-5 mb-4 mb-lg-0">
                     <img src="assets/img/about/dr-subhshree-about.jpg"
-                        alt="Dr. Shubhshree Misra - Best Dermatologist in Lucknow" class="img-fluid rounded shadow-lg">
+                        alt="Dr. Shubhshree Misra - Best Dermatologist in Chowk" class="img-fluid rounded shadow-lg">
                 </div>
                 <div class="col-lg-7 pl-lg-5">
                     <span class="sec-subtitle">Meet the Expert</span>
                     <h2 class="sec-title mb-3">Dr. Shubhshree Misra</h2>
                     <h3 class="h5 text-primary mb-4">MD (Dermatology) | 12+ Years Experience</h3>
                     <p class="mb-4">
-                        Dr. Shubhshree Misra is widely recognized as the <strong>best dermatologist in Lucknow</strong>,
+                        Dr. Shubhshree Misra is widely recognized as the <strong>best dermatologist and skin doctor in
+                            Chowk, Lucknow</strong>,
                         known for her clinical precision and aesthetic artistry. With over a decade of experience, she
                         specializes in treating complex skin conditions and performing advanced cosmetic procedures.
                     </p>
@@ -160,7 +161,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
         <div class="container">
             <div class="title-area text-center">
                 <span class="sec-subtitle">World-Class Treatments</span>
-                <h2 class="sec-title">Our Premium Services in Lucknow</h2>
+                <h2 class="sec-title">Our Premium Services in Chowk</h2>
                 <p class="sec-text">Comprehensive skin and hair solutions designed to deliver visible results.</p>
             </div>
             <div class="row">
@@ -168,7 +169,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="assets/img/servicepage/skin/chemical-peel.webp" alt="Chemical Peel in Lucknow"
+                            <img src="assets/img/servicepage/skin/chemical-peel.webp" alt="Chemical Peel in Chowk"
                                 class="w-100">
                         </div>
                         <div class="service-content">
@@ -185,7 +186,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                     <div class="service-box">
                         <div class="service-img">
                             <img src="assets/img/servicepage/laser/radiofrequency-resurfacing.webp"
-                                alt="Laser Hair Removal Lucknow" class="w-100">
+                                alt="Laser Hair Removal Chowk" class="w-100">
                         </div>
                         <div class="service-content">
                             <h3 class="service-title"><a href="laser-hair-reduction.php" class="text-inherit">Laser Hair
@@ -199,7 +200,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="assets/img/servicepage/skin/derma-filler.webp" alt="Dermal Fillers Lucknow"
+                            <img src="assets/img/servicepage/skin/derma-filler.webp" alt="Dermal Fillers Chowk"
                                 class="w-100">
                         </div>
                         <div class="service-content">
@@ -214,7 +215,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="assets/img/servicepage/skin/microneedling.webp" alt="Acne Treatment Lucknow"
+                            <img src="assets/img/servicepage/skin/microneedling.webp" alt="Acne Treatment Chowk"
                                 class="w-100">
                         </div>
                         <div class="service-content">
@@ -229,7 +230,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="assets/img/servicepage/skin/hydrafacial.webp" alt="Hydrafacial Lucknow"
+                            <img src="assets/img/servicepage/skin/hydrafacial.webp" alt="Hydrafacial Chowk"
                                 class="w-100">
                         </div>
                         <div class="service-content">
@@ -244,7 +245,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="service-box">
                         <div class="service-img">
-                            <img src="assets/img/servicepage/skin/morpheus-8.webp" alt="Morpheus8 Lucknow"
+                            <img src="assets/img/servicepage/skin/morpheus-8.webp" alt="Morpheus8 Chowk"
                                 class="w-100">
                         </div>
                         <div class="service-content">
@@ -271,7 +272,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                 </div>
                 <div class="col-lg-6">
                     <span class="sec-subtitle">Why SMT Skin Clinic?</span>
-                    <h2 class="sec-title mb-4">The Preferred Choice for Skin Care in Lucknow</h2>
+                    <h2 class="sec-title mb-4">The Preferred Choice for Skin Care in Chowk</h2>
                     <p class="mb-4">We believe that every skin is unique and deserves personalized care. Our approach
                         combines medical expertise with a luxurious patient experience.</p>
 
@@ -280,7 +281,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                             <i class="fas fa-user-md fa-2x text-primary"></i>
                         </div>
                         <div>
-                            <h4 class="h5">Expert Dermatologist</h4>
+                            <h4 class="h5">Expert Dermatologist & Skin Doctor</h4>
                             <p class="mb-0">Consult with Dr. Shubhshree, a leading skin specialist with extensive
                                 experience.</p>
                         </div>
@@ -317,7 +318,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
         <div class="container">
             <div class="title-area text-center">
                 <span class="sec-subtitle">Common Questions</span>
-                <h2 class="sec-title">FAQ - Dermatology in Lucknow</h2>
+                <h2 class="sec-title">FAQ - Dermatology in Chowk</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -326,7 +327,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How do I choose the best dermatologist in Lucknow?
+                                    How do I choose the best dermatologist in Chowk?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -695,7 +696,7 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
       "@type": "FAQPage",
       "mainEntity": [{
         "@type": "Question",
-        "name": "How do I choose the best dermatologist in Lucknow?",
+        "name": "How do I choose the best dermatologist in Chowk?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Look for a dermatologist who is MD qualified, has extensive experience, and uses modern US-FDA approved technology. Dr. Shubhshree Misra at SMT Skin Clinic is a leading choice."
@@ -724,14 +725,14 @@ $page_keywords = "Best dermatologist in lucknow, skin specialist in lucknow, ski
       "@type": "Physician",
       "name": "Dr. Shubhshree Misra",
       "image": "https://www.smtskinclinic.com/assets/img/about/dr-subhshree-about.jpg",
-      "description": "Dr. Shubhshree Misra is a Gold Medalist Dermatologist in Lucknow with 12+ years of experience in clinical and aesthetic dermatology.",
+      "description": "Dr. Shubhshree Misra is a Gold Medalist Dermatologist and Skin Doctor in Chowk with 12+ years of experience in clinical and aesthetic dermatology.",
       "medicalSpecialty": ["Dermatology", "Cosmetic Dermatology", "Aesthetic Medicine"],
       "worksFor": {
         "@type": "MedicalOrganization",
         "name": "SMT Skin Clinic",
         "url": "https://www.smtskinclinic.com"
       },
-      "url": "https://www.smtskinclinic.com/best-dermatologist-in-lucknow.php",
+      "url": "https://www.smtskinclinic.com/best-dermatologist-in-chowk.php",
       "telephone": "+918864877133",
       "address": {
         "@type": "PostalAddress",
