@@ -363,7 +363,7 @@ if (!isset($base_path)) {
                     <div class="smt-unique-social-links">
                         <a href="https://www.facebook.com/SMTSkinclinic" target="_blank" title="Facebook"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"
+                        <a href="https://www.instagram.com/smtskinclinic?igsh=MXJ3dTBtZGZ3cGxybw%3D%3D" target="_blank"
                             title="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="https://g.page/r/CS-0a2KAd6BiEBM/review" target="_blank" title="Google"><i
                                 class="fab fa-google"></i></a>

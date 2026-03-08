@@ -83,7 +83,7 @@ if (!isset($base_path)) {
                                     class="smt-unique-footer-social-link"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://share.google/OFXZFlI9g6HuaDCa8" target="_blank"
                                     class="smt-unique-footer-social-link"><i class="fab fa-google"></i></a>
-                                <a href="https://www.instagram.com/smt.skin.clinic_dr.shubhshree" target="_blank"
+                                <a href="https://www.instagram.com/smtskinclinic?igsh=MXJ3dTBtZGZ3cGxybw%3D%3D" target="_blank"
                                     class="smt-unique-footer-social-link"><i class="fab fa-instagram"></i></a>
                             </div>
 

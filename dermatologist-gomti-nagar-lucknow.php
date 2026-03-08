@@ -474,7 +474,7 @@ $page_keywords = "dermatologist in Gomti Nagar, skin specialist in Gomti Nagar L
       },
       "sameAs": [
         "https://www.facebook.com/SMTSkinclinic",
-        "https://www.instagram.com/smt.skin.clinic_dr.shubhshree"
+        "https://www.instagram.com/smtskinclinic?igsh=MXJ3dTBtZGZ3cGxybw%3D%3D"
       ]
     }
     </script>

@@ -685,7 +685,7 @@ $page_keywords = "Best dermatologist in Gomti Nagar Extension, skin specialist i
       },
       "sameAs": [
         "https://www.facebook.com/SMTSkinclinic",
-        "https://www.instagram.com/smt.skin.clinic_dr.shubhshree"
+        "https://www.instagram.com/smtskinclinic?igsh=MXJ3dTBtZGZ3cGxybw%3D%3D"
       ]
     }
     </script>
